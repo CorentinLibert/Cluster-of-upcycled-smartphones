@@ -12,14 +12,14 @@ Help()
     echo "OPTIONS:"
     echo "  -d              Stop the dhcpd server to avoid dhcp route creation on host (default: keep the dhcpd server running)."
     echo "  -p <password>   Specify a different password for the SSH connection (default: \"dummy\")."
-    echo "  -u <username>   Specify a different username for the SSH connection (default: \"pm\")".
+    echo "  -u <username>   Specify a different username for the SSH connection (default: \"pptc\")".
     echo "  -h              Show this help message."
 }
 
 # Default values
 DEFAULT_HOST_IPV4="172.16.42.2"
 DEFAULT_DEVICE_IPV4="172.16.42.1"
-SSH_USERNAME="pm"
+SSH_USERNAME="pptc"
 SSH_PASSWORD="dummy"
 STOP_DHCPD=0    # 1 if DHCPD service must be stopped, default 0
 
@@ -82,6 +82,7 @@ while getopts ":dp:u:h" option; do
     esac
 done
 
+echo "Check arguments..."
 # Check arguments validity
 if ! is_existing_interface $interface; then
     echo "Error: Wrong interface: \"$interface\" is not an existing EtherNet eXternal interface."
@@ -93,6 +94,7 @@ fi
 
 # For SSH connection in case of multiple interfaces with same IP:
 # Ensure priority of the given interface by giving a longer subnet.
+echo "Add new route..."
 ip route add "$DEFAULT_DEVICE_IPV4"/32 dev "$interface" src "$DEFAULT_HOST_IPV4" >> /dev/null 2>&1
 
 # Add new ipv4 address

@@ -15,12 +15,12 @@ Help()
     echo "Usage: $0 [OPTIONS]"
     echo "  -d              Stop the dhcpd server to avoid dhcp route creation on host (default: keep the dhcpd server running)."
     echo "  -p <password>   Specify a different password for the SSH connection (default: \"dummy\")."
-    echo "  -u <username>   Specify a different username for the SSH connection (default: \"pm\")".
+    echo "  -u <username>   Specify a different username for the SSH connection (default: \"pptc\")".
     echo "  -h              Show this help message."
 }
 
 # Default values
-SSH_USERNAME="pm"
+SSH_USERNAME="pptc"
 SSH_PASSWORD="dummy"
 STOP_DHCPD=0    # 1 if DHCPD service must be stopped, default 0
 
@@ -68,6 +68,7 @@ do
         echo "Error: No more IPv4 addresses available for this subnet."
         exit 1
     fi
+    echo "Configure first smartphone..."
     ./dev_ip_setup.sh ${interface} 172.16.42.${i} -p ${SSH_PASSWORD} -u ${SSH_USERNAME}
     i=$(( $i + 1 ))
 done
