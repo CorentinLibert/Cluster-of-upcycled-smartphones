@@ -97,3 +97,20 @@ Trying to setup `k3s` on the smartphone/ Pacakge exist but configuration command
 Given installation command does not work, neither does curl. Problem with the current `date`stuck in _1970_... Check with `chrony` to setup correct date.
 
 I tried to configure the k3s cluster. Could not connect an agent to a server because could not connect to proxy.
+
+### **Sunday 25/02/2023 (10 hours)**
+
+Trying to install k3s setup on several smartphones with basic setup.
+Several prob with creating the master node when having a Nginx Load Balancer running (port and address already in use).
+
+Could not connect agent to the server.
+
+Learn a lot about how it works (learning phasis).
+
+### ***Monday 26/02/2024 (6 hour)**
+
+Success in connecting agents to the server node. Could not setup loadbalancer: server does not start when `--disable traefik` or `--disable servicelb`, have to check why. Deployment of nginx works but external ip is `pending` (because no config of the load balancer).
+
+Should try to setup `traefik` or another external load balancer to have a ip address.
+
+Checked for the utilisation of the GPU on the smartphones. It does not look promising. See email to Barbette and Maxime.

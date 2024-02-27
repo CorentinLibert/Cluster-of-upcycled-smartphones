@@ -7,7 +7,9 @@ End: 17/03
 
 - [ ] Implement a distributed application as an use case
 	- [ ] Kubernetes (K3S) on smartphones
+		- [ ] Check how does the load balancer works? What it does? Is it a real load balancer for the external load or only for internal traffic btw agent and server.
 	- [ ] Docker swarm on smartphones
+		- Is it better to use k3S or 
 	- [ ] TFlite model for object detection
 - [ ] Measurements
 	- [ ] Wi-Fi: Limitations, see corner cases (Max smartphones, Types of applications that can be run on it).
