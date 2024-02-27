@@ -9,14 +9,112 @@ sudo apk udpate
 sudo apk add k3s
 ```
 
+<!-- Not working if no control plane 
+
 You can verify the installation by running `sudo kubectl get nodes`. It should show you something like:
 
 ```bash
 NAME       STATUS   ROLES                  AGE     VERSION
 fp2xcvr2   Ready    control-plane,master   7m45s   v1.29.1-k3s1
+``` -->
+
+## Setup:
+
+We will based our setup installation on [this video](https://www.youtube.com/watch?v=QDwhbMvikGQ). 
+
+First we will configure the **load balancer node**.
+
+### Setting up the server
+
+This command seems to be working:
+
+```bash
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--write-kubeconfig-mode 644 --tls-san 192.168.88.3 --node-external-ip 192.168.88.3" sh -s -
 ```
 
+but not this one:
+
+```bash
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--write-kubeconfig-mode 644 --disable traefik --tls-san 192.168.88.3 --node-external-ip 192.168.88.3 --disable servicelb" sh -s -
+```
+
+I need to check if it is because i disabled `traefik` or because I disabled `servicelb`?
+I need to check how I can setup a load balancer different from `traefik`.
+
+### Setting up the workers
+
+This command works to setup the client: 
+
+```bash
+curl -sfL https://get.k3s.io | sh -s - agent --server https://192.168.88.3:6443 --token K10aa1780b63524f7fede574293c6d800b03e21797b8d5dd6e3f432c87ac5b2a4e9::server:7d2ac36c67f3ecdac960cf8c878d9966
+```
+
+### Load balancer node
+
+We will first need to setup a load balancer using a reverse proxy server. You may use `nginx` or `HAProxy`. For HA cluster, `HAProxy` is way better.
+
+
+#### Nginx installation
+
+**WARNING:** As per the [k3s documentation](https://docs.k3s.io/datastore/cluster-loadbalancer), `nginx`is not suitable for HA cluster. Having a single load balancer in front of K3s will reintroduce a single point of failure. In this tutorial we will still use it, but it would be better to use something else later (e.g. `HAProxy`).
+
+We will have to install `nginx`, an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
+We will also need to install its stream module:
+
+```bash
+sudo apk update
+sudo apk add nginx
+sudo apk add nginx-mod-stream
+```
+
+Once install, you can rename the current config in `/etc/nginx/` as `nginx.conf.bk` (in order to not delete it, if needed afterwards), and create the following new `nginx.config`:
+
+```                                                                         
+load_module '/usr/lib/nginx/modules/ngx_stream_module.so';
+
+worker_processes auto;
+worker_rlimit_nofile 40000;
+
+events {
+  worker_connections 8192;
+}
+
+stream {
+  upstream k3s_server {
+    server 192.168.88.3:6443 max_fails=3 fail_timeout=5s;
+  }
+
+  server {
+    listen 6443;
+    proxy_pass k3s_server;
+  }
+}
+```
+
+You can test it with `sudo nginx -t`. You can run the `nginx` service with `sudo rc-service nginx start`.
+
+
 ## Problems:
+
+### Unable to install `k3s` after uninstalling it
+
+You may struggle to reinstall the `k3s` apk package after uninstalling it and have the following errors:
+
+```bash
+(1/2) Installing k3s (1.29.1.1-r1)
+ERROR: Failed to create usr/bin/k3s: Connection aborted
+ERROR: k3s-1.29.1.1-r1: BAD signature
+(2/2) Installing k3s-openrc (1.29.1.1-r1)
+ERROR: k3s-openrc-1.29.1.1-r1: BAD signature
+2 errors; 589 MiB in 255 packages
+```
+
+The solution is to remove all file/folder containing `k3s` in their name. You can find them with `sudo find / -name "*k3s*"`. After that:
+
+```bash
+sudo apk update
+sudo apkt add k3s
+```
 
 ### Date stuck on 01/01/1970
 
@@ -34,6 +132,8 @@ rc-update add chronyd default
 ```
 
 This should solve the problem. Check with `date`.
+
+**UPDATE:** You do not need to download `chrony`, you may just start the ntpd service: `sudo rc-service ntpd start`.
 
 ### DNS problem
 
