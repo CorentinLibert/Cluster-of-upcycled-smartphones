@@ -3,6 +3,10 @@
 Start: 16/02
 End: 17/03
 
+## Issues
+
+- [ ] On smartphone 4: NTPD is down and corrupted du to a `sudo apk add --force ntp`.. Have to reoslve this
+
 ## Things TODO
 
 - [ ] Implement a distributed application as an use case

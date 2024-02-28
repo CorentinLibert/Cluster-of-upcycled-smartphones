@@ -114,3 +114,18 @@ Success in connecting agents to the server node. Could not setup loadbalancer: s
 Should try to setup `traefik` or another external load balancer to have a ip address.
 
 Checked for the utilisation of the GPU on the smartphones. It does not look promising. See email to Barbette and Maxime.
+
+
+### ***Wednesday 28/02/2024 (4 hours)**
+
+Resolve the `date` and  `ntpd` issue. `ntpd` does not start at boot because `networking` does not. This because `networking` go the error:
+
+```bash
+sudo rc-service networking start
+ * Starting networking ...
+ifquery: could not parse /etc/network/interfaces
+ * ERROR: networking failed to start
+ * ERROR: cannot start chronyd as networking would not start
+```
+
+This is because no file `/etc/network/interfaces` exist... It can just be resolved by creating one with `sudo touch /etc/network/interfaces`.
