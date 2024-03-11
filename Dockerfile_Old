@@ -43,5 +43,19 @@ WORKDIR ${SRC_PATH}
 # RUN mkdir tflite_build
 # WORKDIR ${SRC_PATH}/tflite_build
 
-ENV ARMCC_FLAGS="-march=armv7-a -mfpu=neon-vfpv4 -funsafe-math-optimizations -mfp16-format=ieee"
-ENV ARMCC_PREFIX=${TOOLCHAIN_PATH}/armv7l-linux-musleabihf-cross/bin/armv7l-linux-musleabihf-
+# ENV ARMCC_FLAGS="-march=armv7-a -mfpu=neon-vfpv4 -funsafe-math-optimizations -mfp16-format=ieee"
+# ENV ARMCC_PREFIX=${TOOLCHAIN_PATH}/armv7l-linux-musleabihf-cross/bin/armv7l-linux-musleabihf-
+# RUN cmake -DCMAKE_C_COMPILER=${ARMCC_PREFIX}gcc \
+#   -DCMAKE_CXX_COMPILER=${ARMCC_PREFIX}g++ \
+#   -DCMAKE_C_FLAGS="${ARMCC_FLAGS}" \
+#   -DCMAKE_CXX_FLAGS="${ARMCC_FLAGS}" \
+#   -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
+#   -DCMAKE_SYSTEM_NAME=Linux \
+#   -DCMAKE_SYSTEM_PROCESSOR=armv7 \
+#   ../tensorflow_src/tensorflow/lite/examples/label_image
+
+# cmake -DCMAKE_C_COMPILER=${ARMCC_PREFIX}gcc \
+#   -DCMAKE_C_FLAGS="${ARMCC_FLAGS}" \
+#   -DCMAKE_CXX_FLAGS="${ARMCC_FLAGS}" \
+#   -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
+#   ../tensorflow_src/tensorflow/lite/examples/label_image
