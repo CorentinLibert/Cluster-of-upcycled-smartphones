@@ -18,7 +18,7 @@ def process_image():
 
         # Define command to execute
         command = ['./tflite/label_image',
-                   '-m', 'tflite/mobilenet_v1_1.0_224.tflite',
+                   '-m', 'tflite/mobilenet_v1_1.0_224_quant.tflite',
                    '-i', image_path,
                    '-l', 'tflite/labels.txt']
 
@@ -35,4 +35,5 @@ if __name__ == '__main__':
     if not os.path.exists('./tmp'):
         os.makedirs('./tmp')
         
-    app.run(host='192.168.88.4', port=5000)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)
