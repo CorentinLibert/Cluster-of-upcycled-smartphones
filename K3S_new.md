@@ -7,7 +7,7 @@ On a smartphone that has just been flashed:
 - Resolve date problem (if there is any): `sudo touch /etc/network/interfaces`
 - Install curl `sudo apk add curl`
 
-## Simple server with an agent
+## Create a simple server
 
 Run the default command:
 
@@ -15,6 +15,35 @@ Run the default command:
 curl -sfL https://get.k3s.io | sh -
 ```
 
+After some time, verify the installation with:
+
+```bash
+kubectl get nodes
+```
+
+## Connect a simple agent to the server
+
+First, connect on the server and retrieve the **server node token**:
+
+```bash
+sudo cat /var/lib/rancher/k3s/server/node-token
+```
+
+Then, on the agent, connect to the server:
+
+```bash
+curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetoken sh -
+```
+
+## Application deployement
+
+### Import image from .tar (manually)
+
+Copy the `tar` archive on the node, then run:
+
+```
+sudo k3s ctr images import <image-name.tar>
+```
 
 ## Expose a deployment outside the cluter
 
@@ -26,3 +55,17 @@ kubectl expose deployment nginx-deployment --type=LoadBalancer --name=bla --exte
 
 The next step is to expose it using a service and a loadbalancer ([see documentation](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/))
 
+
+## Uninstall K3S and K3S-agent
+
+To uninstall a **k3s server**:
+
+```bash
+sudo /usr/local/bin/k3s-uninstall.sh
+```
+
+To uninstall a **k3s agent**:
+
+```bash
+sudo /usr/local/bin/k3s-agent-uninstall.sh
+```
