@@ -69,3 +69,31 @@ To uninstall a **k3s agent**:
 ```bash
 sudo /usr/local/bin/k3s-agent-uninstall.sh
 ```
+
+## Accessing the cluster form outside with kubectl
+
+It can be handy to have access to the cluster from outside, for example from your own computer.
+This is particularly the case when doing performance measures with a benchmark in order to change the cluster configuration
+without having to connect to the server in ssh. 
+
+Fist, you should have `kubectl` installed on the external machine. To ensure compatibility with `k3s` you can simply install it with the magic command:
+
+```
+curl -sfL https://get.k3s.io | sh -
+```
+
+Once `kubectl` is installed, you have to retrieve the configuration file of the `server api` from one of the server. It is stored into `/etc/rancher/k3S/k3s.yaml`. You can copy it on your external machine, for example under `~/.kube/config`. It seems better to transfer it via `scp` rather than just copy-paste it, because it seems to generate problems with the encryption in `base64`.
+
+```
+mkdir ~/.kube
+cd ~/.kube/
+scp <username>@<server_ip>:/etc/rancher/k3s/k3s.yaml .
+```
+
+Now that you have the config on your external machine, you can access the `server api` remotely by specifying the kubectl-config to use. For example:
+
+```
+kubectl --kubeconfig config get nodes
+```
+
+Reference: [K3S - Cluster Access](https://docs.k3s.io/cluster-access)
