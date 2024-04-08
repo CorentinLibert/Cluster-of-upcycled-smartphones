@@ -1,0 +1,11 @@
+%info
+WRK HTTP requests for Throughput and CPU sage Experiment
+
+A benchmark that send HTTP requests with a bitmap file to a cluster of smartpho>
+This script suppose that the kubernetes server api is reachable from outside th>
+the config of one of the K3S server node.
+
+%script@smartphone
+TOTAL=$(echo "2 + 1" | bc)
+echo "Result $TOTAL"
+

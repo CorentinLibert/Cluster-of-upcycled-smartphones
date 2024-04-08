@@ -1,0 +1,13 @@
+%info
+WRK HTTP requests for Throughput and CPU sage Experiment
+
+A benchmark that send HTTP requests with a bitmap file to a cluster of smartphones that would perform image classification inference on it and return a result.
+This script suppose that the kubernetes server api is reachable from outside the cluster, i.e. you can use kubectl on the machine launching hte script using
+the config of one of the K3S server node.
+
+%script@server
+echo "RESULT 2"
+
+%script@client
+touch IWasHere
+echo "RESULT 4"
