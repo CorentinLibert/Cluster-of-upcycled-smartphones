@@ -1,0 +1,16 @@
+------------- SUMMARY -------------
+odel tflite/mobilenet_v1_1.0_224_quant.tflite\nINFO: resolved reporter\nINFO: invoked\nINFO: average time: 385.27 ms\nINFO: 0.780392: 653 military uniform\nINFO: 0.105882: 907 Windsor tie\nINFO: 0.0156863: 458 bow tie\nINFO: 0.0117647: 466 bulletproof vest\nINFO: 0.00784314: 835 suit\n"}
+
+-------------------------------------------------
+status:200
+{"result":"INFO: Loaded model tflite/mobilenet_v1_1.0_224_quant.tflite\nINFO: resolved reporter\nINFO: invoked\nINFO: average time: 428.259 ms\nINFO: 0.780392: 653 military uniform\nINFO: 0.105882: 907 Windsor tie\nINFO: 0.0156863: 458 bow tie\nINFO: 0.0117647: 466 bulletproof vest\nINFO: 0.00784314: 835 suit\n"}
+
+-------------------------------------------------
+status:200
+{"result":"INFO: Loaded model tflite/mobilenet_v1_1.0_224_quant.tflite\nINFO: resolved reporter\nINFO: invoked\nINFO: average time: 445.051 ms\nINFO: 0.780392: 653 military uniform\nINFO: 0.105882: 907 Windsor tie\nINFO: 0.0156863: 458 bow tie\nINFO: 0.0117647: 466 bulletproof vest\nINFO: 0.00784314: 835 suit\n"}
+
+-------------------------------------------------
+status:200
+{"result":"INFO: Loaded model tflite/mobilenet_v1_1.0_224_quant.tflite\nINFO: resolved reporter\nINFO: invoked\nINFO: average time: 356.113 ms\nINFO: 0.780392: 653 military uniform\nINFO: 0.105882: 907 Windsor tie\nINFO: 0.0156863: 458 bow tie\nINFO: 0.0117647: 466 bulletproof vest\nINFO: 0.00784314: 835 suit\n"}
+
+-------------------------------------------------
