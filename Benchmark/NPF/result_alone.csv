@@ -1,0 +1,4 @@
+n_replicas,requests_per_sec,throughput_per_sec
+1,1.099339,528.68
+1,1.099147,528.59
+1,1.199044,576.64

@@ -6,6 +6,6 @@ This script suppose that the kubernetes server api is reachable from outside th>
 the config of one of the K3S server node.
 
 %script@smartphone
-TOTAL=$(echo "2 + 1" | bc)
+TOTAL=$(echo "2 + 2" | bc)
 echo "Result $TOTAL"
 

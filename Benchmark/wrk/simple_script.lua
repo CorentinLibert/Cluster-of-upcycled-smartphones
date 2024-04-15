@@ -13,14 +13,16 @@ function read_file(path)
     return content
   end
 
-local logfile = io.open("wrk.log", "w");
+--   local logfile = io.open("wrk.log", "w"); -- for local use
+local logfile = io.open("../wrk.log", "w"); -- For NPF use
 local cnt = 0;
   
 local Boundary = "------------------------MyBeautifulBoundary";
 local BodyBoundary = "--" .. Boundary;
 local LastBoundary = "--" .. Boundary .. "--";
 local CRLF = "\r\n";
-local FileBody = read_file("grace_hopper.bmp");
+-- local FileBody = read_file("grace_hopper.bmp"); -- for local use
+local FileBody = read_file("../../wrk/grace_hopper.bmp"); -- For NPF use
 local Filename = "grace_hopper.bmp";
 local ContentDisposition = 'Content-Disposition: form-data; name="image"; filename="' .. Filename .. '"';
 local ContentType = 'Content-Type: application/octet-stream';
