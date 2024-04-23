@@ -1,0 +1,6 @@
+%info
+A Simple Test
+
+%script
+echo RESULT 5 5
+echo RESULT 5 6

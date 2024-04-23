@@ -1,0 +1,46 @@
+%info
+HTTP Requests with support for increasing rate
+
+Generate HTTP requests towards "http://server/bin-XK" files using WRK
+
+The HTTP server configuration is not part of this test. Your main test
+should include something like FILE_PATH={file1,file2}
+
+The address to make the request will use the adress from the node having the "dut" role. The port can be changed setting the HTTP_PORT variable.
+
+See generic/http-load.wrk for examples such as fetching files with sizes from 1K to 1G
+See experiments/test_wrk.test for an experiment trying to find best configuration for 1K requests varying GEN_THREADS and GEN_CONCURRENT on a 16 cores CPU
+
+This file is identical than wrk.test, except it includes deps wrk2
+%variables
+GEN_CONCURRENT=30
+GEN_THREADS=8
+GEN_RATE=500
+FILE_PATH=
+HTTP_PORT=31000
+GEN_TIME=10s
+WRKNIC=0
+WRK_HOST=192.168.88.5
+WRK_PROTOCOL=http
+ssl:WRK_PROTOCOL=https
+
+%late_variables
+DOCDFLAT?=0
+WRK_SCRIPT?=../../wrk/simple_script.lua
+
+%script deps=wrk2-tbarbette title=WRK2Client
+fname=$RANDOM
+
+taskset -c 0-$((${GEN_THREADS} - 1 )) wrk -c $GEN_CONCURRENT -d $GEN_TIME -t $GEN_THREADS -a -r -R $GEN_RATE -s ${WRK_SCRIPT} $WRK_PROTOCOL://$WRK_HOST:$HTTP_PORT | tee $fname
+stat=$?
+cat $fname | grep "Transfer/sec" | awk '{printf "RESULT-THROUGHPUT %s\n", $2}' | head -n 1
+cat $fname | grep "Requests/sec" | awk '{printf "RESULT-REQUEST %s\n", $2}' | head -n 1
+cat $fname | grep "Latency" | awk '{printf "RESULT-LATENCY %s\n", $2}' | head -n 1
+cat $fname| grep "99.000%" | awk '{printf "RESULT-LAT99 %s\n", $2}' | head -n 1
+if [ $DOCDFLAT -eq 1 ] ; then
+    cat $fname| awk '/Detailed Percentile/{flag=1;next}/Mean/{flag=0}flag' | tail -n +3 | head -n -1 | awk '{printf "%f-RESULT-CDFLAT %f\n", $1*1000, $2}' | uniq
+fi
+echo "EVENT WRK_FINISHED"
+
+rm $fname
+exit $stat
