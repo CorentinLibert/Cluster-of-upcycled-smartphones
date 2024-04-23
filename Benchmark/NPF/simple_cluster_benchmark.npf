@@ -1,10 +1,21 @@
 %info
-WRK HTTP requests for Throughput and CPU sage Experiment
+WRK HTTP requests for Throughput and CPU usage Experiment
 
 A benchmark that send HTTP requests with a bitmap file to a cluster of smartphones that would perform image classification inference on it and return a result.
 This script suppose that the kubernetes server api is reachable from outside the cluster, i.e. you can use kubectl on the machine launching hte script using
 the config of one of the K3S server node.
 
+%config
+graph_type=boxplot
 
-%import@dut wrk2 
+%variables
+PATH_KUBE_CONFIG=~/.kube/config
+REPLICAS=[1-4]
+
+%script autokill=false
+kubectl --kubeconfig $PATH_KUBE_CONFIG scale --replicas=$REPLICAS deployment flask-app-deployment
+sleep 10    # Wait for new config to be applied and old requests to be removed
+echo "EVENT replica_changed"
+
+%import wrk2 waitfor=replica_changed
 

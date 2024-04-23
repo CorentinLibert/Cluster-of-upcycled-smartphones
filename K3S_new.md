@@ -97,3 +97,11 @@ kubectl --kubeconfig config get nodes
 ```
 
 Reference: [K3S - Cluster Access](https://docs.k3s.io/cluster-access)
+
+## Rescale a deployment manually:
+
+You can rescale a deployment manually with the following command:
+
+```
+kubectl scale --replicas=2 deployment <deployment_name>
+```
