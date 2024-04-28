@@ -1,0 +1,8 @@
+------------- SUMMARY -------------
+odel tflite/mobilenet_v1_1.0_224_quant.tflite\nINFO: resolved reporter\nINFO: invoked\nINFO: average time: 1083.12 ms\nINFO: 0.780392: 653 military uniform\nINFO: 0.105882: 907 Windsor tie\nINFO: 0.0156863: 458 bow tie\nINFO: 0.0117647: 466 bulletproof vest\nINFO: 0.00784314: 835 suit\n"}
+
+-------------------------------------------------
+status:200
+{"result":"INFO: Loaded model tflite/mobilenet_v1_1.0_224_quant.tflite\nINFO: resolved reporter\nINFO: invoked\nINFO: average time: 830.266 ms\nINFO: 0.109804: 894 wallet\nINFO: 0.109804: 447 binder\nINFO: 0.0941176: 399 abacus\nINFO: 0.0784314: 663 modem\nINFO: 0.0666667: 419 ballpoint\n"}
+
+-------------------------------------------------

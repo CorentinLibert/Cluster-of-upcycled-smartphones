@@ -12,13 +12,13 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd ) 
 
 # SSH configuration
 SSH_USERNAME="pptc"
-SSH_HOSTNAME="172.16.42.1"
+SSH_HOSTNAME_LIST="192.168.88.4 192.168.88.5"
 SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 SCP_COMMAND="scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 # TODO: Add a sshkey path options
 
 # Benchmark configuration
-DURATION=10
+DURATION=20
 REMOTE_WORK_DIR="/tmp/local_measurements"
 CPU_USAGE_LOCAL_SCRIPT_PATH="script_cpu_usage.sh"
 CPU_USAGE_REMOTE_SCRIPT_NAME="cpu_usage_script.sh"
@@ -38,6 +38,8 @@ configuration() {
 
 setup_cpu_usage() {
     # New measurement file
+	SSH_HOSTNAME=$1
+	echo "Setup CPU USAGE for $SSH_HOSTNAME"
 	$SSH_COMMAND $SSH_USERNAME@$SSH_HOSTNAME <<-EOF 
 	> $REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_RESULT_NAME
 	EOF
@@ -47,42 +49,52 @@ setup_cpu_usage() {
 
 setup() {
 	# Create tmp directory on remote device
-	$SSH_COMMAND $SSH_USERNAME@$SSH_HOSTNAME <<-EOF 
-	mkdir $REMOTE_WORK_DIR
-	EOF
-	# TODO: Check if CPU_load option
-	if [ -n "$CPU_USAGE_LOCAL_SCRIPT_PATH" ]; then 
-    	setup_cpu_usage
-	fi
+	for SSH_HOSTNAME in $SSH_HOSTNAME_LIST; do
+		echo "Setup for $SSH_HOSTNAME"
+		$SSH_COMMAND $SSH_USERNAME@$SSH_HOSTNAME <<-EOF 
+		mkdir -p $REMOTE_WORK_DIR
+		EOF
+		# TODO: Check if CPU_load option
+		if [ -n "$CPU_USAGE_LOCAL_SCRIPT_PATH" ]; then 
+			setup_cpu_usage $SSH_HOSTNAME
+		fi
+	done
 }
 
 run_pre_script() {
 	# TODO: Check if CPU_load option
 	# Run CPU usage script
-	if [ -n "$CPU_USAGE_LOCAL_SCRIPT_PATH" ]; then 
-		$SSH_COMMAND $SSH_USERNAME@$SSH_HOSTNAME <<-EOF 
-		sh $REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_SCRIPT_NAME $REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_RESULT_NAME $DURATION
-		EOF
-    fi
+	for SSH_HOSTNAME in $SSH_HOSTNAME_LIST; do
+		if [ -n "$CPU_USAGE_LOCAL_SCRIPT_PATH" ]; then
+			echo "Run CPU Usage Pre Script for $SSH_HOSTNAME"
+			$SSH_COMMAND $SSH_USERNAME@$SSH_HOSTNAME "sh $REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_SCRIPT_NAME $REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_RESULT_NAME $DURATION" &
+		fi
+	done
 }
 
-# run_script() {
-
-# }
+run_script() {
+	~/Documents/TFE/npf/build/wrk2-tbarbette/wrk -c20 -d15s -t8 -a -r -R 500 -s /home/corentin/Documents/TFE/TFE_Git/Benchmark/wrk/simple_script.lua http://192.168.88.4:31000 #> /dev/null
+	sleep 10
+}
 
 run_post_script() {
 	mkdir -p $SCRIPT_DIR/results
 	# Retrieve data for CPU usage and build graph from it
 	if [ -n "$CPU_USAGE_LOCAL_SCRIPT_PATH" ]; then 
 		mkdir -p $CPU_USAGE_LOCAL_RESULT_PATH
-		$SCP_COMMAND $SSH_USERNAME@$SSH_HOSTNAME:$REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_RESULT_NAME $CPU_USAGE_LOCAL_RESULT_PATH
+		for SSH_HOSTNAME in $SSH_HOSTNAME_LIST; do
+			echo "Run Post Script for $SSH_HOSTNAME"
+			IP_ID=$(echo $SSH_HOSTNAME | awk -F'.' '{print $4}') # Last byte of the IP address, used as ID
+			$SCP_COMMAND $SSH_USERNAME@$SSH_HOSTNAME:$REMOTE_WORK_DIR/$CPU_USAGE_REMOTE_RESULT_NAME $CPU_USAGE_LOCAL_RESULT_PATH/cpu_usage_results_$IP_ID.txt
+		done
+		$SSH_COMMAND $SSH_USERNAME@$SSH_HOSTNAME "rm -rf $REMOTE_WORK_DIR"
 		mkdir -p $GRAPH_DIR_PATH
 		python3 $CPU_GRAPH_SCRIPT_PATH $CPU_USAGE_LOCAL_RESULT_PATH $GRAPH_DIR_PATH
     fi
 }
 
 configuration
-# setup
-# run_pre_script
-# run_script
+setup
+run_pre_script
+run_script
 run_post_script
