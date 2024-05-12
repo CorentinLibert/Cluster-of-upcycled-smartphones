@@ -26,6 +26,8 @@ def prepocessing(path_to_data_dir: str) -> pd.DataFrame:
         cpu_usages = []
         times = []
         line_count = 0
+        last_idle = 0
+        last_total = 0
         with open(path_to_data_dir+"/"+file) as f:
             for line in f.readlines():
                 if (line_count % 2 == 0):
@@ -34,7 +36,10 @@ def prepocessing(path_to_data_dir: str) -> pd.DataFrame:
                     fields = line.strip().split()
                     fields = [float(column) for column in fields[1:]]
                     idle, total = fields[3], sum(fields)
-                    cpu_usages.append(100.0 * (1.0 - (idle / total)))
+
+                    idle_delta, total_delta = idle - last_idle, total - last_total
+                    last_idle, last_total = idle, total
+                    cpu_usages.append(100.0 * (1.0 - (idle_delta / total_delta)))
 
                 line_count += 1
             data["device_id"].append(device_id)
