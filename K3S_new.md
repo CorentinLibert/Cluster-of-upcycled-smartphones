@@ -37,6 +37,30 @@ curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetok
 
 ## Application deployement
 
+### Build the image and export it to a .tar
+
+First you should have defined a application and a DockerFile to run it in. The is an example of such a DockerFile [here](FlaskApp/Dockerfile).
+From the directory containing the DockerFile, you can build the image with:
+
+```bash
+sudo docker build -t <image_name> .
+```
+
+**NOTE:** We need to build the Docker image to be compatible with the architecture of the smarthpone. The easiest way is to build if directly from the smartphone and then export it to other smartphones if needed.
+
+Once build, you may run a container from the image to ensure everything is working well before deploying it on `K3S`. For example, you can run it locally on the smartphone on a given `EXPOSE_PORT` with:
+
+```bash
+sudo docker run -p EXPOSE_PORT:INTERNAL_PORT <image_name>
+```
+
+
+When everything is working as expected, you can export the Docker image as a `.tar` in order to import it in `K3S` afterwards:
+
+```bash
+sudo docker save --output <tar_name.tar> <image_name>
+```
+
 ### Import image from .tar (manually)
 
 Copy the `tar` archive on the node, then run:
