@@ -12,7 +12,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd ) 
 
 # SSH configuration
 SSH_USERNAME="pptc"
-SSH_HOSTNAME_LIST="192.168.88.4 192.168.88.5"
+SSH_HOSTNAME_LIST="192.168.88.9 192.168.88.15 192.168.88.16 192.168.88.17 192.168.88.18"
 SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 SCP_COMMAND="scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 # TODO: Add a sshkey path options
@@ -73,8 +73,8 @@ run_pre_script() {
 }
 
 run_script() {
-	~/Documents/TFE/npf/build/wrk2-tbarbette/wrk -c20 -d15s -t8 -a -r -R 500 -s /home/corentin/Documents/TFE/TFE_Git/Benchmark/wrk/simple_script.lua http://192.168.88.4:31000 #> /dev/null
-	sleep 10
+	~/Documents/TFE/npf/build/wrk2-tbarbette/wrk -c20 -d30s -t8 -a -r -R 500 -s /home/corentin/Documents/TFE/TFE_Git/Benchmark/wrk/simple_script.lua http://192.168.88.17:31000 #> /dev/null
+	sleep 20
 }
 
 run_post_script() {
