@@ -1,15 +1,16 @@
 #!/bin/bash
 
 help() {
-    echo "[USAGE] $0 NAME N_DEVICES SSH_SENDER IP_RECEIVER N_ITER"
+    echo "[USAGE] $0 DEV_TYPE_SEND_RECV N_DEVICES SSH_SENDER IP_RECEIVER N_ITER RESET FILENAME"
     echo 
     echo "ARGUMENTS"
-    echo "  NAME:           Name of the experiment (e.g. compter_smartphone)."
-    echo "  N_DEVICES:      Number of devices connected to the networking medium."
-    echo "  SSH_SENDER:     SSH informations of the sender (e.g. localhost, config name or with the format user@ip)."
-    echo "  IP_RECEIVER:    IP address of the receiver."
-    echo "  N_ITER:         Number of time the experiment should be done."
-    echo "  RESET:          1 if should reset the latency result file, append results otherwise."
+    echo "  DEV_TYPE_SEND_RECV:     The type of the sender and receiver device (e.g. compter_smartphone)."
+    echo "  N_DEVICES:              Number of devices connected to the networking medium."
+    echo "  SSH_SENDER:             SSH informations of the sender (e.g. localhost, config name or with the format user@ip)."
+    echo "  IP_RECEIVER:            IP address of the receiver."
+    echo "  N_ITER:                 Number of time the experiment should be done."
+    echo "  RESET:                  1 if should reset the bandwidth result file, append results otherwise."
+    echo "  FILENAME:               The name of the results file"
 }
 
 # Parameters values
@@ -19,13 +20,14 @@ SSH_SENDER=$3
 IP_RECEIVER=$4
 N_ITER=$5
 RESET=$6
+FILENAME=$7
 
 # Some Variables
 N_PING=20
 # Local
 WORKDIR="$(dirname $0)"
 RESULTS_DIR="$WORKDIR/results"
-LATENCY_RESULTS="$RESULTS_DIR/latency_results.txt"
+LATENCY_RESULTS="$RESULTS_DIR/$FILENAME"
 # Remote
 REMOTE_WORKDIR="~/remote_workspace_$((RANDOM))$((RANDOM))"
 REMOTE_LATENCY_RESULTS="remote_latency_results.txt"
@@ -87,7 +89,7 @@ setup_local_workspace() {
     if ! test -f "$LATENCY_RESULTS"; then
         echo "[INFO] Create results files and parent directory."
         mkdir -p $RESULTS_DIR
-        echo "name,n_devices,latency_ms" > $LATENCY_RESULTS
+        echo "dev_types_send_recv,n_devices,latency_ms" > $LATENCY_RESULTS
     fi
 }
 
