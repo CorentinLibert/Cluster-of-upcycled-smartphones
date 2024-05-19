@@ -96,7 +96,7 @@ measure_bandwidth() {
         do
             sender=${SSH_SENDERS[$i]}
             ip_receiver=${IP_RECEIVERS[$i]}
-            echo "      [INFO] Perform iperf3 on sender $sender to receiver with ip $ip_receiver."
+            echo "      [INFO] Perform iperf3 on sender $sender towards receiver with ip $ip_receiver."
             PERFORM_BANDWIDTH_MEASUREMENT="iperf3 -c $ip_receiver -f m --time $MEASURE_DURATION --omit $OMIT_DURATION | grep receiver >> $REMOTE_WORKDIR/$REMOTE_BANDWIDTH_RESULTS$sender.txt"
             $SSH_COMMAND $sender $PERFORM_BANDWIDTH_MEASUREMENT &
         done
