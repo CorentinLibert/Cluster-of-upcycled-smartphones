@@ -8,7 +8,9 @@ help() {
     echo "  SSH_SENDERS:            List of SSH informations of the senders (e.g. \"localhost pptc@192.168.88.252\")."
     echo "  SSH_RECEIVERS:          List of SSH informations of the receivers (e.g. \"localhost pptc@192.168.88.252\")."
     echo "  IP_RECEIVERS:           List of the IP address of the receivers (e.g. \"192.168.88.252 192.168.88.251\")."
+    echo "  PING_INTERVAL           The interval between two pings."
     echo "  N_ITER:                 Number of time the experiment should be done."
+    echo "  DIFF_DEVICE             A if latency measurement and workload creation are between different device, 0 else"
     echo "  RESET:                  1 if should reset the bandwidth result file, append results otherwise."
     echo "  FILENAME:               The name of the results file"
 }
@@ -18,13 +20,14 @@ N_DEVICES=$1
 read -a SSH_SENDERS <<< "$2"
 read -a SSH_RECEIVERS <<< "$3"
 read -a IP_RECEIVERS <<< "$4"
-N_ITER=$5
-RESET=$6
-FILENAME=$7
+PING_INTERVAL=$5
+N_ITER=$6
+DIFF_DEVICE=$7
+RESET=$8
+FILENAME=$9
 
 # Some Variables
-N_PING=50
-PING_INTERVAL=0.2
+N_PING=30
 PING_DURATION=$(echo "scale=0;(($N_PING * $PING_INTERVAL)+0.5)/1" | bc)
 DELTA_DURATION=5
 WORKLOAD_DURATION=$(($PING_DURATION+2*$DELTA_DURATION))
@@ -80,8 +83,7 @@ convert_to_milliseconds() {
         seconds=$(echo "$duration" | sed 's/s//') 
         echo $(bc <<< "$seconds * 1000")  
     else
-        echo "[ERROR] Wrong time unit: $duration"
-        exit 1
+        echo -1
     fi
 }
 
@@ -146,7 +148,8 @@ measure_latency() {
         for i in "${!SSH_SENDERS[@]}";
         do
             sender=${SSH_SENDERS[$i]}
-            ip_receiver=${IP_RECEIVERS[$i]}
+            array_index=$(((i + $DIFF_DEVICE) % ${#IP_RECEIVERS[@]}))
+            ip_receiver=${IP_RECEIVERS[$array_index]}
             echo "      [INFO] Perform latency on sender $sender towards receiver with ip $ip_receiver."
             PERFORM_LATENCY_MEASUREMENT="ping -c $N_PING -i $PING_INTERVAL $ip_receiver | sed -n '2,$(($N_PING + 1))p' >> $REMOTE_WORKDIR/$REMOTE_LATENCY_RESULTS$sender.txt"
             $SSH_COMMAND $sender $PERFORM_LATENCY_MEASUREMENT &
@@ -180,7 +183,9 @@ measure_latency() {
         while IFS= read -r line; do
             latency=$(echo "$line" | awk '{print $7 $8}' | sed 's/time=//g')
             latency_in_ms=$(convert_to_milliseconds $latency)
-            echo "$N_DEVICES,$i,$latency_in_ms" >> $LATENCY_RESULTS
+            if [[ $latency_in_ms != -1 ]]; then
+                echo "$N_DEVICES,$i,$latency_in_ms" >> $LATENCY_RESULTS
+            fi
 	    done < $RESULTS_DIR/tmp_results/$REMOTE_LATENCY_RESULTS$sender.txt
     done
 	rm -r $RESULTS_DIR/tmp_results

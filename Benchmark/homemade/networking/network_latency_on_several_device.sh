@@ -7,8 +7,7 @@ help() {
     echo "  DEV_TYPE_SEND_RECV:     The type of the sender and receiver device (e.g. compter_smartphone)."
     echo "  N_DEVICES:              Number of devices connected to the networking medium."
     echo "  SSH_SENDER:             SSH informations of the sender (e.g. localhost, config name or with the format user@ip)."
-    echo "  IP_RECEIVER:            IP address of the receiver."
-    echo "  PING_INTERVAL           The interval between two pings."
+    echo "  IP_RECEIVERS:           List of the IP address of the receivers (e.g. \"192.168.88.252 192.168.88.251\")."
     echo "  N_ITER:                 Number of time the experiment should be done."
     echo "  RESET:                  1 if should reset the bandwidth result file, append results otherwise."
     echo "  FILENAME:               The name of the results file"
@@ -18,14 +17,15 @@ help() {
 NAME=$1
 N_DEVICES=$2
 SSH_SENDER=$3
-IP_RECEIVER=$4
-PING_INTERVAL=$5
-N_ITER=$6
-RESET=$7
-FILENAME=$8
+read -a IP_RECEIVERS <<< "$4"
+N_ITER=$5
+RESET=$6
+FILENAME=$7
 
 # Some Variables
-N_PING=30
+N_PING=100
+PING_INTERVAL=0.2
+N_LOOP=3
 # Local
 WORKDIR="$(dirname $0)"
 RESULTS_DIR="$WORKDIR/results"
@@ -44,7 +44,6 @@ SETUP_REMOTE_WORKSPACE="mkdir -p $REMOTE_WORKDIR"
 CLEAN_REMOTE_WORKSPACE="rm -r $REMOTE_WORKDIR"
 # Bandwidth measurements
 CREATE_REMOTE_LATENCY_RESULT="touch $REMOTE_WORKDIR/$REMOTE_LATENCY_RESULTS"
-PERFORM_LATENCY_MEASUREMENT="ping -c $N_PING $IP_RECEIVER -i $PING_INTERVAL | sed -n '2,$(($N_PING + 1))p' >> $REMOTE_WORKDIR/$REMOTE_LATENCY_RESULTS"
 
 # Convert time
 check_seconds() {
@@ -90,7 +89,7 @@ setup_local_workspace() {
     if ! test -f "$LATENCY_RESULTS"; then
         echo "[INFO] Create results files and parent directory."
         mkdir -p $RESULTS_DIR
-        echo "dev_types_send_recv,n_devices,ping_inter,latency_ms" > $LATENCY_RESULTS
+        echo "n_devices,receiver_id,icmp_seq,latency_ms" > $LATENCY_RESULTS
     fi
 }
 
@@ -111,8 +110,18 @@ measure_latency() {
     echo "[INFO] Start measurements."
     for I in $(seq 1 $N_ITER); do
         echo "  $I/$N_ITER iterations."
-        $SSH_COMMAND $SSH_SENDER $PERFORM_LATENCY_MEASUREMENT
-        sleep 2
+        for l in $(seq 1 $N_LOOP); do
+            echo "      $l/$N_LOOP Loop."
+            for i in "${!IP_RECEIVERS[@]}";
+            do
+                ip_receiver=${IP_RECEIVERS[$i]}
+                echo "          [INFO] Ping from $SSH_SENDER towards ip address $ip_receiver"
+                $SSH_COMMAND $SSH_SENDER "echo \"+++ Receiver $i\" >> $REMOTE_WORKDIR/$REMOTE_LATENCY_RESULTS"
+                PERFORM_LATENCY_MEASUREMENT="ping -c $N_PING $ip_receiver -i $PING_INTERVAL | sed -n '2,$(($N_PING + 1))p' >> $REMOTE_WORKDIR/$REMOTE_LATENCY_RESULTS"
+                $SSH_COMMAND $SSH_SENDER $PERFORM_LATENCY_MEASUREMENT
+            done
+        done
+        sleep 1
     done
 
     echo "[INFO] Retrieve remote data."
@@ -120,10 +129,18 @@ measure_latency() {
 
     echo "[INFO] Format data into results file."
     while IFS= read -r line; do
-		latency=$(echo "$line" | awk '{print $7 $8}' | sed 's/time=//g')
-        latency_in_ms=$(convert_to_milliseconds $latency)
-        if [[ $latency_in_ms != -1 ]]; then
-		    echo "$NAME,$N_DEVICES,$PING_INTERVAL,$latency_in_ms" >> $LATENCY_RESULTS
+		if [[ $line == +++* ]]; then
+            receiver_id=$(echo "$line" | awk '{print $3}')
+        else 
+            icmp_seq_field=$(echo "$line" | awk '{print $5}')
+            seq_value=${icmp_seq_field#"icmp_="}
+            seq_value=${seq_value#"seq="}
+            latency_field=$(echo "$line" | awk '{print $7 $8}')
+            latency_value=${latency_field#"time="}
+            latency_in_ms=$(convert_to_milliseconds $latency_value)
+            if [[ $latency_in_ms != -1 ]]; then
+                echo "$N_DEVICES,$receiver_id,$seq_value,$latency_in_ms" >> $LATENCY_RESULTS
+            fi
         fi
 	done < $RESULTS_DIR/$REMOTE_LATENCY_RESULTS
 	rm $RESULTS_DIR/$REMOTE_LATENCY_RESULTS

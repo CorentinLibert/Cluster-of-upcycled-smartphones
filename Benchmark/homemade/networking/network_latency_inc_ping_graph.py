@@ -17,20 +17,16 @@ def args_handler():
 
 def data_to_dataframe(path_to_data_file: str) -> pd.DataFrame:
     data = pd.read_csv(path_to_data_file)
-    data['n_devices'] = data['n_devices'] / 2
     return data
 
 def build_graph(df: pd.DataFrame, metdium_type: str, filename: str):
     plt.figure(figsize=(10, 6))
     sns.set_style("whitegrid")
-    sns.boxplot(data=df, x='n_devices', y='latency_ms')
+    sns.boxplot(data=df, x='ping_inter', y='latency_ms', hue='dev_types_send_recv', palette='Dark2')
     plt.title(f"Latency between two devices connected over {metdium_type}\nfor an increasing number of connected devices.")
-    plt.xlabel('Number of simultaneous connections')
+    plt.xlabel('Number of devices connected to the network')
     plt.ylabel('Latency (in ms)')
-    plt.ylim(ymax=2500)
-    plt.axhline(y=250, color='red', linestyle='dashed', linewidth=2)
-    plt.axhline(y=400, color='green', linestyle='dashed', linewidth=2)
-    # plt.legend(title='Device type of sender and receiver')
+    plt.legend(title='Device type of sender and receiver')
     plt.gca().yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
     # plt.ylim(0, 100) # For better interpretation
     # plt.xticks(rotation=45)  
