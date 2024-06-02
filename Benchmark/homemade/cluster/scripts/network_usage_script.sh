@@ -6,6 +6,7 @@ usage() {
     echo "  INTERFACE:      The interface to monitor."
     echo "  DISTRIBUTION:   The distribution of the device (alpine or ubuntu). Needed for data format."
     echo "  FILENAME:       The path to the result file."
+    echo "  RESET:          1 if results should overwrite existing data, otherwise results are appended."
 }
 
 help() {
@@ -17,6 +18,7 @@ COUNT=$1
 INTERFACE=$2
 DISTRIBUTION=$3
 FILENAME=$4
+RESET=$5
 
 HEADER_RESULTS="timestamp"
 
@@ -27,7 +29,7 @@ if [ $1 == "-h" ] || [ $1 == "--help" ]; then
 fi
 
 # Check number of args
-if [ $# -ne 4 ]; then
+if [ $# -ne 5 ]; then
     echo "[Error] Wrong number of arguments: $#."
     usage
     exit 1
@@ -40,8 +42,10 @@ if [ $DISTRIBUTION != "alpine" ] && [ $DISTRIBUTION != "ubuntu" ]; then
 fi
 
 # Create result file and parent directory if needed
-mkdir -p "$(dirname $FILENAME)"
-echo "timestamp,interface,rx_packets,rx_bytes,rx_errors,rx_dropped,rx_overruns,rx_frame,tx_packets,tx_bytes,tx_errors,tx_dropped,tx_overruns,tx_carrier" > $FILENAME
+if [ ! -f $FILENAME ] || [ $RESET -eq 1 ]; then
+    mkdir -p "$(dirname $FILENAME)"
+    echo "timestamp,interface,rx_packets,rx_bytes,rx_errors,rx_dropped,rx_overruns,rx_frame,tx_packets,tx_bytes,tx_errors,tx_dropped,tx_overruns,tx_carrier" > $FILENAME
+fi
 
 # Measure
 for i in $(seq 1 $COUNT); do
