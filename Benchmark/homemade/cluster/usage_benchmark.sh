@@ -77,7 +77,7 @@ do
             CLUSTER_ENTRYPOINT=$2;
             shift 2;;
         -r|--reset)
-            RESET=1
+            RESET=1;
             shift 1;;
         -f|--filename)
             read -a FILENAME <<< "$2";
