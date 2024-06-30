@@ -10,7 +10,7 @@ The web server behaves as follows:
 - **[GET]** /
     - Simply return an "Hello world".
 
-The [measurements](./measurements/) folder shows the performances of both implementations. The *crow_<<* implementation is not available anymore but simply consists of replacing the `out.write(image_data, image_data.length())` line in the [crow implementation](./crow_webserver.cc) (corresponding to the *crow_write* implementation) by `out << image_data`. This was less performant as shown on the [graph](./measurements/comparison_flask_vs_crow_webserver.jpg).
+The [measurements](./measurements/) folder shows the performances of both implementations. The *crow_<<* implementation is not available anymore but simply consists of replacing the `out.write(image_data, image_data.length())` line in the [crow implementation](./crow_webserver.cc) (corresponding to the *crow_write* implementation) by `out << image_data`. Both implementations were even in terms of performance, as shown on the [graph](./measurements/comparison_flask_vs_crow_webserver.jpg).
 
 The [results](./measurements/comparison_flask_vs_crow_webserver.jpg) show that the Flask and Crow implementations perform similarly well, except for the processing. This can be explained by the fact the processing on the Crow implementation is poorly coded. The Crow implementation even outperforms the Flask implementation for the *handling* process.
 
