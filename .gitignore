@@ -2,3 +2,6 @@ __pycache__
 *.tar*
 **/build/**
 **/include/tensorflow/lite/** 
+**/tensorflow_src/**
+**/path/to/**
+**/Crow/**/include/**
