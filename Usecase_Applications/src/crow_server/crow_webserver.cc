@@ -6,8 +6,14 @@
 
 #include "crow.h"
 //#include "crow_all.h"
+#include "crow_webserver.h"
+#include <getopt.h>     // NOLINT(build/include_order)
+#include <nlohmann/json.hpp>
 
-using namespace std;
+using json = nlohmann::json;
+
+
+namespace crow_webserver {
 
 crow::response handle_image(const crow::request& req, std::string& file) {
     auto start = std::chrono::high_resolution_clock::now();
@@ -57,6 +63,8 @@ crow::response process_image(std::string in_file, std::string out_file) {
         return crow::response(crow::status::INTERNAL_SERVER_ERROR, "Could not process the image: output file not opening.\n");
     }
 
+    // Add your processing here. 
+    // We just copy input file into output file for the moment.
     std::string line;
     while (getline(in, line)) {
         out << line << std::endl;
@@ -86,29 +94,108 @@ crow::response send_image(std::string file) {
     return res;
 }
 
-crow::response object_detection(const crow::request& req) {
-    std::string data_file = "data_bitmap.bmp";
-    std::string res_file = "res_bitmap.bmp";
-    crow::response res = handle_image(req, data_file);
+crow::response object_detection(Settings *settings, const crow::request& req) {
+    crow::response res = handle_image(req, settings->input_file);
     if (res.code != 200) { return res; }
-    res = process_image(data_file, res_file);
+    res = process_image(settings->input_file, settings->output_file);
     if (res.code != 200) { return res; }
-    res = send_image(res_file);
+    res = send_image(settings->output_file);
     return res;
 }
 
-int main()
-{
+crow::response label_image(Settings *settings, const crow::request& req) {
+    crow::response res = handle_image(req, settings->input_file);
+    if (res.code != 200) { return res; }
+    res = process_image(settings->input_file, settings->output_file);
+    if (res.code != 200) { return res; }
+    return res;
+}
+
+void display_usage() {
+    std::cout 
+        << "Usage: crow_webserver <flags>\n"
+        << "Flags:\n"
+        << "\t--configfile, -c: the path to the json config file\n"
+        << "\t--help, -h: display this usage message\n";
+}
+
+
+void parse_configfile_to_settings(const std::string& filename, Settings *settings) {
+    std::ifstream file(filename);
+    json config;
+    file >> config;
+
+    // Setup server settings
+    if (config.contains("input_file")) settings->input_file = config["input_file"];
+    if (config.contains("output_file")) settings->output_file = config["output_file"];
+    if (config.contains("port")) settings->port = config["port"];
+    if (config.contains("threads")) settings->threads = config["threads"];
+}
+
+
+std::string parsing_arguments(int argc, char **argv) {
+    std::string configfile = "config.json";
+    int c;
+    while (true) {
+        static struct option long_options[] = {
+            {"configfile", required_argument, nullptr, 'c'},
+            {"help", no_argument, nullptr, 'h'},
+            {nullptr, 0, nullptr, 0}};
+        
+            /* getopt_long stores the option index here. */
+        int option_index = 0;
+
+        c = getopt_long(argc, argv, "c:h",
+                        long_options, &option_index);
+
+        /* Detect the end of the options. */
+        if (c == -1) break;
+
+        switch (c) {
+            case 'c':
+                configfile = optarg;
+                break;
+            case 'h':
+            case '?':
+                /* getopt_long already printed an error message. */
+                display_usage();
+                exit(-1);
+            default:
+                exit(-1);
+        }
+    }
+    return configfile;
+}
+
+int Main(int argc, char **argv) {
+    // Parsing arguments
+    Settings s;
+    std::string configfile = parsing_arguments(argc, argv);
+    parse_configfile_to_settings(configfile, &s);
+
+    // Crow app
     crow::SimpleApp app;
 
     CROW_ROUTE(app, "/")([](){
         return "Hello world";
     });
 
-    CROW_ROUTE(app, "/object_detection").methods(crow::HTTPMethod::POST)([](const crow::request& req){
-        return object_detection(req);
+    CROW_ROUTE(app, "/object_detection").methods(crow::HTTPMethod::POST)([&s](const crow::request& req){
+        return object_detection(&s, req);
+    });
+
+    CROW_ROUTE(app, "/label_image").methods(crow::HTTPMethod::POST)([&s](const crow::request& req){
+        return label_image(&s, req);
     });
 
     // Set the port, set the app to run on multiple threads, and run the app
-    app.port(18080).multithreaded().run();
+    app.port(s.port).concurrency(s.threads).run();
+    return 0;
 }
+
+} //namespace crow_webserver 
+
+int main(int argc, char** argv) {
+  return crow_webserver::Main(argc, argv);
+}
+
