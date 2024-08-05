@@ -1,0 +1,265 @@
+# MEDIUM=WiFi_2.4GHz_20-40MHz
+# SENDER=corentin@192.168.88.200
+# SENDER_TYPE=computer
+# RECEIVER=pptc@192.168.88.3
+# RECEIVER_TYPE=fairphone
+# ITERATIONS=10
+# REVERSE=1
+# DURATION=10
+# OMIT=5
+# NUMBER_DEVICES=1
+# PARALLEL_CONNECTIONS=1
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 45412
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 45420
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  4.88 MBytes  40.8 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  5.00 MBytes  41.9 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  4.62 MBytes  38.8 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  5.25 MBytes  44.0 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  5.00 MBytes  41.9 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  4.88 MBytes  40.8 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   2.00-3.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   3.00-4.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   4.00-5.00   sec  4.50 MBytes  37.7 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.38 MBytes  36.7 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.38 MBytes  36.7 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   9.00-10.00  sec  5.50 MBytes  46.1 Mbits/sec                  
+[  6]  10.00-10.08  sec   256 KBytes  28.0 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.08  sec  48.0 MBytes  40.0 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 37576
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 37592
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  5.12 MBytes  42.9 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  5.25 MBytes  44.0 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  5.00 MBytes  41.9 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  5.12 MBytes  43.0 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  5.00 MBytes  41.9 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   3.00-4.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.38 MBytes  36.7 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.12 MBytes  34.6 Mbits/sec                  
+[  6]   9.00-10.00  sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]  10.00-10.06  sec   256 KBytes  36.9 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.06  sec  48.0 MBytes  40.0 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #3)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 41458
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 41462
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  4.75 MBytes  39.8 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.62 MBytes  38.8 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  4.50 MBytes  37.7 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  4.38 MBytes  36.7 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  4.25 MBytes  35.7 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  4.25 MBytes  35.6 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.12 MBytes  34.6 Mbits/sec                  
+[  6]   2.00-3.00   sec  4.25 MBytes  35.7 Mbits/sec                  
+[  6]   3.00-4.00   sec  4.50 MBytes  37.7 Mbits/sec                  
+[  6]   4.00-5.00   sec  4.38 MBytes  36.7 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.50 MBytes  37.7 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   9.00-10.00  sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]  10.00-10.04  sec   256 KBytes  57.2 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.04  sec  45.1 MBytes  37.7 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #4)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 37430
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 37436
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  4.62 MBytes  38.8 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.62 MBytes  38.8 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  4.38 MBytes  36.7 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  4.62 MBytes  38.8 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  4.38 MBytes  36.7 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  4.50 MBytes  37.7 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   2.00-3.00   sec  4.38 MBytes  36.7 Mbits/sec                  
+[  6]   3.00-4.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   8.00-9.00   sec  5.38 MBytes  45.1 Mbits/sec                  
+[  6]   9.00-10.00  sec  5.38 MBytes  45.1 Mbits/sec                  
+[  6]  10.00-10.06  sec   256 KBytes  35.8 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.06  sec  48.9 MBytes  40.8 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #5)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 42632
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 42634
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  4.75 MBytes  39.8 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.62 MBytes  38.8 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  5.00 MBytes  41.9 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  4.88 MBytes  40.9 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  4.75 MBytes  39.9 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   3.00-4.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   7.00-8.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   9.00-10.00  sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]  10.00-10.07  sec   384 KBytes  46.6 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.07  sec  50.2 MBytes  41.9 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #6)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 37586
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 37594
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  4.88 MBytes  40.8 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.88 MBytes  40.9 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  5.50 MBytes  46.1 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  5.25 MBytes  44.0 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  5.38 MBytes  45.1 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   1.00-2.00   sec  5.38 MBytes  45.1 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.25 MBytes  44.1 Mbits/sec                  
+[  6]   3.00-4.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   9.00-10.00  sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]  10.00-10.07  sec   256 KBytes  32.0 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.07  sec  50.0 MBytes  41.7 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #7)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 49612
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 49624
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  5.25 MBytes  44.0 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.88 MBytes  40.9 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  4.75 MBytes  39.8 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  5.12 MBytes  43.0 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  4.38 MBytes  36.7 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   1.00-2.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.25 MBytes  44.1 Mbits/sec                  
+[  6]   3.00-4.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   5.00-6.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   6.00-7.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   7.00-8.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   8.00-9.00   sec  5.25 MBytes  44.0 Mbits/sec                  
+[  6]   9.00-10.00  sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]  10.00-10.06  sec   384 KBytes  53.5 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.06  sec  51.1 MBytes  42.6 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #8)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 56550
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 56560
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  5.00 MBytes  41.9 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.38 MBytes  36.7 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  5.38 MBytes  45.1 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  4.75 MBytes  39.8 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  5.62 MBytes  47.2 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  5.50 MBytes  46.1 Mbits/sec                  
+[  6]   1.00-2.00   sec  5.75 MBytes  48.2 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.75 MBytes  48.2 Mbits/sec                  
+[  6]   3.00-4.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   5.00-6.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   9.00-10.00  sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]  10.00-10.07  sec   256 KBytes  29.8 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.07  sec  51.9 MBytes  43.2 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #9)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 58632
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 58648
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  4.50 MBytes  37.7 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.50 MBytes  37.7 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  4.38 MBytes  36.7 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  4.25 MBytes  35.7 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  4.75 MBytes  39.8 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   1.00-2.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.50 MBytes  46.2 Mbits/sec                  
+[  6]   3.00-4.00   sec  5.38 MBytes  45.1 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.50 MBytes  46.1 Mbits/sec                  
+[  6]   5.00-6.00   sec  5.75 MBytes  48.2 Mbits/sec                  
+[  6]   6.00-7.00   sec  5.62 MBytes  47.2 Mbits/sec                  
+[  6]   7.00-8.00   sec  5.62 MBytes  47.2 Mbits/sec                  
+[  6]   8.00-9.00   sec  5.62 MBytes  47.2 Mbits/sec                  
+[  6]   9.00-10.00  sec  5.62 MBytes  47.2 Mbits/sec                  
+[  6]  10.00-10.06  sec   384 KBytes  49.9 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.06  sec  54.2 MBytes  45.2 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #10)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.200, port 60912
+[  6] local 192.168.88.3 port 5201 connected to 192.168.88.200 port 60928
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  5.12 MBytes  42.9 Mbits/sec                  (omitted)
+[  6]   1.00-2.00   sec  4.75 MBytes  39.9 Mbits/sec                  (omitted)
+[  6]   2.00-3.00   sec  5.38 MBytes  45.1 Mbits/sec                  (omitted)
+[  6]   3.00-4.00   sec  4.75 MBytes  39.8 Mbits/sec                  (omitted)
+[  6]   4.00-5.00   sec  4.88 MBytes  40.9 Mbits/sec                  (omitted)
+[  6]   0.00-1.00   sec  5.12 MBytes  42.9 Mbits/sec                  
+[  6]   1.00-2.00   sec  5.38 MBytes  45.1 Mbits/sec                  
+[  6]   2.00-3.00   sec  5.12 MBytes  43.0 Mbits/sec                  
+[  6]   3.00-4.00   sec  5.00 MBytes  41.9 Mbits/sec                  
+[  6]   4.00-5.00   sec  5.00 MBytes  42.0 Mbits/sec                  
+[  6]   5.00-6.00   sec  4.50 MBytes  37.7 Mbits/sec                  
+[  6]   6.00-7.00   sec  4.75 MBytes  39.8 Mbits/sec                  
+[  6]   7.00-8.00   sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]   8.00-9.00   sec  4.88 MBytes  40.9 Mbits/sec                  
+[  6]   9.00-10.00  sec  4.62 MBytes  38.8 Mbits/sec                  
+[  6]  10.00-10.06  sec   256 KBytes  32.9 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-10.06  sec  49.2 MBytes  41.0 Mbits/sec                  receiver
+-----------------------------------------------------------
+Server listening on 5201 (test #11)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated

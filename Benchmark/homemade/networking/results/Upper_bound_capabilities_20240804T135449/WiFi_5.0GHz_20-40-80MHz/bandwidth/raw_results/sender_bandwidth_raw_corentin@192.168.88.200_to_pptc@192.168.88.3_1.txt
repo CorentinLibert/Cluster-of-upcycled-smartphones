@@ -1,0 +1,281 @@
+# MEDIUM=WiFi_5.0GHz_20-40-80MHz
+# SENDER=corentin@192.168.88.200
+# SENDER_TYPE=computer
+# RECEIVER=pptc@192.168.88.3
+# RECEIVER_TYPE=fairphone
+# ITERATIONS=10
+# REVERSE=1
+# DURATION=10
+# OMIT=5
+# NUMBER_DEVICES=1
+# PARALLEL_CONNECTIONS=1
+
+# ITERATION 1
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 45506 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  31.0 MBytes   260 Mbits/sec   42    587 KBytes       (omitted)
+[  6]   1.00-2.00   sec  27.5 MBytes   231 Mbits/sec   39    458 KBytes       (omitted)
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec    0    503 KBytes       (omitted)
+[  6]   3.00-4.00   sec  28.8 MBytes   241 Mbits/sec    0    547 KBytes       (omitted)
+[  6]   4.00-5.00   sec  30.0 MBytes   252 Mbits/sec    0    587 KBytes       (omitted)
+[  6]   0.00-1.00   sec  28.8 MBytes   241 Mbits/sec   15    464 KBytes       
+[  6]   1.00-2.00   sec  30.0 MBytes   252 Mbits/sec    0    520 KBytes       
+[  6]   2.00-3.00   sec  30.0 MBytes   252 Mbits/sec    0    559 KBytes       
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    0    584 KBytes       
+[  6]   4.00-5.00   sec  28.8 MBytes   241 Mbits/sec    0    617 KBytes       
+[  6]   5.00-6.00   sec  30.0 MBytes   252 Mbits/sec    0    653 KBytes       
+[  6]   6.00-7.00   sec  30.0 MBytes   252 Mbits/sec    0    689 KBytes       
+[  6]   7.00-8.00   sec  30.0 MBytes   252 Mbits/sec    7    546 KBytes       
+[  6]   8.00-9.00   sec  27.5 MBytes   231 Mbits/sec    0    605 KBytes       
+[  6]   9.00-10.00  sec  30.0 MBytes   252 Mbits/sec    0    648 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   295 MBytes   247 Mbits/sec   22             sender
+[  6]   0.00-10.11  sec   298 MBytes   248 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 2
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 49756 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  31.5 MBytes   264 Mbits/sec   51    498 KBytes       (omitted)
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec    0    560 KBytes       (omitted)
+[  6]   2.00-3.00   sec  30.0 MBytes   252 Mbits/sec    0    602 KBytes       (omitted)
+[  6]   3.00-4.00   sec  28.8 MBytes   241 Mbits/sec    0    632 KBytes       (omitted)
+[  6]   4.00-5.00   sec  30.0 MBytes   252 Mbits/sec    2    452 KBytes       (omitted)
+[  6]   0.00-1.00   sec  28.8 MBytes   241 Mbits/sec    0    498 KBytes       
+[  6]   1.00-2.00   sec  27.5 MBytes   231 Mbits/sec    0    540 KBytes       
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec   15    406 KBytes       
+[  6]   3.00-4.00   sec  28.8 MBytes   241 Mbits/sec    0    472 KBytes       
+[  6]   4.00-5.00   sec  31.2 MBytes   262 Mbits/sec    0    519 KBytes       
+[  6]   5.00-6.00   sec  31.2 MBytes   262 Mbits/sec    1    417 KBytes       
+[  6]   6.00-7.00   sec  31.2 MBytes   262 Mbits/sec    0    472 KBytes       
+[  6]   7.00-8.00   sec  32.5 MBytes   273 Mbits/sec    0    522 KBytes       
+[  6]   8.00-9.00   sec  31.2 MBytes   262 Mbits/sec    1    417 KBytes       
+[  6]   9.00-10.00  sec  30.0 MBytes   252 Mbits/sec    0    468 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   301 MBytes   253 Mbits/sec   17             sender
+[  6]   0.00-10.01  sec   302 MBytes   253 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 3
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 46238 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  30.6 MBytes   256 Mbits/sec    0    856 KBytes       (omitted)
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec   15    601 KBytes       (omitted)
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec   28    468 KBytes       (omitted)
+[  6]   3.00-4.00   sec  28.8 MBytes   241 Mbits/sec    0    513 KBytes       (omitted)
+[  6]   4.00-5.00   sec  28.8 MBytes   241 Mbits/sec    0    554 KBytes       (omitted)
+[  6]   0.00-1.00   sec  30.0 MBytes   252 Mbits/sec    0    595 KBytes       
+[  6]   1.00-2.00   sec  30.0 MBytes   252 Mbits/sec    2    467 KBytes       
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec    0    526 KBytes       
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    0    566 KBytes       
+[  6]   4.00-5.00   sec  28.8 MBytes   241 Mbits/sec    0    591 KBytes       
+[  6]   5.00-6.00   sec  30.0 MBytes   252 Mbits/sec    0    618 KBytes       
+[  6]   6.00-7.00   sec  28.8 MBytes   241 Mbits/sec    0    653 KBytes       
+[  6]   7.00-8.00   sec  28.8 MBytes   241 Mbits/sec   31    523 KBytes       
+[  6]   8.00-9.00   sec  30.0 MBytes   252 Mbits/sec    0    578 KBytes       
+[  6]   9.00-10.00  sec  27.5 MBytes   231 Mbits/sec    0    618 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   292 MBytes   245 Mbits/sec   33             sender
+[  6]   0.00-10.09  sec   295 MBytes   245 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 4
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 56832 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  29.0 MBytes   243 Mbits/sec   20    499 KBytes       (omitted)
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec    0    563 KBytes       (omitted)
+[  6]   2.00-3.00   sec  27.5 MBytes   231 Mbits/sec    0    608 KBytes       (omitted)
+[  6]   3.00-4.00   sec  28.8 MBytes   241 Mbits/sec   24    468 KBytes       (omitted)
+[  6]   4.00-5.00   sec  27.5 MBytes   231 Mbits/sec    0    512 KBytes       (omitted)
+[  6]   0.00-1.00   sec  27.5 MBytes   231 Mbits/sec    0    551 KBytes       
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec    0    450 KBytes       
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec    0    496 KBytes       
+[  6]   3.00-4.00   sec  28.8 MBytes   241 Mbits/sec    0    527 KBytes       
+[  6]   4.00-5.00   sec  28.8 MBytes   241 Mbits/sec    0    566 KBytes       
+[  6]   5.00-6.00   sec  27.5 MBytes   231 Mbits/sec   14    443 KBytes       
+[  6]   6.00-7.00   sec  28.8 MBytes   241 Mbits/sec    0    501 KBytes       
+[  6]   7.00-8.00   sec  27.5 MBytes   231 Mbits/sec    0    540 KBytes       
+[  6]   8.00-9.00   sec  26.2 MBytes   220 Mbits/sec    0    566 KBytes       
+[  6]   9.00-10.00  sec  27.5 MBytes   231 Mbits/sec   12    437 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   280 MBytes   235 Mbits/sec   26             sender
+[  6]   0.00-10.01  sec   280 MBytes   235 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 5
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 38830 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  29.1 MBytes   244 Mbits/sec   13    602 KBytes       (omitted)
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec    6    469 KBytes       (omitted)
+[  6]   2.00-3.00   sec  27.5 MBytes   231 Mbits/sec    0    513 KBytes       (omitted)
+[  6]   3.00-4.00   sec  27.5 MBytes   231 Mbits/sec    0    409 KBytes       (omitted)
+[  6]   4.00-5.00   sec  27.5 MBytes   231 Mbits/sec    0    460 KBytes       (omitted)
+[  6]   0.00-1.00   sec  28.8 MBytes   241 Mbits/sec    0    503 KBytes       
+[  6]   1.00-2.00   sec  27.5 MBytes   231 Mbits/sec    0    544 KBytes       
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec    7    420 KBytes       
+[  6]   3.00-4.00   sec  27.5 MBytes   231 Mbits/sec    0    481 KBytes       
+[  6]   4.00-5.00   sec  27.5 MBytes   231 Mbits/sec    0    522 KBytes       
+[  6]   5.00-6.00   sec  28.8 MBytes   241 Mbits/sec    0    549 KBytes       
+[  6]   6.00-7.00   sec  30.0 MBytes   252 Mbits/sec    0    584 KBytes       
+[  6]   7.00-8.00   sec  28.8 MBytes   241 Mbits/sec   42    436 KBytes       
+[  6]   8.00-9.00   sec  28.8 MBytes   241 Mbits/sec    0    505 KBytes       
+[  6]   9.00-10.00  sec  30.0 MBytes   252 Mbits/sec    0    554 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   286 MBytes   240 Mbits/sec   49             sender
+[  6]   0.00-10.01  sec   286 MBytes   240 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 6
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 51188 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  31.4 MBytes   263 Mbits/sec    0    860 KBytes       (omitted)
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec   90    458 KBytes       (omitted)
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec    0    505 KBytes       (omitted)
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    0    549 KBytes       (omitted)
+[  6]   4.00-5.00   sec  30.0 MBytes   252 Mbits/sec   11    421 KBytes       (omitted)
+[  6]   0.00-1.00   sec  28.8 MBytes   241 Mbits/sec    0    484 KBytes       
+[  6]   1.00-2.00   sec  30.0 MBytes   252 Mbits/sec    0    527 KBytes       
+[  6]   2.00-3.00   sec  28.8 MBytes   241 Mbits/sec    0    554 KBytes       
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    5    434 KBytes       
+[  6]   4.00-5.00   sec  27.5 MBytes   231 Mbits/sec    0    481 KBytes       
+[  6]   5.00-6.00   sec  27.5 MBytes   231 Mbits/sec    0    525 KBytes       
+[  6]   6.00-7.00   sec  28.8 MBytes   241 Mbits/sec    0    564 KBytes       
+[  6]   7.00-8.00   sec  26.2 MBytes   220 Mbits/sec   11    455 KBytes       
+[  6]   8.00-9.00   sec  26.2 MBytes   220 Mbits/sec    0    505 KBytes       
+[  6]   9.00-10.00  sec  28.8 MBytes   241 Mbits/sec    0    537 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   282 MBytes   237 Mbits/sec   16             sender
+[  6]   0.00-10.02  sec   283 MBytes   237 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 7
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 60626 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  29.5 MBytes   248 Mbits/sec    2    451 KBytes       (omitted)
+[  6]   1.00-2.00   sec  27.6 MBytes   232 Mbits/sec    0    509 KBytes       (omitted)
+[  6]   2.00-3.00   sec  27.7 MBytes   232 Mbits/sec    0    547 KBytes       (omitted)
+[  6]   3.00-4.00   sec  27.7 MBytes   232 Mbits/sec    0    573 KBytes       (omitted)
+[  6]   4.00-5.00   sec  29.2 MBytes   245 Mbits/sec    0    601 KBytes       (omitted)
+[  6]   0.00-1.00   sec  27.3 MBytes   229 Mbits/sec   17    465 KBytes       
+[  6]   1.00-2.00   sec  24.9 MBytes   209 Mbits/sec    5    369 KBytes       
+[  6]   2.00-3.00   sec  23.7 MBytes   199 Mbits/sec    0    414 KBytes       
+[  6]   3.00-4.00   sec  23.7 MBytes   199 Mbits/sec    1    339 KBytes       
+[  6]   4.00-5.00   sec  23.7 MBytes   199 Mbits/sec    0    390 KBytes       
+[  6]   5.00-6.00   sec  24.9 MBytes   209 Mbits/sec    0    437 KBytes       
+[  6]   6.00-7.00   sec  24.9 MBytes   209 Mbits/sec    0    479 KBytes       
+[  6]   7.00-8.00   sec  26.2 MBytes   220 Mbits/sec    0    520 KBytes       
+[  6]   8.00-9.00   sec  24.9 MBytes   209 Mbits/sec    1    387 KBytes       
+[  6]   9.00-10.00  sec  26.2 MBytes   220 Mbits/sec    0    451 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   251 MBytes   210 Mbits/sec   24             sender
+[  6]   0.00-10.02  sec   251 MBytes   210 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 8
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 55792 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  26.1 MBytes   219 Mbits/sec    3    445 KBytes       (omitted)
+[  6]   1.00-2.00   sec  25.4 MBytes   213 Mbits/sec    0    503 KBytes       (omitted)
+[  6]   2.00-3.00   sec  25.4 MBytes   213 Mbits/sec    0    543 KBytes       (omitted)
+[  6]   3.00-4.00   sec  27.6 MBytes   232 Mbits/sec    0    568 KBytes       (omitted)
+[  6]   4.00-5.00   sec  28.7 MBytes   241 Mbits/sec    0    587 KBytes       (omitted)
+[  6]   0.00-1.00   sec  29.3 MBytes   246 Mbits/sec    0    624 KBytes       
+[  6]   1.00-2.00   sec  30.0 MBytes   251 Mbits/sec    0    660 KBytes       
+[  6]   2.00-3.00   sec  30.0 MBytes   252 Mbits/sec    0    694 KBytes       
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    0    727 KBytes       
+[  6]   4.00-5.00   sec  27.5 MBytes   231 Mbits/sec  103    543 KBytes       
+[  6]   5.00-6.00   sec  30.0 MBytes   252 Mbits/sec    1    431 KBytes       
+[  6]   6.00-7.00   sec  28.8 MBytes   241 Mbits/sec    0    481 KBytes       
+[  6]   7.00-8.00   sec  28.8 MBytes   241 Mbits/sec    0    526 KBytes       
+[  6]   8.00-9.00   sec  30.0 MBytes   252 Mbits/sec    0    567 KBytes       
+[  6]   9.00-10.00  sec  28.8 MBytes   241 Mbits/sec    0    607 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   293 MBytes   246 Mbits/sec  104             sender
+[  6]   0.00-10.02  sec   293 MBytes   246 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 9
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 53742 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  30.7 MBytes   258 Mbits/sec    0    860 KBytes       (omitted)
+[  6]   1.00-2.00   sec  31.2 MBytes   262 Mbits/sec   58    469 KBytes       (omitted)
+[  6]   2.00-3.00   sec  31.2 MBytes   262 Mbits/sec    0    519 KBytes       (omitted)
+[  6]   3.00-4.00   sec  32.5 MBytes   273 Mbits/sec    0    563 KBytes       (omitted)
+[  6]   4.00-5.00   sec  31.2 MBytes   262 Mbits/sec    2    438 KBytes       (omitted)
+[  6]   0.00-1.00   sec  30.0 MBytes   252 Mbits/sec    0    498 KBytes       
+[  6]   1.00-2.00   sec  32.5 MBytes   273 Mbits/sec    0    540 KBytes       
+[  6]   2.00-3.00   sec  32.5 MBytes   273 Mbits/sec    0    573 KBytes       
+[  6]   3.00-4.00   sec  31.2 MBytes   262 Mbits/sec   10    434 KBytes       
+[  6]   4.00-5.00   sec  32.5 MBytes   273 Mbits/sec    0    501 KBytes       
+[  6]   5.00-6.00   sec  31.2 MBytes   262 Mbits/sec    0    550 KBytes       
+[  6]   6.00-7.00   sec  31.2 MBytes   262 Mbits/sec    1    409 KBytes       
+[  6]   7.00-8.00   sec  31.2 MBytes   262 Mbits/sec    0    464 KBytes       
+[  6]   8.00-9.00   sec  31.2 MBytes   262 Mbits/sec    0    515 KBytes       
+[  6]   9.00-10.00  sec  31.2 MBytes   262 Mbits/sec    0    559 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   315 MBytes   264 Mbits/sec   11             sender
+[  6]   0.00-10.01  sec   316 MBytes   265 Mbits/sec                  receiver
+
+iperf Done.
+
+# ITERATION 10
+
+Connecting to host 192.168.88.3, port 5201
+[  6] local 192.168.88.200 port 49198 connected to 192.168.88.3 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  6]   0.00-1.00   sec  31.1 MBytes   261 Mbits/sec    0    716 KBytes       (omitted)
+[  6]   1.00-2.00   sec  28.8 MBytes   241 Mbits/sec    7    554 KBytes       (omitted)
+[  6]   2.00-3.00   sec  30.0 MBytes   252 Mbits/sec   28    436 KBytes       (omitted)
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    0    485 KBytes       (omitted)
+[  6]   4.00-5.00   sec  30.0 MBytes   252 Mbits/sec    0    530 KBytes       (omitted)
+[  6]   0.00-1.00   sec  28.8 MBytes   241 Mbits/sec    0    571 KBytes       
+[  6]   1.00-2.00   sec  30.0 MBytes   252 Mbits/sec    0    611 KBytes       
+[  6]   2.00-3.00   sec  30.0 MBytes   252 Mbits/sec    0    646 KBytes       
+[  6]   3.00-4.00   sec  30.0 MBytes   252 Mbits/sec    0    682 KBytes       
+[  6]   4.00-5.00   sec  28.8 MBytes   241 Mbits/sec    0    714 KBytes       
+[  6]   5.00-6.00   sec  30.0 MBytes   252 Mbits/sec    0    745 KBytes       
+[  6]   6.00-7.00   sec  30.0 MBytes   252 Mbits/sec  115    564 KBytes       
+[  6]   7.00-8.00   sec  28.8 MBytes   241 Mbits/sec    2    447 KBytes       
+[  6]   8.00-9.00   sec  30.0 MBytes   252 Mbits/sec    0    495 KBytes       
+[  6]   9.00-10.00  sec  28.8 MBytes   241 Mbits/sec    0    539 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  6]   0.00-10.00  sec   295 MBytes   247 Mbits/sec  117             sender
+[  6]   0.00-10.01  sec   296 MBytes   248 Mbits/sec                  receiver
+
+iperf Done.
