@@ -68,9 +68,9 @@ create_remote_workspace() {
             echo "      on $sender"
         fi
         # On sender
-        $SSH_COMMAND $sender "mkdir -p $REMOTE_WORKDIR; echo $'# MEDIUM=$MEDIUM\n# SENDER=$sender\n# SENDER_TYPE=${SENDER_TYPES[i]}\n# RECEIVER=$receiver\n# RECEIVER_TYPE=${RECEIVER_TYPES[i]}\n# ITERATIONS=$ITERATIONS\n# REVERSE=$REVERSE\n# COUNT=$COUNT\n# OMIT=$OMIT\n# WORKLOAD=$WORKLOAD\n# NUMBER_DEVICES=$NUMBER_DEVICES\n# PARALLEL_CONNECTIONS=${#SENDER_SSH[@]}' > $REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION}"
+        $SSH_COMMAND $sender "mkdir -p $REMOTE_WORKDIR; echo $'# MEDIUM=$MEDIUM\n# SENDER=$sender\n# SENDER_TYPE=${SENDER_TYPES[i]}\n# RECEIVER=$receiver\n# RECEIVER_TYPE=${RECEIVER_TYPES[i]}\n# ITERATIONS=$ITERATIONS\n# REVERSE=$REVERSE\n# COUNT=$COUNT\n# OMIT=$OMIT\n# WORKLOAD=$WORKLOAD\n# NUMBER_DEVICES=$NUMBER_DEVICES\n# PARALLEL_CONNECTIONS=${#SENDER_SSH[@]}' > $REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION}"
         # On receiver
-        $SSH_COMMAND $receiver "mkdir -p $REMOTE_WORKDIR; echo $'# MEDIUM=$MEDIUM\n# SENDER=$sender\n# SENDER_TYPE=${SENDER_TYPES[i]}\n# RECEIVER=$receiver\n# RECEIVER_TYPE=${RECEIVER_TYPES[i]}\n# ITERATIONS=$ITERATIONS\n# REVERSE=$REVERSE\n# COUNT=$COUNT\n# OMIT=$OMIT\n# WORKLOAD=$WORKLOAD\n# NUMBER_DEVICES=$NUMBER_DEVICES\n# PARALLEL_CONNECTIONS=${#SENDER_SSH[@]}' > $REMOTE_WORKDIR/receiver_${FILE_BASENAME}_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION}"
+        $SSH_COMMAND $receiver "mkdir -p $REMOTE_WORKDIR; echo $'# MEDIUM=$MEDIUM\n# SENDER=$sender\n# SENDER_TYPE=${SENDER_TYPES[i]}\n# RECEIVER=$receiver\n# RECEIVER_TYPE=${RECEIVER_TYPES[i]}\n# ITERATIONS=$ITERATIONS\n# REVERSE=$REVERSE\n# COUNT=$COUNT\n# OMIT=$OMIT\n# WORKLOAD=$WORKLOAD\n# NUMBER_DEVICES=$NUMBER_DEVICES\n# PARALLEL_CONNECTIONS=${#SENDER_SSH[@]}' > $REMOTE_WORKDIR/receiver_${FILE_BASENAME}_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION}"
     done
 }
 
@@ -102,7 +102,7 @@ start_iperf3_servers() {
         if [ $VERBOSE -eq 1 ]; then
             echo "      on $receiver"
         fi
-        $SSH_COMMAND $receiver "iperf3 -s -D --logfile $REMOTE_WORKDIR/receiver_${FILE_BASENAME}_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION}"
+        $SSH_COMMAND $receiver "iperf3 -s -D --logfile $REMOTE_WORKDIR/receiver_${FILE_BASENAME}_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION}"
     done
 }
 
@@ -154,7 +154,7 @@ perform_measurement() {
             if [ $VERBOSE -eq 1 ]; then
                 echo "      from $sender to $receiver"
             fi
-            $SSH_COMMAND $sender "echo $'\n# ITERATION $iter\n' >> $REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION}; ping $receiver_ip -c $COUNT >> $REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION}" &
+            $SSH_COMMAND $sender "echo $'\n# ITERATION $iter\n' >> $REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION}; ping $receiver_ip -c $COUNT >> $REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION}" &
         done
         wait
         )
@@ -174,11 +174,11 @@ retrieve_results() {
         if [ $VERBOSE -eq 1 ]; then
             echo "      from sender $sender"
         fi
-        $SCP_COMMAND $sender:$REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION} $RESULTS_DIR
+        $SCP_COMMAND $sender:$REMOTE_WORKDIR/sender_${FILE_BASENAME}_${sender}_to_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION} $RESULTS_DIR
         if [ $VERBOSE -eq 1 ]; then
             echo "      from receiver $receiver"
         fi
-        $SCP_COMMAND $receiver:$REMOTE_WORKDIR/receiver_${FILE_BASENAME}_${receiver}_${NUMBER_DEVICES}${FILE_EXTENSION} $RESULTS_DIR
+        $SCP_COMMAND $receiver:$REMOTE_WORKDIR/receiver_${FILE_BASENAME}_${receiver}_${NUMBER_DEVICES}_${WORKLOAD}${FILE_EXTENSION} $RESULTS_DIR
     done
 }
 

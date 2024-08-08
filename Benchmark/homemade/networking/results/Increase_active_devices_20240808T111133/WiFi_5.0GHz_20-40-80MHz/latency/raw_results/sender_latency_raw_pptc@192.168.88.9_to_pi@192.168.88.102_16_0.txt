@@ -1,0 +1,242 @@
+# MEDIUM=WiFi_5.0GHz_20-40-80MHz
+# SENDER=pptc@192.168.88.9
+# SENDER_TYPE=fairphone
+# RECEIVER=pi@192.168.88.102
+# RECEIVER_TYPE=raspberry
+# ITERATIONS=10
+# REVERSE=0
+# COUNT=15
+# OMIT=5
+# WORKLOAD=0
+# NUMBER_DEVICES=16
+# PARALLEL_CONNECTIONS=8
+
+# ITERATION 1
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.341 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.223 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.178 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.190 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.162 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.215 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.178 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.178 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.166 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.184 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=3.377 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.208 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.130 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.156 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.172 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 3.377/4.137/4.341 ms
+
+# ITERATION 2
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.278 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.189 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.217 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.192 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.228 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.179 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.185 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=3.610 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.181 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.192 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.172 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.188 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.178 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.180 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.240 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 3.610/4.160/4.278 ms
+
+# ITERATION 3
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=5.000 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.508 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.401 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.490 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.382 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.928 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.413 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.361 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.407 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.398 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.411 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.489 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.429 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.446 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.640 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 4.361/4.513/5.000 ms
+
+# ITERATION 4
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.276 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.314 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.264 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.240 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.244 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.181 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.213 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.292 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.278 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.305 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.242 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.201 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.200 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.181 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.224 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 4.181/4.243/4.314 ms
+
+# ITERATION 5
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.251 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.189 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.188 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.176 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.190 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.373 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.167 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.175 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.188 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.376 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.219 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.338 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.380 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.174 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.268 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 4.167/4.243/4.380 ms
+
+# ITERATION 6
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.883 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.610 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.559 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.544 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.888 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.459 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.382 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.322 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.328 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.268 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.277 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=3.740 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.180 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.193 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.171 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 3.740/4.386/4.888 ms
+
+# ITERATION 7
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.232 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.185 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.182 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.200 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.166 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.183 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.182 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.182 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=3.790 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.192 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.183 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=5.382 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.183 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.191 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.161 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 3.790/4.239/5.382 ms
+
+# ITERATION 8
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.509 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.472 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.367 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.443 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.388 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.068 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.305 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.634 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.420 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=3.529 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.404 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.335 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.284 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.267 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.361 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 3.529/4.319/4.634 ms
+
+# ITERATION 9
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.717 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.489 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.488 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.581 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.506 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.335 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.517 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.555 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.564 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.481 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.466 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=4.517 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.465 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.479 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.501 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 4.335/4.510/4.717 ms
+
+# ITERATION 10
+
+PING 192.168.88.102 (192.168.88.102): 56 data bytes
+64 bytes from 192.168.88.102: seq=0 ttl=42 time=4.239 ms
+64 bytes from 192.168.88.102: seq=1 ttl=42 time=4.203 ms
+64 bytes from 192.168.88.102: seq=2 ttl=42 time=4.174 ms
+64 bytes from 192.168.88.102: seq=3 ttl=42 time=4.177 ms
+64 bytes from 192.168.88.102: seq=4 ttl=42 time=4.194 ms
+64 bytes from 192.168.88.102: seq=5 ttl=42 time=4.171 ms
+64 bytes from 192.168.88.102: seq=6 ttl=42 time=4.173 ms
+64 bytes from 192.168.88.102: seq=7 ttl=42 time=4.184 ms
+64 bytes from 192.168.88.102: seq=8 ttl=42 time=4.147 ms
+64 bytes from 192.168.88.102: seq=9 ttl=42 time=4.190 ms
+64 bytes from 192.168.88.102: seq=10 ttl=42 time=4.190 ms
+64 bytes from 192.168.88.102: seq=11 ttl=42 time=3.470 ms
+64 bytes from 192.168.88.102: seq=12 ttl=42 time=4.183 ms
+64 bytes from 192.168.88.102: seq=13 ttl=42 time=4.183 ms
+64 bytes from 192.168.88.102: seq=14 ttl=42 time=4.268 ms
+
+--- 192.168.88.102 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 3.470/4.143/4.268 ms
