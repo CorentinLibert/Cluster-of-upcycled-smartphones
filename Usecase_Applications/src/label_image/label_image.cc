@@ -219,10 +219,10 @@ void SetupInterpreter(Settings* settings, const DelegateProviders& delegate_prov
   settings->model->error_reporter();
   LOG(INFO) << "resolved reporter";
 
-  // Exexcution Time
+  // Execution Time
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Load Model: "
+    LOG(TIME) << "Setup Interpreter: Load Model: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -278,7 +278,7 @@ void SetupInterpreter(Settings* settings, const DelegateProviders& delegate_prov
   // Exexcution Time
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Build Interpreter: "
+    LOG(TIME) << "Setup Interpreter: Configure and Build Interpreter: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -303,11 +303,11 @@ void SetupInterpreter(Settings* settings, const DelegateProviders& delegate_prov
   // Exexcution Time
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Build profiler and delegation: "
+    LOG(TIME) << "Setup Interpreter: Build profiler and delegation: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&g_stop_time, nullptr);
-    LOG(TIME) << "Setup Interpreter (global time): "
+    LOG(TIME) << "Setup Interpreter: Global time: "
               << (get_us(g_stop_time) - get_us(g_start_time))
               << " us";
   }
@@ -330,7 +330,7 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Read BMP: "
+    LOG(TIME) << "Run Inference: Read BMP: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -373,7 +373,7 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Resize image and set input: "
+    LOG(TIME) << "Run Inference: Resize image and copy it to input tensor: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -389,7 +389,7 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Warm-up: "
+    LOG(TIME) << "Run Inference: Warm-up interpreter: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -404,10 +404,10 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Invokation total: "
+    LOG(TIME) << "Run Inference: Total invokation time: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
-    LOG(TIME) << "Invokation average: "
+    LOG(TIME) << "Run Inference: Average invokation time per loop: "
               << (get_us(stop_time) - get_us(start_time)) /
                     (settings->loop_count)
               << " us";
@@ -431,7 +431,7 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Profiling: "
+    LOG(TIME) << "Run Inference: Profiling: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -469,7 +469,7 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Get ouputs: "
+    LOG(TIME) << "Run Inference: Rerieve results from output tensors: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -484,7 +484,7 @@ void RunInference(Settings* settings,
 
   if(settings->execution_duration) {
     gettimeofday(&stop_time, nullptr);
-    LOG(TIME) << "Read Labels: "
+    LOG(TIME) << "Run Inference: Read labels from file: "
               << (get_us(stop_time) - get_us(start_time))
               << " us";
     gettimeofday(&start_time, nullptr);
@@ -499,8 +499,12 @@ void RunInference(Settings* settings,
   // Destory the interpreter earlier than delegates objects.
   settings->interpreter.reset();
   if(settings->execution_duration) {
+    gettimeofday(&stop_time, nullptr);
+    LOG(TIME) << "Run Inference: Print results: "
+              << (get_us(stop_time) - get_us(start_time))
+              << " us";
     gettimeofday(&g_stop_time, nullptr);
-    LOG(TIME) << "Run Inference (global time): "
+    LOG(TIME) << "Run Inference: Global time: "
               << (get_us(g_stop_time) - get_us(g_start_time))
               << " us";
   }
@@ -527,6 +531,7 @@ void display_usage(const DelegateProviders& delegate_providers) {
       << "\t--verbose, -v: [0|1] print more information\n"
       << "\t--warmup_runs, -w: number of warmup runs\n"
       << "\t--xnnpack_delegate, -x [0:1]: xnnpack delegate\n"
+      << "\t--execution_duration, -d [0|1]: display the execution time of each application part\n"
       << "\t--help, -h: Print this help message\n";
 }
 

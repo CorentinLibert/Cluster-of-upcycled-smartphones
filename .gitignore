@@ -5,3 +5,6 @@ __pycache__
 **/tensorflow_src/**
 **/path/to/**
 **/Crow/**/include/**
+**/tflite_build/**
+**/tflite_build_crow/**
+**/tflite_build_with_crow/**
