@@ -1,6 +1,0 @@
-{
-    "input_file": "input_image.bmp",
-    "output_file": "output_image.bmp",
-    "port": 18080,
-    "threads": 3
-}
