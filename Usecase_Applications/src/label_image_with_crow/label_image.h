@@ -27,8 +27,9 @@ namespace label_image {
 struct CrowSettings {
     std::string input_file = "input.bmp";
     std::string output_file = "output.bmp";
-    int threads = 1;
+    std::string bind_address = "0.0.0.0";
     int port = 18080;
+    int threads = 1;
     bool execution_duration = false;
 };
 

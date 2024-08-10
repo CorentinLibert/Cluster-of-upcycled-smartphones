@@ -1,6 +1,7 @@
 {
     "input_file": "input_image.bmp",
     "output_file": "output_image.bmp",
+    "bind_address": "0.0.0.0",
     "port": 18080,
     "threads": 4,
     "execution_duration": true,

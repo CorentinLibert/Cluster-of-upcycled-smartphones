@@ -639,6 +639,7 @@ void display_usage() {
         << "Usage: label_image_with_crow <flags>\n"
         << "Flags:\n"
         << "\t--configfile, -c: the path to the json config file\n"
+        << "\t--bindaddr, -b: the binding address (overwrite config file)\n"
         << "\t--help, -h: display this usage message\n";
 }
 
@@ -651,6 +652,7 @@ void parse_configfile_to_settings(const std::string& filename, CrowSettings *cro
     // Setup server settings
     if (config.contains("input_file")) crow_settings->input_file = config["input_file"];
     if (config.contains("output_file")) crow_settings->output_file = config["output_file"];
+    if (config.contains("bind_address")) crow_settings->bind_address = config["bind_address"];
     if (config.contains("port")) crow_settings->port = config["port"];
     if (config.contains("threads")) crow_settings->threads = config["threads"];
     if (config.contains("execution_duration")) crow_settings->execution_duration = config["execution_duration"];
@@ -678,25 +680,30 @@ void parse_configfile_to_settings(const std::string& filename, CrowSettings *cro
 }
 
 
-std::string parsing_arguments(int argc, char **argv) {
+void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_settings, Settings *tflite_settings) {
     std::string configfile = "config.json";
+    std::string bind_address = "";
     int c;
     while (true) {
         static struct option long_options[] = {
             {"configfile", required_argument, nullptr, 'c'},
+            {"bindaddr", required_argument, nullptr, 'b'},
             {"help", no_argument, nullptr, 'h'},
             {nullptr, 0, nullptr, 0}};
         
             /* getopt_long stores the option index here. */
         int option_index = 0;
 
-        c = getopt_long(argc, argv, "c:h",
+        c = getopt_long(argc, argv, "b:c:h",
                         long_options, &option_index);
 
         /* Detect the end of the options. */
         if (c == -1) break;
 
         switch (c) {
+            case 'b':
+                bind_address = optarg;
+                break;
             case 'c':
                 configfile = optarg;
                 break;
@@ -709,7 +716,11 @@ std::string parsing_arguments(int argc, char **argv) {
                 exit(-1);
         }
     }
-    return configfile;
+
+    parse_configfile_to_settings(configfile, crow_settings, tflite_settings);
+    if (bind_address != "") {
+      crow_settings->bind_address = bind_address;
+    }
 }
 
 int Main(int argc, char **argv) {
@@ -718,8 +729,7 @@ int Main(int argc, char **argv) {
     Settings tflite_settings;
     DelegateProviders delegate_providers;
 
-    std::string configfile = parsing_arguments(argc, argv);
-    parse_configfile_to_settings(configfile, &crow_settings, &tflite_settings);
+    parsing_arguments_and_config(argc, argv, &crow_settings, &tflite_settings);
     delegate_providers.MergeSettingsIntoParams(tflite_settings);
 
     std::string setup_interpreter_exec_time = SetupInterpreter(&tflite_settings, delegate_providers);
@@ -740,7 +750,7 @@ int Main(int argc, char **argv) {
     });
 
     // Set the port, set the app to run on multiple threads, and run the app
-    app.port(crow_settings.port).concurrency(crow_settings.threads).run();
+    app.bindaddr(crow_settings.bind_address).port(crow_settings.port).concurrency(crow_settings.threads).run();
     return 0;
 }
 
