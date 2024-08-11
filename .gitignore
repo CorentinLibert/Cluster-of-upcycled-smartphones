@@ -8,3 +8,4 @@ __pycache__
 **/tflite_build/**
 **/tflite_build_crow/**
 **/tflite_build_with_crow/**
+**/.ipynb_checkpoints/**
