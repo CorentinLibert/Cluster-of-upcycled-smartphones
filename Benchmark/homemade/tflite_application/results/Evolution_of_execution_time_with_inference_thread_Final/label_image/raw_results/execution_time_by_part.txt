@@ -1,0 +1,2172 @@
+# SSH_INFO=pptc@192.168.88.3
+# ITERATIONS=20
+# IMPLEMENTATION=label_image
+# MEDIUM=na
+
+# THREADS 1
+
+# ITERATION 0
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1112 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 14549 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 16187 us
+TIME: Run Inference: Read BMP: 34996 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94823 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 775625 us
+TIME: Run Inference: Average invokation time per loop: 775625 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 50 us
+TIME: Run Inference: Read labels from file: 3160 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 6452 us
+TIME: Run Inference: Global time: 916149 us
+real	0m 0.96s
+user	0m 0.69s
+sys	0m 0.26s
+
+# ITERATION 1
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1154 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 12492 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 14180 us
+TIME: Run Inference: Read BMP: 36475 us
+TIME: Run Inference: Resize image and copy it to input tensor: 95366 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 775689 us
+TIME: Run Inference: Average invokation time per loop: 775689 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 51 us
+TIME: Run Inference: Read labels from file: 3124 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 6521 us
+TIME: Run Inference: Global time: 918353 us
+real	0m 0.96s
+user	0m 0.70s
+sys	0m 0.25s
+
+# ITERATION 2
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1136 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11661 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13341 us
+TIME: Run Inference: Read BMP: 37358 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94710 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 774822 us
+TIME: Run Inference: Average invokation time per loop: 774822 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 51 us
+TIME: Run Inference: Read labels from file: 3106 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 6449 us
+TIME: Run Inference: Global time: 917567 us
+real	0m 0.96s
+user	0m 0.68s
+sys	0m 0.28s
+
+# ITERATION 3
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 702 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7623 us
+TIME: Setup Interpreter: Build profiler and delegation: 35 us
+TIME: Setup Interpreter: Global time: 8647 us
+TIME: Run Inference: Read BMP: 20290 us
+TIME: Run Inference: Resize image and copy it to input tensor: 56093 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 434145 us
+TIME: Run Inference: Average invokation time per loop: 434145 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 2095 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3742 us
+TIME: Run Inference: Global time: 517087 us
+real	0m 0.54s
+user	0m 0.40s
+sys	0m 0.13s
+
+# ITERATION 4
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 625 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7065 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8009 us
+TIME: Run Inference: Read BMP: 20255 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52879 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 440042 us
+TIME: Run Inference: Average invokation time per loop: 440042 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 27 us
+TIME: Run Inference: Read labels from file: 1956 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3861 us
+TIME: Run Inference: Global time: 519724 us
+real	0m 0.54s
+user	0m 0.36s
+sys	0m 0.18s
+
+# ITERATION 5
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 668 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7095 us
+TIME: Setup Interpreter: Build profiler and delegation: 32 us
+TIME: Setup Interpreter: Global time: 8150 us
+TIME: Run Inference: Read BMP: 20699 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52836 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 443944 us
+TIME: Run Inference: Average invokation time per loop: 443944 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 2006 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3795 us
+TIME: Run Inference: Global time: 524005 us
+real	0m 0.55s
+user	0m 0.40s
+sys	0m 0.14s
+
+# ITERATION 6
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 692 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7285 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8293 us
+TIME: Run Inference: Read BMP: 20580 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52169 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 442548 us
+TIME: Run Inference: Average invokation time per loop: 442548 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 25 us
+TIME: Run Inference: Read labels from file: 1976 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3870 us
+TIME: Run Inference: Global time: 523410 us
+real	0m 0.55s
+user	0m 0.38s
+sys	0m 0.15s
+
+# ITERATION 7
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 675 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6997 us
+TIME: Setup Interpreter: Build profiler and delegation: 31 us
+TIME: Setup Interpreter: Global time: 8066 us
+TIME: Run Inference: Read BMP: 20580 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52895 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 447219 us
+TIME: Run Inference: Average invokation time per loop: 447219 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 1952 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3848 us
+TIME: Run Inference: Global time: 527226 us
+real	0m 0.55s
+user	0m 0.38s
+sys	0m 0.15s
+
+# ITERATION 8
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 708 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7172 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8220 us
+TIME: Run Inference: Read BMP: 20442 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54817 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 442556 us
+TIME: Run Inference: Average invokation time per loop: 442556 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 2083 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3814 us
+TIME: Run Inference: Global time: 524450 us
+real	0m 0.55s
+user	0m 0.40s
+sys	0m 0.14s
+
+# ITERATION 9
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 613 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7103 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8038 us
+TIME: Run Inference: Read BMP: 20724 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55737 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 436397 us
+TIME: Run Inference: Average invokation time per loop: 436397 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 2670 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 4455 us
+TIME: Run Inference: Global time: 520714 us
+real	0m 0.55s
+user	0m 0.41s
+sys	0m 0.12s
+
+# ITERATION 10
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 732 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7194 us
+TIME: Setup Interpreter: Build profiler and delegation: 31 us
+TIME: Setup Interpreter: Global time: 8332 us
+TIME: Run Inference: Read BMP: 20820 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54619 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 436174 us
+TIME: Run Inference: Average invokation time per loop: 436174 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 1962 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3801 us
+TIME: Run Inference: Global time: 518098 us
+real	0m 0.54s
+user	0m 0.39s
+sys	0m 0.14s
+
+# ITERATION 11
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 629 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7011 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 7966 us
+TIME: Run Inference: Read BMP: 20625 us
+TIME: Run Inference: Resize image and copy it to input tensor: 53630 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 440792 us
+TIME: Run Inference: Average invokation time per loop: 440792 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 1967 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 4151 us
+TIME: Run Inference: Global time: 521887 us
+real	0m 0.55s
+user	0m 0.38s
+sys	0m 0.15s
+
+# ITERATION 12
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 560 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7275 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8158 us
+TIME: Run Inference: Read BMP: 20442 us
+TIME: Run Inference: Resize image and copy it to input tensor: 51890 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 437485 us
+TIME: Run Inference: Average invokation time per loop: 437485 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 27 us
+TIME: Run Inference: Read labels from file: 1972 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3805 us
+TIME: Run Inference: Global time: 516335 us
+real	0m 0.54s
+user	0m 0.40s
+sys	0m 0.14s
+
+# ITERATION 13
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 735 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7035 us
+TIME: Setup Interpreter: Build profiler and delegation: 32 us
+TIME: Setup Interpreter: Global time: 8126 us
+TIME: Run Inference: Read BMP: 20548 us
+TIME: Run Inference: Resize image and copy it to input tensor: 57565 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 435446 us
+TIME: Run Inference: Average invokation time per loop: 435446 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 1962 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3945 us
+TIME: Run Inference: Global time: 520186 us
+real	0m 0.54s
+user	0m 0.39s
+sys	0m 0.14s
+
+# ITERATION 14
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1165 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11369 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13185 us
+TIME: Run Inference: Read BMP: 34699 us
+TIME: Run Inference: Resize image and copy it to input tensor: 100634 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 776972 us
+TIME: Run Inference: Average invokation time per loop: 776972 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 50 us
+TIME: Run Inference: Read labels from file: 3082 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 6661 us
+TIME: Run Inference: Global time: 923161 us
+real	0m 0.97s
+user	0m 0.71s
+sys	0m 0.25s
+
+# ITERATION 15
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 639 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6994 us
+TIME: Setup Interpreter: Build profiler and delegation: 32 us
+TIME: Setup Interpreter: Global time: 7952 us
+TIME: Run Inference: Read BMP: 20970 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55484 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 435532 us
+TIME: Run Inference: Average invokation time per loop: 435532 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 27 us
+TIME: Run Inference: Read labels from file: 1956 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3847 us
+TIME: Run Inference: Global time: 518517 us
+real	0m 0.54s
+user	0m 0.38s
+sys	0m 0.15s
+
+# ITERATION 16
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 985 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11050 us
+TIME: Setup Interpreter: Build profiler and delegation: 54 us
+TIME: Setup Interpreter: Global time: 12558 us
+TIME: Run Inference: Read BMP: 34723 us
+TIME: Run Inference: Resize image and copy it to input tensor: 96886 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 775782 us
+TIME: Run Inference: Average invokation time per loop: 775782 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 50 us
+TIME: Run Inference: Read labels from file: 3124 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 6538 us
+TIME: Run Inference: Global time: 918246 us
+real	0m 0.96s
+user	0m 0.74s
+sys	0m 0.22s
+
+# ITERATION 17
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1238 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11341 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13227 us
+TIME: Run Inference: Read BMP: 34714 us
+TIME: Run Inference: Resize image and copy it to input tensor: 97976 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 775006 us
+TIME: Run Inference: Average invokation time per loop: 775006 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 51 us
+TIME: Run Inference: Read labels from file: 3113 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 6639 us
+TIME: Run Inference: Global time: 918555 us
+real	0m 0.96s
+user	0m 0.68s
+sys	0m 0.28s
+
+# ITERATION 18
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 566 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6813 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 7699 us
+TIME: Run Inference: Read BMP: 20536 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52121 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 437405 us
+TIME: Run Inference: Average invokation time per loop: 437405 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 26 us
+TIME: Run Inference: Read labels from file: 2055 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 3738 us
+TIME: Run Inference: Global time: 516604 us
+real	0m 0.54s
+user	0m 0.42s
+sys	0m 0.11s
+
+# ITERATION 19
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 552 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7042 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 7915 us
+TIME: Run Inference: Read BMP: 20269 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55462 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 749014 us
+TIME: Run Inference: Average invokation time per loop: 749014 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 51 us
+TIME: Run Inference: Read labels from file: 3158 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481019: 907 Windsor tie
+INFO: 0.00786703: 466 bulletproof vest
+INFO: 0.00644933: 514 cornet
+INFO: 0.0060803: 543 drumstick
+TIME: Run Inference: Print results: 7462 us
+TIME: Run Inference: Global time: 836358 us
+real	0m 0.86s
+user	0m 0.66s
+sys	0m 0.20s
+
+# THREADS 2
+
+# ITERATION 0
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 640 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7110 us
+TIME: Setup Interpreter: Build profiler and delegation: 32 us
+TIME: Setup Interpreter: Global time: 8071 us
+TIME: Run Inference: Read BMP: 20923 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54728 us
+TIME: Run Inference: Warm-up interpreter: 0 us
+TIME: Run Inference: Total invokation time: 948711 us
+TIME: Run Inference: Average invokation time per loop: 948711 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 32 us
+TIME: Run Inference: Read labels from file: 2486 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 17869 us
+TIME: Run Inference: Global time: 1.04553e+06 us
+real	0m 1.07s
+user	0m 0.97s
+sys	0m 0.43s
+
+# ITERATION 1
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 640 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7049 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8010 us
+TIME: Run Inference: Read BMP: 20573 us
+TIME: Run Inference: Resize image and copy it to input tensor: 58206 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 958481 us
+TIME: Run Inference: Average invokation time per loop: 958481 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 31 us
+TIME: Run Inference: Read labels from file: 2263 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 17216 us
+TIME: Run Inference: Global time: 1.05754e+06 us
+real	0m 1.08s
+user	0m 1.01s
+sys	0m 0.44s
+
+# ITERATION 2
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 709 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7502 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8534 us
+TIME: Run Inference: Read BMP: 20916 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55746 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 1.09555e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.09555e+06 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 135 us
+TIME: Run Inference: Read labels from file: 2452 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 20998 us
+TIME: Run Inference: Global time: 1.19756e+06 us
+real	0m 1.22s
+user	0m 1.17s
+sys	0m 0.48s
+
+# ITERATION 3
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1017 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11746 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13284 us
+TIME: Run Inference: Read BMP: 34857 us
+TIME: Run Inference: Resize image and copy it to input tensor: 92368 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 1.01872e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01872e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3356 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 29070 us
+TIME: Run Inference: Global time: 1.17964e+06 us
+real	0m 1.22s
+user	0m 0.99s
+sys	0m 0.63s
+
+# ITERATION 4
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1146 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 12176 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13862 us
+TIME: Run Inference: Read BMP: 34585 us
+TIME: Run Inference: Resize image and copy it to input tensor: 99064 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00238e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00238e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3578 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32368 us
+TIME: Run Inference: Global time: 1.17318e+06 us
+real	0m 1.22s
+user	0m 1.05s
+sys	0m 0.58s
+
+# ITERATION 5
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 698 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7364 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8383 us
+TIME: Run Inference: Read BMP: 20771 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54160 us
+TIME: Run Inference: Warm-up interpreter: 0 us
+TIME: Run Inference: Total invokation time: 1.02136e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.02136e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 59 us
+TIME: Run Inference: Read labels from file: 3381 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 35554 us
+TIME: Run Inference: Global time: 1.13637e+06 us
+real	0m 1.17s
+user	0m 0.88s
+sys	0m 0.68s
+
+# ITERATION 6
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1070 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11757 us
+TIME: Setup Interpreter: Build profiler and delegation: 54 us
+TIME: Setup Interpreter: Global time: 13379 us
+TIME: Run Inference: Read BMP: 34637 us
+TIME: Run Inference: Resize image and copy it to input tensor: 99959 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.02449e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.02449e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 73 us
+TIME: Run Inference: Read labels from file: 4515 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32324 us
+TIME: Run Inference: Global time: 1.19798e+06 us
+real	0m 1.24s
+user	0m 0.99s
+sys	0m 0.63s
+
+# ITERATION 7
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1106 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11496 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13246 us
+TIME: Run Inference: Read BMP: 34427 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94666 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.02191e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.02191e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 59 us
+TIME: Run Inference: Read labels from file: 3879 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32284 us
+TIME: Run Inference: Global time: 1.19064e+06 us
+real	0m 1.24s
+user	0m 1.04s
+sys	0m 0.58s
+
+# ITERATION 8
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1195 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11952 us
+TIME: Setup Interpreter: Build profiler and delegation: 58 us
+TIME: Setup Interpreter: Global time: 13685 us
+TIME: Run Inference: Read BMP: 37497 us
+TIME: Run Inference: Resize image and copy it to input tensor: 96895 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00651e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00651e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 70 us
+TIME: Run Inference: Read labels from file: 3988 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 29406 us
+TIME: Run Inference: Global time: 1.17557e+06 us
+real	0m 1.22s
+user	0m 1.08s
+sys	0m 0.54s
+
+# ITERATION 9
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1028 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11861 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13414 us
+TIME: Run Inference: Read BMP: 34713 us
+TIME: Run Inference: Resize image and copy it to input tensor: 98206 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00901e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00901e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 69 us
+TIME: Run Inference: Read labels from file: 3478 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30249 us
+TIME: Run Inference: Global time: 1.17691e+06 us
+real	0m 1.22s
+user	0m 1.07s
+sys	0m 0.56s
+
+# ITERATION 10
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 565 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7047 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 7938 us
+TIME: Run Inference: Read BMP: 20316 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52734 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 964022 us
+TIME: Run Inference: Average invokation time per loop: 964022 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 32 us
+TIME: Run Inference: Read labels from file: 2193 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 17353 us
+TIME: Run Inference: Global time: 1.05741e+06 us
+real	0m 1.08s
+user	0m 1.01s
+sys	0m 0.43s
+
+# ITERATION 11
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1156 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11762 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13446 us
+TIME: Run Inference: Read BMP: 34879 us
+TIME: Run Inference: Resize image and copy it to input tensor: 85707 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 962730 us
+TIME: Run Inference: Average invokation time per loop: 962730 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 35 us
+TIME: Run Inference: Read labels from file: 2256 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 18775 us
+TIME: Run Inference: Global time: 1.1053e+06 us
+real	0m 1.14s
+user	0m 1.03s
+sys	0m 0.49s
+
+# ITERATION 12
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 768 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7136 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8220 us
+TIME: Run Inference: Read BMP: 20607 us
+TIME: Run Inference: Resize image and copy it to input tensor: 53682 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01132e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01132e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3370 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30320 us
+TIME: Run Inference: Global time: 1.12042e+06 us
+real	0m 1.15s
+user	0m 0.93s
+sys	0m 0.56s
+
+# ITERATION 13
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 696 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7595 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8615 us
+TIME: Run Inference: Read BMP: 20473 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55884 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01797e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01797e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3641 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32383 us
+TIME: Run Inference: Global time: 1.13148e+06 us
+real	0m 1.16s
+user	0m 1.05s
+sys	0m 0.51s
+
+# ITERATION 14
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1323 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11709 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13694 us
+TIME: Run Inference: Read BMP: 35020 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93165 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01155e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01155e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3351 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 29796 us
+TIME: Run Inference: Global time: 1.17409e+06 us
+real	0m 1.22s
+user	0m 1.01s
+sys	0m 0.60s
+
+# ITERATION 15
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 628 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7493 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8449 us
+TIME: Run Inference: Read BMP: 20724 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55588 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 936735 us
+TIME: Run Inference: Average invokation time per loop: 936735 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 32 us
+TIME: Run Inference: Read labels from file: 2227 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 16831 us
+TIME: Run Inference: Global time: 1.03291e+06 us
+real	0m 1.06s
+user	0m 0.97s
+sys	0m 0.40s
+
+# ITERATION 16
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1020 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11684 us
+TIME: Setup Interpreter: Build profiler and delegation: 54 us
+TIME: Setup Interpreter: Global time: 13233 us
+TIME: Run Inference: Read BMP: 35800 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94269 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01647e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01647e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 58 us
+TIME: Run Inference: Read labels from file: 3389 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32908 us
+TIME: Run Inference: Global time: 1.18412e+06 us
+real	0m 1.23s
+user	0m 1.11s
+sys	0m 0.52s
+
+# ITERATION 17
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 541 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7133 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 7999 us
+TIME: Run Inference: Read BMP: 20333 us
+TIME: Run Inference: Resize image and copy it to input tensor: 53919 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 936074 us
+TIME: Run Inference: Average invokation time per loop: 936074 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 31 us
+TIME: Run Inference: Read labels from file: 2286 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 16973 us
+TIME: Run Inference: Global time: 1.03044e+06 us
+real	0m 1.05s
+user	0m 0.95s
+sys	0m 0.41s
+
+# ITERATION 18
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 909 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11624 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13063 us
+TIME: Run Inference: Read BMP: 34606 us
+TIME: Run Inference: Resize image and copy it to input tensor: 100787 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00672e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00672e+06 us
+TIME: Run Inference: Profiling: 2 us
+TIME: Run Inference: Rerieve results from output tensors: 71 us
+TIME: Run Inference: Read labels from file: 3716 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32282 us
+TIME: Run Inference: Global time: 1.17941e+06 us
+real	0m 1.22s
+user	0m 1.07s
+sys	0m 0.56s
+
+# ITERATION 19
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 636 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7331 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8293 us
+TIME: Run Inference: Read BMP: 20629 us
+TIME: Run Inference: Resize image and copy it to input tensor: 56640 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 948812 us
+TIME: Run Inference: Average invokation time per loop: 948812 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 31 us
+TIME: Run Inference: Read labels from file: 2197 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 17233 us
+TIME: Run Inference: Global time: 1.0463e+06 us
+real	0m 1.07s
+user	0m 0.99s
+sys	0m 0.40s
+
+# THREADS 3
+
+# ITERATION 0
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 792 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7326 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8518 us
+TIME: Run Inference: Read BMP: 20443 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52214 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 873262 us
+TIME: Run Inference: Average invokation time per loop: 873262 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 33 us
+TIME: Run Inference: Read labels from file: 2220 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 21846 us
+TIME: Run Inference: Global time: 970835 us
+real	0m 0.99s
+user	0m 0.98s
+sys	0m 0.51s
+
+# ITERATION 1
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 634 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7399 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8356 us
+TIME: Run Inference: Read BMP: 20281 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52357 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00982e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00982e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3408 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 28646 us
+TIME: Run Inference: Global time: 1.11562e+06 us
+real	0m 1.15s
+user	0m 1.05s
+sys	0m 0.54s
+
+# ITERATION 2
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 921 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11671 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13114 us
+TIME: Run Inference: Read BMP: 34995 us
+TIME: Run Inference: Resize image and copy it to input tensor: 97106 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 996987 us
+TIME: Run Inference: Average invokation time per loop: 996987 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 58 us
+TIME: Run Inference: Read labels from file: 3586 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32761 us
+TIME: Run Inference: Global time: 1.16673e+06 us
+real	0m 1.21s
+user	0m 1.01s
+sys	0m 0.65s
+
+# ITERATION 3
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 718 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7322 us
+TIME: Setup Interpreter: Build profiler and delegation: 35 us
+TIME: Setup Interpreter: Global time: 8435 us
+TIME: Run Inference: Read BMP: 20790 us
+TIME: Run Inference: Resize image and copy it to input tensor: 56015 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 827795 us
+TIME: Run Inference: Average invokation time per loop: 827795 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 33 us
+TIME: Run Inference: Read labels from file: 2365 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 18174 us
+TIME: Run Inference: Global time: 925932 us
+real	0m 0.95s
+user	0m 0.91s
+sys	0m 0.50s
+
+# ITERATION 4
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1195 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11491 us
+TIME: Setup Interpreter: Build profiler and delegation: 57 us
+TIME: Setup Interpreter: Global time: 13225 us
+TIME: Run Inference: Read BMP: 34755 us
+TIME: Run Inference: Resize image and copy it to input tensor: 89940 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01083e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01083e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 59 us
+TIME: Run Inference: Read labels from file: 3381 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30417 us
+TIME: Run Inference: Global time: 1.1706e+06 us
+real	0m 1.21s
+user	0m 1.07s
+sys	0m 0.59s
+
+# ITERATION 5
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 618 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7552 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8499 us
+TIME: Run Inference: Read BMP: 20496 us
+TIME: Run Inference: Resize image and copy it to input tensor: 59739 us
+TIME: Run Inference: Warm-up interpreter: 0 us
+TIME: Run Inference: Total invokation time: 834685 us
+TIME: Run Inference: Average invokation time per loop: 834685 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 33 us
+TIME: Run Inference: Read labels from file: 2160 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19084 us
+TIME: Run Inference: Global time: 936981 us
+real	0m 0.96s
+user	0m 0.93s
+sys	0m 0.50s
+
+# ITERATION 6
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1179 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11506 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13322 us
+TIME: Run Inference: Read BMP: 34838 us
+TIME: Run Inference: Resize image and copy it to input tensor: 95144 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00652e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00652e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 58 us
+TIME: Run Inference: Read labels from file: 3496 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30670 us
+TIME: Run Inference: Global time: 1.17188e+06 us
+real	0m 1.21s
+user	0m 1.07s
+sys	0m 0.61s
+
+# ITERATION 7
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1074 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11868 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13580 us
+TIME: Run Inference: Read BMP: 35194 us
+TIME: Run Inference: Resize image and copy it to input tensor: 97447 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00204e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00204e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 58 us
+TIME: Run Inference: Read labels from file: 3629 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 33975 us
+TIME: Run Inference: Global time: 1.17352e+06 us
+real	0m 1.22s
+user	0m 1.08s
+sys	0m 0.59s
+
+# ITERATION 8
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 619 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7288 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8232 us
+TIME: Run Inference: Read BMP: 20558 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55798 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 955366 us
+TIME: Run Inference: Average invokation time per loop: 955366 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3362 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30152 us
+TIME: Run Inference: Global time: 1.06726e+06 us
+real	0m 1.10s
+user	0m 1.06s
+sys	0m 0.51s
+
+# ITERATION 9
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1191 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11470 us
+TIME: Setup Interpreter: Build profiler and delegation: 53 us
+TIME: Setup Interpreter: Global time: 13296 us
+TIME: Run Inference: Read BMP: 34479 us
+TIME: Run Inference: Resize image and copy it to input tensor: 98316 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 992853 us
+TIME: Run Inference: Average invokation time per loop: 992853 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 76 us
+TIME: Run Inference: Read labels from file: 3846 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 34101 us
+TIME: Run Inference: Global time: 1.1649e+06 us
+real	0m 1.21s
+user	0m 0.97s
+sys	0m 0.68s
+
+# ITERATION 10
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1037 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11406 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13095 us
+TIME: Run Inference: Read BMP: 34625 us
+TIME: Run Inference: Resize image and copy it to input tensor: 100115 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00488e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00488e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 64 us
+TIME: Run Inference: Read labels from file: 3748 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 34812 us
+TIME: Run Inference: Global time: 1.17945e+06 us
+real	0m 1.22s
+user	0m 1.00s
+sys	0m 0.67s
+
+# ITERATION 11
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 693 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7458 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8476 us
+TIME: Run Inference: Read BMP: 20605 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52412 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01564e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01564e+06 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3752 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 29771 us
+TIME: Run Inference: Global time: 1.12331e+06 us
+real	0m 1.15s
+user	0m 1.02s
+sys	0m 0.56s
+
+# ITERATION 12
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 652 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7589 us
+TIME: Setup Interpreter: Build profiler and delegation: 36 us
+TIME: Setup Interpreter: Global time: 8568 us
+TIME: Run Inference: Read BMP: 20464 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54026 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 850432 us
+TIME: Run Inference: Average invokation time per loop: 850432 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 32 us
+TIME: Run Inference: Read labels from file: 2186 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 18205 us
+TIME: Run Inference: Global time: 946148 us
+real	0m 0.97s
+user	0m 0.96s
+sys	0m 0.50s
+
+# ITERATION 13
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 633 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7272 us
+TIME: Setup Interpreter: Build profiler and delegation: 35 us
+TIME: Setup Interpreter: Global time: 8237 us
+TIME: Run Inference: Read BMP: 20668 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55469 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 841456 us
+TIME: Run Inference: Average invokation time per loop: 841456 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 32 us
+TIME: Run Inference: Read labels from file: 2162 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 18887 us
+TIME: Run Inference: Global time: 939447 us
+real	0m 0.96s
+user	0m 0.99s
+sys	0m 0.45s
+
+# ITERATION 14
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 551 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7159 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8056 us
+TIME: Run Inference: Read BMP: 20556 us
+TIME: Run Inference: Resize image and copy it to input tensor: 51854 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00193e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00193e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 58 us
+TIME: Run Inference: Read labels from file: 3381 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30445 us
+TIME: Run Inference: Global time: 1.10928e+06 us
+real	0m 1.14s
+user	0m 0.99s
+sys	0m 0.59s
+
+# ITERATION 15
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1072 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11552 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13317 us
+TIME: Run Inference: Read BMP: 37198 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94728 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 1.00153e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00153e+06 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 58 us
+TIME: Run Inference: Read labels from file: 3487 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 38419 us
+TIME: Run Inference: Global time: 1.17666e+06 us
+real	0m 1.22s
+user	0m 1.05s
+sys	0m 0.61s
+
+# ITERATION 16
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 641 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7078 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8042 us
+TIME: Run Inference: Read BMP: 20544 us
+TIME: Run Inference: Resize image and copy it to input tensor: 57486 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 846887 us
+TIME: Run Inference: Average invokation time per loop: 846887 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 31 us
+TIME: Run Inference: Read labels from file: 2204 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 18792 us
+TIME: Run Inference: Global time: 946715 us
+real	0m 0.97s
+user	0m 0.93s
+sys	0m 0.49s
+
+# ITERATION 17
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 566 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7030 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 7917 us
+TIME: Run Inference: Read BMP: 20526 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55696 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00164e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00164e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3497 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32415 us
+TIME: Run Inference: Global time: 1.1149e+06 us
+real	0m 1.14s
+user	0m 0.97s
+sys	0m 0.62s
+
+# ITERATION 18
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1021 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11705 us
+TIME: Setup Interpreter: Build profiler and delegation: 59 us
+TIME: Setup Interpreter: Global time: 13252 us
+TIME: Run Inference: Read BMP: 34468 us
+TIME: Run Inference: Resize image and copy it to input tensor: 95835 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.01081e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.01081e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 62 us
+TIME: Run Inference: Read labels from file: 3986 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30893 us
+TIME: Run Inference: Global time: 1.17726e+06 us
+real	0m 1.22s
+user	0m 1.08s
+sys	0m 0.59s
+
+# ITERATION 19
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 713 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7321 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8354 us
+TIME: Run Inference: Read BMP: 21137 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55398 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 1.00531e+06 us
+TIME: Run Inference: Average invokation time per loop: 1.00531e+06 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3455 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 32461 us
+TIME: Run Inference: Global time: 1.11938e+06 us
+real	0m 1.15s
+user	0m 1.03s
+sys	0m 0.56s
+
+# THREADS 4
+
+# ITERATION 0
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 668 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7130 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8150 us
+TIME: Run Inference: Read BMP: 20381 us
+TIME: Run Inference: Resize image and copy it to input tensor: 56275 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 777706 us
+TIME: Run Inference: Average invokation time per loop: 777706 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 31 us
+TIME: Run Inference: Read labels from file: 2296 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 20166 us
+TIME: Run Inference: Global time: 877710 us
+real	0m 0.90s
+user	0m 1.03s
+sys	0m 0.43s
+
+# ITERATION 1
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 902 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11614 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13044 us
+TIME: Run Inference: Read BMP: 34419 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93660 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 955025 us
+TIME: Run Inference: Average invokation time per loop: 955025 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 56 us
+TIME: Run Inference: Read labels from file: 3755 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 36818 us
+TIME: Run Inference: Global time: 1.12496e+06 us
+real	0m 1.17s
+user	0m 1.17s
+sys	0m 0.53s
+
+# ITERATION 2
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1027 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11697 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13247 us
+TIME: Run Inference: Read BMP: 34782 us
+TIME: Run Inference: Resize image and copy it to input tensor: 99038 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 922569 us
+TIME: Run Inference: Average invokation time per loop: 922569 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 54 us
+TIME: Run Inference: Read labels from file: 3345 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19418 us
+TIME: Run Inference: Global time: 1.08033e+06 us
+real	0m 1.12s
+user	0m 1.07s
+sys	0m 0.59s
+
+# ITERATION 3
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 690 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7253 us
+TIME: Setup Interpreter: Build profiler and delegation: 36 us
+TIME: Setup Interpreter: Global time: 8267 us
+TIME: Run Inference: Read BMP: 20202 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52735 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 792482 us
+TIME: Run Inference: Average invokation time per loop: 792482 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 30 us
+TIME: Run Inference: Read labels from file: 2266 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19726 us
+TIME: Run Inference: Global time: 888228 us
+real	0m 0.91s
+user	0m 1.03s
+sys	0m 0.43s
+
+# ITERATION 4
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 881 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11663 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13062 us
+TIME: Run Inference: Read BMP: 34553 us
+TIME: Run Inference: Resize image and copy it to input tensor: 97535 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 928666 us
+TIME: Run Inference: Average invokation time per loop: 928666 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 55 us
+TIME: Run Inference: Read labels from file: 3345 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 38327 us
+TIME: Run Inference: Global time: 1.10368e+06 us
+real	0m 1.15s
+user	0m 1.08s
+sys	0m 0.62s
+
+# ITERATION 5
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 575 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6888 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 7784 us
+TIME: Run Inference: Read BMP: 20339 us
+TIME: Run Inference: Resize image and copy it to input tensor: 56197 us
+TIME: Run Inference: Warm-up interpreter: 0 us
+TIME: Run Inference: Total invokation time: 777912 us
+TIME: Run Inference: Average invokation time per loop: 777912 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 29 us
+TIME: Run Inference: Read labels from file: 2169 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19592 us
+TIME: Run Inference: Global time: 877004 us
+real	0m 0.90s
+user	0m 1.03s
+sys	0m 0.41s
+
+# ITERATION 6
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 568 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7283 us
+TIME: Setup Interpreter: Build profiler and delegation: 34 us
+TIME: Setup Interpreter: Global time: 8194 us
+TIME: Run Inference: Read BMP: 21050 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54996 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 903857 us
+TIME: Run Inference: Average invokation time per loop: 903857 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 54 us
+TIME: Run Inference: Read labels from file: 3474 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 31902 us
+TIME: Run Inference: Global time: 1.0164e+06 us
+real	0m 1.05s
+user	0m 1.08s
+sys	0m 0.52s
+
+# ITERATION 7
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 703 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7425 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8444 us
+TIME: Run Inference: Read BMP: 20367 us
+TIME: Run Inference: Resize image and copy it to input tensor: 54516 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 801670 us
+TIME: Run Inference: Average invokation time per loop: 801670 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 30 us
+TIME: Run Inference: Read labels from file: 2092 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 31116 us
+TIME: Run Inference: Global time: 910636 us
+real	0m 0.94s
+user	0m 0.98s
+sys	0m 0.50s
+
+# ITERATION 8
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 882 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11620 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13031 us
+TIME: Run Inference: Read BMP: 34733 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94367 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 829833 us
+TIME: Run Inference: Average invokation time per loop: 829833 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 31 us
+TIME: Run Inference: Read labels from file: 2331 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 20893 us
+TIME: Run Inference: Global time: 984126 us
+real	0m 1.02s
+user	0m 1.09s
+sys	0m 0.49s
+
+# ITERATION 9
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1031 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11566 us
+TIME: Setup Interpreter: Build profiler and delegation: 54 us
+TIME: Setup Interpreter: Global time: 13120 us
+TIME: Run Inference: Read BMP: 34887 us
+TIME: Run Inference: Resize image and copy it to input tensor: 100075 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 930327 us
+TIME: Run Inference: Average invokation time per loop: 930327 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 56 us
+TIME: Run Inference: Read labels from file: 3410 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 30874 us
+TIME: Run Inference: Global time: 1.1008e+06 us
+real	0m 1.14s
+user	0m 1.04s
+sys	0m 0.64s
+
+# ITERATION 10
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1096 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11939 us
+TIME: Setup Interpreter: Build profiler and delegation: 57 us
+TIME: Setup Interpreter: Global time: 13693 us
+TIME: Run Inference: Read BMP: 34867 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94455 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 923572 us
+TIME: Run Inference: Average invokation time per loop: 923572 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 54 us
+TIME: Run Inference: Read labels from file: 3332 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 34653 us
+TIME: Run Inference: Global time: 1.09211e+06 us
+real	0m 1.14s
+user	0m 1.07s
+sys	0m 0.59s
+
+# ITERATION 11
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 626 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7232 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8180 us
+TIME: Run Inference: Read BMP: 20738 us
+TIME: Run Inference: Resize image and copy it to input tensor: 56151 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 764004 us
+TIME: Run Inference: Average invokation time per loop: 764004 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 30 us
+TIME: Run Inference: Read labels from file: 2306 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19341 us
+TIME: Run Inference: Global time: 863340 us
+real	0m 0.89s
+user	0m 0.99s
+sys	0m 0.47s
+
+# ITERATION 12
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 628 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7372 us
+TIME: Setup Interpreter: Build profiler and delegation: 35 us
+TIME: Setup Interpreter: Global time: 8335 us
+TIME: Run Inference: Read BMP: 20941 us
+TIME: Run Inference: Resize image and copy it to input tensor: 60018 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 945105 us
+TIME: Run Inference: Average invokation time per loop: 945105 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 56 us
+TIME: Run Inference: Read labels from file: 3345 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 31255 us
+TIME: Run Inference: Global time: 1.06174e+06 us
+real	0m 1.09s
+user	0m 1.05s
+sys	0m 0.55s
+
+# ITERATION 13
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 918 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11668 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13109 us
+TIME: Run Inference: Read BMP: 34477 us
+TIME: Run Inference: Resize image and copy it to input tensor: 98522 us
+TIME: Run Inference: Warm-up interpreter: 2 us
+TIME: Run Inference: Total invokation time: 913465 us
+TIME: Run Inference: Average invokation time per loop: 913465 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 57 us
+TIME: Run Inference: Read labels from file: 3339 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19801 us
+TIME: Run Inference: Global time: 1.07077e+06 us
+real	0m 1.11s
+user	0m 1.09s
+sys	0m 0.59s
+
+# ITERATION 14
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1015 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11998 us
+TIME: Setup Interpreter: Build profiler and delegation: 56 us
+TIME: Setup Interpreter: Global time: 13566 us
+TIME: Run Inference: Read BMP: 35060 us
+TIME: Run Inference: Resize image and copy it to input tensor: 95412 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 916022 us
+TIME: Run Inference: Average invokation time per loop: 916022 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 56 us
+TIME: Run Inference: Read labels from file: 3312 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 40254 us
+TIME: Run Inference: Global time: 1.09131e+06 us
+real	0m 1.14s
+user	0m 1.11s
+sys	0m 0.56s
+
+# ITERATION 15
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 636 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7447 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8408 us
+TIME: Run Inference: Read BMP: 20147 us
+TIME: Run Inference: Resize image and copy it to input tensor: 58467 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 735190 us
+TIME: Run Inference: Average invokation time per loop: 735190 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 30 us
+TIME: Run Inference: Read labels from file: 2419 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 19622 us
+TIME: Run Inference: Global time: 837073 us
+real	0m 0.86s
+user	0m 1.07s
+sys	0m 0.34s
+
+# ITERATION 16
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 649 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7207 us
+TIME: Setup Interpreter: Build profiler and delegation: 33 us
+TIME: Setup Interpreter: Global time: 8251 us
+TIME: Run Inference: Read BMP: 20551 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52576 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 800112 us
+TIME: Run Inference: Average invokation time per loop: 800112 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 30 us
+TIME: Run Inference: Read labels from file: 2192 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 18981 us
+TIME: Run Inference: Global time: 895220 us
+real	0m 0.92s
+user	0m 1.02s
+sys	0m 0.44s
+
+# ITERATION 17
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 913 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11599 us
+TIME: Setup Interpreter: Build profiler and delegation: 55 us
+TIME: Setup Interpreter: Global time: 13029 us
+TIME: Run Inference: Read BMP: 34819 us
+TIME: Run Inference: Resize image and copy it to input tensor: 55428 us
+TIME: Run Inference: Warm-up interpreter: 0 us
+TIME: Run Inference: Total invokation time: 892419 us
+TIME: Run Inference: Average invokation time per loop: 892419 us
+TIME: Run Inference: Profiling: 0 us
+TIME: Run Inference: Rerieve results from output tensors: 54 us
+TIME: Run Inference: Read labels from file: 3339 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 31759 us
+TIME: Run Inference: Global time: 1.01886e+06 us
+real	0m 1.06s
+user	0m 1.08s
+sys	0m 0.53s
+
+# ITERATION 18
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1028 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11522 us
+TIME: Setup Interpreter: Build profiler and delegation: 57 us
+TIME: Setup Interpreter: Global time: 13070 us
+TIME: Run Inference: Read BMP: 34526 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93628 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 957556 us
+TIME: Run Inference: Average invokation time per loop: 957556 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 55 us
+TIME: Run Inference: Read labels from file: 3338 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 31530 us
+TIME: Run Inference: Global time: 1.12183e+06 us
+real	0m 1.16s
+user	0m 1.07s
+sys	0m 0.61s
+
+# ITERATION 19
+Warning: Permanently added '192.168.88.3' (ED25519) to the list of known hosts.
+INFO: Loaded model mobilenet_v1_1.0_224.tflite
+INFO: resolved reporter
+TIME: Setup Interpreter: Load Model: 1005 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11763 us
+TIME: Setup Interpreter: Build profiler and delegation: 59 us
+TIME: Setup Interpreter: Global time: 13305 us
+TIME: Run Inference: Read BMP: 34591 us
+TIME: Run Inference: Resize image and copy it to input tensor: 97552 us
+TIME: Run Inference: Warm-up interpreter: 1 us
+TIME: Run Inference: Total invokation time: 944212 us
+TIME: Run Inference: Average invokation time per loop: 944212 us
+TIME: Run Inference: Profiling: 1 us
+TIME: Run Inference: Rerieve results from output tensors: 54 us
+TIME: Run Inference: Read labels from file: 3314 us
+INFO: 0.860174: 653 military uniform
+INFO: 0.0481018: 907 Windsor tie
+INFO: 0.00786701: 466 bulletproof vest
+INFO: 0.0064493: 514 cornet
+INFO: 0.00608028: 543 drumstick
+TIME: Run Inference: Print results: 35999 us
+TIME: Run Inference: Global time: 1.11689e+06 us
+real	0m 1.16s
+user	0m 1.11s
+sys	0m 0.60s

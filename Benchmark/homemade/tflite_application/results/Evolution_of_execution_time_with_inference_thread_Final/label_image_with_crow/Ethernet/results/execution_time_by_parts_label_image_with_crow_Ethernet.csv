@@ -1,0 +1,1361 @@
+Iteration,Inference Threads,Part,Subpart,Execution Time (in us),Medium,Implementation
+0,1,Setup Interpreter,Load Model,789.0,Ethernet,label_image_with_crow
+0,1,Setup Interpreter,Configure and Build Interpreter,14385.0,Ethernet,label_image_with_crow
+0,1,Setup Interpreter,Build profiler and delegation,121.0,Ethernet,label_image_with_crow
+0,1,Setup Interpreter,Global time,15383.0,Ethernet,label_image_with_crow
+0,1,Crow Webserver,Handling and saving input image,100936.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Read BMP,34146.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Resize image and copy it to input tensor,94060.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Total invokation time,781966.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Average invokation time per loop,781966.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Read labels from file,3197.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Print results,84.0,Ethernet,label_image_with_crow
+0,1,Run Inference,Global time,913858.0,Ethernet,label_image_with_crow
+0,1,Crow Webserver,Run inference,915128.0,Ethernet,label_image_with_crow
+0,1,Real time,Global time,1118000.0,Ethernet,label_image_with_crow
+1,1,Setup Interpreter,Load Model,877.0,Ethernet,label_image_with_crow
+1,1,Setup Interpreter,Configure and Build Interpreter,11813.0,Ethernet,label_image_with_crow
+1,1,Setup Interpreter,Build profiler and delegation,124.0,Ethernet,label_image_with_crow
+1,1,Setup Interpreter,Global time,12900.0,Ethernet,label_image_with_crow
+1,1,Crow Webserver,Handling and saving input image,61174.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Read BMP,20316.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Resize image and copy it to input tensor,53526.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Total invokation time,442306.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Average invokation time per loop,442306.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Read labels from file,2026.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+1,1,Run Inference,Global time,518478.0,Ethernet,label_image_with_crow
+1,1,Crow Webserver,Run inference,519180.0,Ethernet,label_image_with_crow
+1,1,Real time,Global time,677000.0,Ethernet,label_image_with_crow
+2,1,Setup Interpreter,Load Model,602.0,Ethernet,label_image_with_crow
+2,1,Setup Interpreter,Configure and Build Interpreter,11709.0,Ethernet,label_image_with_crow
+2,1,Setup Interpreter,Build profiler and delegation,124.0,Ethernet,label_image_with_crow
+2,1,Setup Interpreter,Global time,12519.0,Ethernet,label_image_with_crow
+2,1,Crow Webserver,Handling and saving input image,61984.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Read BMP,20621.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Resize image and copy it to input tensor,54233.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Total invokation time,445054.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Average invokation time per loop,445054.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Read labels from file,1809.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+2,1,Run Inference,Global time,522019.0,Ethernet,label_image_with_crow
+2,1,Crow Webserver,Run inference,522850.0,Ethernet,label_image_with_crow
+2,1,Real time,Global time,683000.0,Ethernet,label_image_with_crow
+3,1,Setup Interpreter,Load Model,856.0,Ethernet,label_image_with_crow
+3,1,Setup Interpreter,Configure and Build Interpreter,11173.0,Ethernet,label_image_with_crow
+3,1,Setup Interpreter,Build profiler and delegation,123.0,Ethernet,label_image_with_crow
+3,1,Setup Interpreter,Global time,12247.0,Ethernet,label_image_with_crow
+3,1,Crow Webserver,Handling and saving input image,62008.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Read BMP,20316.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Resize image and copy it to input tensor,54246.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Total invokation time,442024.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Average invokation time per loop,442024.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Read labels from file,1911.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Print results,50.0,Ethernet,label_image_with_crow
+3,1,Run Inference,Global time,518802.0,Ethernet,label_image_with_crow
+3,1,Crow Webserver,Run inference,519523.0,Ethernet,label_image_with_crow
+3,1,Real time,Global time,679000.0,Ethernet,label_image_with_crow
+4,1,Setup Interpreter,Load Model,598.0,Ethernet,label_image_with_crow
+4,1,Setup Interpreter,Configure and Build Interpreter,11417.0,Ethernet,label_image_with_crow
+4,1,Setup Interpreter,Build profiler and delegation,123.0,Ethernet,label_image_with_crow
+4,1,Setup Interpreter,Global time,12225.0,Ethernet,label_image_with_crow
+4,1,Crow Webserver,Handling and saving input image,101247.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Read BMP,34405.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Resize image and copy it to input tensor,94374.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Total invokation time,777777.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Average invokation time per loop,777777.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Read labels from file,3157.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Print results,83.0,Ethernet,label_image_with_crow
+4,1,Run Inference,Global time,910190.0,Ethernet,label_image_with_crow
+4,1,Crow Webserver,Run inference,911477.0,Ethernet,label_image_with_crow
+4,1,Real time,Global time,1122000.0,Ethernet,label_image_with_crow
+5,1,Setup Interpreter,Load Model,678.0,Ethernet,label_image_with_crow
+5,1,Setup Interpreter,Configure and Build Interpreter,11577.0,Ethernet,label_image_with_crow
+5,1,Setup Interpreter,Build profiler and delegation,122.0,Ethernet,label_image_with_crow
+5,1,Setup Interpreter,Global time,12463.0,Ethernet,label_image_with_crow
+5,1,Crow Webserver,Handling and saving input image,62061.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Read BMP,20266.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Resize image and copy it to input tensor,53770.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Total invokation time,516150.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Average invokation time per loop,516150.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Read labels from file,3120.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Print results,85.0,Ethernet,label_image_with_crow
+5,1,Run Inference,Global time,593765.0,Ethernet,label_image_with_crow
+5,1,Crow Webserver,Run inference,595167.0,Ethernet,label_image_with_crow
+5,1,Real time,Global time,755000.0,Ethernet,label_image_with_crow
+6,1,Setup Interpreter,Load Model,617.0,Ethernet,label_image_with_crow
+6,1,Setup Interpreter,Configure and Build Interpreter,11407.0,Ethernet,label_image_with_crow
+6,1,Setup Interpreter,Build profiler and delegation,123.0,Ethernet,label_image_with_crow
+6,1,Setup Interpreter,Global time,12233.0,Ethernet,label_image_with_crow
+6,1,Crow Webserver,Handling and saving input image,102105.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Read BMP,34786.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Resize image and copy it to input tensor,94444.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Total invokation time,783737.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Average invokation time per loop,783737.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Read labels from file,3253.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Print results,86.0,Ethernet,label_image_with_crow
+6,1,Run Inference,Global time,916704.0,Ethernet,label_image_with_crow
+6,1,Crow Webserver,Run inference,917973.0,Ethernet,label_image_with_crow
+6,1,Real time,Global time,1123000.0,Ethernet,label_image_with_crow
+7,1,Setup Interpreter,Load Model,673.0,Ethernet,label_image_with_crow
+7,1,Setup Interpreter,Configure and Build Interpreter,11292.0,Ethernet,label_image_with_crow
+7,1,Setup Interpreter,Build profiler and delegation,124.0,Ethernet,label_image_with_crow
+7,1,Setup Interpreter,Global time,12175.0,Ethernet,label_image_with_crow
+7,1,Crow Webserver,Handling and saving input image,101822.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Read BMP,34283.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Resize image and copy it to input tensor,94300.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Total invokation time,778096.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Average invokation time per loop,778096.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Read labels from file,3233.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Print results,84.0,Ethernet,label_image_with_crow
+7,1,Run Inference,Global time,910393.0,Ethernet,label_image_with_crow
+7,1,Crow Webserver,Run inference,911684.0,Ethernet,label_image_with_crow
+7,1,Real time,Global time,1124000.0,Ethernet,label_image_with_crow
+8,1,Setup Interpreter,Load Model,585.0,Ethernet,label_image_with_crow
+8,1,Setup Interpreter,Configure and Build Interpreter,11331.0,Ethernet,label_image_with_crow
+8,1,Setup Interpreter,Build profiler and delegation,125.0,Ethernet,label_image_with_crow
+8,1,Setup Interpreter,Global time,12127.0,Ethernet,label_image_with_crow
+8,1,Crow Webserver,Handling and saving input image,101247.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Read BMP,34332.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Resize image and copy it to input tensor,94188.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Total invokation time,781351.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Average invokation time per loop,781351.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Read labels from file,3168.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Print results,87.0,Ethernet,label_image_with_crow
+8,1,Run Inference,Global time,913534.0,Ethernet,label_image_with_crow
+8,1,Crow Webserver,Run inference,914967.0,Ethernet,label_image_with_crow
+8,1,Real time,Global time,1124000.0,Ethernet,label_image_with_crow
+9,1,Setup Interpreter,Load Model,597.0,Ethernet,label_image_with_crow
+9,1,Setup Interpreter,Configure and Build Interpreter,11136.0,Ethernet,label_image_with_crow
+9,1,Setup Interpreter,Build profiler and delegation,121.0,Ethernet,label_image_with_crow
+9,1,Setup Interpreter,Global time,11939.0,Ethernet,label_image_with_crow
+9,1,Crow Webserver,Handling and saving input image,103309.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Read BMP,35038.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Resize image and copy it to input tensor,94576.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Total invokation time,784418.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Average invokation time per loop,784418.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Read labels from file,3133.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Print results,87.0,Ethernet,label_image_with_crow
+9,1,Run Inference,Global time,917664.0,Ethernet,label_image_with_crow
+9,1,Crow Webserver,Run inference,918950.0,Ethernet,label_image_with_crow
+9,1,Real time,Global time,1121000.0,Ethernet,label_image_with_crow
+10,1,Setup Interpreter,Load Model,820.0,Ethernet,label_image_with_crow
+10,1,Setup Interpreter,Configure and Build Interpreter,11028.0,Ethernet,label_image_with_crow
+10,1,Setup Interpreter,Build profiler and delegation,123.0,Ethernet,label_image_with_crow
+10,1,Setup Interpreter,Global time,12058.0,Ethernet,label_image_with_crow
+10,1,Crow Webserver,Handling and saving input image,62050.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Read BMP,20189.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Resize image and copy it to input tensor,54276.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Total invokation time,439189.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Average invokation time per loop,439189.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Read labels from file,1816.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+10,1,Run Inference,Global time,515776.0,Ethernet,label_image_with_crow
+10,1,Crow Webserver,Run inference,516599.0,Ethernet,label_image_with_crow
+10,1,Real time,Global time,676000.0,Ethernet,label_image_with_crow
+11,1,Setup Interpreter,Load Model,744.0,Ethernet,label_image_with_crow
+11,1,Setup Interpreter,Configure and Build Interpreter,11264.0,Ethernet,label_image_with_crow
+11,1,Setup Interpreter,Build profiler and delegation,119.0,Ethernet,label_image_with_crow
+11,1,Setup Interpreter,Global time,12211.0,Ethernet,label_image_with_crow
+11,1,Crow Webserver,Handling and saving input image,62228.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Read BMP,21194.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Resize image and copy it to input tensor,56110.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Total invokation time,440638.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Average invokation time per loop,440638.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Read labels from file,1804.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+11,1,Run Inference,Global time,520054.0,Ethernet,label_image_with_crow
+11,1,Crow Webserver,Run inference,520772.0,Ethernet,label_image_with_crow
+11,1,Real time,Global time,679000.0,Ethernet,label_image_with_crow
+12,1,Setup Interpreter,Load Model,699.0,Ethernet,label_image_with_crow
+12,1,Setup Interpreter,Configure and Build Interpreter,11165.0,Ethernet,label_image_with_crow
+12,1,Setup Interpreter,Build profiler and delegation,128.0,Ethernet,label_image_with_crow
+12,1,Setup Interpreter,Global time,12078.0,Ethernet,label_image_with_crow
+12,1,Crow Webserver,Handling and saving input image,61772.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Read BMP,20384.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Resize image and copy it to input tensor,53810.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Total invokation time,445024.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Average invokation time per loop,445024.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Read labels from file,1798.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+12,1,Run Inference,Global time,521315.0,Ethernet,label_image_with_crow
+12,1,Crow Webserver,Run inference,522047.0,Ethernet,label_image_with_crow
+12,1,Real time,Global time,682000.0,Ethernet,label_image_with_crow
+13,1,Setup Interpreter,Load Model,603.0,Ethernet,label_image_with_crow
+13,1,Setup Interpreter,Configure and Build Interpreter,11328.0,Ethernet,label_image_with_crow
+13,1,Setup Interpreter,Build profiler and delegation,125.0,Ethernet,label_image_with_crow
+13,1,Setup Interpreter,Global time,12144.0,Ethernet,label_image_with_crow
+13,1,Crow Webserver,Handling and saving input image,61578.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Read BMP,20369.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Resize image and copy it to input tensor,54194.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Total invokation time,444818.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Average invokation time per loop,444818.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Rerieve results from output tensors,32.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Read labels from file,2062.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Print results,49.0,Ethernet,label_image_with_crow
+13,1,Run Inference,Global time,521762.0,Ethernet,label_image_with_crow
+13,1,Crow Webserver,Run inference,522497.0,Ethernet,label_image_with_crow
+13,1,Real time,Global time,683000.0,Ethernet,label_image_with_crow
+14,1,Setup Interpreter,Load Model,587.0,Ethernet,label_image_with_crow
+14,1,Setup Interpreter,Configure and Build Interpreter,11089.0,Ethernet,label_image_with_crow
+14,1,Setup Interpreter,Build profiler and delegation,125.0,Ethernet,label_image_with_crow
+14,1,Setup Interpreter,Global time,11888.0,Ethernet,label_image_with_crow
+14,1,Crow Webserver,Handling and saving input image,61409.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Read BMP,20242.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Resize image and copy it to input tensor,54047.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Total invokation time,441081.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Average invokation time per loop,441081.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Read labels from file,1800.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+14,1,Run Inference,Global time,517478.0,Ethernet,label_image_with_crow
+14,1,Crow Webserver,Run inference,518182.0,Ethernet,label_image_with_crow
+14,1,Real time,Global time,678000.0,Ethernet,label_image_with_crow
+15,1,Setup Interpreter,Load Model,851.0,Ethernet,label_image_with_crow
+15,1,Setup Interpreter,Configure and Build Interpreter,11491.0,Ethernet,label_image_with_crow
+15,1,Setup Interpreter,Build profiler and delegation,126.0,Ethernet,label_image_with_crow
+15,1,Setup Interpreter,Global time,12558.0,Ethernet,label_image_with_crow
+15,1,Crow Webserver,Handling and saving input image,61052.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Read BMP,20349.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Resize image and copy it to input tensor,54154.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Total invokation time,437943.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Average invokation time per loop,437943.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Read labels from file,1921.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+15,1,Run Inference,Global time,514676.0,Ethernet,label_image_with_crow
+15,1,Crow Webserver,Run inference,515386.0,Ethernet,label_image_with_crow
+15,1,Real time,Global time,673000.0,Ethernet,label_image_with_crow
+16,1,Setup Interpreter,Load Model,598.0,Ethernet,label_image_with_crow
+16,1,Setup Interpreter,Configure and Build Interpreter,10884.0,Ethernet,label_image_with_crow
+16,1,Setup Interpreter,Build profiler and delegation,124.0,Ethernet,label_image_with_crow
+16,1,Setup Interpreter,Global time,11691.0,Ethernet,label_image_with_crow
+16,1,Crow Webserver,Handling and saving input image,61734.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Read BMP,20315.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Resize image and copy it to input tensor,53944.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Total invokation time,440965.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Average invokation time per loop,440965.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Read labels from file,1803.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+16,1,Run Inference,Global time,517326.0,Ethernet,label_image_with_crow
+16,1,Crow Webserver,Run inference,518244.0,Ethernet,label_image_with_crow
+16,1,Real time,Global time,677000.0,Ethernet,label_image_with_crow
+17,1,Setup Interpreter,Load Model,598.0,Ethernet,label_image_with_crow
+17,1,Setup Interpreter,Configure and Build Interpreter,11173.0,Ethernet,label_image_with_crow
+17,1,Setup Interpreter,Build profiler and delegation,120.0,Ethernet,label_image_with_crow
+17,1,Setup Interpreter,Global time,11976.0,Ethernet,label_image_with_crow
+17,1,Crow Webserver,Handling and saving input image,61399.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Read BMP,20392.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Resize image and copy it to input tensor,54580.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Total invokation time,519483.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Average invokation time per loop,519483.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Read labels from file,3233.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Print results,86.0,Ethernet,label_image_with_crow
+17,1,Run Inference,Global time,598149.0,Ethernet,label_image_with_crow
+17,1,Crow Webserver,Run inference,599553.0,Ethernet,label_image_with_crow
+17,1,Real time,Global time,760000.0,Ethernet,label_image_with_crow
+18,1,Setup Interpreter,Load Model,850.0,Ethernet,label_image_with_crow
+18,1,Setup Interpreter,Configure and Build Interpreter,11423.0,Ethernet,label_image_with_crow
+18,1,Setup Interpreter,Build profiler and delegation,123.0,Ethernet,label_image_with_crow
+18,1,Setup Interpreter,Global time,12483.0,Ethernet,label_image_with_crow
+18,1,Crow Webserver,Handling and saving input image,62107.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Read BMP,20296.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Resize image and copy it to input tensor,53553.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Total invokation time,454557.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Average invokation time per loop,454557.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Read labels from file,1820.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+18,1,Run Inference,Global time,530521.0,Ethernet,label_image_with_crow
+18,1,Crow Webserver,Run inference,531217.0,Ethernet,label_image_with_crow
+18,1,Real time,Global time,690000.0,Ethernet,label_image_with_crow
+19,1,Setup Interpreter,Load Model,709.0,Ethernet,label_image_with_crow
+19,1,Setup Interpreter,Configure and Build Interpreter,11232.0,Ethernet,label_image_with_crow
+19,1,Setup Interpreter,Build profiler and delegation,125.0,Ethernet,label_image_with_crow
+19,1,Setup Interpreter,Global time,12151.0,Ethernet,label_image_with_crow
+19,1,Crow Webserver,Handling and saving input image,61800.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Read BMP,20294.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Resize image and copy it to input tensor,53783.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Total invokation time,439285.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Average invokation time per loop,439285.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Read labels from file,1808.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+19,1,Run Inference,Global time,515474.0,Ethernet,label_image_with_crow
+19,1,Crow Webserver,Run inference,516178.0,Ethernet,label_image_with_crow
+19,1,Real time,Global time,677000.0,Ethernet,label_image_with_crow
+0,2,Setup Interpreter,Load Model,676.0,Ethernet,label_image_with_crow
+0,2,Setup Interpreter,Configure and Build Interpreter,11386.0,Ethernet,label_image_with_crow
+0,2,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+0,2,Setup Interpreter,Global time,12221.0,Ethernet,label_image_with_crow
+0,2,Crow Webserver,Handling and saving input image,101550.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Read BMP,34150.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Resize image and copy it to input tensor,94838.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Total invokation time,898254.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Average invokation time per loop,898254.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Read labels from file,1896.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+0,2,Run Inference,Global time,1029800.0,Ethernet,label_image_with_crow
+0,2,Crow Webserver,Run inference,1030481.0,Ethernet,label_image_with_crow
+0,2,Real time,Global time,1241000.0,Ethernet,label_image_with_crow
+1,2,Setup Interpreter,Load Model,660.0,Ethernet,label_image_with_crow
+1,2,Setup Interpreter,Configure and Build Interpreter,11186.0,Ethernet,label_image_with_crow
+1,2,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+1,2,Setup Interpreter,Global time,12004.0,Ethernet,label_image_with_crow
+1,2,Crow Webserver,Handling and saving input image,62092.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Read BMP,20568.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Resize image and copy it to input tensor,54282.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Total invokation time,960788.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Average invokation time per loop,960788.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Read labels from file,1855.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Print results,46.0,Ethernet,label_image_with_crow
+1,2,Run Inference,Global time,1037994.0,Ethernet,label_image_with_crow
+1,2,Crow Webserver,Run inference,1038735.0,Ethernet,label_image_with_crow
+1,2,Real time,Global time,1200000.0,Ethernet,label_image_with_crow
+2,2,Setup Interpreter,Load Model,437.0,Ethernet,label_image_with_crow
+2,2,Setup Interpreter,Configure and Build Interpreter,7342.0,Ethernet,label_image_with_crow
+2,2,Setup Interpreter,Build profiler and delegation,44.0,Ethernet,label_image_with_crow
+2,2,Setup Interpreter,Global time,7876.0,Ethernet,label_image_with_crow
+2,2,Crow Webserver,Handling and saving input image,101155.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Read BMP,34457.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Resize image and copy it to input tensor,94659.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Total invokation time,1065854.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Average invokation time per loop,1065854.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Read labels from file,3225.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Print results,79.0,Ethernet,label_image_with_crow
+2,2,Run Inference,Global time,1198990.0,Ethernet,label_image_with_crow
+2,2,Crow Webserver,Run inference,1200308.0,Ethernet,label_image_with_crow
+2,2,Real time,Global time,1413000.0,Ethernet,label_image_with_crow
+3,2,Setup Interpreter,Load Model,501.0,Ethernet,label_image_with_crow
+3,2,Setup Interpreter,Configure and Build Interpreter,7206.0,Ethernet,label_image_with_crow
+3,2,Setup Interpreter,Build profiler and delegation,42.0,Ethernet,label_image_with_crow
+3,2,Setup Interpreter,Global time,7799.0,Ethernet,label_image_with_crow
+3,2,Crow Webserver,Handling and saving input image,101959.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Read BMP,34394.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Resize image and copy it to input tensor,94404.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Total invokation time,1009666.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Average invokation time per loop,1009666.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Read labels from file,3254.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+3,2,Run Inference,Global time,1142526.0,Ethernet,label_image_with_crow
+3,2,Crow Webserver,Run inference,1143811.0,Ethernet,label_image_with_crow
+3,2,Real time,Global time,1354000.0,Ethernet,label_image_with_crow
+4,2,Setup Interpreter,Load Model,431.0,Ethernet,label_image_with_crow
+4,2,Setup Interpreter,Configure and Build Interpreter,7199.0,Ethernet,label_image_with_crow
+4,2,Setup Interpreter,Build profiler and delegation,45.0,Ethernet,label_image_with_crow
+4,2,Setup Interpreter,Global time,7725.0,Ethernet,label_image_with_crow
+4,2,Crow Webserver,Handling and saving input image,102633.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Read BMP,34616.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Resize image and copy it to input tensor,94661.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Total invokation time,939652.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Average invokation time per loop,939652.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Read labels from file,1836.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+4,2,Run Inference,Global time,1071417.0,Ethernet,label_image_with_crow
+4,2,Crow Webserver,Run inference,1072181.0,Ethernet,label_image_with_crow
+4,2,Real time,Global time,1279000.0,Ethernet,label_image_with_crow
+5,2,Setup Interpreter,Load Model,695.0,Ethernet,label_image_with_crow
+5,2,Setup Interpreter,Configure and Build Interpreter,11421.0,Ethernet,label_image_with_crow
+5,2,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+5,2,Setup Interpreter,Global time,12273.0,Ethernet,label_image_with_crow
+5,2,Crow Webserver,Handling and saving input image,61289.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Read BMP,20713.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Resize image and copy it to input tensor,54180.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Total invokation time,1067343.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Average invokation time per loop,1067343.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Read labels from file,3240.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+5,2,Run Inference,Global time,1146116.0,Ethernet,label_image_with_crow
+5,2,Crow Webserver,Run inference,1147434.0,Ethernet,label_image_with_crow
+5,2,Real time,Global time,1307000.0,Ethernet,label_image_with_crow
+6,2,Setup Interpreter,Load Model,829.0,Ethernet,label_image_with_crow
+6,2,Setup Interpreter,Configure and Build Interpreter,11179.0,Ethernet,label_image_with_crow
+6,2,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+6,2,Setup Interpreter,Global time,12161.0,Ethernet,label_image_with_crow
+6,2,Crow Webserver,Handling and saving input image,61806.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Read BMP,20613.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Resize image and copy it to input tensor,54129.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Total invokation time,929829.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Average invokation time per loop,929829.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Read labels from file,1825.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Print results,44.0,Ethernet,label_image_with_crow
+6,2,Run Inference,Global time,1006894.0,Ethernet,label_image_with_crow
+6,2,Crow Webserver,Run inference,1007613.0,Ethernet,label_image_with_crow
+6,2,Real time,Global time,1169000.0,Ethernet,label_image_with_crow
+7,2,Setup Interpreter,Load Model,597.0,Ethernet,label_image_with_crow
+7,2,Setup Interpreter,Configure and Build Interpreter,11418.0,Ethernet,label_image_with_crow
+7,2,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+7,2,Setup Interpreter,Global time,12172.0,Ethernet,label_image_with_crow
+7,2,Crow Webserver,Handling and saving input image,62221.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Read BMP,20359.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Resize image and copy it to input tensor,54220.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Total invokation time,968690.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Average invokation time per loop,968690.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Read labels from file,1908.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+7,2,Run Inference,Global time,1045681.0,Ethernet,label_image_with_crow
+7,2,Crow Webserver,Run inference,1046395.0,Ethernet,label_image_with_crow
+7,2,Real time,Global time,1209000.0,Ethernet,label_image_with_crow
+8,2,Setup Interpreter,Load Model,792.0,Ethernet,label_image_with_crow
+8,2,Setup Interpreter,Configure and Build Interpreter,11832.0,Ethernet,label_image_with_crow
+8,2,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+8,2,Setup Interpreter,Global time,12780.0,Ethernet,label_image_with_crow
+8,2,Crow Webserver,Handling and saving input image,61555.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Read BMP,20515.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Resize image and copy it to input tensor,53690.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Total invokation time,963779.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Average invokation time per loop,963779.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Read labels from file,1841.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Print results,46.0,Ethernet,label_image_with_crow
+8,2,Run Inference,Global time,1040332.0,Ethernet,label_image_with_crow
+8,2,Crow Webserver,Run inference,1041046.0,Ethernet,label_image_with_crow
+8,2,Real time,Global time,1202000.0,Ethernet,label_image_with_crow
+9,2,Setup Interpreter,Load Model,583.0,Ethernet,label_image_with_crow
+9,2,Setup Interpreter,Configure and Build Interpreter,11801.0,Ethernet,label_image_with_crow
+9,2,Setup Interpreter,Build profiler and delegation,74.0,Ethernet,label_image_with_crow
+9,2,Setup Interpreter,Global time,12551.0,Ethernet,label_image_with_crow
+9,2,Crow Webserver,Handling and saving input image,62398.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Read BMP,20507.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Resize image and copy it to input tensor,54176.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Total invokation time,1014861.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Average invokation time per loop,1014861.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Read labels from file,3151.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+9,2,Run Inference,Global time,1093331.0,Ethernet,label_image_with_crow
+9,2,Crow Webserver,Run inference,1094635.0,Ethernet,label_image_with_crow
+9,2,Real time,Global time,1254000.0,Ethernet,label_image_with_crow
+10,2,Setup Interpreter,Load Model,509.0,Ethernet,label_image_with_crow
+10,2,Setup Interpreter,Configure and Build Interpreter,7367.0,Ethernet,label_image_with_crow
+10,2,Setup Interpreter,Build profiler and delegation,46.0,Ethernet,label_image_with_crow
+10,2,Setup Interpreter,Global time,7972.0,Ethernet,label_image_with_crow
+10,2,Crow Webserver,Handling and saving input image,101385.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Read BMP,34667.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Resize image and copy it to input tensor,94771.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Total invokation time,1060223.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Average invokation time per loop,1060223.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Read labels from file,3273.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+10,2,Run Inference,Global time,1193732.0,Ethernet,label_image_with_crow
+10,2,Crow Webserver,Run inference,1195031.0,Ethernet,label_image_with_crow
+10,2,Real time,Global time,1407000.0,Ethernet,label_image_with_crow
+11,2,Setup Interpreter,Load Model,816.0,Ethernet,label_image_with_crow
+11,2,Setup Interpreter,Configure and Build Interpreter,11406.0,Ethernet,label_image_with_crow
+11,2,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+11,2,Setup Interpreter,Global time,12376.0,Ethernet,label_image_with_crow
+11,2,Crow Webserver,Handling and saving input image,101669.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Read BMP,34684.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Resize image and copy it to input tensor,94347.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Total invokation time,1091499.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Average invokation time per loop,1091499.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Read labels from file,3161.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+11,2,Run Inference,Global time,1224485.0,Ethernet,label_image_with_crow
+11,2,Crow Webserver,Run inference,1225801.0,Ethernet,label_image_with_crow
+11,2,Real time,Global time,1430000.0,Ethernet,label_image_with_crow
+12,2,Setup Interpreter,Load Model,623.0,Ethernet,label_image_with_crow
+12,2,Setup Interpreter,Configure and Build Interpreter,11146.0,Ethernet,label_image_with_crow
+12,2,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+12,2,Setup Interpreter,Global time,11924.0,Ethernet,label_image_with_crow
+12,2,Crow Webserver,Handling and saving input image,102024.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Read BMP,34855.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Resize image and copy it to input tensor,95069.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Total invokation time,1081692.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Average invokation time per loop,1081692.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Read labels from file,3155.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Print results,78.0,Ethernet,label_image_with_crow
+12,2,Run Inference,Global time,1215566.0,Ethernet,label_image_with_crow
+12,2,Crow Webserver,Run inference,1216900.0,Ethernet,label_image_with_crow
+12,2,Real time,Global time,1423000.0,Ethernet,label_image_with_crow
+13,2,Setup Interpreter,Load Model,434.0,Ethernet,label_image_with_crow
+13,2,Setup Interpreter,Configure and Build Interpreter,7146.0,Ethernet,label_image_with_crow
+13,2,Setup Interpreter,Build profiler and delegation,44.0,Ethernet,label_image_with_crow
+13,2,Setup Interpreter,Global time,7675.0,Ethernet,label_image_with_crow
+13,2,Crow Webserver,Handling and saving input image,102262.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Read BMP,34533.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Resize image and copy it to input tensor,94390.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Total invokation time,1016780.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Average invokation time per loop,1016780.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Read labels from file,3268.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+13,2,Run Inference,Global time,1149762.0,Ethernet,label_image_with_crow
+13,2,Crow Webserver,Run inference,1151068.0,Ethernet,label_image_with_crow
+13,2,Real time,Global time,1355000.0,Ethernet,label_image_with_crow
+14,2,Setup Interpreter,Load Model,750.0,Ethernet,label_image_with_crow
+14,2,Setup Interpreter,Configure and Build Interpreter,11252.0,Ethernet,label_image_with_crow
+14,2,Setup Interpreter,Build profiler and delegation,69.0,Ethernet,label_image_with_crow
+14,2,Setup Interpreter,Global time,12157.0,Ethernet,label_image_with_crow
+14,2,Crow Webserver,Handling and saving input image,101573.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Read BMP,34549.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Resize image and copy it to input tensor,94358.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Total invokation time,1097808.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Average invokation time per loop,1097808.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Read labels from file,3222.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+14,2,Run Inference,Global time,1230726.0,Ethernet,label_image_with_crow
+14,2,Crow Webserver,Run inference,1231984.0,Ethernet,label_image_with_crow
+14,2,Real time,Global time,1441000.0,Ethernet,label_image_with_crow
+15,2,Setup Interpreter,Load Model,738.0,Ethernet,label_image_with_crow
+15,2,Setup Interpreter,Configure and Build Interpreter,11638.0,Ethernet,label_image_with_crow
+15,2,Setup Interpreter,Build profiler and delegation,74.0,Ethernet,label_image_with_crow
+15,2,Setup Interpreter,Global time,12536.0,Ethernet,label_image_with_crow
+15,2,Crow Webserver,Handling and saving input image,100867.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Read BMP,34399.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Resize image and copy it to input tensor,93982.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Total invokation time,1077168.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Average invokation time per loop,1077168.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Read labels from file,3151.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Print results,85.0,Ethernet,label_image_with_crow
+15,2,Run Inference,Global time,1209491.0,Ethernet,label_image_with_crow
+15,2,Crow Webserver,Run inference,1210930.0,Ethernet,label_image_with_crow
+15,2,Real time,Global time,1413000.0,Ethernet,label_image_with_crow
+16,2,Setup Interpreter,Load Model,866.0,Ethernet,label_image_with_crow
+16,2,Setup Interpreter,Configure and Build Interpreter,11181.0,Ethernet,label_image_with_crow
+16,2,Setup Interpreter,Build profiler and delegation,74.0,Ethernet,label_image_with_crow
+16,2,Setup Interpreter,Global time,12206.0,Ethernet,label_image_with_crow
+16,2,Crow Webserver,Handling and saving input image,62283.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Read BMP,20289.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Resize image and copy it to input tensor,53976.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Total invokation time,956031.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Average invokation time per loop,956031.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Read labels from file,1835.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Print results,46.0,Ethernet,label_image_with_crow
+16,2,Run Inference,Global time,1032634.0,Ethernet,label_image_with_crow
+16,2,Crow Webserver,Run inference,1033347.0,Ethernet,label_image_with_crow
+16,2,Real time,Global time,1195000.0,Ethernet,label_image_with_crow
+17,2,Setup Interpreter,Load Model,378.0,Ethernet,label_image_with_crow
+17,2,Setup Interpreter,Configure and Build Interpreter,6944.0,Ethernet,label_image_with_crow
+17,2,Setup Interpreter,Build profiler and delegation,44.0,Ethernet,label_image_with_crow
+17,2,Setup Interpreter,Global time,7417.0,Ethernet,label_image_with_crow
+17,2,Crow Webserver,Handling and saving input image,101972.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Read BMP,34391.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Resize image and copy it to input tensor,94146.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Total invokation time,1023904.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Average invokation time per loop,1023904.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Read labels from file,3145.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+17,2,Run Inference,Global time,1156382.0,Ethernet,label_image_with_crow
+17,2,Crow Webserver,Run inference,1157752.0,Ethernet,label_image_with_crow
+17,2,Real time,Global time,1361000.0,Ethernet,label_image_with_crow
+18,2,Setup Interpreter,Load Model,368.0,Ethernet,label_image_with_crow
+18,2,Setup Interpreter,Configure and Build Interpreter,6846.0,Ethernet,label_image_with_crow
+18,2,Setup Interpreter,Build profiler and delegation,43.0,Ethernet,label_image_with_crow
+18,2,Setup Interpreter,Global time,7308.0,Ethernet,label_image_with_crow
+18,2,Crow Webserver,Handling and saving input image,101347.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Read BMP,34157.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Resize image and copy it to input tensor,94270.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Total invokation time,1094682.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Average invokation time per loop,1094682.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Read labels from file,3319.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+18,2,Run Inference,Global time,1227226.0,Ethernet,label_image_with_crow
+18,2,Crow Webserver,Run inference,1228541.0,Ethernet,label_image_with_crow
+18,2,Real time,Global time,1441000.0,Ethernet,label_image_with_crow
+19,2,Setup Interpreter,Load Model,706.0,Ethernet,label_image_with_crow
+19,2,Setup Interpreter,Configure and Build Interpreter,12009.0,Ethernet,label_image_with_crow
+19,2,Setup Interpreter,Build profiler and delegation,74.0,Ethernet,label_image_with_crow
+19,2,Setup Interpreter,Global time,12875.0,Ethernet,label_image_with_crow
+19,2,Crow Webserver,Handling and saving input image,102356.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Read BMP,34316.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Resize image and copy it to input tensor,94322.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Total invokation time,1053466.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Average invokation time per loop,1053466.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Read labels from file,3158.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+19,2,Run Inference,Global time,1186054.0,Ethernet,label_image_with_crow
+19,2,Crow Webserver,Run inference,1187607.0,Ethernet,label_image_with_crow
+19,2,Real time,Global time,1401000.0,Ethernet,label_image_with_crow
+0,3,Setup Interpreter,Load Model,618.0,Ethernet,label_image_with_crow
+0,3,Setup Interpreter,Configure and Build Interpreter,11810.0,Ethernet,label_image_with_crow
+0,3,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+0,3,Setup Interpreter,Global time,12586.0,Ethernet,label_image_with_crow
+0,3,Crow Webserver,Handling and saving input image,102305.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Read BMP,34665.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Resize image and copy it to input tensor,94899.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Total invokation time,849716.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Average invokation time per loop,849716.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Read labels from file,1815.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+0,3,Run Inference,Global time,981823.0,Ethernet,label_image_with_crow
+0,3,Crow Webserver,Run inference,982565.0,Ethernet,label_image_with_crow
+0,3,Real time,Global time,1195000.0,Ethernet,label_image_with_crow
+1,3,Setup Interpreter,Load Model,603.0,Ethernet,label_image_with_crow
+1,3,Setup Interpreter,Configure and Build Interpreter,11837.0,Ethernet,label_image_with_crow
+1,3,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+1,3,Setup Interpreter,Global time,12598.0,Ethernet,label_image_with_crow
+1,3,Crow Webserver,Handling and saving input image,102806.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Read BMP,34444.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Resize image and copy it to input tensor,94940.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Total invokation time,994735.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Average invokation time per loop,994735.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Rerieve results from output tensors,60.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Read labels from file,3253.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+1,3,Run Inference,Global time,1128182.0,Ethernet,label_image_with_crow
+1,3,Crow Webserver,Run inference,1129463.0,Ethernet,label_image_with_crow
+1,3,Real time,Global time,1331000.0,Ethernet,label_image_with_crow
+2,3,Setup Interpreter,Load Model,810.0,Ethernet,label_image_with_crow
+2,3,Setup Interpreter,Configure and Build Interpreter,11244.0,Ethernet,label_image_with_crow
+2,3,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+2,3,Setup Interpreter,Global time,12212.0,Ethernet,label_image_with_crow
+2,3,Crow Webserver,Handling and saving input image,61740.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Read BMP,20527.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Resize image and copy it to input tensor,54275.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Total invokation time,942585.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Average invokation time per loop,942585.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Read labels from file,3214.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+2,3,Run Inference,Global time,1021252.0,Ethernet,label_image_with_crow
+2,3,Crow Webserver,Run inference,1022565.0,Ethernet,label_image_with_crow
+2,3,Real time,Global time,1186000.0,Ethernet,label_image_with_crow
+3,3,Setup Interpreter,Load Model,739.0,Ethernet,label_image_with_crow
+3,3,Setup Interpreter,Configure and Build Interpreter,11642.0,Ethernet,label_image_with_crow
+3,3,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+3,3,Setup Interpreter,Global time,12538.0,Ethernet,label_image_with_crow
+3,3,Crow Webserver,Handling and saving input image,62018.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Read BMP,20316.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Resize image and copy it to input tensor,54498.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Total invokation time,864899.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Average invokation time per loop,864899.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Rerieve results from output tensors,32.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Read labels from file,1875.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+3,3,Run Inference,Global time,942093.0,Ethernet,label_image_with_crow
+3,3,Crow Webserver,Run inference,942834.0,Ethernet,label_image_with_crow
+3,3,Real time,Global time,1101000.0,Ethernet,label_image_with_crow
+4,3,Setup Interpreter,Load Model,814.0,Ethernet,label_image_with_crow
+4,3,Setup Interpreter,Configure and Build Interpreter,11872.0,Ethernet,label_image_with_crow
+4,3,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+4,3,Setup Interpreter,Global time,12845.0,Ethernet,label_image_with_crow
+4,3,Crow Webserver,Handling and saving input image,103091.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Read BMP,34546.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Resize image and copy it to input tensor,95342.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Total invokation time,994466.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Average invokation time per loop,994466.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Rerieve results from output tensors,56.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Read labels from file,3236.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Print results,79.0,Ethernet,label_image_with_crow
+4,3,Run Inference,Global time,1128393.0,Ethernet,label_image_with_crow
+4,3,Crow Webserver,Run inference,1129729.0,Ethernet,label_image_with_crow
+4,3,Real time,Global time,1336000.0,Ethernet,label_image_with_crow
+5,3,Setup Interpreter,Load Model,640.0,Ethernet,label_image_with_crow
+5,3,Setup Interpreter,Configure and Build Interpreter,11333.0,Ethernet,label_image_with_crow
+5,3,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+5,3,Setup Interpreter,Global time,12134.0,Ethernet,label_image_with_crow
+5,3,Crow Webserver,Handling and saving input image,62435.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Read BMP,20478.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Resize image and copy it to input tensor,53879.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Total invokation time,957967.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Average invokation time per loop,957967.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Read labels from file,3125.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+5,3,Run Inference,Global time,1036103.0,Ethernet,label_image_with_crow
+5,3,Crow Webserver,Run inference,1037503.0,Ethernet,label_image_with_crow
+5,3,Real time,Global time,1200000.0,Ethernet,label_image_with_crow
+6,3,Setup Interpreter,Load Model,825.0,Ethernet,label_image_with_crow
+6,3,Setup Interpreter,Configure and Build Interpreter,11192.0,Ethernet,label_image_with_crow
+6,3,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+6,3,Setup Interpreter,Global time,12174.0,Ethernet,label_image_with_crow
+6,3,Crow Webserver,Handling and saving input image,102022.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Read BMP,34264.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Resize image and copy it to input tensor,94903.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Total invokation time,987452.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Average invokation time per loop,987452.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Rerieve results from output tensors,57.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Read labels from file,3213.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+6,3,Run Inference,Global time,1120632.0,Ethernet,label_image_with_crow
+6,3,Crow Webserver,Run inference,1121963.0,Ethernet,label_image_with_crow
+6,3,Real time,Global time,1325000.0,Ethernet,label_image_with_crow
+7,3,Setup Interpreter,Load Model,577.0,Ethernet,label_image_with_crow
+7,3,Setup Interpreter,Configure and Build Interpreter,11544.0,Ethernet,label_image_with_crow
+7,3,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+7,3,Setup Interpreter,Global time,12281.0,Ethernet,label_image_with_crow
+7,3,Crow Webserver,Handling and saving input image,102356.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Read BMP,34744.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Resize image and copy it to input tensor,94379.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Total invokation time,992616.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Average invokation time per loop,992616.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Rerieve results from output tensors,57.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Read labels from file,3252.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+7,3,Run Inference,Global time,1125790.0,Ethernet,label_image_with_crow
+7,3,Crow Webserver,Run inference,1127087.0,Ethernet,label_image_with_crow
+7,3,Real time,Global time,1331000.0,Ethernet,label_image_with_crow
+8,3,Setup Interpreter,Load Model,872.0,Ethernet,label_image_with_crow
+8,3,Setup Interpreter,Configure and Build Interpreter,11526.0,Ethernet,label_image_with_crow
+8,3,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+8,3,Setup Interpreter,Global time,12557.0,Ethernet,label_image_with_crow
+8,3,Crow Webserver,Handling and saving input image,62803.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Read BMP,20291.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Resize image and copy it to input tensor,53861.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Total invokation time,1001792.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Average invokation time per loop,1001792.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Rerieve results from output tensors,57.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Read labels from file,3115.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Print results,191.0,Ethernet,label_image_with_crow
+8,3,Run Inference,Global time,1079813.0,Ethernet,label_image_with_crow
+8,3,Crow Webserver,Run inference,1081099.0,Ethernet,label_image_with_crow
+8,3,Real time,Global time,1243000.0,Ethernet,label_image_with_crow
+9,3,Setup Interpreter,Load Model,676.0,Ethernet,label_image_with_crow
+9,3,Setup Interpreter,Configure and Build Interpreter,11478.0,Ethernet,label_image_with_crow
+9,3,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+9,3,Setup Interpreter,Global time,12311.0,Ethernet,label_image_with_crow
+9,3,Crow Webserver,Handling and saving input image,101981.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Read BMP,34675.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Resize image and copy it to input tensor,94863.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Total invokation time,975967.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Average invokation time per loop,975967.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Rerieve results from output tensors,56.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Read labels from file,3225.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Print results,79.0,Ethernet,label_image_with_crow
+9,3,Run Inference,Global time,1109532.0,Ethernet,label_image_with_crow
+9,3,Crow Webserver,Run inference,1110795.0,Ethernet,label_image_with_crow
+9,3,Real time,Global time,1324000.0,Ethernet,label_image_with_crow
+10,3,Setup Interpreter,Load Model,573.0,Ethernet,label_image_with_crow
+10,3,Setup Interpreter,Configure and Build Interpreter,11507.0,Ethernet,label_image_with_crow
+10,3,Setup Interpreter,Build profiler and delegation,69.0,Ethernet,label_image_with_crow
+10,3,Setup Interpreter,Global time,12236.0,Ethernet,label_image_with_crow
+10,3,Crow Webserver,Handling and saving input image,62596.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Read BMP,20451.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Resize image and copy it to input tensor,54593.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Total invokation time,927454.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Average invokation time per loop,927454.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Read labels from file,3255.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Print results,83.0,Ethernet,label_image_with_crow
+10,3,Run Inference,Global time,1006410.0,Ethernet,label_image_with_crow
+10,3,Crow Webserver,Run inference,1007716.0,Ethernet,label_image_with_crow
+10,3,Real time,Global time,1170000.0,Ethernet,label_image_with_crow
+11,3,Setup Interpreter,Load Model,800.0,Ethernet,label_image_with_crow
+11,3,Setup Interpreter,Configure and Build Interpreter,12052.0,Ethernet,label_image_with_crow
+11,3,Setup Interpreter,Build profiler and delegation,68.0,Ethernet,label_image_with_crow
+11,3,Setup Interpreter,Global time,13006.0,Ethernet,label_image_with_crow
+11,3,Crow Webserver,Handling and saving input image,62264.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Read BMP,20105.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Resize image and copy it to input tensor,54056.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Total invokation time,962677.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Average invokation time per loop,962677.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Rerieve results from output tensors,57.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Read labels from file,3103.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+11,3,Run Inference,Global time,1040593.0,Ethernet,label_image_with_crow
+11,3,Crow Webserver,Run inference,1041873.0,Ethernet,label_image_with_crow
+11,3,Real time,Global time,1202000.0,Ethernet,label_image_with_crow
+12,3,Setup Interpreter,Load Model,756.0,Ethernet,label_image_with_crow
+12,3,Setup Interpreter,Configure and Build Interpreter,11326.0,Ethernet,label_image_with_crow
+12,3,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+12,3,Setup Interpreter,Global time,12241.0,Ethernet,label_image_with_crow
+12,3,Crow Webserver,Handling and saving input image,102213.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Read BMP,34714.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Resize image and copy it to input tensor,94861.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Total invokation time,971235.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Average invokation time per loop,971235.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Rerieve results from output tensors,59.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Read labels from file,3128.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Print results,84.0,Ethernet,label_image_with_crow
+12,3,Run Inference,Global time,1104749.0,Ethernet,label_image_with_crow
+12,3,Crow Webserver,Run inference,1106089.0,Ethernet,label_image_with_crow
+12,3,Real time,Global time,1317000.0,Ethernet,label_image_with_crow
+13,3,Setup Interpreter,Load Model,692.0,Ethernet,label_image_with_crow
+13,3,Setup Interpreter,Configure and Build Interpreter,11803.0,Ethernet,label_image_with_crow
+13,3,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+13,3,Setup Interpreter,Global time,12651.0,Ethernet,label_image_with_crow
+13,3,Crow Webserver,Handling and saving input image,102019.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Read BMP,34433.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Resize image and copy it to input tensor,94343.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Total invokation time,1003594.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Average invokation time per loop,1003594.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Rerieve results from output tensors,59.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Read labels from file,3208.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+13,3,Run Inference,Global time,1136437.0,Ethernet,label_image_with_crow
+13,3,Crow Webserver,Run inference,1137785.0,Ethernet,label_image_with_crow
+13,3,Real time,Global time,1351000.0,Ethernet,label_image_with_crow
+14,3,Setup Interpreter,Load Model,862.0,Ethernet,label_image_with_crow
+14,3,Setup Interpreter,Configure and Build Interpreter,11370.0,Ethernet,label_image_with_crow
+14,3,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+14,3,Setup Interpreter,Global time,12387.0,Ethernet,label_image_with_crow
+14,3,Crow Webserver,Handling and saving input image,102637.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Read BMP,34918.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Resize image and copy it to input tensor,94800.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Total invokation time,989242.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Average invokation time per loop,989242.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Read labels from file,3119.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Print results,85.0,Ethernet,label_image_with_crow
+14,3,Run Inference,Global time,1122892.0,Ethernet,label_image_with_crow
+14,3,Crow Webserver,Run inference,1124294.0,Ethernet,label_image_with_crow
+14,3,Real time,Global time,1329000.0,Ethernet,label_image_with_crow
+15,3,Setup Interpreter,Load Model,500.0,Ethernet,label_image_with_crow
+15,3,Setup Interpreter,Configure and Build Interpreter,7030.0,Ethernet,label_image_with_crow
+15,3,Setup Interpreter,Build profiler and delegation,45.0,Ethernet,label_image_with_crow
+15,3,Setup Interpreter,Global time,7625.0,Ethernet,label_image_with_crow
+15,3,Crow Webserver,Handling and saving input image,102222.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Read BMP,34857.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Resize image and copy it to input tensor,94771.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Total invokation time,999375.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Average invokation time per loop,999375.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Read labels from file,3135.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Print results,253.0,Ethernet,label_image_with_crow
+15,3,Run Inference,Global time,1133112.0,Ethernet,label_image_with_crow
+15,3,Crow Webserver,Run inference,1134452.0,Ethernet,label_image_with_crow
+15,3,Real time,Global time,1348000.0,Ethernet,label_image_with_crow
+16,3,Setup Interpreter,Load Model,689.0,Ethernet,label_image_with_crow
+16,3,Setup Interpreter,Configure and Build Interpreter,11529.0,Ethernet,label_image_with_crow
+16,3,Setup Interpreter,Build profiler and delegation,69.0,Ethernet,label_image_with_crow
+16,3,Setup Interpreter,Global time,12372.0,Ethernet,label_image_with_crow
+16,3,Crow Webserver,Handling and saving input image,62265.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Read BMP,20410.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Resize image and copy it to input tensor,54318.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Total invokation time,1026740.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Average invokation time per loop,1026740.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Read labels from file,3108.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Print results,78.0,Ethernet,label_image_with_crow
+16,3,Run Inference,Global time,1105223.0,Ethernet,label_image_with_crow
+16,3,Crow Webserver,Run inference,1106532.0,Ethernet,label_image_with_crow
+16,3,Real time,Global time,1265000.0,Ethernet,label_image_with_crow
+17,3,Setup Interpreter,Load Model,796.0,Ethernet,label_image_with_crow
+17,3,Setup Interpreter,Configure and Build Interpreter,11683.0,Ethernet,label_image_with_crow
+17,3,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+17,3,Setup Interpreter,Global time,12634.0,Ethernet,label_image_with_crow
+17,3,Crow Webserver,Handling and saving input image,101876.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Read BMP,34606.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Resize image and copy it to input tensor,94711.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Total invokation time,988419.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Average invokation time per loop,988419.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Read labels from file,3269.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+17,3,Run Inference,Global time,1121803.0,Ethernet,label_image_with_crow
+17,3,Crow Webserver,Run inference,1123059.0,Ethernet,label_image_with_crow
+17,3,Real time,Global time,1336000.0,Ethernet,label_image_with_crow
+18,3,Setup Interpreter,Load Model,600.0,Ethernet,label_image_with_crow
+18,3,Setup Interpreter,Configure and Build Interpreter,11289.0,Ethernet,label_image_with_crow
+18,3,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+18,3,Setup Interpreter,Global time,12049.0,Ethernet,label_image_with_crow
+18,3,Crow Webserver,Handling and saving input image,61932.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Read BMP,20342.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Resize image and copy it to input tensor,54018.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Total invokation time,855538.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Average invokation time per loop,855538.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Rerieve results from output tensors,31.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Read labels from file,1805.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+18,3,Run Inference,Global time,932200.0,Ethernet,label_image_with_crow
+18,3,Crow Webserver,Run inference,932950.0,Ethernet,label_image_with_crow
+18,3,Real time,Global time,1095000.0,Ethernet,label_image_with_crow
+19,3,Setup Interpreter,Load Model,868.0,Ethernet,label_image_with_crow
+19,3,Setup Interpreter,Configure and Build Interpreter,11114.0,Ethernet,label_image_with_crow
+19,3,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+19,3,Setup Interpreter,Global time,12140.0,Ethernet,label_image_with_crow
+19,3,Crow Webserver,Handling and saving input image,61171.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Read BMP,20562.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Resize image and copy it to input tensor,54037.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Total invokation time,957361.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Average invokation time per loop,957361.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Read labels from file,3135.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Print results,171.0,Ethernet,label_image_with_crow
+19,3,Run Inference,Global time,1035827.0,Ethernet,label_image_with_crow
+19,3,Crow Webserver,Run inference,1037168.0,Ethernet,label_image_with_crow
+19,3,Real time,Global time,1200000.0,Ethernet,label_image_with_crow
+0,4,Setup Interpreter,Load Model,672.0,Ethernet,label_image_with_crow
+0,4,Setup Interpreter,Configure and Build Interpreter,11538.0,Ethernet,label_image_with_crow
+0,4,Setup Interpreter,Build profiler and delegation,75.0,Ethernet,label_image_with_crow
+0,4,Setup Interpreter,Global time,12370.0,Ethernet,label_image_with_crow
+0,4,Crow Webserver,Handling and saving input image,102039.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Read BMP,34456.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Resize image and copy it to input tensor,94476.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Total invokation time,884257.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Average invokation time per loop,884257.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Read labels from file,1822.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+0,4,Run Inference,Global time,1015672.0,Ethernet,label_image_with_crow
+0,4,Crow Webserver,Run inference,1016405.0,Ethernet,label_image_with_crow
+0,4,Real time,Global time,1220000.0,Ethernet,label_image_with_crow
+1,4,Setup Interpreter,Load Model,687.0,Ethernet,label_image_with_crow
+1,4,Setup Interpreter,Configure and Build Interpreter,11876.0,Ethernet,label_image_with_crow
+1,4,Setup Interpreter,Build profiler and delegation,79.0,Ethernet,label_image_with_crow
+1,4,Setup Interpreter,Global time,12733.0,Ethernet,label_image_with_crow
+1,4,Crow Webserver,Handling and saving input image,102373.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Read BMP,34710.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Resize image and copy it to input tensor,95279.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Total invokation time,841479.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Average invokation time per loop,841479.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Read labels from file,1840.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Print results,44.0,Ethernet,label_image_with_crow
+1,4,Run Inference,Global time,973971.0,Ethernet,label_image_with_crow
+1,4,Crow Webserver,Run inference,974719.0,Ethernet,label_image_with_crow
+1,4,Real time,Global time,1188000.0,Ethernet,label_image_with_crow
+2,4,Setup Interpreter,Load Model,500.0,Ethernet,label_image_with_crow
+2,4,Setup Interpreter,Configure and Build Interpreter,7313.0,Ethernet,label_image_with_crow
+2,4,Setup Interpreter,Build profiler and delegation,42.0,Ethernet,label_image_with_crow
+2,4,Setup Interpreter,Global time,7907.0,Ethernet,label_image_with_crow
+2,4,Crow Webserver,Handling and saving input image,102486.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Read BMP,34238.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Resize image and copy it to input tensor,94341.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Total invokation time,935990.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Average invokation time per loop,935990.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Read labels from file,3220.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Print results,79.0,Ethernet,label_image_with_crow
+2,4,Run Inference,Global time,1068584.0,Ethernet,label_image_with_crow
+2,4,Crow Webserver,Run inference,1069914.0,Ethernet,label_image_with_crow
+2,4,Real time,Global time,1283000.0,Ethernet,label_image_with_crow
+3,4,Setup Interpreter,Load Model,372.0,Ethernet,label_image_with_crow
+3,4,Setup Interpreter,Configure and Build Interpreter,7059.0,Ethernet,label_image_with_crow
+3,4,Setup Interpreter,Build profiler and delegation,42.0,Ethernet,label_image_with_crow
+3,4,Setup Interpreter,Global time,7525.0,Ethernet,label_image_with_crow
+3,4,Crow Webserver,Handling and saving input image,102148.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Read BMP,34688.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Resize image and copy it to input tensor,94776.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Total invokation time,907182.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Average invokation time per loop,907182.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Read labels from file,3117.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Print results,83.0,Ethernet,label_image_with_crow
+3,4,Run Inference,Global time,1040557.0,Ethernet,label_image_with_crow
+3,4,Crow Webserver,Run inference,1041894.0,Ethernet,label_image_with_crow
+3,4,Real time,Global time,1246000.0,Ethernet,label_image_with_crow
+4,4,Setup Interpreter,Load Model,818.0,Ethernet,label_image_with_crow
+4,4,Setup Interpreter,Configure and Build Interpreter,11588.0,Ethernet,label_image_with_crow
+4,4,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+4,4,Setup Interpreter,Global time,12561.0,Ethernet,label_image_with_crow
+4,4,Crow Webserver,Handling and saving input image,102287.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Read BMP,34569.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Resize image and copy it to input tensor,94990.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Total invokation time,944998.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Average invokation time per loop,944998.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Read labels from file,3117.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+4,4,Run Inference,Global time,1078471.0,Ethernet,label_image_with_crow
+4,4,Crow Webserver,Run inference,1079752.0,Ethernet,label_image_with_crow
+4,4,Real time,Global time,1287000.0,Ethernet,label_image_with_crow
+5,4,Setup Interpreter,Load Model,681.0,Ethernet,label_image_with_crow
+5,4,Setup Interpreter,Configure and Build Interpreter,12032.0,Ethernet,label_image_with_crow
+5,4,Setup Interpreter,Build profiler and delegation,77.0,Ethernet,label_image_with_crow
+5,4,Setup Interpreter,Global time,12876.0,Ethernet,label_image_with_crow
+5,4,Crow Webserver,Handling and saving input image,102236.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Read BMP,34652.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Resize image and copy it to input tensor,94854.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Total invokation time,942029.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Average invokation time per loop,942029.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Read labels from file,3117.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Print results,79.0,Ethernet,label_image_with_crow
+5,4,Run Inference,Global time,1075443.0,Ethernet,label_image_with_crow
+5,4,Crow Webserver,Run inference,1076887.0,Ethernet,label_image_with_crow
+5,4,Real time,Global time,1278000.0,Ethernet,label_image_with_crow
+6,4,Setup Interpreter,Load Model,668.0,Ethernet,label_image_with_crow
+6,4,Setup Interpreter,Configure and Build Interpreter,11286.0,Ethernet,label_image_with_crow
+6,4,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+6,4,Setup Interpreter,Global time,12111.0,Ethernet,label_image_with_crow
+6,4,Crow Webserver,Handling and saving input image,102168.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Read BMP,34629.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Resize image and copy it to input tensor,94194.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Total invokation time,934226.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Average invokation time per loop,934226.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Read labels from file,3122.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Print results,80.0,Ethernet,label_image_with_crow
+6,4,Run Inference,Global time,1067075.0,Ethernet,label_image_with_crow
+6,4,Crow Webserver,Run inference,1068394.0,Ethernet,label_image_with_crow
+6,4,Real time,Global time,1281000.0,Ethernet,label_image_with_crow
+7,4,Setup Interpreter,Load Model,577.0,Ethernet,label_image_with_crow
+7,4,Setup Interpreter,Configure and Build Interpreter,11770.0,Ethernet,label_image_with_crow
+7,4,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+7,4,Setup Interpreter,Global time,12504.0,Ethernet,label_image_with_crow
+7,4,Crow Webserver,Handling and saving input image,102038.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Read BMP,34413.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Resize image and copy it to input tensor,94707.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Total invokation time,929236.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Average invokation time per loop,929236.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Read labels from file,3147.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+7,4,Run Inference,Global time,1062305.0,Ethernet,label_image_with_crow
+7,4,Crow Webserver,Run inference,1063645.0,Ethernet,label_image_with_crow
+7,4,Real time,Global time,1264000.0,Ethernet,label_image_with_crow
+8,4,Setup Interpreter,Load Model,690.0,Ethernet,label_image_with_crow
+8,4,Setup Interpreter,Configure and Build Interpreter,11626.0,Ethernet,label_image_with_crow
+8,4,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+8,4,Setup Interpreter,Global time,12473.0,Ethernet,label_image_with_crow
+8,4,Crow Webserver,Handling and saving input image,62400.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Read BMP,20511.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Resize image and copy it to input tensor,54074.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Total invokation time,778735.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Average invokation time per loop,778735.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Read labels from file,1824.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Print results,45.0,Ethernet,label_image_with_crow
+8,4,Run Inference,Global time,855649.0,Ethernet,label_image_with_crow
+8,4,Crow Webserver,Run inference,856399.0,Ethernet,label_image_with_crow
+8,4,Real time,Global time,1020000.0,Ethernet,label_image_with_crow
+9,4,Setup Interpreter,Load Model,571.0,Ethernet,label_image_with_crow
+9,4,Setup Interpreter,Configure and Build Interpreter,11136.0,Ethernet,label_image_with_crow
+9,4,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+9,4,Setup Interpreter,Global time,11864.0,Ethernet,label_image_with_crow
+9,4,Crow Webserver,Handling and saving input image,103795.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Read BMP,34990.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Resize image and copy it to input tensor,94948.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Total invokation time,920444.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Average invokation time per loop,920444.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Read labels from file,3137.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Print results,81.0,Ethernet,label_image_with_crow
+9,4,Run Inference,Global time,1054409.0,Ethernet,label_image_with_crow
+9,4,Crow Webserver,Run inference,1055727.0,Ethernet,label_image_with_crow
+9,4,Real time,Global time,1262000.0,Ethernet,label_image_with_crow
+10,4,Setup Interpreter,Load Model,699.0,Ethernet,label_image_with_crow
+10,4,Setup Interpreter,Configure and Build Interpreter,11459.0,Ethernet,label_image_with_crow
+10,4,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+10,4,Setup Interpreter,Global time,12314.0,Ethernet,label_image_with_crow
+10,4,Crow Webserver,Handling and saving input image,62374.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Read BMP,20481.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Resize image and copy it to input tensor,53858.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Total invokation time,859672.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Average invokation time per loop,859672.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Rerieve results from output tensors,56.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Read labels from file,3240.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Print results,79.0,Ethernet,label_image_with_crow
+10,4,Run Inference,Global time,937898.0,Ethernet,label_image_with_crow
+10,4,Crow Webserver,Run inference,939199.0,Ethernet,label_image_with_crow
+10,4,Real time,Global time,1101000.0,Ethernet,label_image_with_crow
+11,4,Setup Interpreter,Load Model,864.0,Ethernet,label_image_with_crow
+11,4,Setup Interpreter,Configure and Build Interpreter,11532.0,Ethernet,label_image_with_crow
+11,4,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+11,4,Setup Interpreter,Global time,12554.0,Ethernet,label_image_with_crow
+11,4,Crow Webserver,Handling and saving input image,62230.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Read BMP,20483.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Resize image and copy it to input tensor,54189.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Total invokation time,895578.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Average invokation time per loop,895578.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Read labels from file,3237.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Print results,84.0,Ethernet,label_image_with_crow
+11,4,Run Inference,Global time,974139.0,Ethernet,label_image_with_crow
+11,4,Crow Webserver,Run inference,975451.0,Ethernet,label_image_with_crow
+11,4,Real time,Global time,1137000.0,Ethernet,label_image_with_crow
+12,4,Setup Interpreter,Load Model,633.0,Ethernet,label_image_with_crow
+12,4,Setup Interpreter,Configure and Build Interpreter,11230.0,Ethernet,label_image_with_crow
+12,4,Setup Interpreter,Build profiler and delegation,68.0,Ethernet,label_image_with_crow
+12,4,Setup Interpreter,Global time,12016.0,Ethernet,label_image_with_crow
+12,4,Crow Webserver,Handling and saving input image,102412.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Read BMP,34956.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Resize image and copy it to input tensor,95558.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Total invokation time,964694.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Average invokation time per loop,964694.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Rerieve results from output tensors,56.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Read labels from file,3134.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+12,4,Run Inference,Global time,1099238.0,Ethernet,label_image_with_crow
+12,4,Crow Webserver,Run inference,1100555.0,Ethernet,label_image_with_crow
+12,4,Real time,Global time,1306000.0,Ethernet,label_image_with_crow
+13,4,Setup Interpreter,Load Model,631.0,Ethernet,label_image_with_crow
+13,4,Setup Interpreter,Configure and Build Interpreter,6902.0,Ethernet,label_image_with_crow
+13,4,Setup Interpreter,Build profiler and delegation,41.0,Ethernet,label_image_with_crow
+13,4,Setup Interpreter,Global time,7624.0,Ethernet,label_image_with_crow
+13,4,Crow Webserver,Handling and saving input image,102833.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Read BMP,35027.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Resize image and copy it to input tensor,94496.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Total invokation time,921860.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Average invokation time per loop,921860.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Rerieve results from output tensors,57.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Read labels from file,3216.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+13,4,Run Inference,Global time,1055400.0,Ethernet,label_image_with_crow
+13,4,Crow Webserver,Run inference,1056741.0,Ethernet,label_image_with_crow
+13,4,Real time,Global time,1259000.0,Ethernet,label_image_with_crow
+14,4,Setup Interpreter,Load Model,592.0,Ethernet,label_image_with_crow
+14,4,Setup Interpreter,Configure and Build Interpreter,11425.0,Ethernet,label_image_with_crow
+14,4,Setup Interpreter,Build profiler and delegation,72.0,Ethernet,label_image_with_crow
+14,4,Setup Interpreter,Global time,12174.0,Ethernet,label_image_with_crow
+14,4,Crow Webserver,Handling and saving input image,62504.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Read BMP,20338.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Resize image and copy it to input tensor,54188.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Total invokation time,914280.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Average invokation time per loop,914280.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Rerieve results from output tensors,57.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Read labels from file,3126.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Print results,85.0,Ethernet,label_image_with_crow
+14,4,Run Inference,Global time,992580.0,Ethernet,label_image_with_crow
+14,4,Crow Webserver,Run inference,993979.0,Ethernet,label_image_with_crow
+14,4,Real time,Global time,1156000.0,Ethernet,label_image_with_crow
+15,4,Setup Interpreter,Load Model,799.0,Ethernet,label_image_with_crow
+15,4,Setup Interpreter,Configure and Build Interpreter,11821.0,Ethernet,label_image_with_crow
+15,4,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+15,4,Setup Interpreter,Global time,12779.0,Ethernet,label_image_with_crow
+15,4,Crow Webserver,Handling and saving input image,62026.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Read BMP,20429.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Resize image and copy it to input tensor,54357.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Total invokation time,877423.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Average invokation time per loop,877423.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Rerieve results from output tensors,52.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Read labels from file,3252.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+15,4,Run Inference,Global time,956105.0,Ethernet,label_image_with_crow
+15,4,Crow Webserver,Run inference,957435.0,Ethernet,label_image_with_crow
+15,4,Real time,Global time,1120000.0,Ethernet,label_image_with_crow
+16,4,Setup Interpreter,Load Model,743.0,Ethernet,label_image_with_crow
+16,4,Setup Interpreter,Configure and Build Interpreter,11230.0,Ethernet,label_image_with_crow
+16,4,Setup Interpreter,Build profiler and delegation,74.0,Ethernet,label_image_with_crow
+16,4,Setup Interpreter,Global time,12132.0,Ethernet,label_image_with_crow
+16,4,Crow Webserver,Handling and saving input image,102506.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Read BMP,34621.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Resize image and copy it to input tensor,94779.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Total invokation time,939161.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Average invokation time per loop,939161.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Read labels from file,3138.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+16,4,Run Inference,Global time,1072498.0,Ethernet,label_image_with_crow
+16,4,Crow Webserver,Run inference,1073763.0,Ethernet,label_image_with_crow
+16,4,Real time,Global time,1279000.0,Ethernet,label_image_with_crow
+17,4,Setup Interpreter,Load Model,842.0,Ethernet,label_image_with_crow
+17,4,Setup Interpreter,Configure and Build Interpreter,11333.0,Ethernet,label_image_with_crow
+17,4,Setup Interpreter,Build profiler and delegation,70.0,Ethernet,label_image_with_crow
+17,4,Setup Interpreter,Global time,12331.0,Ethernet,label_image_with_crow
+17,4,Crow Webserver,Handling and saving input image,103438.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Read BMP,35036.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Resize image and copy it to input tensor,95608.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Warm-up interpreter,2.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Total invokation time,950989.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Average invokation time per loop,950989.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Read labels from file,3134.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Print results,83.0,Ethernet,label_image_with_crow
+17,4,Run Inference,Global time,1085571.0,Ethernet,label_image_with_crow
+17,4,Crow Webserver,Run inference,1086888.0,Ethernet,label_image_with_crow
+17,4,Real time,Global time,1301000.0,Ethernet,label_image_with_crow
+18,4,Setup Interpreter,Load Model,595.0,Ethernet,label_image_with_crow
+18,4,Setup Interpreter,Configure and Build Interpreter,11389.0,Ethernet,label_image_with_crow
+18,4,Setup Interpreter,Build profiler and delegation,73.0,Ethernet,label_image_with_crow
+18,4,Setup Interpreter,Global time,12143.0,Ethernet,label_image_with_crow
+18,4,Crow Webserver,Handling and saving input image,102177.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Read BMP,34656.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Resize image and copy it to input tensor,94796.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Total invokation time,940217.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Average invokation time per loop,940217.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Rerieve results from output tensors,58.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Read labels from file,3239.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Print results,87.0,Ethernet,label_image_with_crow
+18,4,Run Inference,Global time,1073715.0,Ethernet,label_image_with_crow
+18,4,Crow Webserver,Run inference,1075067.0,Ethernet,label_image_with_crow
+18,4,Real time,Global time,1277000.0,Ethernet,label_image_with_crow
+19,4,Setup Interpreter,Load Model,593.0,Ethernet,label_image_with_crow
+19,4,Setup Interpreter,Configure and Build Interpreter,11299.0,Ethernet,label_image_with_crow
+19,4,Setup Interpreter,Build profiler and delegation,71.0,Ethernet,label_image_with_crow
+19,4,Setup Interpreter,Global time,12051.0,Ethernet,label_image_with_crow
+19,4,Crow Webserver,Handling and saving input image,102921.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Read BMP,34813.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Resize image and copy it to input tensor,95168.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Total invokation time,942923.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Average invokation time per loop,942923.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Rerieve results from output tensors,53.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Read labels from file,3145.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Print results,82.0,Ethernet,label_image_with_crow
+19,4,Run Inference,Global time,1076852.0,Ethernet,label_image_with_crow
+19,4,Crow Webserver,Run inference,1078215.0,Ethernet,label_image_with_crow
+19,4,Real time,Global time,1281000.0,Ethernet,label_image_with_crow
