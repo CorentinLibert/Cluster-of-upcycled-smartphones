@@ -1,6 +1,6 @@
 # MEDIUM=Ethernet
-# SENDER=pi@192.168.88.101
-# SENDER_TYPE=raspberry
+# SENDER=pptc@192.168.88.3
+# SENDER_TYPE=fairphone
 # RECEIVER=pptc@192.168.88.11
 # RECEIVER_TYPE=fairphone
 # ITERATIONS=10
