@@ -615,6 +615,8 @@ crow::response process_image(CrowSettings *crow_settings, Settings *tflite_setti
   res_and_exec_time->results = results;
   res_and_exec_time->execution_time += execution_time_results;
 
+  remove(image.c_str());
+
   return crow::response(crow::status::OK);
 }
 
@@ -639,7 +641,8 @@ void display_usage() {
         << "Usage: label_image_with_crow <flags>\n"
         << "Flags:\n"
         << "\t--configfile, -c: the path to the json config file\n"
-        << "\t--bindaddr, -b: the binding address (overwrite config file)\n"
+        << "\t--bindaddr, -b: the binding address (overwrite config file value)\n"
+        << "\t--inferthreads, -t: the number of threads for the inference (overwrite config file value)\n"
         << "\t--help, -h: display this usage message\n";
 }
 
@@ -683,18 +686,20 @@ void parse_configfile_to_settings(const std::string& filename, CrowSettings *cro
 void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_settings, Settings *tflite_settings) {
     std::string configfile = "config.json";
     std::string bind_address = "";
+    int inference_threads = 0;
     int c;
     while (true) {
         static struct option long_options[] = {
             {"configfile", required_argument, nullptr, 'c'},
             {"bindaddr", required_argument, nullptr, 'b'},
+            {"inferthreads", required_argument, nullptr, 't'},
             {"help", no_argument, nullptr, 'h'},
             {nullptr, 0, nullptr, 0}};
         
             /* getopt_long stores the option index here. */
         int option_index = 0;
 
-        c = getopt_long(argc, argv, "b:c:h",
+        c = getopt_long(argc, argv, "b:c:t:h",
                         long_options, &option_index);
 
         /* Detect the end of the options. */
@@ -706,6 +711,9 @@ void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_sett
                 break;
             case 'c':
                 configfile = optarg;
+                break;
+            case 't':
+                inference_threads = strtol(optarg, nullptr, 10);
                 break;
             case 'h':
             case '?':
@@ -720,6 +728,9 @@ void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_sett
     parse_configfile_to_settings(configfile, crow_settings, tflite_settings);
     if (bind_address != "") {
       crow_settings->bind_address = bind_address;
+    }
+    if (inference_threads > 0) {
+      tflite_settings->number_of_threads = inference_threads;
     }
 }
 
