@@ -642,6 +642,7 @@ void display_usage() {
         << "Flags:\n"
         << "\t--configfile, -c: the path to the json config file\n"
         << "\t--bindaddr, -b: the binding address (overwrite config file value)\n"
+        << "\t--serverthreads, -s: the number of threads for the server, at least 2 (overwrite config file value)\n"
         << "\t--inferthreads, -t: the number of threads for the inference (overwrite config file value)\n"
         << "\t--help, -h: display this usage message\n";
 }
@@ -686,12 +687,14 @@ void parse_configfile_to_settings(const std::string& filename, CrowSettings *cro
 void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_settings, Settings *tflite_settings) {
     std::string configfile = "config.json";
     std::string bind_address = "";
+    int server_threads = 0;
     int inference_threads = 0;
     int c;
     while (true) {
         static struct option long_options[] = {
             {"configfile", required_argument, nullptr, 'c'},
             {"bindaddr", required_argument, nullptr, 'b'},
+            {"serverthreads", required_argument, nullptr, 's'},
             {"inferthreads", required_argument, nullptr, 't'},
             {"help", no_argument, nullptr, 'h'},
             {nullptr, 0, nullptr, 0}};
@@ -699,7 +702,7 @@ void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_sett
             /* getopt_long stores the option index here. */
         int option_index = 0;
 
-        c = getopt_long(argc, argv, "b:c:t:h",
+        c = getopt_long(argc, argv, "b:c:s:t:h",
                         long_options, &option_index);
 
         /* Detect the end of the options. */
@@ -711,6 +714,9 @@ void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_sett
                 break;
             case 'c':
                 configfile = optarg;
+                break;
+            case 's':
+                server_threads = strtol(optarg, nullptr, 10);
                 break;
             case 't':
                 inference_threads = strtol(optarg, nullptr, 10);
@@ -731,6 +737,9 @@ void parsing_arguments_and_config(int argc, char **argv, CrowSettings *crow_sett
     }
     if (inference_threads > 0) {
       tflite_settings->number_of_threads = inference_threads;
+    }
+    if (server_threads > 0) {
+      crow_settings->threads = server_threads;
     }
 }
 
