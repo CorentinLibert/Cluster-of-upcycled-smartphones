@@ -1,0 +1,118 @@
+# SSH_INFO=['pi@192.168.88.101']
+# ITERATIONS=10
+# NUMBER_NODES=7
+# NODE_TYPE=['Server', 'Agent', 'Agent', 'Agent', 'Agent', 'Agent', 'Agent']
+# MEDIUM=Ethernet
+# WRK_THREADS=8
+# WRK_CONNECTION=60
+# WRK_DURATION=20s
+
+# ITERATION 0
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.18s   236.40ms   1.97s    76.99%
+    Req/Sec     4.45      4.66    40.00     76.44%
+  372 requests in 20.10s, 426.26KB read
+  Socket errors: connect 0, read 0, write 0, timeout 259
+Requests/sec:     18.51
+Transfer/sec:     21.21KB
+
+# ITERATION 1
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.31s   355.83ms   1.98s    46.73%
+    Req/Sec     4.71      4.83    30.00     74.76%
+  372 requests in 20.04s, 426.22KB read
+  Socket errors: connect 0, read 0, write 0, timeout 265
+Requests/sec:     18.56
+Transfer/sec:     21.27KB
+
+# ITERATION 2
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s   269.82ms   1.99s    60.78%
+    Req/Sec     4.33      4.33    20.00     68.14%
+  377 requests in 20.10s, 432.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 326
+Requests/sec:     18.76
+Transfer/sec:     21.52KB
+
+# ITERATION 3
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.62s   188.56ms   1.97s    77.08%
+    Req/Sec     4.35      4.37    30.00     77.48%
+  375 requests in 20.04s, 430.25KB read
+  Socket errors: connect 0, read 0, write 0, timeout 279
+Requests/sec:     18.71
+Transfer/sec:     21.47KB
+
+# ITERATION 4
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.61s   174.57ms   1.96s    75.27%
+    Req/Sec     4.57      4.51    20.00     63.66%
+  379 requests in 20.04s, 435.22KB read
+  Socket errors: connect 0, read 0, write 0, timeout 286
+Requests/sec:     18.91
+Transfer/sec:     21.71KB
+
+# ITERATION 5
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.30s   368.86ms   1.94s    50.34%
+    Req/Sec     4.61      5.04    30.00     75.47%
+  370 requests in 20.05s, 424.43KB read
+  Socket errors: connect 0, read 0, write 0, timeout 223
+Requests/sec:     18.45
+Transfer/sec:     21.16KB
+
+# ITERATION 6
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.63s   202.49ms   2.00s    75.00%
+    Req/Sec     4.30      3.98    20.00     65.99%
+  378 requests in 20.10s, 433.69KB read
+  Socket errors: connect 0, read 0, write 0, timeout 270
+Requests/sec:     18.81
+Transfer/sec:     21.58KB
+
+# ITERATION 7
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.28s   393.86ms   1.98s    64.58%
+    Req/Sec     4.27      4.26    30.00     69.28%
+  377 requests in 20.10s, 433.65KB read
+  Socket errors: connect 0, read 0, write 0, timeout 281
+Requests/sec:     18.76
+Transfer/sec:     21.58KB
+
+# ITERATION 8
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.56s   224.26ms   1.96s    68.75%
+    Req/Sec     4.25      4.46    30.00     78.57%
+  375 requests in 20.09s, 430.49KB read
+  Socket errors: connect 0, read 0, write 0, timeout 327
+Requests/sec:     18.66
+Transfer/sec:     21.42KB
+
+# ITERATION 9
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 60 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.42s   332.02ms   1.94s    66.67%
+    Req/Sec     4.36      4.42    30.00     76.28%
+  374 requests in 20.09s, 428.52KB read
+  Socket errors: connect 0, read 0, write 0, timeout 284
+Requests/sec:     18.61
+Transfer/sec:     21.33KB
