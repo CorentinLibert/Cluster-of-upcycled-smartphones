@@ -12,7 +12,7 @@
         "verbose": false,
         "image": "",
         "labels": "./labels.txt",
-        "tflite_model": "./mobilenet_v1_1.0_224_quant.tflite",
+        "tflite_model": "./mobilenet_v1_1.0_224.tflite",
         "threads": 1,
         "warmup_runs": 0,
         "gl_backend": false,

@@ -1,0 +1,317 @@
+# MEDIUM=WiFi_5.0GHz_20-40-80MHz
+# SENDER=pi@192.168.88.101
+# SENDER_TYPE=raspberry
+# RECEIVER=pptc@192.168.88.11
+# RECEIVER_TYPE=fairphone
+# ITERATIONS=10
+# REVERSE=0
+# COUNT=15
+# OMIT=5
+# WORKLOAD=1
+# NUMBER_DEVICES=14
+# PARALLEL_CONNECTIONS=7
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 33280
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 33294
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec  1.25 MBytes  10.5 Mbits/sec                  
+[  6]   1.00-2.00   sec   896 KBytes  7.34 Mbits/sec                  
+[  6]   2.00-3.00   sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]   3.00-4.00   sec   896 KBytes  7.34 Mbits/sec                  
+[  6]   4.00-5.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   5.00-6.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   6.00-7.00   sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]   7.00-8.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   8.00-9.00   sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]   9.00-10.00  sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]  10.00-11.00  sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]  11.00-12.00  sec   896 KBytes  7.34 Mbits/sec                  
+[  6]  12.00-13.00  sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]  13.00-14.00  sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]  14.00-15.00  sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]  14.00-15.00  sec  1.12 MBytes  9.44 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-15.00  sec  14.6 MBytes  8.18 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 50094
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 50096
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   2.00-3.00   sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]   3.00-4.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   4.00-5.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   5.00-6.00   sec   896 KBytes  7.34 Mbits/sec                  
+[  6]   6.00-7.00   sec  1.38 MBytes  11.5 Mbits/sec                  
+[  6]   7.00-8.00   sec   896 KBytes  7.33 Mbits/sec                  
+[  6]   8.00-9.00   sec  1.12 MBytes  9.45 Mbits/sec                  
+[  6]   9.00-10.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  10.00-11.00  sec   896 KBytes  7.34 Mbits/sec                  
+[  6]  11.00-12.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  12.00-13.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  13.00-14.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  14.00-15.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  15.00-16.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  15.00-16.00  sec   512 KBytes  4.19 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-16.00  sec  11.9 MBytes  6.23 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 33930
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 33938
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   2.00-3.00   sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]   3.00-4.00   sec  1.12 MBytes  9.44 Mbits/sec                  
+[  6]   4.00-5.00   sec  1.25 MBytes  10.5 Mbits/sec                  
+[  6]   5.00-6.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   6.00-7.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec                  
+[  6]   8.00-9.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   9.00-10.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  10.00-11.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  11.00-12.00  sec   896 KBytes  7.34 Mbits/sec                  
+[  6]  12.00-13.00  sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]  13.00-14.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  14.00-15.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  14.00-15.00  sec   640 KBytes  5.24 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-15.00  sec  9.88 MBytes  5.52 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 47820
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 47828
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   384 KBytes  3.14 Mbits/sec                  
+[  6]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   3.00-4.00   sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]   4.00-5.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   5.00-6.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   6.00-7.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   7.00-8.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   8.00-9.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   9.00-10.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  10.00-11.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  11.00-12.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  12.00-13.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  13.00-14.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  14.00-15.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  14.00-15.00  sec   768 KBytes  6.29 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-15.00  sec  10.6 MBytes  5.94 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 37062
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 37076
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   384 KBytes  3.14 Mbits/sec                  
+[  6]   1.00-2.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   4.00-5.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   5.00-6.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   6.00-7.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   8.00-9.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   9.00-10.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  10.00-11.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  11.00-12.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  12.00-13.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  13.00-14.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  14.00-15.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  14.00-15.00  sec   640 KBytes  5.24 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-15.00  sec  7.88 MBytes  4.40 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 54418
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 54430
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   1.00-2.00   sec   896 KBytes  7.34 Mbits/sec                  
+[  6]   2.00-3.00   sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   4.00-5.00   sec   896 KBytes  7.34 Mbits/sec                  
+[  6]   5.00-6.00   sec  1.00 MBytes  8.39 Mbits/sec                  
+[  6]   6.00-7.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   7.00-8.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   8.00-9.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   9.00-10.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  10.00-11.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  11.00-12.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  12.00-13.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  13.00-14.00  sec   896 KBytes  7.34 Mbits/sec                  
+[  6]  14.00-15.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  15.00-16.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  15.00-16.00  sec   512 KBytes  4.19 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-16.00  sec  11.2 MBytes  5.90 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 51268
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 51276
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   2.00-3.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   4.00-5.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   5.00-6.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   6.00-7.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   7.00-8.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   8.00-9.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   9.00-10.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  10.00-11.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  11.00-12.00  sec   768 KBytes  6.29 Mbits/sec                  
+[  6]  12.00-13.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  13.00-14.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  14.00-15.00  sec   512 KBytes  4.19 Mbits/sec                  
+[  6]  15.00-16.00  sec   640 KBytes  5.24 Mbits/sec                  
+[  6]  15.00-16.00  sec   640 KBytes  5.24 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-16.00  sec  8.25 MBytes  4.33 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 42452
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 42468
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   3.00-4.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   4.00-5.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   5.00-6.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   6.00-7.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   7.00-8.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   8.00-9.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   9.00-10.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  10.00-11.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  11.00-12.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  12.00-13.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  13.00-14.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  14.00-15.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  14.00-15.00  sec   128 KBytes  1.05 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-15.00  sec  4.88 MBytes  2.73 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 54552
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 54560
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   384 KBytes  3.14 Mbits/sec                  
+[  6]   1.00-2.00   sec   768 KBytes  6.29 Mbits/sec                  
+[  6]   2.00-3.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   3.00-4.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  6]   4.00-5.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   6.00-7.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec                  
+[  6]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  6]  10.00-11.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  11.00-12.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  12.00-13.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  13.00-14.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  14.00-15.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  15.00-16.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  15.00-16.00  sec   384 KBytes  3.15 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-16.00  sec  3.88 MBytes  2.03 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #1)
+-----------------------------------------------------------
+Accepted connection from 192.168.88.101, port 43422
+[  6] local 192.168.88.11 port 5201 connected to 192.168.88.101 port 43426
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-1.00   sec   384 KBytes  3.14 Mbits/sec                  
+[  6]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec                  
+[  6]   3.00-4.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   4.00-5.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   5.00-6.00   sec   384 KBytes  3.15 Mbits/sec                  
+[  6]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec                  
+[  6]   8.00-9.00   sec   256 KBytes  2.10 Mbits/sec                  
+[  6]   9.00-10.00  sec   384 KBytes  3.15 Mbits/sec                  
+[  6]  10.00-11.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  11.00-12.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  12.00-13.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  13.00-14.00  sec   256 KBytes  2.10 Mbits/sec                  
+[  6]  14.00-15.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  6]  15.00-16.00  sec   128 KBytes  1.05 Mbits/sec                  
+[  6]  15.00-16.00  sec   128 KBytes  1.05 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  6]   0.00-16.00  sec  4.38 MBytes  2.29 Mbits/sec                  receiver
+iperf3: the client has terminated
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+iperf3: interrupt - the server has terminated

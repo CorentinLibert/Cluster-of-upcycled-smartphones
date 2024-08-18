@@ -1,0 +1,241 @@
+# MEDIUM=WiFi_2.4GHz_20-40MHz
+# SENDER=pptc@192.168.88.3
+# SENDER_TYPE=fairphone
+# RECEIVER=pptc@192.168.88.12
+# RECEIVER_TYPE=fairphone
+# ITERATIONS=10
+# REVERSE=0
+# COUNT=15
+# OMIT=5
+# WORKLOAD=1
+# NUMBER_DEVICES=10
+# PARALLEL_CONNECTIONS=5
+
+# ITERATION 1
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=24.610 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=179.823 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=187.911 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=268.388 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=489.045 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=304.762 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=293.073 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=242.316 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=290.684 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=68.730 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=296.419 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=171.678 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=177.818 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=144.917 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 14 packets received, 6% packet loss
+round-trip min/avg/max = 24.610/224.298/489.045 ms
+
+# ITERATION 2
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=30.435 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=231.508 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=229.292 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=369.085 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=332.227 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=411.636 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=299.243 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=374.671 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=396.511 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=556.154 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=242.450 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=395.993 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=470.272 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=490.610 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=313.527 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 30.435/342.907/556.154 ms
+
+# ITERATION 3
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=15.433 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=65.488 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=33.808 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=229.476 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=212.407 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=246.164 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=431.912 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=440.558 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=431.415 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=374.688 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=450.219 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=363.447 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=164.176 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=324.933 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=453.242 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 15.433/282.491/453.242 ms
+
+# ITERATION 4
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=0.903 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=131.388 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=113.260 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=287.134 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=312.597 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=425.244 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=610.197 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=363.372 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=451.192 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=633.012 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=848.761 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=329.209 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=372.849 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=405.432 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=485.544 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 0.903/384.672/848.761 ms
+
+# ITERATION 5
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=10.697 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=123.190 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=90.214 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=149.060 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=122.587 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=92.284 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=119.892 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=223.570 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=193.845 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=213.666 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=360.724 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=182.131 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=778.272 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=57.011 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=186.086 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 10.697/193.548/778.272 ms
+
+# ITERATION 6
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=17.864 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=137.355 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=108.110 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=142.642 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=150.454 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=188.261 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=212.846 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=155.437 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=201.909 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=411.870 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=350.323 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=709.094 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=396.770 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=435.617 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=214.150 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 17.864/255.513/709.094 ms
+
+# ITERATION 7
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=31.793 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=259.225 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=338.967 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=252.921 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=289.957 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=341.293 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=423.659 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=285.502 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=203.359 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=261.965 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=398.380 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=496.500 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=431.725 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=391.197 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=722.780 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 31.793/341.948/722.780 ms
+
+# ITERATION 8
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=10.708 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=274.275 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=274.620 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=219.938 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=324.564 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=350.281 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=212.562 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=59.783 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=132.395 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=241.570 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=327.677 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=104.791 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=355.373 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=153.069 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=177.691 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 10.708/214.619/355.373 ms
+
+# ITERATION 9
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=33.368 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=162.755 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=123.605 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=343.729 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=281.295 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=414.559 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=564.184 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=551.032 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=385.119 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=401.597 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=519.347 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=861.178 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=412.184 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=309.188 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=305.358 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 33.368/377.899/861.178 ms
+
+# ITERATION 10
+
+PING 192.168.88.12 (192.168.88.12): 56 data bytes
+64 bytes from 192.168.88.12: seq=0 ttl=42 time=30.322 ms
+64 bytes from 192.168.88.12: seq=1 ttl=42 time=141.787 ms
+64 bytes from 192.168.88.12: seq=2 ttl=42 time=134.775 ms
+64 bytes from 192.168.88.12: seq=3 ttl=42 time=146.571 ms
+64 bytes from 192.168.88.12: seq=4 ttl=42 time=397.423 ms
+64 bytes from 192.168.88.12: seq=5 ttl=42 time=314.681 ms
+64 bytes from 192.168.88.12: seq=6 ttl=42 time=398.804 ms
+64 bytes from 192.168.88.12: seq=7 ttl=42 time=432.986 ms
+64 bytes from 192.168.88.12: seq=8 ttl=42 time=315.180 ms
+64 bytes from 192.168.88.12: seq=9 ttl=42 time=538.477 ms
+64 bytes from 192.168.88.12: seq=10 ttl=42 time=370.176 ms
+64 bytes from 192.168.88.12: seq=11 ttl=42 time=257.028 ms
+64 bytes from 192.168.88.12: seq=12 ttl=42 time=273.441 ms
+64 bytes from 192.168.88.12: seq=13 ttl=42 time=357.764 ms
+64 bytes from 192.168.88.12: seq=14 ttl=42 time=412.170 ms
+
+--- 192.168.88.12 ping statistics ---
+15 packets transmitted, 15 packets received, 0% packet loss
+round-trip min/avg/max = 30.322/301.439/538.477 ms

@@ -23,14 +23,5 @@ RUN cd Crow && \
     cd build && \
     cmake .. -DCROW_BUILD_EXAMPLES=OFF -DCROW_BUILD_TESTS=OFF && \
     make install
-
-
-RUN mkdir OpenCV && cd OpenCV && \
-    wget -O opencv.zip https://github.com/opencv/opencv/archive/4.x.zip && \
-    unzip opencv.zip && rm opencv.zip && \
-    mkdir build && cd build && \
-    cmake -DBUILD_SHARED_LIBS=OFF ../opencv-4.x && \
-    make -j4 && \
-    make install
-
+    
 EXPOSE 18080

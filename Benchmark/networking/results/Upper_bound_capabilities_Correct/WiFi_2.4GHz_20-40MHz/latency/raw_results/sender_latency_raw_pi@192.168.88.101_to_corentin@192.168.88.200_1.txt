@@ -1,0 +1,242 @@
+# MEDIUM=WiFi_2.4GHz_20-40MHz
+# SENDER=pi@192.168.88.101
+# SENDER_TYPE=raspberry
+# RECEIVER=corentin@192.168.88.200
+# RECEIVER_TYPE=computer
+# ITERATIONS=10
+# REVERSE=0
+# COUNT=15
+# OMIT=5
+# WORKLOAD=0
+# NUMBER_DEVICES=1
+# PARALLEL_CONNECTIONS=1
+
+# ITERATION 1
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.691 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.28 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.76 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14040ms
+rtt min/avg/max/mdev = 0.691/3.549/3.833/0.774 ms
+
+# ITERATION 2
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.702 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.74 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=6.06 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=4.24 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.42 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14032ms
+rtt min/avg/max/mdev = 0.702/3.729/6.060/0.999 ms
+
+# ITERATION 3
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=1.09 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=5.94 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.82 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=5.14 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.77 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14025ms
+rtt min/avg/max/mdev = 1.088/3.841/5.941/0.956 ms
+
+# ITERATION 4
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.722 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.74 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.74 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.82 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.80 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14041ms
+rtt min/avg/max/mdev = 0.722/3.577/3.823/0.763 ms
+
+# ITERATION 5
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.766 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=0.766 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.82 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=0.839 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=4.29 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.80 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14046ms
+rtt min/avg/max/mdev = 0.766/3.225/4.291/1.223 ms
+
+# ITERATION 6
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.717 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=4.44 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=4.08 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.75 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14040ms
+rtt min/avg/max/mdev = 0.717/3.633/4.441/0.799 ms
+
+# ITERATION 7
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.709 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=5.38 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=4.15 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.76 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14028ms
+rtt min/avg/max/mdev = 0.709/3.702/5.382/0.896 ms
+
+# ITERATION 8
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.731 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=4.11 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.76 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14032ms
+rtt min/avg/max/mdev = 0.731/3.601/4.105/0.771 ms
+
+# ITERATION 9
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.692 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.86 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.83 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=5.00 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.81 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.97 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.78 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.79 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14024ms
+rtt min/avg/max/mdev = 0.692/3.679/5.003/0.853 ms
+
+# ITERATION 10
+
+PING 192.168.88.200 (192.168.88.200) 56(84) bytes of data.
+64 bytes from 192.168.88.200: icmp_seq=1 ttl=64 time=0.741 ms
+64 bytes from 192.168.88.200: icmp_seq=2 ttl=64 time=6.06 ms
+64 bytes from 192.168.88.200: icmp_seq=3 ttl=64 time=3.77 ms
+64 bytes from 192.168.88.200: icmp_seq=4 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=5 ttl=64 time=3.86 ms
+64 bytes from 192.168.88.200: icmp_seq=6 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=7 ttl=64 time=3.75 ms
+64 bytes from 192.168.88.200: icmp_seq=8 ttl=64 time=3.79 ms
+64 bytes from 192.168.88.200: icmp_seq=9 ttl=64 time=3.82 ms
+64 bytes from 192.168.88.200: icmp_seq=10 ttl=64 time=3.73 ms
+64 bytes from 192.168.88.200: icmp_seq=11 ttl=64 time=3.74 ms
+64 bytes from 192.168.88.200: icmp_seq=12 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=13 ttl=64 time=3.76 ms
+64 bytes from 192.168.88.200: icmp_seq=14 ttl=64 time=3.80 ms
+64 bytes from 192.168.88.200: icmp_seq=15 ttl=64 time=3.76 ms
+
+--- 192.168.88.200 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14028ms
+rtt min/avg/max/mdev = 0.741/3.726/6.056/0.979 ms

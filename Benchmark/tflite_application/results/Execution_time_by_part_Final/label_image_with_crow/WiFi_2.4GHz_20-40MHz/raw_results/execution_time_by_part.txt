@@ -1,0 +1,604 @@
+# SSH_INFO=pptc@192.168.88.3
+# ITERATIONS=20
+# IMPLEMENTATION=label_image_with_crow
+# MEDIUM=WiFi 2.4GHz 20-40MHz
+
+# ITERATION 0
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    958   819k  0:00:01  0:00:01 --:--:--  820k100  919k  100  1075  100  918k    958   818k  0:00:01  0:00:01 --:--:--  820k
+TIME: Setup Interpreter: Load Model: 679.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11111.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 122.000000 us
+TIME: Setup Interpreter: Global time: 11999.000000 us
+TIME: Crow: Handling and saving input image: 100671.000000 us
+TIME: Run Inference: Read BMP: 34447.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93173.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 780746.000000 us
+TIME: Run Inference: Average invokation time per loop: 780746.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3130.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 911983.000000 us
+TIME: Crow: Run inference: 913254.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.130s
+user	0m0.005s
+sys	0m0.005s
+
+# ITERATION 1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 27  918k    0     0   27  256k      0  13.5M --:--:-- --:--:-- --:--:-- 13.1M100  919k  100  1072  100  918k    941   806k  0:00:01  0:00:01 --:--:--  807k100  919k  100  1072  100  918k    941   806k  0:00:01  0:00:01 --:--:--  807k
+TIME: Setup Interpreter: Load Model: 504.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6984.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 77.000000 us
+TIME: Setup Interpreter: Global time: 7615.000000 us
+TIME: Crow: Handling and saving input image: 101660.000000 us
+TIME: Run Inference: Read BMP: 34299.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93579.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 780360.000000 us
+TIME: Run Inference: Average invokation time per loop: 780360.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3258.000000 us
+TIME: Run Inference: Print results: 87.000000 us
+TIME: Run Inference: Global time: 911983.000000 us
+TIME: Crow: Run inference: 913259.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.151s
+user	0m0.005s
+sys	0m0.009s
+
+# ITERATION 2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1072  100  918k    944   809k  0:00:01  0:00:01 --:--:--  811k100  919k  100  1072  100  918k    944   809k  0:00:01  0:00:01 --:--:--  810k
+TIME: Setup Interpreter: Load Model: 426.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6789.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 77.000000 us
+TIME: Setup Interpreter: Global time: 7345.000000 us
+TIME: Crow: Handling and saving input image: 101202.000000 us
+TIME: Run Inference: Read BMP: 34581.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93105.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 787349.000000 us
+TIME: Run Inference: Average invokation time per loop: 787349.000000 us
+TIME: Run Inference: Profiling: 0.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3149.000000 us
+TIME: Run Inference: Print results: 84.000000 us
+TIME: Run Inference: Global time: 918676.000000 us
+TIME: Crow: Run inference: 919967.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.147s
+user	0m0.007s
+sys	0m0.007s
+
+# ITERATION 3
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  918k    0     0  100  918k      0  4584k --:--:-- --:--:-- --:--:-- 4571k100  919k  100  1075  100  918k    936   800k  0:00:01  0:00:01 --:--:--  800k100  919k  100  1075  100  918k    935   799k  0:00:01  0:00:01 --:--:--  800k
+TIME: Setup Interpreter: Load Model: 810.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11900.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 127.000000 us
+TIME: Setup Interpreter: Global time: 12924.000000 us
+TIME: Crow: Handling and saving input image: 101021.000000 us
+TIME: Run Inference: Read BMP: 34739.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93018.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 782040.000000 us
+TIME: Run Inference: Average invokation time per loop: 782040.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 53.000000 us
+TIME: Run Inference: Read labels from file: 3240.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 913519.000000 us
+TIME: Crow: Run inference: 914785.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.160s
+user	0m0.009s
+sys	0m0.005s
+
+# ITERATION 4
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1072  100  918k    941   806k  0:00:01  0:00:01 --:--:--  808k100  919k  100  1072  100  918k    941   806k  0:00:01  0:00:01 --:--:--  808k
+TIME: Setup Interpreter: Load Model: 394.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6856.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 76.000000 us
+TIME: Setup Interpreter: Global time: 7379.000000 us
+TIME: Crow: Handling and saving input image: 101263.000000 us
+TIME: Run Inference: Read BMP: 34738.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93043.000000 us
+TIME: Run Inference: Warm-up interpreter: 2.000000 us
+TIME: Run Inference: Total invokation time: 783005.000000 us
+TIME: Run Inference: Average invokation time per loop: 783005.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3141.000000 us
+TIME: Run Inference: Print results: 87.000000 us
+TIME: Run Inference: Global time: 914424.000000 us
+TIME: Crow: Run inference: 915866.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.150s
+user	0m0.009s
+sys	0m0.005s
+
+# ITERATION 5
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    932   796k  0:00:01  0:00:01 --:--:--  798k100  919k  100  1075  100  918k    932   796k  0:00:01  0:00:01 --:--:--  798k
+TIME: Setup Interpreter: Load Model: 709.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11318.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 123.000000 us
+TIME: Setup Interpreter: Global time: 12236.000000 us
+TIME: Crow: Handling and saving input image: 101294.000000 us
+TIME: Run Inference: Read BMP: 34552.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93259.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 780180.000000 us
+TIME: Run Inference: Average invokation time per loop: 780180.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 53.000000 us
+TIME: Run Inference: Read labels from file: 3130.000000 us
+TIME: Run Inference: Print results: 84.000000 us
+TIME: Run Inference: Global time: 911603.000000 us
+TIME: Crow: Run inference: 912870.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.166s
+user	0m0.008s
+sys	0m0.008s
+
+# ITERATION 6
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    942   805k  0:00:01  0:00:01 --:--:--  806k100  919k  100  1075  100  918k    942   805k  0:00:01  0:00:01 --:--:--  806k
+TIME: Setup Interpreter: Load Model: 591.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11353.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 126.000000 us
+TIME: Setup Interpreter: Global time: 12157.000000 us
+TIME: Crow: Handling and saving input image: 102326.000000 us
+TIME: Run Inference: Read BMP: 34764.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93659.000000 us
+TIME: Run Inference: Warm-up interpreter: 2.000000 us
+TIME: Run Inference: Total invokation time: 782699.000000 us
+TIME: Run Inference: Average invokation time per loop: 782699.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3338.000000 us
+TIME: Run Inference: Print results: 88.000000 us
+TIME: Run Inference: Global time: 914950.000000 us
+TIME: Crow: Run inference: 916240.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.152s
+user	0m0.000s
+sys	0m0.014s
+
+# ITERATION 7
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    948   810k  0:00:01  0:00:01 --:--:--  812k100  919k  100  1075  100  918k    948   810k  0:00:01  0:00:01 --:--:--  811k
+TIME: Setup Interpreter: Load Model: 751.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11123.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 124.000000 us
+TIME: Setup Interpreter: Global time: 12086.000000 us
+TIME: Crow: Handling and saving input image: 101338.000000 us
+TIME: Run Inference: Read BMP: 34711.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 98331.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 781902.000000 us
+TIME: Run Inference: Average invokation time per loop: 781902.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3141.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 918568.000000 us
+TIME: Crow: Run inference: 919824.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.145s
+user	0m0.009s
+sys	0m0.005s
+
+# ITERATION 8
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1074  100  918k   1559  1334k --:--:-- --:--:-- --:--:-- 1337k
+TIME: Setup Interpreter: Load Model: 688.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11265.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 124.000000 us
+TIME: Setup Interpreter: Global time: 12161.000000 us
+TIME: Crow: Handling and saving input image: 61835.000000 us
+TIME: Run Inference: Read BMP: 20473.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 52935.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 436784.000000 us
+TIME: Run Inference: Average invokation time per loop: 436784.000000 us
+TIME: Run Inference: Profiling: 0.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 30.000000 us
+TIME: Run Inference: Read labels from file: 1929.000000 us
+TIME: Run Inference: Print results: 48.000000 us
+TIME: Run Inference: Global time: 512422.000000 us
+TIME: Crow: Run inference: 513335.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m0.699s
+user	0m0.004s
+sys	0m0.008s
+
+# ITERATION 9
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1074  100  918k   1532  1310k --:--:-- --:--:-- --:--:-- 1314k
+TIME: Setup Interpreter: Load Model: 584.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11259.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 121.000000 us
+TIME: Setup Interpreter: Global time: 12051.000000 us
+TIME: Crow: Handling and saving input image: 64458.000000 us
+TIME: Run Inference: Read BMP: 20570.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 53159.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 437560.000000 us
+TIME: Run Inference: Average invokation time per loop: 437560.000000 us
+TIME: Run Inference: Profiling: 0.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 30.000000 us
+TIME: Run Inference: Read labels from file: 1826.000000 us
+TIME: Run Inference: Print results: 48.000000 us
+TIME: Run Inference: Global time: 513414.000000 us
+TIME: Crow: Run inference: 514147.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m0.711s
+user	0m0.003s
+sys	0m0.009s
+
+# ITERATION 10
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1074  100  918k   1541  1318k --:--:-- --:--:-- --:--:-- 1319k100  919k  100  1074  100  918k   1540  1318k --:--:-- --:--:-- --:--:-- 1319k
+TIME: Setup Interpreter: Load Model: 589.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11325.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 126.000000 us
+TIME: Setup Interpreter: Global time: 12130.000000 us
+TIME: Crow: Handling and saving input image: 62689.000000 us
+TIME: Run Inference: Read BMP: 20495.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 53506.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 440040.000000 us
+TIME: Run Inference: Average invokation time per loop: 440040.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 31.000000 us
+TIME: Run Inference: Read labels from file: 1812.000000 us
+TIME: Run Inference: Print results: 48.000000 us
+TIME: Run Inference: Global time: 516153.000000 us
+TIME: Crow: Run inference: 516871.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m0.708s
+user	0m0.009s
+sys	0m0.005s
+
+# ITERATION 11
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    931   795k  0:00:01  0:00:01 --:--:--  797k100  919k  100  1075  100  918k    930   795k  0:00:01  0:00:01 --:--:--  797k
+TIME: Setup Interpreter: Load Model: 670.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11102.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 119.000000 us
+TIME: Setup Interpreter: Global time: 11980.000000 us
+TIME: Crow: Handling and saving input image: 101616.000000 us
+TIME: Run Inference: Read BMP: 34533.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93371.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 782620.000000 us
+TIME: Run Inference: Average invokation time per loop: 782620.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 51.000000 us
+TIME: Run Inference: Read labels from file: 3136.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 914145.000000 us
+TIME: Crow: Run inference: 915538.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.166s
+user	0m0.009s
+sys	0m0.005s
+
+# ITERATION 12
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  918k    0     0  100  918k      0  4576k --:--:-- --:--:-- --:--:-- 4571k100  919k  100  1072  100  918k    932   799k  0:00:01  0:00:01 --:--:--  800k100  919k  100  1072  100  918k    932   799k  0:00:01  0:00:01 --:--:--  799k
+TIME: Setup Interpreter: Load Model: 364.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6874.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 79.000000 us
+TIME: Setup Interpreter: Global time: 7370.000000 us
+TIME: Crow: Handling and saving input image: 101490.000000 us
+TIME: Run Inference: Read BMP: 34894.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93073.000000 us
+TIME: Run Inference: Warm-up interpreter: 2.000000 us
+TIME: Run Inference: Total invokation time: 788916.000000 us
+TIME: Run Inference: Average invokation time per loop: 788916.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 54.000000 us
+TIME: Run Inference: Read labels from file: 3155.000000 us
+TIME: Run Inference: Print results: 87.000000 us
+TIME: Run Inference: Global time: 920525.000000 us
+TIME: Crow: Run inference: 921928.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.164s
+user	0m0.011s
+sys	0m0.007s
+
+# ITERATION 13
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k   1155   987k --:--:-- --:--:-- --:--:--  988k100  919k  100  1075  100  918k   1155   987k --:--:-- --:--:-- --:--:--  988k
+TIME: Setup Interpreter: Load Model: 820.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11626.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 125.000000 us
+TIME: Setup Interpreter: Global time: 12658.000000 us
+TIME: Crow: Handling and saving input image: 101741.000000 us
+TIME: Run Inference: Read BMP: 34525.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93319.000000 us
+TIME: Run Inference: Warm-up interpreter: 2.000000 us
+TIME: Run Inference: Total invokation time: 567579.000000 us
+TIME: Run Inference: Average invokation time per loop: 567579.000000 us
+TIME: Run Inference: Profiling: 0.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 29.000000 us
+TIME: Run Inference: Read labels from file: 1804.000000 us
+TIME: Run Inference: Print results: 49.000000 us
+TIME: Run Inference: Global time: 697560.000000 us
+TIME: Crow: Run inference: 698336.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m0.942s
+user	0m0.011s
+sys	0m0.004s
+
+# ITERATION 14
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    944   807k  0:00:01  0:00:01 --:--:--  809k100  919k  100  1075  100  918k    944   807k  0:00:01  0:00:01 --:--:--  809k
+TIME: Setup Interpreter: Load Model: 588.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11432.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 124.000000 us
+TIME: Setup Interpreter: Global time: 12230.000000 us
+TIME: Crow: Handling and saving input image: 101767.000000 us
+TIME: Run Inference: Read BMP: 34766.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93297.000000 us
+TIME: Run Inference: Warm-up interpreter: 2.000000 us
+TIME: Run Inference: Total invokation time: 785133.000000 us
+TIME: Run Inference: Average invokation time per loop: 785133.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 53.000000 us
+TIME: Run Inference: Read labels from file: 3277.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 916967.000000 us
+TIME: Crow: Run inference: 918271.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.150s
+user	0m0.008s
+sys	0m0.007s
+
+# ITERATION 15
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  918k    0     0  100  918k      0  4579k --:--:-- --:--:-- --:--:-- 4571k100  919k  100  1072  100  918k    943   808k  0:00:01  0:00:01 --:--:--  809k
+TIME: Setup Interpreter: Load Model: 636.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 7223.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 78.000000 us
+TIME: Setup Interpreter: Global time: 7989.000000 us
+TIME: Crow: Handling and saving input image: 102308.000000 us
+TIME: Run Inference: Read BMP: 34464.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 93284.000000 us
+TIME: Run Inference: Warm-up interpreter: 2.000000 us
+TIME: Run Inference: Total invokation time: 783549.000000 us
+TIME: Run Inference: Average invokation time per loop: 783549.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 53.000000 us
+TIME: Run Inference: Read labels from file: 3159.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 914948.000000 us
+TIME: Crow: Run inference: 916270.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.146s
+user	0m0.012s
+sys	0m0.000s
+
+# ITERATION 16
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k   1171  1001k --:--:-- --:--:-- --:--:-- 1002k100  919k  100  1075  100  918k   1170  1000k --:--:-- --:--:-- --:--:-- 1002k
+TIME: Setup Interpreter: Load Model: 642.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 10974.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 120.000000 us
+TIME: Setup Interpreter: Global time: 11825.000000 us
+TIME: Crow: Handling and saving input image: 102486.000000 us
+TIME: Run Inference: Read BMP: 34638.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94186.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 553072.000000 us
+TIME: Run Inference: Average invokation time per loop: 553072.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 30.000000 us
+TIME: Run Inference: Read labels from file: 1824.000000 us
+TIME: Run Inference: Print results: 50.000000 us
+TIME: Run Inference: Global time: 684058.000000 us
+TIME: Crow: Run inference: 684858.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m0.928s
+user	0m0.000s
+sys	0m0.012s
+
+# ITERATION 17
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1072  100  918k    943   808k  0:00:01  0:00:01 --:--:--  809k100  919k  100  1072  100  918k    943   808k  0:00:01  0:00:01 --:--:--  809k
+TIME: Setup Interpreter: Load Model: 495.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 6923.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 75.000000 us
+TIME: Setup Interpreter: Global time: 7544.000000 us
+TIME: Crow: Handling and saving input image: 102042.000000 us
+TIME: Run Inference: Read BMP: 37144.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 94336.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 778738.000000 us
+TIME: Run Inference: Average invokation time per loop: 778738.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 53.000000 us
+TIME: Run Inference: Read labels from file: 3146.000000 us
+TIME: Run Inference: Print results: 88.000000 us
+TIME: Run Inference: Global time: 913862.000000 us
+TIME: Crow: Run inference: 915197.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.145s
+user	0m0.007s
+sys	0m0.003s
+
+# ITERATION 18
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  918k    0     0  100  918k      0  4568k --:--:-- --:--:-- --:--:-- 4571k100  919k  100  1075  100  918k    942   805k  0:00:01  0:00:01 --:--:--  806k
+TIME: Setup Interpreter: Load Model: 552.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 10993.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 123.000000 us
+TIME: Setup Interpreter: Global time: 11754.000000 us
+TIME: Crow: Handling and saving input image: 101657.000000 us
+TIME: Run Inference: Read BMP: 34715.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 95982.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 778722.000000 us
+TIME: Run Inference: Average invokation time per loop: 778722.000000 us
+TIME: Run Inference: Profiling: 1.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 51.000000 us
+TIME: Run Inference: Read labels from file: 3150.000000 us
+TIME: Run Inference: Print results: 83.000000 us
+TIME: Run Inference: Global time: 913060.000000 us
+TIME: Crow: Run inference: 914352.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.155s
+user	0m0.007s
+sys	0m0.009s
+
+# ITERATION 19
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  919k  100  1075  100  918k    921   787k  0:00:01  0:00:01 --:--:--  788k100  919k  100  1075  100  918k    920   787k  0:00:01  0:00:01 --:--:--  788k
+TIME: Setup Interpreter: Load Model: 570.000000 us
+TIME: Setup Interpreter: Configure and Build Interpreter: 11298.000000 us
+TIME: Setup Interpreter: Build profiler and delegation: 124.000000 us
+TIME: Setup Interpreter: Global time: 12077.000000 us
+TIME: Crow: Handling and saving input image: 101214.000000 us
+TIME: Run Inference: Read BMP: 35967.000000 us
+TIME: Run Inference: Resize image and copy it to input tensor: 95476.000000 us
+TIME: Run Inference: Warm-up interpreter: 1.000000 us
+TIME: Run Inference: Total invokation time: 782088.000000 us
+TIME: Run Inference: Average invokation time per loop: 782088.000000 us
+TIME: Run Inference: Profiling: 0.000000 us
+TIME: Run Inference: Rerieve results from output tensors: 53.000000 us
+TIME: Run Inference: Read labels from file: 3255.000000 us
+TIME: Run Inference: Print results: 85.000000 us
+TIME: Run Inference: Global time: 917284.000000 us
+TIME: Crow: Run inference: 918831.000000 us
+0.860174: 653 military uniform
+0.048102: 907 Windsor tie
+0.007867: 466 bulletproof vest
+0.006449: 514 cornet
+0.006080: 543 drumstick
+
+real	0m1.178s
+user	0m0.007s
+sys	0m0.004s

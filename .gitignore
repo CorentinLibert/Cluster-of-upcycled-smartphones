@@ -1,5 +1,5 @@
 __pycache__
-*.tar*
+# *.tar*
 **/build/**
 **/include/tensorflow/lite/** 
 **/tensorflow_src/**

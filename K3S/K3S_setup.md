@@ -15,6 +15,12 @@ Run the default command:
 curl -sfL https://get.k3s.io | sh -
 ```
 
+or, to not need sudo for the commands:
+
+```bash
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--write-kubeconfig-mode 644" sh -s
+```
+
 After some time, verify the installation with:
 
 ```bash
@@ -128,4 +134,12 @@ You can rescale a deployment manually with the following command:
 
 ```
 kubectl scale --replicas=2 deployment <deployment_name>
+```
+
+## Taint the master node:
+
+We will taint the master node to avoid pods being deployed on them:
+
+```
+sudo kubectl taint nodes <node_name> master_node=true:NoSchedule
 ```

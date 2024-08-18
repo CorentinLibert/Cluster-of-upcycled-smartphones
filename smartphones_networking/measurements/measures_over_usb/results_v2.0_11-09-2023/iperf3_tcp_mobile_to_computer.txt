@@ -1,3 +1,0 @@
-Interval[sec] Transfer[MBytes] Bitrate[Mbits/sec]
-0.00-10-06 139	116
-
