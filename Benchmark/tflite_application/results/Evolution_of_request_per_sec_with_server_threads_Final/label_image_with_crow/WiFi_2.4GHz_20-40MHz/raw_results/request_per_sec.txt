@@ -1,0 +1,670 @@
+# SSH_INFO=pptc@192.168.88.3
+# ITERATIONS=20
+# IMPLEMENTATION=label_image_with_crow
+# MEDIUM=WiFi 2.4GHz 20-40MHz
+
+# THREADS 2
+
+# ITERATION 0
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.45s     0.00us   1.45s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  20 requests in 20.03s, 23.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+Requests/sec:      1.00
+Transfer/sec:      1.17KB
+
+# ITERATION 1
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s     0.00us   1.58s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  24 requests in 20.03s, 28.07KB read
+  Socket errors: connect 0, read 0, write 0, timeout 23
+Requests/sec:      1.20
+Transfer/sec:      1.40KB
+
+# ITERATION 2
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.59s   442.39ms   1.90s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 20.03s, 37.41KB read
+  Socket errors: connect 0, read 0, write 0, timeout 30
+Requests/sec:      1.60
+Transfer/sec:      1.87KB
+
+# ITERATION 3
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.74s     0.00us   1.74s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  25 requests in 20.03s, 29.17KB read
+  Socket errors: connect 0, read 0, write 0, timeout 24
+Requests/sec:      1.25
+Transfer/sec:      1.46KB
+
+# ITERATION 4
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.48s     0.00us   1.48s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  25 requests in 20.03s, 29.24KB read
+  Socket errors: connect 0, read 0, write 0, timeout 24
+Requests/sec:      1.25
+Transfer/sec:      1.46KB
+
+# ITERATION 5
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.65s     0.00us   1.65s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  28 requests in 20.09s, 32.66KB read
+  Socket errors: connect 0, read 0, write 0, timeout 27
+Requests/sec:      1.39
+Transfer/sec:      1.63KB
+
+# ITERATION 6
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.47s     0.00us   1.47s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  19 requests in 20.03s, 22.23KB read
+  Socket errors: connect 0, read 0, write 0, timeout 18
+Requests/sec:      0.95
+Transfer/sec:      1.11KB
+
+# ITERATION 7
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.43s   434.93ms   1.74s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  33 requests in 20.03s, 38.58KB read
+  Socket errors: connect 0, read 0, write 0, timeout 31
+Requests/sec:      1.65
+Transfer/sec:      1.93KB
+
+# ITERATION 8
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.57s     0.00us   1.57s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  20 requests in 20.03s, 23.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+Requests/sec:      1.00
+Transfer/sec:      1.17KB
+
+# ITERATION 9
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.64s     0.00us   1.64s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  22 requests in 20.03s, 25.74KB read
+  Socket errors: connect 0, read 0, write 0, timeout 21
+Requests/sec:      1.10
+Transfer/sec:      1.28KB
+
+# ITERATION 10
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.47s     0.00us   1.47s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  23 requests in 20.10s, 26.84KB read
+  Socket errors: connect 0, read 0, write 0, timeout 22
+Requests/sec:      1.14
+Transfer/sec:      1.34KB
+
+# ITERATION 11
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.82s     0.00us   1.82s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  19 requests in 20.03s, 22.23KB read
+  Socket errors: connect 0, read 0, write 0, timeout 18
+Requests/sec:      0.95
+Transfer/sec:      1.11KB
+
+# ITERATION 12
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.40s     0.00us   1.40s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  20 requests in 20.09s, 23.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+Requests/sec:      1.00
+Transfer/sec:      1.16KB
+
+# ITERATION 13
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.51s     0.00us   1.51s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  22 requests in 20.09s, 25.74KB read
+  Socket errors: connect 0, read 0, write 0, timeout 21
+Requests/sec:      1.09
+Transfer/sec:      1.28KB
+
+# ITERATION 14
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.41s     0.00us   1.41s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  20 requests in 20.03s, 23.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+Requests/sec:      1.00
+Transfer/sec:      1.17KB
+
+# ITERATION 15
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.47s     0.00us   1.47s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  20 requests in 20.04s, 23.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+Requests/sec:      1.00
+Transfer/sec:      1.17KB
+
+# ITERATION 16
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.71s     0.00us   1.71s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  19 requests in 20.10s, 22.18KB read
+  Socket errors: connect 0, read 0, write 0, timeout 18
+Requests/sec:      0.95
+Transfer/sec:      1.10KB
+
+# ITERATION 17
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.76s     0.00us   1.76s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  19 requests in 20.03s, 22.23KB read
+  Socket errors: connect 0, read 0, write 0, timeout 18
+Requests/sec:      0.95
+Transfer/sec:      1.11KB
+
+# ITERATION 18
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.52s     0.00us   1.52s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  20 requests in 20.10s, 23.40KB read
+  Socket errors: connect 0, read 0, write 0, timeout 19
+Requests/sec:      1.00
+Transfer/sec:      1.16KB
+
+# ITERATION 19
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.54s     0.00us   1.54s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  19 requests in 20.09s, 22.18KB read
+  Socket errors: connect 0, read 0, write 0, timeout 18
+Requests/sec:      0.95
+Transfer/sec:      1.10KB
+
+# THREADS 3
+
+# ITERATION 0
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.39s   352.42ms   1.78s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  40 requests in 20.03s, 45.79KB read
+  Socket errors: connect 0, read 0, write 0, timeout 37
+Requests/sec:      2.00
+Transfer/sec:      2.29KB
+
+# ITERATION 1
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s   320.10ms   1.89s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  45 requests in 20.03s, 51.45KB read
+  Socket errors: connect 0, read 0, write 0, timeout 42
+Requests/sec:      2.25
+Transfer/sec:      2.57KB
+
+# ITERATION 2
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  42 requests in 20.03s, 48.36KB read
+  Socket errors: connect 0, read 0, write 0, timeout 42
+Requests/sec:      2.10
+Transfer/sec:      2.41KB
+
+# ITERATION 3
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.89s     1.17ms   1.89s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 20.03s, 41.98KB read
+  Socket errors: connect 0, read 0, write 0, timeout 36
+Requests/sec:      1.90
+Transfer/sec:      2.10KB
+
+# ITERATION 4
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.77s     5.07ms   1.77s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  42 requests in 20.03s, 48.22KB read
+  Socket errors: connect 0, read 0, write 0, timeout 40
+Requests/sec:      2.10
+Transfer/sec:      2.41KB
+
+# ITERATION 5
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.44s   341.19ms   1.76s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  49 requests in 20.10s, 56.14KB read
+  Socket errors: connect 0, read 0, write 0, timeout 46
+Requests/sec:      2.44
+Transfer/sec:      2.79KB
+
+# ITERATION 6
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.50s    34.89ms   1.52s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 20.10s, 42.29KB read
+  Socket errors: connect 0, read 0, write 0, timeout 36
+Requests/sec:      1.89
+Transfer/sec:      2.10KB
+
+# ITERATION 7
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.41s    55.13ms   1.45s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  39 requests in 20.09s, 44.84KB read
+  Socket errors: connect 0, read 0, write 0, timeout 37
+Requests/sec:      1.94
+Transfer/sec:      2.23KB
+
+# ITERATION 8
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.68s    12.10ms   1.69s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  39 requests in 20.02s, 42.75KB read
+  Socket errors: connect 0, read 0, write 0, timeout 37
+Requests/sec:      1.95
+Transfer/sec:      2.13KB
+
+# ITERATION 9
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s     2.32ms   1.59s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 20.10s, 43.41KB read
+  Socket errors: connect 0, read 0, write 0, timeout 36
+Requests/sec:      1.89
+Transfer/sec:      2.16KB
+
+# ITERATION 10
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.59s     4.67ms   1.60s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  44 requests in 20.03s, 50.56KB read
+  Socket errors: connect 0, read 0, write 0, timeout 42
+Requests/sec:      2.20
+Transfer/sec:      2.52KB
+
+# ITERATION 11
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.43s    53.26ms   1.47s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  39 requests in 20.03s, 44.99KB read
+  Socket errors: connect 0, read 0, write 0, timeout 37
+Requests/sec:      1.95
+Transfer/sec:      2.25KB
+
+# ITERATION 12
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.45s   141.28ms   1.55s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  42 requests in 20.03s, 47.96KB read
+  Socket errors: connect 0, read 0, write 0, timeout 40
+Requests/sec:      2.10
+Transfer/sec:      2.39KB
+
+# ITERATION 13
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.52s    55.90ms   1.55s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  44 requests in 20.03s, 50.39KB read
+  Socket errors: connect 0, read 0, write 0, timeout 42
+Requests/sec:      2.20
+Transfer/sec:      2.52KB
+
+# ITERATION 14
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.47s   324.73ms   1.75s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  49 requests in 20.02s, 56.21KB read
+  Socket errors: connect 0, read 0, write 0, timeout 46
+Requests/sec:      2.45
+Transfer/sec:      2.81KB
+
+# ITERATION 15
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.42s    12.95ms   1.43s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  38 requests in 20.03s, 43.18KB read
+  Socket errors: connect 0, read 0, write 0, timeout 36
+Requests/sec:      1.90
+Transfer/sec:      2.16KB
+
+# ITERATION 16
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.53s    29.90ms   1.55s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  43 requests in 20.03s, 49.38KB read
+  Socket errors: connect 0, read 0, write 0, timeout 41
+Requests/sec:      2.15
+Transfer/sec:      2.47KB
+
+# ITERATION 17
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.43s   849.94us   1.44s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  42 requests in 20.03s, 48.46KB read
+  Socket errors: connect 0, read 0, write 0, timeout 40
+Requests/sec:      2.10
+Transfer/sec:      2.42KB
+
+# ITERATION 18
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s    41.77ms   1.61s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  44 requests in 20.03s, 50.82KB read
+  Socket errors: connect 0, read 0, write 0, timeout 42
+Requests/sec:      2.20
+Transfer/sec:      2.54KB
+
+# ITERATION 19
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.55s   304.87ms   1.85s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  43 requests in 20.03s, 49.56KB read
+  Socket errors: connect 0, read 0, write 0, timeout 40
+Requests/sec:      2.15
+Transfer/sec:      2.47KB
+
+# THREADS 4
+
+# ITERATION 0
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.55s   270.51ms   2.00s    78.95%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  61 requests in 20.03s, 70.11KB read
+  Socket errors: connect 0, read 0, write 0, timeout 42
+Requests/sec:      3.05
+Transfer/sec:      3.50KB
+
+# ITERATION 1
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.71s   300.05ms   2.00s    76.47%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  62 requests in 20.03s, 71.12KB read
+  Socket errors: connect 0, read 0, write 0, timeout 45
+Requests/sec:      3.10
+Transfer/sec:      3.55KB
+
+# ITERATION 2
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.69s   294.11ms   2.00s    28.57%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  59 requests in 20.04s, 67.17KB read
+  Socket errors: connect 0, read 0, write 0, timeout 45
+Requests/sec:      2.94
+Transfer/sec:      3.35KB
+
+# ITERATION 3
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s   312.60ms   1.99s    65.38%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  62 requests in 20.09s, 71.34KB read
+  Socket errors: connect 0, read 0, write 0, timeout 36
+Requests/sec:      3.09
+Transfer/sec:      3.55KB
+
+# ITERATION 4
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.58s   280.29ms   1.99s    63.64%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  63 requests in 20.03s, 72.22KB read
+  Socket errors: connect 0, read 0, write 0, timeout 41
+Requests/sec:      3.15
+Transfer/sec:      3.61KB
+
+# ITERATION 5
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.55s   300.01ms   2.00s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  66 requests in 20.03s, 75.60KB read
+  Socket errors: connect 0, read 0, write 0, timeout 39
+Requests/sec:      3.30
+Transfer/sec:      3.78KB
+
+# ITERATION 6
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.75s   298.66ms   2.00s    73.08%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  64 requests in 20.10s, 73.57KB read
+  Socket errors: connect 0, read 0, write 0, timeout 38
+Requests/sec:      3.18
+Transfer/sec:      3.66KB
+
+# ITERATION 7
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.68s   293.74ms   2.00s    31.82%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  61 requests in 20.03s, 70.27KB read
+  Socket errors: connect 0, read 0, write 0, timeout 39
+Requests/sec:      3.05
+Transfer/sec:      3.51KB
+
+# ITERATION 8
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.88s   213.90ms   2.00s    81.25%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  65 requests in 20.03s, 74.57KB read
+  Socket errors: connect 0, read 0, write 0, timeout 33
+Requests/sec:      3.25
+Transfer/sec:      3.72KB
+
+# ITERATION 9
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.83s   243.19ms   2.00s    79.17%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  63 requests in 20.03s, 71.88KB read
+  Socket errors: connect 0, read 0, write 0, timeout 39
+Requests/sec:      3.15
+Transfer/sec:      3.59KB
+
+# ITERATION 10
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.57s   320.16ms   1.99s    62.96%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  67 requests in 20.03s, 77.42KB read
+  Socket errors: connect 0, read 0, write 0, timeout 40
+Requests/sec:      3.35
+Transfer/sec:      3.87KB
+
+# ITERATION 11
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.84s   244.02ms   2.00s    82.61%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  64 requests in 20.03s, 73.29KB read
+  Socket errors: connect 0, read 0, write 0, timeout 41
+Requests/sec:      3.20
+Transfer/sec:      3.66KB
+
+# ITERATION 12
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.94s    99.12ms   2.00s    85.71%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  64 requests in 20.04s, 73.44KB read
+  Socket errors: connect 0, read 0, write 0, timeout 43
+Requests/sec:      3.19
+Transfer/sec:      3.67KB
+
+# ITERATION 13
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.93s   134.17ms   2.00s    87.50%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  63 requests in 20.10s, 72.04KB read
+  Socket errors: connect 0, read 0, write 0, timeout 31
+Requests/sec:      3.13
+Transfer/sec:      3.58KB
+
+# ITERATION 14
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.89s   205.90ms   2.00s    76.92%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  60 requests in 20.03s, 68.61KB read
+  Socket errors: connect 0, read 0, write 0, timeout 47
+Requests/sec:      3.00
+Transfer/sec:      3.43KB
+
+# ITERATION 15
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.93s   127.16ms   2.00s    82.35%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  65 requests in 20.10s, 73.95KB read
+  Socket errors: connect 0, read 0, write 0, timeout 48
+Requests/sec:      3.23
+Transfer/sec:      3.68KB
+
+# ITERATION 16
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.75s   302.38ms   2.00s    66.67%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  64 requests in 20.03s, 73.25KB read
+  Socket errors: connect 0, read 0, write 0, timeout 40
+Requests/sec:      3.20
+Transfer/sec:      3.66KB
+
+# ITERATION 17
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.76s   259.90ms   2.00s    76.92%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  64 requests in 20.04s, 72.98KB read
+  Socket errors: connect 0, read 0, write 0, timeout 38
+Requests/sec:      3.19
+Transfer/sec:      3.64KB
+
+# ITERATION 18
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.91s   167.89ms   2.00s    82.35%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  58 requests in 20.09s, 67.12KB read
+  Socket errors: connect 0, read 0, write 0, timeout 41
+Requests/sec:      2.89
+Transfer/sec:      3.34KB
+
+# ITERATION 19
+Running 20s test @ http://pptc@192.168.88.3:18080/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.59s   285.89ms   2.00s    68.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  62 requests in 20.10s, 70.63KB read
+  Socket errors: connect 0, read 0, write 0, timeout 37
+Requests/sec:      3.08
+Transfer/sec:      3.51KB

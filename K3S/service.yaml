@@ -10,6 +10,3 @@ spec:
   - protocol: "TCP"
     port: 18080
     targetPort: 18080
-    nodePort: 31000
-  externalIPs:
-  - "192.168.88.17"

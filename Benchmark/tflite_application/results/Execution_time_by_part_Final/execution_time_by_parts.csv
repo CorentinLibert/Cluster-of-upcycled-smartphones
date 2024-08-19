@@ -1,1321 +1,1321 @@
 Iteration,Part,Subpart,Execution Time (in us),Medium,Implementation
 0,Setup Interpreter,Load Model,852.0,na,label_image
-0,Setup Interpreter,Configure and Build Interpreter,9381.0,na,label_image
+0,Setup Interpreter,Configure and build interpreter,9381.0,na,label_image
 0,Setup Interpreter,Build profiler and delegation,34.0,na,label_image
 0,Setup Interpreter,Global time,10561.0,na,label_image
-0,Run Inference,Read BMP,23588.0,na,label_image
-0,Run Inference,Resize image and copy it to input tensor,81751.0,na,label_image
+0,Run Inference,Read image from file,23588.0,na,label_image
+0,Run Inference,Resize and copy image to input tensor,81751.0,na,label_image
 0,Run Inference,Warm-up interpreter,2.0,na,label_image
-0,Run Inference,Total invokation time,771511.0,na,label_image
-0,Run Inference,Average invokation time per loop,771511.0,na,label_image
+0,Run Inference,Interpreter invocation,771511.0,na,label_image
+0,Run Inference,Average interpreter invocation per loop,771511.0,na,label_image
 0,Run Inference,Profiling,0.0,na,label_image
 0,Run Inference,Rerieve results from output tensors,50.0,na,label_image
-0,Run Inference,Read labels from file,3182.0,na,label_image
-0,Run Inference,Print results,6525.0,na,label_image
+0,Run Inference,Process results,3182.0,na,label_image
+0,Run Inference,Display results,6525.0,na,label_image
 0,Run Inference,Global time,887628.0,na,label_image
-0,Real time,Global time,920000.0,na,label_image
+0,Response Time,Global time,920000.0,na,label_image
 1,Setup Interpreter,Load Model,632.0,na,label_image
-1,Setup Interpreter,Configure and Build Interpreter,7424.0,na,label_image
+1,Setup Interpreter,Configure and build interpreter,7424.0,na,label_image
 1,Setup Interpreter,Build profiler and delegation,38.0,na,label_image
 1,Setup Interpreter,Global time,8386.0,na,label_image
-1,Run Inference,Read BMP,21094.0,na,label_image
-1,Run Inference,Resize image and copy it to input tensor,55248.0,na,label_image
+1,Run Inference,Read image from file,21094.0,na,label_image
+1,Run Inference,Resize and copy image to input tensor,55248.0,na,label_image
 1,Run Inference,Warm-up interpreter,1.0,na,label_image
-1,Run Inference,Total invokation time,434567.0,na,label_image
-1,Run Inference,Average invokation time per loop,434567.0,na,label_image
+1,Run Inference,Interpreter invocation,434567.0,na,label_image
+1,Run Inference,Average interpreter invocation per loop,434567.0,na,label_image
 1,Run Inference,Profiling,1.0,na,label_image
 1,Run Inference,Rerieve results from output tensors,26.0,na,label_image
-1,Run Inference,Read labels from file,2072.0,na,label_image
-1,Run Inference,Print results,3730.0,na,label_image
+1,Run Inference,Process results,2072.0,na,label_image
+1,Run Inference,Display results,3730.0,na,label_image
 1,Run Inference,Global time,517434.0,na,label_image
-1,Real time,Global time,540000.0,na,label_image
+1,Response Time,Global time,540000.0,na,label_image
 2,Setup Interpreter,Load Model,627.0,na,label_image
-2,Setup Interpreter,Configure and Build Interpreter,7124.0,na,label_image
+2,Setup Interpreter,Configure and build interpreter,7124.0,na,label_image
 2,Setup Interpreter,Build profiler and delegation,32.0,na,label_image
 2,Setup Interpreter,Global time,8079.0,na,label_image
-2,Run Inference,Read BMP,20566.0,na,label_image
-2,Run Inference,Resize image and copy it to input tensor,55809.0,na,label_image
+2,Run Inference,Read image from file,20566.0,na,label_image
+2,Run Inference,Resize and copy image to input tensor,55809.0,na,label_image
 2,Run Inference,Warm-up interpreter,1.0,na,label_image
-2,Run Inference,Total invokation time,435624.0,na,label_image
-2,Run Inference,Average invokation time per loop,435624.0,na,label_image
+2,Run Inference,Interpreter invocation,435624.0,na,label_image
+2,Run Inference,Average interpreter invocation per loop,435624.0,na,label_image
 2,Run Inference,Profiling,0.0,na,label_image
 2,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-2,Run Inference,Read labels from file,2036.0,na,label_image
-2,Run Inference,Print results,3776.0,na,label_image
+2,Run Inference,Process results,2036.0,na,label_image
+2,Run Inference,Display results,3776.0,na,label_image
 2,Run Inference,Global time,518558.0,na,label_image
-2,Real time,Global time,540000.0,na,label_image
+2,Response Time,Global time,540000.0,na,label_image
 3,Setup Interpreter,Load Model,1019.0,na,label_image
-3,Setup Interpreter,Configure and Build Interpreter,11672.0,na,label_image
+3,Setup Interpreter,Configure and build interpreter,11672.0,na,label_image
 3,Setup Interpreter,Build profiler and delegation,59.0,na,label_image
 3,Setup Interpreter,Global time,13223.0,na,label_image
-3,Run Inference,Read BMP,34845.0,na,label_image
-3,Run Inference,Resize image and copy it to input tensor,94396.0,na,label_image
+3,Run Inference,Read image from file,34845.0,na,label_image
+3,Run Inference,Resize and copy image to input tensor,94396.0,na,label_image
 3,Run Inference,Warm-up interpreter,1.0,na,label_image
-3,Run Inference,Total invokation time,775899.0,na,label_image
-3,Run Inference,Average invokation time per loop,775899.0,na,label_image
+3,Run Inference,Interpreter invocation,775899.0,na,label_image
+3,Run Inference,Average interpreter invocation per loop,775899.0,na,label_image
 3,Run Inference,Profiling,0.0,na,label_image
 3,Run Inference,Rerieve results from output tensors,50.0,na,label_image
-3,Run Inference,Read labels from file,3118.0,na,label_image
-3,Run Inference,Print results,6477.0,na,label_image
+3,Run Inference,Process results,3118.0,na,label_image
+3,Run Inference,Display results,6477.0,na,label_image
 3,Run Inference,Global time,915868.0,na,label_image
-3,Real time,Global time,960000.0,na,label_image
+3,Response Time,Global time,960000.0,na,label_image
 4,Setup Interpreter,Load Model,979.0,na,label_image
-4,Setup Interpreter,Configure and Build Interpreter,11385.0,na,label_image
+4,Setup Interpreter,Configure and build interpreter,11385.0,na,label_image
 4,Setup Interpreter,Build profiler and delegation,57.0,na,label_image
 4,Setup Interpreter,Global time,13014.0,na,label_image
-4,Run Inference,Read BMP,34574.0,na,label_image
-4,Run Inference,Resize image and copy it to input tensor,99830.0,na,label_image
+4,Run Inference,Read image from file,34574.0,na,label_image
+4,Run Inference,Resize and copy image to input tensor,99830.0,na,label_image
 4,Run Inference,Warm-up interpreter,1.0,na,label_image
-4,Run Inference,Total invokation time,772035.0,na,label_image
-4,Run Inference,Average invokation time per loop,772035.0,na,label_image
+4,Run Inference,Interpreter invocation,772035.0,na,label_image
+4,Run Inference,Average interpreter invocation per loop,772035.0,na,label_image
 4,Run Inference,Profiling,0.0,na,label_image
 4,Run Inference,Rerieve results from output tensors,50.0,na,label_image
-4,Run Inference,Read labels from file,3140.0,na,label_image
-4,Run Inference,Print results,6603.0,na,label_image
+4,Run Inference,Process results,3140.0,na,label_image
+4,Run Inference,Display results,6603.0,na,label_image
 4,Run Inference,Global time,917295.0,na,label_image
-4,Real time,Global time,960000.0,na,label_image
+4,Response Time,Global time,960000.0,na,label_image
 5,Setup Interpreter,Load Model,806.0,na,label_image
-5,Setup Interpreter,Configure and Build Interpreter,7391.0,na,label_image
+5,Setup Interpreter,Configure and build interpreter,7391.0,na,label_image
 5,Setup Interpreter,Build profiler and delegation,34.0,na,label_image
 5,Setup Interpreter,Global time,8591.0,na,label_image
-5,Run Inference,Read BMP,20449.0,na,label_image
-5,Run Inference,Resize image and copy it to input tensor,52418.0,na,label_image
+5,Run Inference,Read image from file,20449.0,na,label_image
+5,Run Inference,Resize and copy image to input tensor,52418.0,na,label_image
 5,Run Inference,Warm-up interpreter,1.0,na,label_image
-5,Run Inference,Total invokation time,441477.0,na,label_image
-5,Run Inference,Average invokation time per loop,441477.0,na,label_image
+5,Run Inference,Interpreter invocation,441477.0,na,label_image
+5,Run Inference,Average interpreter invocation per loop,441477.0,na,label_image
 5,Run Inference,Profiling,1.0,na,label_image
 5,Run Inference,Rerieve results from output tensors,26.0,na,label_image
-5,Run Inference,Read labels from file,1978.0,na,label_image
-5,Run Inference,Print results,3733.0,na,label_image
+5,Run Inference,Process results,1978.0,na,label_image
+5,Run Inference,Display results,3733.0,na,label_image
 5,Run Inference,Global time,520788.0,na,label_image
-5,Real time,Global time,550000.0,na,label_image
+5,Response Time,Global time,550000.0,na,label_image
 6,Setup Interpreter,Load Model,678.0,na,label_image
-6,Setup Interpreter,Configure and Build Interpreter,7161.0,na,label_image
+6,Setup Interpreter,Configure and build interpreter,7161.0,na,label_image
 6,Setup Interpreter,Build profiler and delegation,33.0,na,label_image
 6,Setup Interpreter,Global time,8161.0,na,label_image
-6,Run Inference,Read BMP,20331.0,na,label_image
-6,Run Inference,Resize image and copy it to input tensor,52568.0,na,label_image
+6,Run Inference,Read image from file,20331.0,na,label_image
+6,Run Inference,Resize and copy image to input tensor,52568.0,na,label_image
 6,Run Inference,Warm-up interpreter,1.0,na,label_image
-6,Run Inference,Total invokation time,437726.0,na,label_image
-6,Run Inference,Average invokation time per loop,437726.0,na,label_image
+6,Run Inference,Interpreter invocation,437726.0,na,label_image
+6,Run Inference,Average interpreter invocation per loop,437726.0,na,label_image
 6,Run Inference,Profiling,0.0,na,label_image
 6,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-6,Run Inference,Read labels from file,2001.0,na,label_image
-6,Run Inference,Print results,3777.0,na,label_image
+6,Run Inference,Process results,2001.0,na,label_image
+6,Run Inference,Display results,3777.0,na,label_image
 6,Run Inference,Global time,517128.0,na,label_image
-6,Real time,Global time,540000.0,na,label_image
+6,Response Time,Global time,540000.0,na,label_image
 7,Setup Interpreter,Load Model,1199.0,na,label_image
-7,Setup Interpreter,Configure and Build Interpreter,11717.0,na,label_image
+7,Setup Interpreter,Configure and build interpreter,11717.0,na,label_image
 7,Setup Interpreter,Build profiler and delegation,54.0,na,label_image
 7,Setup Interpreter,Global time,13445.0,na,label_image
-7,Run Inference,Read BMP,34712.0,na,label_image
-7,Run Inference,Resize image and copy it to input tensor,96396.0,na,label_image
+7,Run Inference,Read image from file,34712.0,na,label_image
+7,Run Inference,Resize and copy image to input tensor,96396.0,na,label_image
 7,Run Inference,Warm-up interpreter,1.0,na,label_image
-7,Run Inference,Total invokation time,772357.0,na,label_image
-7,Run Inference,Average invokation time per loop,772357.0,na,label_image
+7,Run Inference,Interpreter invocation,772357.0,na,label_image
+7,Run Inference,Average interpreter invocation per loop,772357.0,na,label_image
 7,Run Inference,Profiling,0.0,na,label_image
 7,Run Inference,Rerieve results from output tensors,49.0,na,label_image
-7,Run Inference,Read labels from file,3155.0,na,label_image
-7,Run Inference,Print results,6625.0,na,label_image
+7,Run Inference,Process results,3155.0,na,label_image
+7,Run Inference,Display results,6625.0,na,label_image
 7,Run Inference,Global time,914448.0,na,label_image
-7,Real time,Global time,960000.0,na,label_image
+7,Response Time,Global time,960000.0,na,label_image
 8,Setup Interpreter,Load Model,1059.0,na,label_image
-8,Setup Interpreter,Configure and Build Interpreter,11494.0,na,label_image
+8,Setup Interpreter,Configure and build interpreter,11494.0,na,label_image
 8,Setup Interpreter,Build profiler and delegation,55.0,na,label_image
 8,Setup Interpreter,Global time,13082.0,na,label_image
-8,Run Inference,Read BMP,34705.0,na,label_image
-8,Run Inference,Resize image and copy it to input tensor,75930.0,na,label_image
+8,Run Inference,Read image from file,34705.0,na,label_image
+8,Run Inference,Resize and copy image to input tensor,75930.0,na,label_image
 8,Run Inference,Warm-up interpreter,1.0,na,label_image
-8,Run Inference,Total invokation time,436709.0,na,label_image
-8,Run Inference,Average invokation time per loop,436709.0,na,label_image
+8,Run Inference,Interpreter invocation,436709.0,na,label_image
+8,Run Inference,Average interpreter invocation per loop,436709.0,na,label_image
 8,Run Inference,Profiling,1.0,na,label_image
 8,Run Inference,Rerieve results from output tensors,26.0,na,label_image
-8,Run Inference,Read labels from file,1952.0,na,label_image
-8,Run Inference,Print results,3793.0,na,label_image
+8,Run Inference,Process results,1952.0,na,label_image
+8,Run Inference,Display results,3793.0,na,label_image
 8,Run Inference,Global time,553875.0,na,label_image
-8,Real time,Global time,590000.0,na,label_image
+8,Response Time,Global time,590000.0,na,label_image
 9,Setup Interpreter,Load Model,672.0,na,label_image
-9,Setup Interpreter,Configure and Build Interpreter,7093.0,na,label_image
+9,Setup Interpreter,Configure and build interpreter,7093.0,na,label_image
 9,Setup Interpreter,Build profiler and delegation,35.0,na,label_image
 9,Setup Interpreter,Global time,8090.0,na,label_image
-9,Run Inference,Read BMP,20551.0,na,label_image
-9,Run Inference,Resize image and copy it to input tensor,53441.0,na,label_image
+9,Run Inference,Read image from file,20551.0,na,label_image
+9,Run Inference,Resize and copy image to input tensor,53441.0,na,label_image
 9,Run Inference,Warm-up interpreter,1.0,na,label_image
-9,Run Inference,Total invokation time,435906.0,na,label_image
-9,Run Inference,Average invokation time per loop,435906.0,na,label_image
+9,Run Inference,Interpreter invocation,435906.0,na,label_image
+9,Run Inference,Average interpreter invocation per loop,435906.0,na,label_image
 9,Run Inference,Profiling,0.0,na,label_image
 9,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-9,Run Inference,Read labels from file,2096.0,na,label_image
-9,Run Inference,Print results,3755.0,na,label_image
+9,Run Inference,Process results,2096.0,na,label_image
+9,Run Inference,Display results,3755.0,na,label_image
 9,Run Inference,Global time,516573.0,na,label_image
-9,Real time,Global time,540000.0,na,label_image
+9,Response Time,Global time,540000.0,na,label_image
 10,Setup Interpreter,Load Model,713.0,na,label_image
-10,Setup Interpreter,Configure and Build Interpreter,7303.0,na,label_image
+10,Setup Interpreter,Configure and build interpreter,7303.0,na,label_image
 10,Setup Interpreter,Build profiler and delegation,33.0,na,label_image
 10,Setup Interpreter,Global time,8342.0,na,label_image
-10,Run Inference,Read BMP,20440.0,na,label_image
-10,Run Inference,Resize image and copy it to input tensor,52140.0,na,label_image
+10,Run Inference,Read image from file,20440.0,na,label_image
+10,Run Inference,Resize and copy image to input tensor,52140.0,na,label_image
 10,Run Inference,Warm-up interpreter,1.0,na,label_image
-10,Run Inference,Total invokation time,435744.0,na,label_image
-10,Run Inference,Average invokation time per loop,435744.0,na,label_image
+10,Run Inference,Interpreter invocation,435744.0,na,label_image
+10,Run Inference,Average interpreter invocation per loop,435744.0,na,label_image
 10,Run Inference,Profiling,0.0,na,label_image
 10,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-10,Run Inference,Read labels from file,1971.0,na,label_image
-10,Run Inference,Print results,3743.0,na,label_image
+10,Run Inference,Process results,1971.0,na,label_image
+10,Run Inference,Display results,3743.0,na,label_image
 10,Run Inference,Global time,514767.0,na,label_image
-10,Real time,Global time,540000.0,na,label_image
+10,Response Time,Global time,540000.0,na,label_image
 11,Setup Interpreter,Load Model,721.0,na,label_image
-11,Setup Interpreter,Configure and Build Interpreter,7199.0,na,label_image
+11,Setup Interpreter,Configure and build interpreter,7199.0,na,label_image
 11,Setup Interpreter,Build profiler and delegation,33.0,na,label_image
 11,Setup Interpreter,Global time,8260.0,na,label_image
-11,Run Inference,Read BMP,20518.0,na,label_image
-11,Run Inference,Resize image and copy it to input tensor,56694.0,na,label_image
+11,Run Inference,Read image from file,20518.0,na,label_image
+11,Run Inference,Resize and copy image to input tensor,56694.0,na,label_image
 11,Run Inference,Warm-up interpreter,1.0,na,label_image
-11,Run Inference,Total invokation time,435498.0,na,label_image
-11,Run Inference,Average invokation time per loop,435498.0,na,label_image
+11,Run Inference,Interpreter invocation,435498.0,na,label_image
+11,Run Inference,Average interpreter invocation per loop,435498.0,na,label_image
 11,Run Inference,Profiling,1.0,na,label_image
 11,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-11,Run Inference,Read labels from file,1960.0,na,label_image
-11,Run Inference,Print results,3879.0,na,label_image
+11,Run Inference,Process results,1960.0,na,label_image
+11,Run Inference,Display results,3879.0,na,label_image
 11,Run Inference,Global time,519265.0,na,label_image
-11,Real time,Global time,540000.0,na,label_image
+11,Response Time,Global time,540000.0,na,label_image
 12,Setup Interpreter,Load Model,649.0,na,label_image
-12,Setup Interpreter,Configure and Build Interpreter,7103.0,na,label_image
+12,Setup Interpreter,Configure and build interpreter,7103.0,na,label_image
 12,Setup Interpreter,Build profiler and delegation,54.0,na,label_image
 12,Setup Interpreter,Global time,8095.0,na,label_image
-12,Run Inference,Read BMP,20610.0,na,label_image
-12,Run Inference,Resize image and copy it to input tensor,56783.0,na,label_image
+12,Run Inference,Read image from file,20610.0,na,label_image
+12,Run Inference,Resize and copy image to input tensor,56783.0,na,label_image
 12,Run Inference,Warm-up interpreter,0.0,na,label_image
-12,Run Inference,Total invokation time,435671.0,na,label_image
-12,Run Inference,Average invokation time per loop,435671.0,na,label_image
+12,Run Inference,Interpreter invocation,435671.0,na,label_image
+12,Run Inference,Average interpreter invocation per loop,435671.0,na,label_image
 12,Run Inference,Profiling,0.0,na,label_image
 12,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-12,Run Inference,Read labels from file,2005.0,na,label_image
-12,Run Inference,Print results,3762.0,na,label_image
+12,Run Inference,Process results,2005.0,na,label_image
+12,Run Inference,Display results,3762.0,na,label_image
 12,Run Inference,Global time,519563.0,na,label_image
-12,Real time,Global time,540000.0,na,label_image
+12,Response Time,Global time,540000.0,na,label_image
 13,Setup Interpreter,Load Model,1052.0,na,label_image
-13,Setup Interpreter,Configure and Build Interpreter,11545.0,na,label_image
+13,Setup Interpreter,Configure and build interpreter,11545.0,na,label_image
 13,Setup Interpreter,Build profiler and delegation,55.0,na,label_image
 13,Setup Interpreter,Global time,13134.0,na,label_image
-13,Run Inference,Read BMP,34594.0,na,label_image
-13,Run Inference,Resize image and copy it to input tensor,93626.0,na,label_image
+13,Run Inference,Read image from file,34594.0,na,label_image
+13,Run Inference,Resize and copy image to input tensor,93626.0,na,label_image
 13,Run Inference,Warm-up interpreter,1.0,na,label_image
-13,Run Inference,Total invokation time,772854.0,na,label_image
-13,Run Inference,Average invokation time per loop,772854.0,na,label_image
+13,Run Inference,Interpreter invocation,772854.0,na,label_image
+13,Run Inference,Average interpreter invocation per loop,772854.0,na,label_image
 13,Run Inference,Profiling,1.0,na,label_image
 13,Run Inference,Rerieve results from output tensors,51.0,na,label_image
-13,Run Inference,Read labels from file,3126.0,na,label_image
-13,Run Inference,Print results,6500.0,na,label_image
+13,Run Inference,Process results,3126.0,na,label_image
+13,Run Inference,Display results,6500.0,na,label_image
 13,Run Inference,Global time,911835.0,na,label_image
-13,Real time,Global time,950000.0,na,label_image
+13,Response Time,Global time,950000.0,na,label_image
 14,Setup Interpreter,Load Model,705.0,na,label_image
-14,Setup Interpreter,Configure and Build Interpreter,7399.0,na,label_image
+14,Setup Interpreter,Configure and build interpreter,7399.0,na,label_image
 14,Setup Interpreter,Build profiler and delegation,32.0,na,label_image
 14,Setup Interpreter,Global time,8426.0,na,label_image
-14,Run Inference,Read BMP,20391.0,na,label_image
-14,Run Inference,Resize image and copy it to input tensor,51894.0,na,label_image
+14,Run Inference,Read image from file,20391.0,na,label_image
+14,Run Inference,Resize and copy image to input tensor,51894.0,na,label_image
 14,Run Inference,Warm-up interpreter,0.0,na,label_image
-14,Run Inference,Total invokation time,437378.0,na,label_image
-14,Run Inference,Average invokation time per loop,437378.0,na,label_image
+14,Run Inference,Interpreter invocation,437378.0,na,label_image
+14,Run Inference,Average interpreter invocation per loop,437378.0,na,label_image
 14,Run Inference,Profiling,0.0,na,label_image
 14,Run Inference,Rerieve results from output tensors,26.0,na,label_image
-14,Run Inference,Read labels from file,1945.0,na,label_image
-14,Run Inference,Print results,3744.0,na,label_image
+14,Run Inference,Process results,1945.0,na,label_image
+14,Run Inference,Display results,3744.0,na,label_image
 14,Run Inference,Global time,516071.0,na,label_image
-14,Real time,Global time,540000.0,na,label_image
+14,Response Time,Global time,540000.0,na,label_image
 15,Setup Interpreter,Load Model,630.0,na,label_image
-15,Setup Interpreter,Configure and Build Interpreter,7032.0,na,label_image
+15,Setup Interpreter,Configure and build interpreter,7032.0,na,label_image
 15,Setup Interpreter,Build profiler and delegation,35.0,na,label_image
 15,Setup Interpreter,Global time,7986.0,na,label_image
-15,Run Inference,Read BMP,20401.0,na,label_image
-15,Run Inference,Resize image and copy it to input tensor,53301.0,na,label_image
+15,Run Inference,Read image from file,20401.0,na,label_image
+15,Run Inference,Resize and copy image to input tensor,53301.0,na,label_image
 15,Run Inference,Warm-up interpreter,1.0,na,label_image
-15,Run Inference,Total invokation time,439357.0,na,label_image
-15,Run Inference,Average invokation time per loop,439357.0,na,label_image
+15,Run Inference,Interpreter invocation,439357.0,na,label_image
+15,Run Inference,Average interpreter invocation per loop,439357.0,na,label_image
 15,Run Inference,Profiling,1.0,na,label_image
 15,Run Inference,Rerieve results from output tensors,27.0,na,label_image
-15,Run Inference,Read labels from file,1972.0,na,label_image
-15,Run Inference,Print results,4320.0,na,label_image
+15,Run Inference,Process results,1972.0,na,label_image
+15,Run Inference,Display results,4320.0,na,label_image
 15,Run Inference,Global time,520076.0,na,label_image
-15,Real time,Global time,540000.0,na,label_image
+15,Response Time,Global time,540000.0,na,label_image
 16,Setup Interpreter,Load Model,623.0,na,label_image
-16,Setup Interpreter,Configure and Build Interpreter,6861.0,na,label_image
+16,Setup Interpreter,Configure and build interpreter,6861.0,na,label_image
 16,Setup Interpreter,Build profiler and delegation,34.0,na,label_image
 16,Setup Interpreter,Global time,7806.0,na,label_image
-16,Run Inference,Read BMP,20530.0,na,label_image
-16,Run Inference,Resize image and copy it to input tensor,91953.0,na,label_image
+16,Run Inference,Read image from file,20530.0,na,label_image
+16,Run Inference,Resize and copy image to input tensor,91953.0,na,label_image
 16,Run Inference,Warm-up interpreter,1.0,na,label_image
-16,Run Inference,Total invokation time,774602.0,na,label_image
-16,Run Inference,Average invokation time per loop,774602.0,na,label_image
+16,Run Inference,Interpreter invocation,774602.0,na,label_image
+16,Run Inference,Average interpreter invocation per loop,774602.0,na,label_image
 16,Run Inference,Profiling,1.0,na,label_image
 16,Run Inference,Rerieve results from output tensors,49.0,na,label_image
-16,Run Inference,Read labels from file,3219.0,na,label_image
-16,Run Inference,Print results,6419.0,na,label_image
+16,Run Inference,Process results,3219.0,na,label_image
+16,Run Inference,Display results,6419.0,na,label_image
 16,Run Inference,Global time,898471.0,na,label_image
-16,Real time,Global time,930000.0,na,label_image
+16,Response Time,Global time,930000.0,na,label_image
 17,Setup Interpreter,Load Model,919.0,na,label_image
-17,Setup Interpreter,Configure and Build Interpreter,11443.0,na,label_image
+17,Setup Interpreter,Configure and build interpreter,11443.0,na,label_image
 17,Setup Interpreter,Build profiler and delegation,56.0,na,label_image
 17,Setup Interpreter,Global time,12891.0,na,label_image
-17,Run Inference,Read BMP,35153.0,na,label_image
-17,Run Inference,Resize image and copy it to input tensor,96321.0,na,label_image
+17,Run Inference,Read image from file,35153.0,na,label_image
+17,Run Inference,Resize and copy image to input tensor,96321.0,na,label_image
 17,Run Inference,Warm-up interpreter,1.0,na,label_image
-17,Run Inference,Total invokation time,773071.0,na,label_image
-17,Run Inference,Average invokation time per loop,773071.0,na,label_image
+17,Run Inference,Interpreter invocation,773071.0,na,label_image
+17,Run Inference,Average interpreter invocation per loop,773071.0,na,label_image
 17,Run Inference,Profiling,1.0,na,label_image
 17,Run Inference,Rerieve results from output tensors,50.0,na,label_image
-17,Run Inference,Read labels from file,3153.0,na,label_image
-17,Run Inference,Print results,6651.0,na,label_image
+17,Run Inference,Process results,3153.0,na,label_image
+17,Run Inference,Display results,6651.0,na,label_image
 17,Run Inference,Global time,915459.0,na,label_image
-17,Real time,Global time,960000.0,na,label_image
+17,Response Time,Global time,960000.0,na,label_image
 18,Setup Interpreter,Load Model,1011.0,na,label_image
-18,Setup Interpreter,Configure and Build Interpreter,11323.0,na,label_image
+18,Setup Interpreter,Configure and build interpreter,11323.0,na,label_image
 18,Setup Interpreter,Build profiler and delegation,57.0,na,label_image
 18,Setup Interpreter,Global time,12858.0,na,label_image
-18,Run Inference,Read BMP,34819.0,na,label_image
-18,Run Inference,Resize image and copy it to input tensor,102722.0,na,label_image
+18,Run Inference,Read image from file,34819.0,na,label_image
+18,Run Inference,Resize and copy image to input tensor,102722.0,na,label_image
 18,Run Inference,Warm-up interpreter,1.0,na,label_image
-18,Run Inference,Total invokation time,772077.0,na,label_image
-18,Run Inference,Average invokation time per loop,772077.0,na,label_image
+18,Run Inference,Interpreter invocation,772077.0,na,label_image
+18,Run Inference,Average interpreter invocation per loop,772077.0,na,label_image
 18,Run Inference,Profiling,1.0,na,label_image
 18,Run Inference,Rerieve results from output tensors,63.0,na,label_image
-18,Run Inference,Read labels from file,3134.0,na,label_image
-18,Run Inference,Print results,8278.0,na,label_image
+18,Run Inference,Process results,3134.0,na,label_image
+18,Run Inference,Display results,8278.0,na,label_image
 18,Run Inference,Global time,926919.0,na,label_image
-18,Real time,Global time,970000.0,na,label_image
+18,Response Time,Global time,970000.0,na,label_image
 19,Setup Interpreter,Load Model,1094.0,na,label_image
-19,Setup Interpreter,Configure and Build Interpreter,11724.0,na,label_image
+19,Setup Interpreter,Configure and build interpreter,11724.0,na,label_image
 19,Setup Interpreter,Build profiler and delegation,56.0,na,label_image
 19,Setup Interpreter,Global time,13341.0,na,label_image
-19,Run Inference,Read BMP,34982.0,na,label_image
-19,Run Inference,Resize image and copy it to input tensor,95798.0,na,label_image
+19,Run Inference,Read image from file,34982.0,na,label_image
+19,Run Inference,Resize and copy image to input tensor,95798.0,na,label_image
 19,Run Inference,Warm-up interpreter,1.0,na,label_image
-19,Run Inference,Total invokation time,775794.0,na,label_image
-19,Run Inference,Average invokation time per loop,775794.0,na,label_image
+19,Run Inference,Interpreter invocation,775794.0,na,label_image
+19,Run Inference,Average interpreter invocation per loop,775794.0,na,label_image
 19,Run Inference,Profiling,0.0,na,label_image
 19,Run Inference,Rerieve results from output tensors,50.0,na,label_image
-19,Run Inference,Read labels from file,3263.0,na,label_image
-19,Run Inference,Print results,6562.0,na,label_image
+19,Run Inference,Process results,3263.0,na,label_image
+19,Run Inference,Display results,6562.0,na,label_image
 19,Run Inference,Global time,917507.0,na,label_image
-19,Real time,Global time,960000.0,na,label_image
+19,Response Time,Global time,960000.0,na,label_image
 0,Setup Interpreter,Load Model,679.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Setup Interpreter,Configure and Build Interpreter,11111.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Setup Interpreter,Configure and build interpreter,11111.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Setup Interpreter,Build profiler and delegation,122.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Setup Interpreter,Global time,11999.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Crow Webserver,Handling and saving input image,100671.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Run Inference,Read BMP,34447.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Run Inference,Resize image and copy it to input tensor,93173.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Crow Webserver,Handle POST request with image,100671.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Run Inference,Read image from file,34447.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Run Inference,Resize and copy image to input tensor,93173.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Run Inference,Total invokation time,780746.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Run Inference,Average invokation time per loop,780746.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Run Inference,Interpreter invocation,780746.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Run Inference,Average interpreter invocation per loop,780746.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Run Inference,Read labels from file,3130.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Run Inference,Process results,3130.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Run Inference,Global time,911983.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Crow Webserver,Run inference,913254.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-0,Real time,Global time,1130000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+0,Response Time,Global time,1130000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Setup Interpreter,Load Model,504.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Setup Interpreter,Configure and Build Interpreter,6984.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Setup Interpreter,Configure and build interpreter,6984.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Setup Interpreter,Build profiler and delegation,77.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Setup Interpreter,Global time,7615.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Crow Webserver,Handling and saving input image,101660.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Run Inference,Read BMP,34299.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Run Inference,Resize image and copy it to input tensor,93579.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Crow Webserver,Handle POST request with image,101660.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Run Inference,Read image from file,34299.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Run Inference,Resize and copy image to input tensor,93579.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Run Inference,Total invokation time,780360.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Run Inference,Average invokation time per loop,780360.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Run Inference,Interpreter invocation,780360.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Run Inference,Average interpreter invocation per loop,780360.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Run Inference,Read labels from file,3258.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Run Inference,Print results,87.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Run Inference,Process results,3258.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Run Inference,Display results,87.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Run Inference,Global time,911983.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 1,Crow Webserver,Run inference,913259.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-1,Real time,Global time,1151000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+1,Response Time,Global time,1151000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Setup Interpreter,Load Model,426.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Setup Interpreter,Configure and Build Interpreter,6789.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Setup Interpreter,Configure and build interpreter,6789.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Setup Interpreter,Build profiler and delegation,77.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Setup Interpreter,Global time,7345.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Crow Webserver,Handling and saving input image,101202.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Run Inference,Read BMP,34581.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Run Inference,Resize image and copy it to input tensor,93105.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Crow Webserver,Handle POST request with image,101202.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Run Inference,Read image from file,34581.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Run Inference,Resize and copy image to input tensor,93105.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Run Inference,Total invokation time,787349.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Run Inference,Average invokation time per loop,787349.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Run Inference,Interpreter invocation,787349.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Run Inference,Average interpreter invocation per loop,787349.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Run Inference,Profiling,0.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Run Inference,Read labels from file,3149.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Run Inference,Print results,84.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Run Inference,Process results,3149.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Run Inference,Display results,84.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Run Inference,Global time,918676.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 2,Crow Webserver,Run inference,919967.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-2,Real time,Global time,1147000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+2,Response Time,Global time,1147000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Setup Interpreter,Load Model,810.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Setup Interpreter,Configure and Build Interpreter,11900.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Setup Interpreter,Configure and build interpreter,11900.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Setup Interpreter,Build profiler and delegation,127.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Setup Interpreter,Global time,12924.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Crow Webserver,Handling and saving input image,101021.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Run Inference,Read BMP,34739.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Run Inference,Resize image and copy it to input tensor,93018.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Crow Webserver,Handle POST request with image,101021.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Run Inference,Read image from file,34739.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Run Inference,Resize and copy image to input tensor,93018.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Run Inference,Total invokation time,782040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Run Inference,Average invokation time per loop,782040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Run Inference,Interpreter invocation,782040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Run Inference,Average interpreter invocation per loop,782040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Run Inference,Rerieve results from output tensors,53.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Run Inference,Read labels from file,3240.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Run Inference,Process results,3240.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Run Inference,Global time,913519.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 3,Crow Webserver,Run inference,914785.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-3,Real time,Global time,1160000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+3,Response Time,Global time,1160000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Setup Interpreter,Load Model,394.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Setup Interpreter,Configure and Build Interpreter,6856.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Setup Interpreter,Configure and build interpreter,6856.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Setup Interpreter,Build profiler and delegation,76.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Setup Interpreter,Global time,7379.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Crow Webserver,Handling and saving input image,101263.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Run Inference,Read BMP,34738.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Run Inference,Resize image and copy it to input tensor,93043.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Crow Webserver,Handle POST request with image,101263.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Run Inference,Read image from file,34738.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Run Inference,Resize and copy image to input tensor,93043.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Run Inference,Warm-up interpreter,2.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Run Inference,Total invokation time,783005.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Run Inference,Average invokation time per loop,783005.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Run Inference,Interpreter invocation,783005.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Run Inference,Average interpreter invocation per loop,783005.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Run Inference,Read labels from file,3141.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Run Inference,Print results,87.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Run Inference,Process results,3141.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Run Inference,Display results,87.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Run Inference,Global time,914424.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 4,Crow Webserver,Run inference,915866.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-4,Real time,Global time,1150000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+4,Response Time,Global time,1150000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Setup Interpreter,Load Model,709.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Setup Interpreter,Configure and Build Interpreter,11318.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Setup Interpreter,Configure and build interpreter,11318.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Setup Interpreter,Build profiler and delegation,123.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Setup Interpreter,Global time,12236.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Crow Webserver,Handling and saving input image,101294.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Run Inference,Read BMP,34552.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Run Inference,Resize image and copy it to input tensor,93259.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Crow Webserver,Handle POST request with image,101294.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Run Inference,Read image from file,34552.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Run Inference,Resize and copy image to input tensor,93259.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Run Inference,Total invokation time,780180.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Run Inference,Average invokation time per loop,780180.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Run Inference,Interpreter invocation,780180.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Run Inference,Average interpreter invocation per loop,780180.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Run Inference,Rerieve results from output tensors,53.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Run Inference,Read labels from file,3130.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Run Inference,Print results,84.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Run Inference,Process results,3130.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Run Inference,Display results,84.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Run Inference,Global time,911603.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 5,Crow Webserver,Run inference,912870.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-5,Real time,Global time,1166000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+5,Response Time,Global time,1166000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Setup Interpreter,Load Model,591.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Setup Interpreter,Configure and Build Interpreter,11353.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Setup Interpreter,Configure and build interpreter,11353.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Setup Interpreter,Build profiler and delegation,126.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Setup Interpreter,Global time,12157.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Crow Webserver,Handling and saving input image,102326.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Run Inference,Read BMP,34764.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Run Inference,Resize image and copy it to input tensor,93659.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Crow Webserver,Handle POST request with image,102326.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Run Inference,Read image from file,34764.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Run Inference,Resize and copy image to input tensor,93659.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Run Inference,Warm-up interpreter,2.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Run Inference,Total invokation time,782699.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Run Inference,Average invokation time per loop,782699.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Run Inference,Interpreter invocation,782699.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Run Inference,Average interpreter invocation per loop,782699.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Run Inference,Read labels from file,3338.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Run Inference,Print results,88.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Run Inference,Process results,3338.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Run Inference,Display results,88.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Run Inference,Global time,914950.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 6,Crow Webserver,Run inference,916240.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-6,Real time,Global time,1152000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+6,Response Time,Global time,1152000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Setup Interpreter,Load Model,751.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Setup Interpreter,Configure and Build Interpreter,11123.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Setup Interpreter,Configure and build interpreter,11123.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Setup Interpreter,Build profiler and delegation,124.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Setup Interpreter,Global time,12086.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Crow Webserver,Handling and saving input image,101338.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Run Inference,Read BMP,34711.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Run Inference,Resize image and copy it to input tensor,98331.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Crow Webserver,Handle POST request with image,101338.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Run Inference,Read image from file,34711.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Run Inference,Resize and copy image to input tensor,98331.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Run Inference,Total invokation time,781902.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Run Inference,Average invokation time per loop,781902.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Run Inference,Interpreter invocation,781902.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Run Inference,Average interpreter invocation per loop,781902.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Run Inference,Read labels from file,3141.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Run Inference,Process results,3141.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Run Inference,Global time,918568.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 7,Crow Webserver,Run inference,919824.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-7,Real time,Global time,1145000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+7,Response Time,Global time,1145000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Setup Interpreter,Load Model,688.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Setup Interpreter,Configure and Build Interpreter,11265.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Setup Interpreter,Configure and build interpreter,11265.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Setup Interpreter,Build profiler and delegation,124.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Setup Interpreter,Global time,12161.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Crow Webserver,Handling and saving input image,61835.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Run Inference,Read BMP,20473.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Run Inference,Resize image and copy it to input tensor,52935.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Crow Webserver,Handle POST request with image,61835.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Run Inference,Read image from file,20473.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Run Inference,Resize and copy image to input tensor,52935.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Run Inference,Total invokation time,436784.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Run Inference,Average invokation time per loop,436784.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Run Inference,Interpreter invocation,436784.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Run Inference,Average interpreter invocation per loop,436784.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Run Inference,Profiling,0.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Run Inference,Rerieve results from output tensors,30.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Run Inference,Read labels from file,1929.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Run Inference,Print results,48.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Run Inference,Process results,1929.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Run Inference,Display results,48.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Run Inference,Global time,512422.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 8,Crow Webserver,Run inference,513335.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-8,Real time,Global time,699000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+8,Response Time,Global time,699000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Setup Interpreter,Load Model,584.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Setup Interpreter,Configure and Build Interpreter,11259.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Setup Interpreter,Configure and build interpreter,11259.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Setup Interpreter,Build profiler and delegation,121.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Setup Interpreter,Global time,12051.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Crow Webserver,Handling and saving input image,64458.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Run Inference,Read BMP,20570.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Run Inference,Resize image and copy it to input tensor,53159.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Crow Webserver,Handle POST request with image,64458.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Run Inference,Read image from file,20570.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Run Inference,Resize and copy image to input tensor,53159.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Run Inference,Total invokation time,437560.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Run Inference,Average invokation time per loop,437560.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Run Inference,Interpreter invocation,437560.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Run Inference,Average interpreter invocation per loop,437560.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Run Inference,Profiling,0.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Run Inference,Rerieve results from output tensors,30.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Run Inference,Read labels from file,1826.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Run Inference,Print results,48.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Run Inference,Process results,1826.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Run Inference,Display results,48.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Run Inference,Global time,513414.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 9,Crow Webserver,Run inference,514147.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-9,Real time,Global time,711000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+9,Response Time,Global time,711000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Setup Interpreter,Load Model,589.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Setup Interpreter,Configure and Build Interpreter,11325.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Setup Interpreter,Configure and build interpreter,11325.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Setup Interpreter,Build profiler and delegation,126.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Setup Interpreter,Global time,12130.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Crow Webserver,Handling and saving input image,62689.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Run Inference,Read BMP,20495.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Run Inference,Resize image and copy it to input tensor,53506.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Crow Webserver,Handle POST request with image,62689.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Run Inference,Read image from file,20495.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Run Inference,Resize and copy image to input tensor,53506.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Run Inference,Total invokation time,440040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Run Inference,Average invokation time per loop,440040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Run Inference,Interpreter invocation,440040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Run Inference,Average interpreter invocation per loop,440040.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Run Inference,Rerieve results from output tensors,31.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Run Inference,Read labels from file,1812.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Run Inference,Print results,48.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Run Inference,Process results,1812.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Run Inference,Display results,48.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Run Inference,Global time,516153.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 10,Crow Webserver,Run inference,516871.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-10,Real time,Global time,708000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+10,Response Time,Global time,708000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Setup Interpreter,Load Model,670.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Setup Interpreter,Configure and Build Interpreter,11102.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Setup Interpreter,Configure and build interpreter,11102.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Setup Interpreter,Build profiler and delegation,119.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Setup Interpreter,Global time,11980.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Crow Webserver,Handling and saving input image,101616.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Run Inference,Read BMP,34533.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Run Inference,Resize image and copy it to input tensor,93371.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Crow Webserver,Handle POST request with image,101616.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Run Inference,Read image from file,34533.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Run Inference,Resize and copy image to input tensor,93371.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Run Inference,Total invokation time,782620.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Run Inference,Average invokation time per loop,782620.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Run Inference,Interpreter invocation,782620.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Run Inference,Average interpreter invocation per loop,782620.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Run Inference,Rerieve results from output tensors,51.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Run Inference,Read labels from file,3136.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Run Inference,Process results,3136.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Run Inference,Global time,914145.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 11,Crow Webserver,Run inference,915538.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-11,Real time,Global time,1166000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+11,Response Time,Global time,1166000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Setup Interpreter,Load Model,364.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Setup Interpreter,Configure and Build Interpreter,6874.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Setup Interpreter,Configure and build interpreter,6874.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Setup Interpreter,Build profiler and delegation,79.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Setup Interpreter,Global time,7370.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Crow Webserver,Handling and saving input image,101490.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Run Inference,Read BMP,34894.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Run Inference,Resize image and copy it to input tensor,93073.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Crow Webserver,Handle POST request with image,101490.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Run Inference,Read image from file,34894.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Run Inference,Resize and copy image to input tensor,93073.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Run Inference,Warm-up interpreter,2.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Run Inference,Total invokation time,788916.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Run Inference,Average invokation time per loop,788916.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Run Inference,Interpreter invocation,788916.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Run Inference,Average interpreter invocation per loop,788916.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Run Inference,Rerieve results from output tensors,54.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Run Inference,Read labels from file,3155.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Run Inference,Print results,87.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Run Inference,Process results,3155.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Run Inference,Display results,87.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Run Inference,Global time,920525.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 12,Crow Webserver,Run inference,921928.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-12,Real time,Global time,1164000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+12,Response Time,Global time,1164000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Setup Interpreter,Load Model,820.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Setup Interpreter,Configure and Build Interpreter,11626.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Setup Interpreter,Configure and build interpreter,11626.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Setup Interpreter,Build profiler and delegation,125.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Setup Interpreter,Global time,12658.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Crow Webserver,Handling and saving input image,101741.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Run Inference,Read BMP,34525.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Run Inference,Resize image and copy it to input tensor,93319.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Crow Webserver,Handle POST request with image,101741.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Run Inference,Read image from file,34525.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Run Inference,Resize and copy image to input tensor,93319.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Run Inference,Warm-up interpreter,2.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Run Inference,Total invokation time,567579.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Run Inference,Average invokation time per loop,567579.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Run Inference,Interpreter invocation,567579.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Run Inference,Average interpreter invocation per loop,567579.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Run Inference,Profiling,0.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Run Inference,Rerieve results from output tensors,29.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Run Inference,Read labels from file,1804.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Run Inference,Print results,49.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Run Inference,Process results,1804.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Run Inference,Display results,49.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Run Inference,Global time,697560.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 13,Crow Webserver,Run inference,698336.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-13,Real time,Global time,942000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+13,Response Time,Global time,942000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Setup Interpreter,Load Model,588.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Setup Interpreter,Configure and Build Interpreter,11432.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Setup Interpreter,Configure and build interpreter,11432.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Setup Interpreter,Build profiler and delegation,124.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Setup Interpreter,Global time,12230.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Crow Webserver,Handling and saving input image,101767.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Run Inference,Read BMP,34766.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Run Inference,Resize image and copy it to input tensor,93297.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Crow Webserver,Handle POST request with image,101767.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Run Inference,Read image from file,34766.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Run Inference,Resize and copy image to input tensor,93297.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Run Inference,Warm-up interpreter,2.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Run Inference,Total invokation time,785133.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Run Inference,Average invokation time per loop,785133.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Run Inference,Interpreter invocation,785133.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Run Inference,Average interpreter invocation per loop,785133.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Run Inference,Rerieve results from output tensors,53.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Run Inference,Read labels from file,3277.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Run Inference,Process results,3277.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Run Inference,Global time,916967.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 14,Crow Webserver,Run inference,918271.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-14,Real time,Global time,1150000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+14,Response Time,Global time,1150000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Setup Interpreter,Load Model,636.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Setup Interpreter,Configure and Build Interpreter,7223.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Setup Interpreter,Configure and build interpreter,7223.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Setup Interpreter,Build profiler and delegation,78.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Setup Interpreter,Global time,7989.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Crow Webserver,Handling and saving input image,102308.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Run Inference,Read BMP,34464.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Run Inference,Resize image and copy it to input tensor,93284.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Crow Webserver,Handle POST request with image,102308.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Run Inference,Read image from file,34464.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Run Inference,Resize and copy image to input tensor,93284.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Run Inference,Warm-up interpreter,2.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Run Inference,Total invokation time,783549.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Run Inference,Average invokation time per loop,783549.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Run Inference,Interpreter invocation,783549.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Run Inference,Average interpreter invocation per loop,783549.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Run Inference,Rerieve results from output tensors,53.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Run Inference,Read labels from file,3159.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Run Inference,Process results,3159.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Run Inference,Global time,914948.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 15,Crow Webserver,Run inference,916270.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-15,Real time,Global time,1146000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+15,Response Time,Global time,1146000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Setup Interpreter,Load Model,642.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Setup Interpreter,Configure and Build Interpreter,10974.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Setup Interpreter,Configure and build interpreter,10974.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Setup Interpreter,Build profiler and delegation,120.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Setup Interpreter,Global time,11825.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Crow Webserver,Handling and saving input image,102486.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Run Inference,Read BMP,34638.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Run Inference,Resize image and copy it to input tensor,94186.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Crow Webserver,Handle POST request with image,102486.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Run Inference,Read image from file,34638.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Run Inference,Resize and copy image to input tensor,94186.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Run Inference,Total invokation time,553072.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Run Inference,Average invokation time per loop,553072.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Run Inference,Interpreter invocation,553072.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Run Inference,Average interpreter invocation per loop,553072.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Run Inference,Rerieve results from output tensors,30.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Run Inference,Read labels from file,1824.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Run Inference,Print results,50.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Run Inference,Process results,1824.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Run Inference,Display results,50.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Run Inference,Global time,684058.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 16,Crow Webserver,Run inference,684858.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-16,Real time,Global time,928000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+16,Response Time,Global time,928000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Setup Interpreter,Load Model,495.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Setup Interpreter,Configure and Build Interpreter,6923.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Setup Interpreter,Configure and build interpreter,6923.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Setup Interpreter,Build profiler and delegation,75.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Setup Interpreter,Global time,7544.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Crow Webserver,Handling and saving input image,102042.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Run Inference,Read BMP,37144.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Run Inference,Resize image and copy it to input tensor,94336.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Crow Webserver,Handle POST request with image,102042.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Run Inference,Read image from file,37144.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Run Inference,Resize and copy image to input tensor,94336.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Run Inference,Total invokation time,778738.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Run Inference,Average invokation time per loop,778738.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Run Inference,Interpreter invocation,778738.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Run Inference,Average interpreter invocation per loop,778738.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Run Inference,Rerieve results from output tensors,53.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Run Inference,Read labels from file,3146.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Run Inference,Print results,88.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Run Inference,Process results,3146.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Run Inference,Display results,88.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Run Inference,Global time,913862.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 17,Crow Webserver,Run inference,915197.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-17,Real time,Global time,1145000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+17,Response Time,Global time,1145000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Setup Interpreter,Load Model,552.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Setup Interpreter,Configure and Build Interpreter,10993.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Setup Interpreter,Configure and build interpreter,10993.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Setup Interpreter,Build profiler and delegation,123.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Setup Interpreter,Global time,11754.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Crow Webserver,Handling and saving input image,101657.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Run Inference,Read BMP,34715.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Run Inference,Resize image and copy it to input tensor,95982.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Crow Webserver,Handle POST request with image,101657.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Run Inference,Read image from file,34715.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Run Inference,Resize and copy image to input tensor,95982.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Run Inference,Total invokation time,778722.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Run Inference,Average invokation time per loop,778722.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Run Inference,Interpreter invocation,778722.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Run Inference,Average interpreter invocation per loop,778722.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Run Inference,Profiling,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Run Inference,Rerieve results from output tensors,51.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Run Inference,Read labels from file,3150.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Run Inference,Print results,83.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Run Inference,Process results,3150.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Run Inference,Display results,83.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Run Inference,Global time,913060.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 18,Crow Webserver,Run inference,914352.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-18,Real time,Global time,1155000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+18,Response Time,Global time,1155000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Setup Interpreter,Load Model,570.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Setup Interpreter,Configure and Build Interpreter,11298.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Setup Interpreter,Configure and build interpreter,11298.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Setup Interpreter,Build profiler and delegation,124.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Setup Interpreter,Global time,12077.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Crow Webserver,Handling and saving input image,101214.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Run Inference,Read BMP,35967.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Run Inference,Resize image and copy it to input tensor,95476.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Crow Webserver,Handle POST request with image,101214.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Run Inference,Read image from file,35967.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Run Inference,Resize and copy image to input tensor,95476.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Run Inference,Warm-up interpreter,1.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Run Inference,Total invokation time,782088.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Run Inference,Average invokation time per loop,782088.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Run Inference,Interpreter invocation,782088.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Run Inference,Average interpreter invocation per loop,782088.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Run Inference,Profiling,0.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Run Inference,Rerieve results from output tensors,53.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Run Inference,Read labels from file,3255.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Run Inference,Print results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Run Inference,Process results,3255.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Run Inference,Display results,85.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Run Inference,Global time,917284.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 19,Crow Webserver,Run inference,918831.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
-19,Real time,Global time,1178000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
+19,Response Time,Global time,1178000.0,WiFi 2.4GHz 20-40MHz,label_image_with_crow
 0,Setup Interpreter,Load Model,643.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Setup Interpreter,Configure and Build Interpreter,10957.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Setup Interpreter,Configure and build interpreter,10957.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Setup Interpreter,Build profiler and delegation,124.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Setup Interpreter,Global time,11810.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Crow Webserver,Handling and saving input image,101093.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Run Inference,Read BMP,34325.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Run Inference,Resize image and copy it to input tensor,92690.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Crow Webserver,Handle POST request with image,101093.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Run Inference,Read image from file,34325.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Run Inference,Resize and copy image to input tensor,92690.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Run Inference,Total invokation time,779115.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Run Inference,Average invokation time per loop,779115.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Run Inference,Interpreter invocation,779115.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Run Inference,Average interpreter invocation per loop,779115.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Run Inference,Profiling,0.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Run Inference,Rerieve results from output tensors,54.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Run Inference,Read labels from file,3251.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Run Inference,Print results,85.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Run Inference,Process results,3251.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Run Inference,Display results,85.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Run Inference,Global time,909881.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Crow Webserver,Run inference,911140.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-0,Real time,Global time,1151000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+0,Response Time,Global time,1151000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Setup Interpreter,Load Model,349.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Setup Interpreter,Configure and Build Interpreter,6718.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Setup Interpreter,Configure and build interpreter,6718.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Setup Interpreter,Build profiler and delegation,74.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Setup Interpreter,Global time,7195.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Crow Webserver,Handling and saving input image,101546.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Run Inference,Read BMP,34786.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Run Inference,Resize image and copy it to input tensor,93494.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Crow Webserver,Handle POST request with image,101546.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Run Inference,Read image from file,34786.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Run Inference,Resize and copy image to input tensor,93494.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Run Inference,Total invokation time,782455.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Run Inference,Average invokation time per loop,782455.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Run Inference,Interpreter invocation,782455.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Run Inference,Average interpreter invocation per loop,782455.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Run Inference,Rerieve results from output tensors,54.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Run Inference,Read labels from file,3286.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Run Inference,Print results,84.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Run Inference,Process results,3286.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Run Inference,Display results,84.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Run Inference,Global time,914511.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 1,Crow Webserver,Run inference,915809.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-1,Real time,Global time,1169000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+1,Response Time,Global time,1169000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Setup Interpreter,Load Model,681.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Setup Interpreter,Configure and Build Interpreter,11358.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Setup Interpreter,Configure and build interpreter,11358.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Setup Interpreter,Build profiler and delegation,124.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Setup Interpreter,Global time,12250.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Crow Webserver,Handling and saving input image,101899.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Run Inference,Read BMP,34691.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Run Inference,Resize image and copy it to input tensor,93182.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Crow Webserver,Handle POST request with image,101899.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Run Inference,Read image from file,34691.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Run Inference,Resize and copy image to input tensor,93182.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Run Inference,Total invokation time,783091.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Run Inference,Average invokation time per loop,783091.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Run Inference,Interpreter invocation,783091.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Run Inference,Average interpreter invocation per loop,783091.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Run Inference,Rerieve results from output tensors,55.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Run Inference,Read labels from file,3240.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Run Inference,Print results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Run Inference,Process results,3240.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Run Inference,Display results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Run Inference,Global time,914697.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 2,Crow Webserver,Run inference,915987.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-2,Real time,Global time,1101000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+2,Response Time,Global time,1101000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Setup Interpreter,Load Model,706.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Setup Interpreter,Configure and Build Interpreter,11238.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Setup Interpreter,Configure and build interpreter,11238.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Setup Interpreter,Build profiler and delegation,121.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Setup Interpreter,Global time,12151.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Crow Webserver,Handling and saving input image,61163.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Run Inference,Read BMP,20547.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Run Inference,Resize image and copy it to input tensor,52998.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Crow Webserver,Handle POST request with image,61163.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Run Inference,Read image from file,20547.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Run Inference,Resize and copy image to input tensor,52998.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Run Inference,Total invokation time,438199.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Run Inference,Average invokation time per loop,438199.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Run Inference,Interpreter invocation,438199.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Run Inference,Average interpreter invocation per loop,438199.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Run Inference,Rerieve results from output tensors,29.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Run Inference,Read labels from file,1821.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Run Inference,Print results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Run Inference,Process results,1821.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Run Inference,Display results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Run Inference,Global time,513884.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 3,Crow Webserver,Run inference,514593.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-3,Real time,Global time,658000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+3,Response Time,Global time,658000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Setup Interpreter,Load Model,679.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Setup Interpreter,Configure and Build Interpreter,11128.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Setup Interpreter,Configure and build interpreter,11128.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Setup Interpreter,Build profiler and delegation,126.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Setup Interpreter,Global time,12021.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Crow Webserver,Handling and saving input image,61454.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Run Inference,Read BMP,20941.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Run Inference,Resize image and copy it to input tensor,53243.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Crow Webserver,Handle POST request with image,61454.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Run Inference,Read image from file,20941.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Run Inference,Resize and copy image to input tensor,53243.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Run Inference,Total invokation time,442666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Run Inference,Average invokation time per loop,442666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Run Inference,Interpreter invocation,442666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Run Inference,Average interpreter invocation per loop,442666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Run Inference,Rerieve results from output tensors,30.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Run Inference,Read labels from file,1893.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Run Inference,Print results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Run Inference,Process results,1893.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Run Inference,Display results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Run Inference,Global time,519051.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 4,Crow Webserver,Run inference,519803.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-4,Real time,Global time,661000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+4,Response Time,Global time,661000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Setup Interpreter,Load Model,566.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Setup Interpreter,Configure and Build Interpreter,11333.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Setup Interpreter,Configure and build interpreter,11333.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Setup Interpreter,Build profiler and delegation,127.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Setup Interpreter,Global time,12114.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Crow Webserver,Handling and saving input image,62367.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Run Inference,Read BMP,20525.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Run Inference,Resize image and copy it to input tensor,53338.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Crow Webserver,Handle POST request with image,62367.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Run Inference,Read image from file,20525.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Run Inference,Resize and copy image to input tensor,53338.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Run Inference,Total invokation time,441336.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Run Inference,Average invokation time per loop,441336.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Run Inference,Interpreter invocation,441336.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Run Inference,Average interpreter invocation per loop,441336.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Run Inference,Rerieve results from output tensors,28.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Run Inference,Read labels from file,1937.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Run Inference,Print results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Run Inference,Process results,1937.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Run Inference,Display results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Run Inference,Global time,517446.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 5,Crow Webserver,Run inference,518245.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-5,Real time,Global time,659000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+5,Response Time,Global time,659000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Setup Interpreter,Load Model,506.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Setup Interpreter,Configure and Build Interpreter,7136.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Setup Interpreter,Configure and build interpreter,7136.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Setup Interpreter,Build profiler and delegation,76.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Setup Interpreter,Global time,7771.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Crow Webserver,Handling and saving input image,101816.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Run Inference,Read BMP,34446.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Run Inference,Resize image and copy it to input tensor,93366.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Crow Webserver,Handle POST request with image,101816.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Run Inference,Read image from file,34446.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Run Inference,Resize and copy image to input tensor,93366.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Run Inference,Total invokation time,780162.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Run Inference,Average invokation time per loop,780162.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Run Inference,Interpreter invocation,780162.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Run Inference,Average interpreter invocation per loop,780162.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Run Inference,Rerieve results from output tensors,53.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Run Inference,Read labels from file,3143.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Run Inference,Print results,87.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Run Inference,Process results,3143.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Run Inference,Display results,87.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Run Inference,Global time,911600.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 6,Crow Webserver,Run inference,912873.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-6,Real time,Global time,1092000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+6,Response Time,Global time,1092000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Setup Interpreter,Load Model,859.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Setup Interpreter,Configure and Build Interpreter,11400.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Setup Interpreter,Configure and build interpreter,11400.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Setup Interpreter,Build profiler and delegation,128.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Setup Interpreter,Global time,12471.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Crow Webserver,Handling and saving input image,101157.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Run Inference,Read BMP,34768.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Run Inference,Resize image and copy it to input tensor,93175.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Crow Webserver,Handle POST request with image,101157.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Run Inference,Read image from file,34768.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Run Inference,Resize and copy image to input tensor,93175.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Run Inference,Total invokation time,589746.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Run Inference,Average invokation time per loop,589746.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Run Inference,Interpreter invocation,589746.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Run Inference,Average interpreter invocation per loop,589746.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Run Inference,Profiling,0.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Run Inference,Rerieve results from output tensors,29.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Run Inference,Read labels from file,1821.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Run Inference,Print results,49.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Run Inference,Process results,1821.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Run Inference,Display results,49.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Run Inference,Global time,719848.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 7,Crow Webserver,Run inference,720576.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-7,Real time,Global time,906000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+7,Response Time,Global time,906000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Setup Interpreter,Load Model,687.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Setup Interpreter,Configure and Build Interpreter,11122.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Setup Interpreter,Configure and build interpreter,11122.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Setup Interpreter,Build profiler and delegation,125.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Setup Interpreter,Global time,12021.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Crow Webserver,Handling and saving input image,102396.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Run Inference,Read BMP,34413.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Run Inference,Resize image and copy it to input tensor,93840.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Crow Webserver,Handle POST request with image,102396.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Run Inference,Read image from file,34413.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Run Inference,Resize and copy image to input tensor,93840.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Run Inference,Total invokation time,782357.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Run Inference,Average invokation time per loop,782357.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Run Inference,Interpreter invocation,782357.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Run Inference,Average interpreter invocation per loop,782357.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Run Inference,Rerieve results from output tensors,54.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Run Inference,Read labels from file,3131.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Run Inference,Print results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Run Inference,Process results,3131.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Run Inference,Display results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Run Inference,Global time,914230.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 8,Crow Webserver,Run inference,915551.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-8,Real time,Global time,1104000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+8,Response Time,Global time,1104000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Setup Interpreter,Load Model,681.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Setup Interpreter,Configure and Build Interpreter,11234.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Setup Interpreter,Configure and build interpreter,11234.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Setup Interpreter,Build profiler and delegation,121.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Setup Interpreter,Global time,12125.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Crow Webserver,Handling and saving input image,102364.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Run Inference,Read BMP,34861.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Run Inference,Resize image and copy it to input tensor,93308.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Crow Webserver,Handle POST request with image,102364.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Run Inference,Read image from file,34861.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Run Inference,Resize and copy image to input tensor,93308.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Run Inference,Total invokation time,783177.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Run Inference,Average invokation time per loop,783177.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Run Inference,Interpreter invocation,783177.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Run Inference,Average interpreter invocation per loop,783177.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Run Inference,Profiling,0.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Run Inference,Rerieve results from output tensors,53.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Run Inference,Read labels from file,3249.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Run Inference,Print results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Run Inference,Process results,3249.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Run Inference,Display results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Run Inference,Global time,915082.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 9,Crow Webserver,Run inference,916383.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-9,Real time,Global time,1101000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+9,Response Time,Global time,1101000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Setup Interpreter,Load Model,574.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Setup Interpreter,Configure and Build Interpreter,11174.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Setup Interpreter,Configure and build interpreter,11174.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Setup Interpreter,Build profiler and delegation,124.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Setup Interpreter,Global time,11957.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Crow Webserver,Handling and saving input image,102278.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Run Inference,Read BMP,34590.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Run Inference,Resize image and copy it to input tensor,93125.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Crow Webserver,Handle POST request with image,102278.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Run Inference,Read image from file,34590.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Run Inference,Resize and copy image to input tensor,93125.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Run Inference,Total invokation time,785658.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Run Inference,Average invokation time per loop,785658.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Run Inference,Interpreter invocation,785658.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Run Inference,Average interpreter invocation per loop,785658.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Run Inference,Rerieve results from output tensors,52.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Run Inference,Read labels from file,3126.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Run Inference,Print results,84.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Run Inference,Process results,3126.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Run Inference,Display results,84.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Run Inference,Global time,916983.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 10,Crow Webserver,Run inference,918273.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-10,Real time,Global time,1107000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+10,Response Time,Global time,1107000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Setup Interpreter,Load Model,632.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Setup Interpreter,Configure and Build Interpreter,11318.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Setup Interpreter,Configure and build interpreter,11318.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Setup Interpreter,Build profiler and delegation,123.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Setup Interpreter,Global time,12162.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Crow Webserver,Handling and saving input image,61886.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Run Inference,Read BMP,20400.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Run Inference,Resize image and copy it to input tensor,53252.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Crow Webserver,Handle POST request with image,61886.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Run Inference,Read image from file,20400.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Run Inference,Resize and copy image to input tensor,53252.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Run Inference,Total invokation time,440195.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Run Inference,Average invokation time per loop,440195.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Run Inference,Interpreter invocation,440195.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Run Inference,Average interpreter invocation per loop,440195.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Run Inference,Rerieve results from output tensors,28.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Run Inference,Read labels from file,1892.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Run Inference,Print results,77.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Run Inference,Process results,1892.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Run Inference,Display results,77.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Run Inference,Global time,516089.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 11,Crow Webserver,Run inference,516892.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-11,Real time,Global time,659000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+11,Response Time,Global time,659000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Setup Interpreter,Load Model,509.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Setup Interpreter,Configure and Build Interpreter,6959.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Setup Interpreter,Configure and build interpreter,6959.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Setup Interpreter,Build profiler and delegation,76.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Setup Interpreter,Global time,7597.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Crow Webserver,Handling and saving input image,102175.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Run Inference,Read BMP,34358.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Run Inference,Resize image and copy it to input tensor,93092.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Crow Webserver,Handle POST request with image,102175.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Run Inference,Read image from file,34358.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Run Inference,Resize and copy image to input tensor,93092.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Run Inference,Total invokation time,783932.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Run Inference,Average invokation time per loop,783932.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Run Inference,Interpreter invocation,783932.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Run Inference,Average interpreter invocation per loop,783932.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Run Inference,Rerieve results from output tensors,52.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Run Inference,Read labels from file,3257.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Run Inference,Print results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Run Inference,Process results,3257.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Run Inference,Display results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Run Inference,Global time,915128.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 12,Crow Webserver,Run inference,916417.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-12,Real time,Global time,1096000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+12,Response Time,Global time,1096000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Setup Interpreter,Load Model,859.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Setup Interpreter,Configure and Build Interpreter,11068.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Setup Interpreter,Configure and build interpreter,11068.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Setup Interpreter,Build profiler and delegation,126.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Setup Interpreter,Global time,12139.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Crow Webserver,Handling and saving input image,61566.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Run Inference,Read BMP,20602.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Run Inference,Resize image and copy it to input tensor,53245.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Crow Webserver,Handle POST request with image,61566.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Run Inference,Read image from file,20602.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Run Inference,Resize and copy image to input tensor,53245.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Run Inference,Total invokation time,437033.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Run Inference,Average invokation time per loop,437033.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Run Inference,Interpreter invocation,437033.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Run Inference,Average interpreter invocation per loop,437033.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Run Inference,Rerieve results from output tensors,29.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Run Inference,Read labels from file,1810.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Run Inference,Print results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Run Inference,Process results,1810.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Run Inference,Display results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Run Inference,Global time,512996.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 13,Crow Webserver,Run inference,513744.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-13,Real time,Global time,661000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+13,Response Time,Global time,661000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Setup Interpreter,Load Model,562.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Setup Interpreter,Configure and Build Interpreter,10972.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Setup Interpreter,Configure and build interpreter,10972.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Setup Interpreter,Build profiler and delegation,124.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Setup Interpreter,Global time,11747.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Crow Webserver,Handling and saving input image,61478.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Run Inference,Read BMP,20640.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Run Inference,Resize image and copy it to input tensor,53068.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Crow Webserver,Handle POST request with image,61478.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Run Inference,Read image from file,20640.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Run Inference,Resize and copy image to input tensor,53068.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Run Inference,Total invokation time,440563.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Run Inference,Average invokation time per loop,440563.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Run Inference,Interpreter invocation,440563.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Run Inference,Average interpreter invocation per loop,440563.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Run Inference,Rerieve results from output tensors,31.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Run Inference,Read labels from file,1810.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Run Inference,Print results,47.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Run Inference,Process results,1810.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Run Inference,Display results,47.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Run Inference,Global time,516382.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 14,Crow Webserver,Run inference,517119.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-14,Real time,Global time,664000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+14,Response Time,Global time,664000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Setup Interpreter,Load Model,497.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Setup Interpreter,Configure and Build Interpreter,7082.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Setup Interpreter,Configure and build interpreter,7082.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Setup Interpreter,Build profiler and delegation,76.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Setup Interpreter,Global time,7707.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Crow Webserver,Handling and saving input image,102352.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Run Inference,Read BMP,34606.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Run Inference,Resize image and copy it to input tensor,93975.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Crow Webserver,Handle POST request with image,102352.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Run Inference,Read image from file,34606.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Run Inference,Resize and copy image to input tensor,93975.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Run Inference,Total invokation time,782574.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Run Inference,Average invokation time per loop,782574.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Run Inference,Interpreter invocation,782574.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Run Inference,Average interpreter invocation per loop,782574.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Run Inference,Rerieve results from output tensors,54.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Run Inference,Read labels from file,3157.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Run Inference,Print results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Run Inference,Process results,3157.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Run Inference,Display results,86.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Run Inference,Global time,914799.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 15,Crow Webserver,Run inference,916088.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-15,Real time,Global time,1104000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+15,Response Time,Global time,1104000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Setup Interpreter,Load Model,518.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Setup Interpreter,Configure and Build Interpreter,6956.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Setup Interpreter,Configure and build interpreter,6956.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Setup Interpreter,Build profiler and delegation,72.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Setup Interpreter,Global time,7598.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Crow Webserver,Handling and saving input image,101899.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Run Inference,Read BMP,34206.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Run Inference,Resize image and copy it to input tensor,93159.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Crow Webserver,Handle POST request with image,101899.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Run Inference,Read image from file,34206.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Run Inference,Resize and copy image to input tensor,93159.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Run Inference,Total invokation time,780893.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Run Inference,Average invokation time per loop,780893.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Run Inference,Interpreter invocation,780893.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Run Inference,Average interpreter invocation per loop,780893.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Run Inference,Rerieve results from output tensors,53.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Run Inference,Read labels from file,3144.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Run Inference,Print results,85.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Run Inference,Process results,3144.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Run Inference,Display results,85.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Run Inference,Global time,911887.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 16,Crow Webserver,Run inference,913192.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-16,Real time,Global time,1094000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+16,Response Time,Global time,1094000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Setup Interpreter,Load Model,905.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Setup Interpreter,Configure and Build Interpreter,10970.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Setup Interpreter,Configure and build interpreter,10970.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Setup Interpreter,Build profiler and delegation,124.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Setup Interpreter,Global time,12085.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Crow Webserver,Handling and saving input image,101493.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Run Inference,Read BMP,34337.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Run Inference,Resize image and copy it to input tensor,93665.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Crow Webserver,Handle POST request with image,101493.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Run Inference,Read image from file,34337.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Run Inference,Resize and copy image to input tensor,93665.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Run Inference,Total invokation time,783666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Run Inference,Average invokation time per loop,783666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Run Inference,Interpreter invocation,783666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Run Inference,Average interpreter invocation per loop,783666.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Run Inference,Rerieve results from output tensors,53.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Run Inference,Read labels from file,3129.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Run Inference,Print results,84.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Run Inference,Process results,3129.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Run Inference,Display results,84.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Run Inference,Global time,915284.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 17,Crow Webserver,Run inference,916543.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-17,Real time,Global time,1105000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+17,Response Time,Global time,1105000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Setup Interpreter,Load Model,442.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Setup Interpreter,Configure and Build Interpreter,6918.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Setup Interpreter,Configure and build interpreter,6918.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Setup Interpreter,Build profiler and delegation,77.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Setup Interpreter,Global time,7492.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Crow Webserver,Handling and saving input image,101012.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Run Inference,Read BMP,34594.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Run Inference,Resize image and copy it to input tensor,93562.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Crow Webserver,Handle POST request with image,101012.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Run Inference,Read image from file,34594.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Run Inference,Resize and copy image to input tensor,93562.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Run Inference,Warm-up interpreter,2.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Run Inference,Total invokation time,619924.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Run Inference,Average invokation time per loop,619924.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Run Inference,Interpreter invocation,619924.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Run Inference,Average interpreter invocation per loop,619924.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Run Inference,Rerieve results from output tensors,30.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Run Inference,Read labels from file,2069.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Run Inference,Print results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Run Inference,Process results,2069.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Run Inference,Display results,48.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Run Inference,Global time,750490.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 18,Crow Webserver,Run inference,751315.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-18,Real time,Global time,943000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+18,Response Time,Global time,943000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Setup Interpreter,Load Model,682.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Setup Interpreter,Configure and Build Interpreter,11326.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Setup Interpreter,Configure and build interpreter,11326.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Setup Interpreter,Build profiler and delegation,118.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Setup Interpreter,Global time,12212.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Crow Webserver,Handling and saving input image,61129.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Run Inference,Read BMP,20285.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Run Inference,Resize image and copy it to input tensor,53281.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Crow Webserver,Handle POST request with image,61129.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Run Inference,Read image from file,20285.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Run Inference,Resize and copy image to input tensor,53281.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Run Inference,Warm-up interpreter,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Run Inference,Total invokation time,436517.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Run Inference,Average invokation time per loop,436517.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Run Inference,Interpreter invocation,436517.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Run Inference,Average interpreter invocation per loop,436517.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Run Inference,Profiling,1.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Run Inference,Rerieve results from output tensors,29.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Run Inference,Read labels from file,1809.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Run Inference,Print results,47.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Run Inference,Process results,1809.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Run Inference,Display results,47.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Run Inference,Global time,512193.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 19,Crow Webserver,Run inference,512918.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
-19,Real time,Global time,656000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
+19,Response Time,Global time,656000.0,WiFi 5.0GHz 20-40-80MHz,label_image_with_crow
 0,Setup Interpreter,Load Model,856.0,Ethernet,label_image_with_crow
-0,Setup Interpreter,Configure and Build Interpreter,11092.0,Ethernet,label_image_with_crow
+0,Setup Interpreter,Configure and build interpreter,11092.0,Ethernet,label_image_with_crow
 0,Setup Interpreter,Build profiler and delegation,121.0,Ethernet,label_image_with_crow
 0,Setup Interpreter,Global time,12153.0,Ethernet,label_image_with_crow
-0,Crow Webserver,Handling and saving input image,61631.0,Ethernet,label_image_with_crow
-0,Run Inference,Read BMP,20151.0,Ethernet,label_image_with_crow
-0,Run Inference,Resize image and copy it to input tensor,53246.0,Ethernet,label_image_with_crow
+0,Crow Webserver,Handle POST request with image,61631.0,Ethernet,label_image_with_crow
+0,Run Inference,Read image from file,20151.0,Ethernet,label_image_with_crow
+0,Run Inference,Resize and copy image to input tensor,53246.0,Ethernet,label_image_with_crow
 0,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-0,Run Inference,Total invokation time,717361.0,Ethernet,label_image_with_crow
-0,Run Inference,Average invokation time per loop,717361.0,Ethernet,label_image_with_crow
+0,Run Inference,Interpreter invocation,717361.0,Ethernet,label_image_with_crow
+0,Run Inference,Average interpreter invocation per loop,717361.0,Ethernet,label_image_with_crow
 0,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 0,Run Inference,Rerieve results from output tensors,55.0,Ethernet,label_image_with_crow
-0,Run Inference,Read labels from file,4034.0,Ethernet,label_image_with_crow
-0,Run Inference,Print results,88.0,Ethernet,label_image_with_crow
+0,Run Inference,Process results,4034.0,Ethernet,label_image_with_crow
+0,Run Inference,Display results,88.0,Ethernet,label_image_with_crow
 0,Run Inference,Global time,795251.0,Ethernet,label_image_with_crow
 0,Crow Webserver,Run inference,796535.0,Ethernet,label_image_with_crow
-0,Real time,Global time,961000.0,Ethernet,label_image_with_crow
+0,Response Time,Global time,961000.0,Ethernet,label_image_with_crow
 1,Setup Interpreter,Load Model,490.0,Ethernet,label_image_with_crow
-1,Setup Interpreter,Configure and Build Interpreter,6923.0,Ethernet,label_image_with_crow
+1,Setup Interpreter,Configure and build interpreter,6923.0,Ethernet,label_image_with_crow
 1,Setup Interpreter,Build profiler and delegation,74.0,Ethernet,label_image_with_crow
 1,Setup Interpreter,Global time,7541.0,Ethernet,label_image_with_crow
-1,Crow Webserver,Handling and saving input image,99065.0,Ethernet,label_image_with_crow
-1,Run Inference,Read BMP,34455.0,Ethernet,label_image_with_crow
-1,Run Inference,Resize image and copy it to input tensor,92881.0,Ethernet,label_image_with_crow
+1,Crow Webserver,Handle POST request with image,99065.0,Ethernet,label_image_with_crow
+1,Run Inference,Read image from file,34455.0,Ethernet,label_image_with_crow
+1,Run Inference,Resize and copy image to input tensor,92881.0,Ethernet,label_image_with_crow
 1,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-1,Run Inference,Total invokation time,491703.0,Ethernet,label_image_with_crow
-1,Run Inference,Average invokation time per loop,491703.0,Ethernet,label_image_with_crow
+1,Run Inference,Interpreter invocation,491703.0,Ethernet,label_image_with_crow
+1,Run Inference,Average interpreter invocation per loop,491703.0,Ethernet,label_image_with_crow
 1,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 1,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-1,Run Inference,Read labels from file,1878.0,Ethernet,label_image_with_crow
-1,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+1,Run Inference,Process results,1878.0,Ethernet,label_image_with_crow
+1,Run Inference,Display results,47.0,Ethernet,label_image_with_crow
 1,Run Inference,Global time,621261.0,Ethernet,label_image_with_crow
 1,Crow Webserver,Run inference,622027.0,Ethernet,label_image_with_crow
-1,Real time,Global time,819000.0,Ethernet,label_image_with_crow
+1,Response Time,Global time,819000.0,Ethernet,label_image_with_crow
 2,Setup Interpreter,Load Model,692.0,Ethernet,label_image_with_crow
-2,Setup Interpreter,Configure and Build Interpreter,11099.0,Ethernet,label_image_with_crow
+2,Setup Interpreter,Configure and build interpreter,11099.0,Ethernet,label_image_with_crow
 2,Setup Interpreter,Build profiler and delegation,120.0,Ethernet,label_image_with_crow
 2,Setup Interpreter,Global time,11996.0,Ethernet,label_image_with_crow
-2,Crow Webserver,Handling and saving input image,102231.0,Ethernet,label_image_with_crow
-2,Run Inference,Read BMP,34586.0,Ethernet,label_image_with_crow
-2,Run Inference,Resize image and copy it to input tensor,93281.0,Ethernet,label_image_with_crow
+2,Crow Webserver,Handle POST request with image,102231.0,Ethernet,label_image_with_crow
+2,Run Inference,Read image from file,34586.0,Ethernet,label_image_with_crow
+2,Run Inference,Resize and copy image to input tensor,93281.0,Ethernet,label_image_with_crow
 2,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-2,Run Inference,Total invokation time,777287.0,Ethernet,label_image_with_crow
-2,Run Inference,Average invokation time per loop,777287.0,Ethernet,label_image_with_crow
+2,Run Inference,Interpreter invocation,777287.0,Ethernet,label_image_with_crow
+2,Run Inference,Average interpreter invocation per loop,777287.0,Ethernet,label_image_with_crow
 2,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 2,Run Inference,Rerieve results from output tensors,52.0,Ethernet,label_image_with_crow
-2,Run Inference,Read labels from file,3127.0,Ethernet,label_image_with_crow
-2,Run Inference,Print results,160.0,Ethernet,label_image_with_crow
+2,Run Inference,Process results,3127.0,Ethernet,label_image_with_crow
+2,Run Inference,Display results,160.0,Ethernet,label_image_with_crow
 2,Run Inference,Global time,908837.0,Ethernet,label_image_with_crow
 2,Crow Webserver,Run inference,910086.0,Ethernet,label_image_with_crow
-2,Real time,Global time,1114000.0,Ethernet,label_image_with_crow
+2,Response Time,Global time,1114000.0,Ethernet,label_image_with_crow
 3,Setup Interpreter,Load Model,745.0,Ethernet,label_image_with_crow
-3,Setup Interpreter,Configure and Build Interpreter,10865.0,Ethernet,label_image_with_crow
+3,Setup Interpreter,Configure and build interpreter,10865.0,Ethernet,label_image_with_crow
 3,Setup Interpreter,Build profiler and delegation,119.0,Ethernet,label_image_with_crow
 3,Setup Interpreter,Global time,11812.0,Ethernet,label_image_with_crow
-3,Crow Webserver,Handling and saving input image,101446.0,Ethernet,label_image_with_crow
-3,Run Inference,Read BMP,34439.0,Ethernet,label_image_with_crow
-3,Run Inference,Resize image and copy it to input tensor,93380.0,Ethernet,label_image_with_crow
+3,Crow Webserver,Handle POST request with image,101446.0,Ethernet,label_image_with_crow
+3,Run Inference,Read image from file,34439.0,Ethernet,label_image_with_crow
+3,Run Inference,Resize and copy image to input tensor,93380.0,Ethernet,label_image_with_crow
 3,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-3,Run Inference,Total invokation time,774741.0,Ethernet,label_image_with_crow
-3,Run Inference,Average invokation time per loop,774741.0,Ethernet,label_image_with_crow
+3,Run Inference,Interpreter invocation,774741.0,Ethernet,label_image_with_crow
+3,Run Inference,Average interpreter invocation per loop,774741.0,Ethernet,label_image_with_crow
 3,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 3,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
-3,Run Inference,Read labels from file,3220.0,Ethernet,label_image_with_crow
-3,Run Inference,Print results,84.0,Ethernet,label_image_with_crow
+3,Run Inference,Process results,3220.0,Ethernet,label_image_with_crow
+3,Run Inference,Display results,84.0,Ethernet,label_image_with_crow
 3,Run Inference,Global time,906267.0,Ethernet,label_image_with_crow
 3,Crow Webserver,Run inference,907525.0,Ethernet,label_image_with_crow
-3,Real time,Global time,1120000.0,Ethernet,label_image_with_crow
+3,Response Time,Global time,1120000.0,Ethernet,label_image_with_crow
 4,Setup Interpreter,Load Model,789.0,Ethernet,label_image_with_crow
-4,Setup Interpreter,Configure and Build Interpreter,11223.0,Ethernet,label_image_with_crow
+4,Setup Interpreter,Configure and build interpreter,11223.0,Ethernet,label_image_with_crow
 4,Setup Interpreter,Build profiler and delegation,119.0,Ethernet,label_image_with_crow
 4,Setup Interpreter,Global time,12218.0,Ethernet,label_image_with_crow
-4,Crow Webserver,Handling and saving input image,61514.0,Ethernet,label_image_with_crow
-4,Run Inference,Read BMP,20143.0,Ethernet,label_image_with_crow
-4,Run Inference,Resize image and copy it to input tensor,53200.0,Ethernet,label_image_with_crow
+4,Crow Webserver,Handle POST request with image,61514.0,Ethernet,label_image_with_crow
+4,Run Inference,Read image from file,20143.0,Ethernet,label_image_with_crow
+4,Run Inference,Resize and copy image to input tensor,53200.0,Ethernet,label_image_with_crow
 4,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
-4,Run Inference,Total invokation time,438063.0,Ethernet,label_image_with_crow
-4,Run Inference,Average invokation time per loop,438063.0,Ethernet,label_image_with_crow
+4,Run Inference,Interpreter invocation,438063.0,Ethernet,label_image_with_crow
+4,Run Inference,Average interpreter invocation per loop,438063.0,Ethernet,label_image_with_crow
 4,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 4,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
-4,Run Inference,Read labels from file,1805.0,Ethernet,label_image_with_crow
-4,Run Inference,Print results,46.0,Ethernet,label_image_with_crow
+4,Run Inference,Process results,1805.0,Ethernet,label_image_with_crow
+4,Run Inference,Display results,46.0,Ethernet,label_image_with_crow
 4,Run Inference,Global time,513507.0,Ethernet,label_image_with_crow
 4,Crow Webserver,Run inference,514213.0,Ethernet,label_image_with_crow
-4,Real time,Global time,675000.0,Ethernet,label_image_with_crow
+4,Response Time,Global time,675000.0,Ethernet,label_image_with_crow
 5,Setup Interpreter,Load Model,676.0,Ethernet,label_image_with_crow
-5,Setup Interpreter,Configure and Build Interpreter,10922.0,Ethernet,label_image_with_crow
+5,Setup Interpreter,Configure and build interpreter,10922.0,Ethernet,label_image_with_crow
 5,Setup Interpreter,Build profiler and delegation,122.0,Ethernet,label_image_with_crow
 5,Setup Interpreter,Global time,11808.0,Ethernet,label_image_with_crow
-5,Crow Webserver,Handling and saving input image,62136.0,Ethernet,label_image_with_crow
-5,Run Inference,Read BMP,20648.0,Ethernet,label_image_with_crow
-5,Run Inference,Resize image and copy it to input tensor,56568.0,Ethernet,label_image_with_crow
+5,Crow Webserver,Handle POST request with image,62136.0,Ethernet,label_image_with_crow
+5,Run Inference,Read image from file,20648.0,Ethernet,label_image_with_crow
+5,Run Inference,Resize and copy image to input tensor,56568.0,Ethernet,label_image_with_crow
 5,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-5,Run Inference,Total invokation time,435808.0,Ethernet,label_image_with_crow
-5,Run Inference,Average invokation time per loop,435808.0,Ethernet,label_image_with_crow
+5,Run Inference,Interpreter invocation,435808.0,Ethernet,label_image_with_crow
+5,Run Inference,Average interpreter invocation per loop,435808.0,Ethernet,label_image_with_crow
 5,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
 5,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
-5,Run Inference,Read labels from file,1867.0,Ethernet,label_image_with_crow
-5,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+5,Run Inference,Process results,1867.0,Ethernet,label_image_with_crow
+5,Run Inference,Display results,48.0,Ethernet,label_image_with_crow
 5,Run Inference,Global time,515190.0,Ethernet,label_image_with_crow
 5,Crow Webserver,Run inference,515894.0,Ethernet,label_image_with_crow
-5,Real time,Global time,682000.0,Ethernet,label_image_with_crow
+5,Response Time,Global time,682000.0,Ethernet,label_image_with_crow
 6,Setup Interpreter,Load Model,589.0,Ethernet,label_image_with_crow
-6,Setup Interpreter,Configure and Build Interpreter,10987.0,Ethernet,label_image_with_crow
+6,Setup Interpreter,Configure and build interpreter,10987.0,Ethernet,label_image_with_crow
 6,Setup Interpreter,Build profiler and delegation,124.0,Ethernet,label_image_with_crow
 6,Setup Interpreter,Global time,11786.0,Ethernet,label_image_with_crow
-6,Crow Webserver,Handling and saving input image,61450.0,Ethernet,label_image_with_crow
-6,Run Inference,Read BMP,20523.0,Ethernet,label_image_with_crow
-6,Run Inference,Resize image and copy it to input tensor,53083.0,Ethernet,label_image_with_crow
+6,Crow Webserver,Handle POST request with image,61450.0,Ethernet,label_image_with_crow
+6,Run Inference,Read image from file,20523.0,Ethernet,label_image_with_crow
+6,Run Inference,Resize and copy image to input tensor,53083.0,Ethernet,label_image_with_crow
 6,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
-6,Run Inference,Total invokation time,440396.0,Ethernet,label_image_with_crow
-6,Run Inference,Average invokation time per loop,440396.0,Ethernet,label_image_with_crow
+6,Run Inference,Interpreter invocation,440396.0,Ethernet,label_image_with_crow
+6,Run Inference,Average interpreter invocation per loop,440396.0,Ethernet,label_image_with_crow
 6,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 6,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-6,Run Inference,Read labels from file,1873.0,Ethernet,label_image_with_crow
-6,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+6,Run Inference,Process results,1873.0,Ethernet,label_image_with_crow
+6,Run Inference,Display results,47.0,Ethernet,label_image_with_crow
 6,Run Inference,Global time,516175.0,Ethernet,label_image_with_crow
 6,Crow Webserver,Run inference,516869.0,Ethernet,label_image_with_crow
-6,Real time,Global time,677000.0,Ethernet,label_image_with_crow
+6,Response Time,Global time,677000.0,Ethernet,label_image_with_crow
 7,Setup Interpreter,Load Model,566.0,Ethernet,label_image_with_crow
-7,Setup Interpreter,Configure and Build Interpreter,11021.0,Ethernet,label_image_with_crow
+7,Setup Interpreter,Configure and build interpreter,11021.0,Ethernet,label_image_with_crow
 7,Setup Interpreter,Build profiler and delegation,125.0,Ethernet,label_image_with_crow
 7,Setup Interpreter,Global time,11796.0,Ethernet,label_image_with_crow
-7,Crow Webserver,Handling and saving input image,101354.0,Ethernet,label_image_with_crow
-7,Run Inference,Read BMP,34500.0,Ethernet,label_image_with_crow
-7,Run Inference,Resize image and copy it to input tensor,93099.0,Ethernet,label_image_with_crow
+7,Crow Webserver,Handle POST request with image,101354.0,Ethernet,label_image_with_crow
+7,Run Inference,Read image from file,34500.0,Ethernet,label_image_with_crow
+7,Run Inference,Resize and copy image to input tensor,93099.0,Ethernet,label_image_with_crow
 7,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-7,Run Inference,Total invokation time,779192.0,Ethernet,label_image_with_crow
-7,Run Inference,Average invokation time per loop,779192.0,Ethernet,label_image_with_crow
+7,Run Inference,Interpreter invocation,779192.0,Ethernet,label_image_with_crow
+7,Run Inference,Average interpreter invocation per loop,779192.0,Ethernet,label_image_with_crow
 7,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 7,Run Inference,Rerieve results from output tensors,52.0,Ethernet,label_image_with_crow
-7,Run Inference,Read labels from file,3120.0,Ethernet,label_image_with_crow
-7,Run Inference,Print results,84.0,Ethernet,label_image_with_crow
+7,Run Inference,Process results,3120.0,Ethernet,label_image_with_crow
+7,Run Inference,Display results,84.0,Ethernet,label_image_with_crow
 7,Run Inference,Global time,910390.0,Ethernet,label_image_with_crow
 7,Crow Webserver,Run inference,911757.0,Ethernet,label_image_with_crow
-7,Real time,Global time,1114000.0,Ethernet,label_image_with_crow
+7,Response Time,Global time,1114000.0,Ethernet,label_image_with_crow
 8,Setup Interpreter,Load Model,696.0,Ethernet,label_image_with_crow
-8,Setup Interpreter,Configure and Build Interpreter,10925.0,Ethernet,label_image_with_crow
+8,Setup Interpreter,Configure and build interpreter,10925.0,Ethernet,label_image_with_crow
 8,Setup Interpreter,Build profiler and delegation,119.0,Ethernet,label_image_with_crow
 8,Setup Interpreter,Global time,11825.0,Ethernet,label_image_with_crow
-8,Crow Webserver,Handling and saving input image,61363.0,Ethernet,label_image_with_crow
-8,Run Inference,Read BMP,20358.0,Ethernet,label_image_with_crow
-8,Run Inference,Resize image and copy it to input tensor,53367.0,Ethernet,label_image_with_crow
+8,Crow Webserver,Handle POST request with image,61363.0,Ethernet,label_image_with_crow
+8,Run Inference,Read image from file,20358.0,Ethernet,label_image_with_crow
+8,Run Inference,Resize and copy image to input tensor,53367.0,Ethernet,label_image_with_crow
 8,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-8,Run Inference,Total invokation time,437276.0,Ethernet,label_image_with_crow
-8,Run Inference,Average invokation time per loop,437276.0,Ethernet,label_image_with_crow
+8,Run Inference,Interpreter invocation,437276.0,Ethernet,label_image_with_crow
+8,Run Inference,Average interpreter invocation per loop,437276.0,Ethernet,label_image_with_crow
 8,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 8,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-8,Run Inference,Read labels from file,1807.0,Ethernet,label_image_with_crow
-8,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+8,Run Inference,Process results,1807.0,Ethernet,label_image_with_crow
+8,Run Inference,Display results,47.0,Ethernet,label_image_with_crow
 8,Run Inference,Global time,513114.0,Ethernet,label_image_with_crow
 8,Crow Webserver,Run inference,513826.0,Ethernet,label_image_with_crow
-8,Real time,Global time,674000.0,Ethernet,label_image_with_crow
+8,Response Time,Global time,674000.0,Ethernet,label_image_with_crow
 9,Setup Interpreter,Load Model,672.0,Ethernet,label_image_with_crow
-9,Setup Interpreter,Configure and Build Interpreter,10843.0,Ethernet,label_image_with_crow
+9,Setup Interpreter,Configure and build interpreter,10843.0,Ethernet,label_image_with_crow
 9,Setup Interpreter,Build profiler and delegation,120.0,Ethernet,label_image_with_crow
 9,Setup Interpreter,Global time,11721.0,Ethernet,label_image_with_crow
-9,Crow Webserver,Handling and saving input image,100855.0,Ethernet,label_image_with_crow
-9,Run Inference,Read BMP,35828.0,Ethernet,label_image_with_crow
-9,Run Inference,Resize image and copy it to input tensor,94149.0,Ethernet,label_image_with_crow
+9,Crow Webserver,Handle POST request with image,100855.0,Ethernet,label_image_with_crow
+9,Run Inference,Read image from file,35828.0,Ethernet,label_image_with_crow
+9,Run Inference,Resize and copy image to input tensor,94149.0,Ethernet,label_image_with_crow
 9,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-9,Run Inference,Total invokation time,778995.0,Ethernet,label_image_with_crow
-9,Run Inference,Average invokation time per loop,778995.0,Ethernet,label_image_with_crow
+9,Run Inference,Interpreter invocation,778995.0,Ethernet,label_image_with_crow
+9,Run Inference,Average interpreter invocation per loop,778995.0,Ethernet,label_image_with_crow
 9,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 9,Run Inference,Rerieve results from output tensors,54.0,Ethernet,label_image_with_crow
-9,Run Inference,Read labels from file,3169.0,Ethernet,label_image_with_crow
-9,Run Inference,Print results,85.0,Ethernet,label_image_with_crow
+9,Run Inference,Process results,3169.0,Ethernet,label_image_with_crow
+9,Run Inference,Display results,85.0,Ethernet,label_image_with_crow
 9,Run Inference,Global time,912634.0,Ethernet,label_image_with_crow
 9,Crow Webserver,Run inference,913908.0,Ethernet,label_image_with_crow
-9,Real time,Global time,1114000.0,Ethernet,label_image_with_crow
+9,Response Time,Global time,1114000.0,Ethernet,label_image_with_crow
 10,Setup Interpreter,Load Model,570.0,Ethernet,label_image_with_crow
-10,Setup Interpreter,Configure and Build Interpreter,10970.0,Ethernet,label_image_with_crow
+10,Setup Interpreter,Configure and build interpreter,10970.0,Ethernet,label_image_with_crow
 10,Setup Interpreter,Build profiler and delegation,122.0,Ethernet,label_image_with_crow
 10,Setup Interpreter,Global time,11749.0,Ethernet,label_image_with_crow
-10,Crow Webserver,Handling and saving input image,61640.0,Ethernet,label_image_with_crow
-10,Run Inference,Read BMP,20353.0,Ethernet,label_image_with_crow
-10,Run Inference,Resize image and copy it to input tensor,57957.0,Ethernet,label_image_with_crow
+10,Crow Webserver,Handle POST request with image,61640.0,Ethernet,label_image_with_crow
+10,Run Inference,Read image from file,20353.0,Ethernet,label_image_with_crow
+10,Run Inference,Resize and copy image to input tensor,57957.0,Ethernet,label_image_with_crow
 10,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-10,Run Inference,Total invokation time,438235.0,Ethernet,label_image_with_crow
-10,Run Inference,Average invokation time per loop,438235.0,Ethernet,label_image_with_crow
+10,Run Inference,Interpreter invocation,438235.0,Ethernet,label_image_with_crow
+10,Run Inference,Average interpreter invocation per loop,438235.0,Ethernet,label_image_with_crow
 10,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 10,Run Inference,Rerieve results from output tensors,30.0,Ethernet,label_image_with_crow
-10,Run Inference,Read labels from file,1804.0,Ethernet,label_image_with_crow
-10,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+10,Run Inference,Process results,1804.0,Ethernet,label_image_with_crow
+10,Run Inference,Display results,47.0,Ethernet,label_image_with_crow
 10,Run Inference,Global time,518650.0,Ethernet,label_image_with_crow
 10,Crow Webserver,Run inference,519357.0,Ethernet,label_image_with_crow
-10,Real time,Global time,678000.0,Ethernet,label_image_with_crow
+10,Response Time,Global time,678000.0,Ethernet,label_image_with_crow
 11,Setup Interpreter,Load Model,850.0,Ethernet,label_image_with_crow
-11,Setup Interpreter,Configure and Build Interpreter,10969.0,Ethernet,label_image_with_crow
+11,Setup Interpreter,Configure and build interpreter,10969.0,Ethernet,label_image_with_crow
 11,Setup Interpreter,Build profiler and delegation,121.0,Ethernet,label_image_with_crow
 11,Setup Interpreter,Global time,12028.0,Ethernet,label_image_with_crow
-11,Crow Webserver,Handling and saving input image,61253.0,Ethernet,label_image_with_crow
-11,Run Inference,Read BMP,20464.0,Ethernet,label_image_with_crow
-11,Run Inference,Resize image and copy it to input tensor,53402.0,Ethernet,label_image_with_crow
+11,Crow Webserver,Handle POST request with image,61253.0,Ethernet,label_image_with_crow
+11,Run Inference,Read image from file,20464.0,Ethernet,label_image_with_crow
+11,Run Inference,Resize and copy image to input tensor,53402.0,Ethernet,label_image_with_crow
 11,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-11,Run Inference,Total invokation time,441634.0,Ethernet,label_image_with_crow
-11,Run Inference,Average invokation time per loop,441634.0,Ethernet,label_image_with_crow
+11,Run Inference,Interpreter invocation,441634.0,Ethernet,label_image_with_crow
+11,Run Inference,Average interpreter invocation per loop,441634.0,Ethernet,label_image_with_crow
 11,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
 11,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-11,Run Inference,Read labels from file,1798.0,Ethernet,label_image_with_crow
-11,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+11,Run Inference,Process results,1798.0,Ethernet,label_image_with_crow
+11,Run Inference,Display results,48.0,Ethernet,label_image_with_crow
 11,Run Inference,Global time,517594.0,Ethernet,label_image_with_crow
 11,Crow Webserver,Run inference,518315.0,Ethernet,label_image_with_crow
-11,Real time,Global time,678000.0,Ethernet,label_image_with_crow
+11,Response Time,Global time,678000.0,Ethernet,label_image_with_crow
 12,Setup Interpreter,Load Model,558.0,Ethernet,label_image_with_crow
-12,Setup Interpreter,Configure and Build Interpreter,11168.0,Ethernet,label_image_with_crow
+12,Setup Interpreter,Configure and build interpreter,11168.0,Ethernet,label_image_with_crow
 12,Setup Interpreter,Build profiler and delegation,121.0,Ethernet,label_image_with_crow
 12,Setup Interpreter,Global time,11931.0,Ethernet,label_image_with_crow
-12,Crow Webserver,Handling and saving input image,61752.0,Ethernet,label_image_with_crow
-12,Run Inference,Read BMP,20683.0,Ethernet,label_image_with_crow
-12,Run Inference,Resize image and copy it to input tensor,53457.0,Ethernet,label_image_with_crow
+12,Crow Webserver,Handle POST request with image,61752.0,Ethernet,label_image_with_crow
+12,Run Inference,Read image from file,20683.0,Ethernet,label_image_with_crow
+12,Run Inference,Resize and copy image to input tensor,53457.0,Ethernet,label_image_with_crow
 12,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-12,Run Inference,Total invokation time,438520.0,Ethernet,label_image_with_crow
-12,Run Inference,Average invokation time per loop,438520.0,Ethernet,label_image_with_crow
+12,Run Inference,Interpreter invocation,438520.0,Ethernet,label_image_with_crow
+12,Run Inference,Average interpreter invocation per loop,438520.0,Ethernet,label_image_with_crow
 12,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
 12,Run Inference,Rerieve results from output tensors,28.0,Ethernet,label_image_with_crow
-12,Run Inference,Read labels from file,1817.0,Ethernet,label_image_with_crow
-12,Run Inference,Print results,47.0,Ethernet,label_image_with_crow
+12,Run Inference,Process results,1817.0,Ethernet,label_image_with_crow
+12,Run Inference,Display results,47.0,Ethernet,label_image_with_crow
 12,Run Inference,Global time,514776.0,Ethernet,label_image_with_crow
 12,Crow Webserver,Run inference,515488.0,Ethernet,label_image_with_crow
-12,Real time,Global time,674000.0,Ethernet,label_image_with_crow
+12,Response Time,Global time,674000.0,Ethernet,label_image_with_crow
 13,Setup Interpreter,Load Model,804.0,Ethernet,label_image_with_crow
-13,Setup Interpreter,Configure and Build Interpreter,10941.0,Ethernet,label_image_with_crow
+13,Setup Interpreter,Configure and build interpreter,10941.0,Ethernet,label_image_with_crow
 13,Setup Interpreter,Build profiler and delegation,129.0,Ethernet,label_image_with_crow
 13,Setup Interpreter,Global time,11964.0,Ethernet,label_image_with_crow
-13,Crow Webserver,Handling and saving input image,61658.0,Ethernet,label_image_with_crow
-13,Run Inference,Read BMP,20341.0,Ethernet,label_image_with_crow
-13,Run Inference,Resize image and copy it to input tensor,53599.0,Ethernet,label_image_with_crow
+13,Crow Webserver,Handle POST request with image,61658.0,Ethernet,label_image_with_crow
+13,Run Inference,Read image from file,20341.0,Ethernet,label_image_with_crow
+13,Run Inference,Resize and copy image to input tensor,53599.0,Ethernet,label_image_with_crow
 13,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-13,Run Inference,Total invokation time,440843.0,Ethernet,label_image_with_crow
-13,Run Inference,Average invokation time per loop,440843.0,Ethernet,label_image_with_crow
+13,Run Inference,Interpreter invocation,440843.0,Ethernet,label_image_with_crow
+13,Run Inference,Average interpreter invocation per loop,440843.0,Ethernet,label_image_with_crow
 13,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 13,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-13,Run Inference,Read labels from file,1798.0,Ethernet,label_image_with_crow
-13,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+13,Run Inference,Process results,1798.0,Ethernet,label_image_with_crow
+13,Run Inference,Display results,48.0,Ethernet,label_image_with_crow
 13,Run Inference,Global time,516881.0,Ethernet,label_image_with_crow
 13,Crow Webserver,Run inference,517579.0,Ethernet,label_image_with_crow
-13,Real time,Global time,677000.0,Ethernet,label_image_with_crow
+13,Response Time,Global time,677000.0,Ethernet,label_image_with_crow
 14,Setup Interpreter,Load Model,679.0,Ethernet,label_image_with_crow
-14,Setup Interpreter,Configure and Build Interpreter,11118.0,Ethernet,label_image_with_crow
+14,Setup Interpreter,Configure and build interpreter,11118.0,Ethernet,label_image_with_crow
 14,Setup Interpreter,Build profiler and delegation,123.0,Ethernet,label_image_with_crow
 14,Setup Interpreter,Global time,12007.0,Ethernet,label_image_with_crow
-14,Crow Webserver,Handling and saving input image,63190.0,Ethernet,label_image_with_crow
-14,Run Inference,Read BMP,20462.0,Ethernet,label_image_with_crow
-14,Run Inference,Resize image and copy it to input tensor,53001.0,Ethernet,label_image_with_crow
+14,Crow Webserver,Handle POST request with image,63190.0,Ethernet,label_image_with_crow
+14,Run Inference,Read image from file,20462.0,Ethernet,label_image_with_crow
+14,Run Inference,Resize and copy image to input tensor,53001.0,Ethernet,label_image_with_crow
 14,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-14,Run Inference,Total invokation time,435650.0,Ethernet,label_image_with_crow
-14,Run Inference,Average invokation time per loop,435650.0,Ethernet,label_image_with_crow
+14,Run Inference,Interpreter invocation,435650.0,Ethernet,label_image_with_crow
+14,Run Inference,Average interpreter invocation per loop,435650.0,Ethernet,label_image_with_crow
 14,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
 14,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-14,Run Inference,Read labels from file,1788.0,Ethernet,label_image_with_crow
-14,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+14,Run Inference,Process results,1788.0,Ethernet,label_image_with_crow
+14,Run Inference,Display results,48.0,Ethernet,label_image_with_crow
 14,Run Inference,Global time,511207.0,Ethernet,label_image_with_crow
 14,Crow Webserver,Run inference,511929.0,Ethernet,label_image_with_crow
-14,Real time,Global time,673000.0,Ethernet,label_image_with_crow
+14,Response Time,Global time,673000.0,Ethernet,label_image_with_crow
 15,Setup Interpreter,Load Model,755.0,Ethernet,label_image_with_crow
-15,Setup Interpreter,Configure and Build Interpreter,10951.0,Ethernet,label_image_with_crow
+15,Setup Interpreter,Configure and build interpreter,10951.0,Ethernet,label_image_with_crow
 15,Setup Interpreter,Build profiler and delegation,119.0,Ethernet,label_image_with_crow
 15,Setup Interpreter,Global time,11909.0,Ethernet,label_image_with_crow
-15,Crow Webserver,Handling and saving input image,101004.0,Ethernet,label_image_with_crow
-15,Run Inference,Read BMP,34473.0,Ethernet,label_image_with_crow
-15,Run Inference,Resize image and copy it to input tensor,92866.0,Ethernet,label_image_with_crow
+15,Crow Webserver,Handle POST request with image,101004.0,Ethernet,label_image_with_crow
+15,Run Inference,Read image from file,34473.0,Ethernet,label_image_with_crow
+15,Run Inference,Resize and copy image to input tensor,92866.0,Ethernet,label_image_with_crow
 15,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-15,Run Inference,Total invokation time,777330.0,Ethernet,label_image_with_crow
-15,Run Inference,Average invokation time per loop,777330.0,Ethernet,label_image_with_crow
+15,Run Inference,Interpreter invocation,777330.0,Ethernet,label_image_with_crow
+15,Run Inference,Average interpreter invocation per loop,777330.0,Ethernet,label_image_with_crow
 15,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 15,Run Inference,Rerieve results from output tensors,51.0,Ethernet,label_image_with_crow
-15,Run Inference,Read labels from file,3195.0,Ethernet,label_image_with_crow
-15,Run Inference,Print results,85.0,Ethernet,label_image_with_crow
+15,Run Inference,Process results,3195.0,Ethernet,label_image_with_crow
+15,Run Inference,Display results,85.0,Ethernet,label_image_with_crow
 15,Run Inference,Global time,908349.0,Ethernet,label_image_with_crow
 15,Crow Webserver,Run inference,909598.0,Ethernet,label_image_with_crow
-15,Real time,Global time,1110000.0,Ethernet,label_image_with_crow
+15,Response Time,Global time,1110000.0,Ethernet,label_image_with_crow
 16,Setup Interpreter,Load Model,779.0,Ethernet,label_image_with_crow
-16,Setup Interpreter,Configure and Build Interpreter,11139.0,Ethernet,label_image_with_crow
+16,Setup Interpreter,Configure and build interpreter,11139.0,Ethernet,label_image_with_crow
 16,Setup Interpreter,Build profiler and delegation,121.0,Ethernet,label_image_with_crow
 16,Setup Interpreter,Global time,12125.0,Ethernet,label_image_with_crow
-16,Crow Webserver,Handling and saving input image,61312.0,Ethernet,label_image_with_crow
-16,Run Inference,Read BMP,20356.0,Ethernet,label_image_with_crow
-16,Run Inference,Resize image and copy it to input tensor,53152.0,Ethernet,label_image_with_crow
+16,Crow Webserver,Handle POST request with image,61312.0,Ethernet,label_image_with_crow
+16,Run Inference,Read image from file,20356.0,Ethernet,label_image_with_crow
+16,Run Inference,Resize and copy image to input tensor,53152.0,Ethernet,label_image_with_crow
 16,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
-16,Run Inference,Total invokation time,435164.0,Ethernet,label_image_with_crow
-16,Run Inference,Average invokation time per loop,435164.0,Ethernet,label_image_with_crow
+16,Run Inference,Interpreter invocation,435164.0,Ethernet,label_image_with_crow
+16,Run Inference,Average interpreter invocation per loop,435164.0,Ethernet,label_image_with_crow
 16,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 16,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-16,Run Inference,Read labels from file,1806.0,Ethernet,label_image_with_crow
-16,Run Inference,Print results,46.0,Ethernet,label_image_with_crow
+16,Run Inference,Process results,1806.0,Ethernet,label_image_with_crow
+16,Run Inference,Display results,46.0,Ethernet,label_image_with_crow
 16,Run Inference,Global time,510781.0,Ethernet,label_image_with_crow
 16,Crow Webserver,Run inference,511485.0,Ethernet,label_image_with_crow
-16,Real time,Global time,679000.0,Ethernet,label_image_with_crow
+16,Response Time,Global time,679000.0,Ethernet,label_image_with_crow
 17,Setup Interpreter,Load Model,808.0,Ethernet,label_image_with_crow
-17,Setup Interpreter,Configure and Build Interpreter,11175.0,Ethernet,label_image_with_crow
+17,Setup Interpreter,Configure and build interpreter,11175.0,Ethernet,label_image_with_crow
 17,Setup Interpreter,Build profiler and delegation,120.0,Ethernet,label_image_with_crow
 17,Setup Interpreter,Global time,12189.0,Ethernet,label_image_with_crow
-17,Crow Webserver,Handling and saving input image,61834.0,Ethernet,label_image_with_crow
-17,Run Inference,Read BMP,20135.0,Ethernet,label_image_with_crow
-17,Run Inference,Resize image and copy it to input tensor,53597.0,Ethernet,label_image_with_crow
+17,Crow Webserver,Handle POST request with image,61834.0,Ethernet,label_image_with_crow
+17,Run Inference,Read image from file,20135.0,Ethernet,label_image_with_crow
+17,Run Inference,Resize and copy image to input tensor,53597.0,Ethernet,label_image_with_crow
 17,Run Inference,Warm-up interpreter,0.0,Ethernet,label_image_with_crow
-17,Run Inference,Total invokation time,440260.0,Ethernet,label_image_with_crow
-17,Run Inference,Average invokation time per loop,440260.0,Ethernet,label_image_with_crow
+17,Run Inference,Interpreter invocation,440260.0,Ethernet,label_image_with_crow
+17,Run Inference,Average interpreter invocation per loop,440260.0,Ethernet,label_image_with_crow
 17,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 17,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-17,Run Inference,Read labels from file,1805.0,Ethernet,label_image_with_crow
-17,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+17,Run Inference,Process results,1805.0,Ethernet,label_image_with_crow
+17,Run Inference,Display results,48.0,Ethernet,label_image_with_crow
 17,Run Inference,Global time,516100.0,Ethernet,label_image_with_crow
 17,Crow Webserver,Run inference,516815.0,Ethernet,label_image_with_crow
-17,Real time,Global time,679000.0,Ethernet,label_image_with_crow
+17,Response Time,Global time,679000.0,Ethernet,label_image_with_crow
 18,Setup Interpreter,Load Model,684.0,Ethernet,label_image_with_crow
-18,Setup Interpreter,Configure and Build Interpreter,11002.0,Ethernet,label_image_with_crow
+18,Setup Interpreter,Configure and build interpreter,11002.0,Ethernet,label_image_with_crow
 18,Setup Interpreter,Build profiler and delegation,120.0,Ethernet,label_image_with_crow
 18,Setup Interpreter,Global time,11892.0,Ethernet,label_image_with_crow
-18,Crow Webserver,Handling and saving input image,61486.0,Ethernet,label_image_with_crow
-18,Run Inference,Read BMP,20564.0,Ethernet,label_image_with_crow
-18,Run Inference,Resize image and copy it to input tensor,53482.0,Ethernet,label_image_with_crow
+18,Crow Webserver,Handle POST request with image,61486.0,Ethernet,label_image_with_crow
+18,Run Inference,Read image from file,20564.0,Ethernet,label_image_with_crow
+18,Run Inference,Resize and copy image to input tensor,53482.0,Ethernet,label_image_with_crow
 18,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-18,Run Inference,Total invokation time,436874.0,Ethernet,label_image_with_crow
-18,Run Inference,Average invokation time per loop,436874.0,Ethernet,label_image_with_crow
+18,Run Inference,Interpreter invocation,436874.0,Ethernet,label_image_with_crow
+18,Run Inference,Average interpreter invocation per loop,436874.0,Ethernet,label_image_with_crow
 18,Run Inference,Profiling,0.0,Ethernet,label_image_with_crow
 18,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-18,Run Inference,Read labels from file,1860.0,Ethernet,label_image_with_crow
-18,Run Inference,Print results,56.0,Ethernet,label_image_with_crow
+18,Run Inference,Process results,1860.0,Ethernet,label_image_with_crow
+18,Run Inference,Display results,56.0,Ethernet,label_image_with_crow
 18,Run Inference,Global time,513109.0,Ethernet,label_image_with_crow
 18,Crow Webserver,Run inference,513877.0,Ethernet,label_image_with_crow
-18,Real time,Global time,675000.0,Ethernet,label_image_with_crow
+18,Response Time,Global time,675000.0,Ethernet,label_image_with_crow
 19,Setup Interpreter,Load Model,724.0,Ethernet,label_image_with_crow
-19,Setup Interpreter,Configure and Build Interpreter,10977.0,Ethernet,label_image_with_crow
+19,Setup Interpreter,Configure and build interpreter,10977.0,Ethernet,label_image_with_crow
 19,Setup Interpreter,Build profiler and delegation,120.0,Ethernet,label_image_with_crow
 19,Setup Interpreter,Global time,11907.0,Ethernet,label_image_with_crow
-19,Crow Webserver,Handling and saving input image,61084.0,Ethernet,label_image_with_crow
-19,Run Inference,Read BMP,21071.0,Ethernet,label_image_with_crow
-19,Run Inference,Resize image and copy it to input tensor,56336.0,Ethernet,label_image_with_crow
+19,Crow Webserver,Handle POST request with image,61084.0,Ethernet,label_image_with_crow
+19,Run Inference,Read image from file,21071.0,Ethernet,label_image_with_crow
+19,Run Inference,Resize and copy image to input tensor,56336.0,Ethernet,label_image_with_crow
 19,Run Inference,Warm-up interpreter,1.0,Ethernet,label_image_with_crow
-19,Run Inference,Total invokation time,438364.0,Ethernet,label_image_with_crow
-19,Run Inference,Average invokation time per loop,438364.0,Ethernet,label_image_with_crow
+19,Run Inference,Interpreter invocation,438364.0,Ethernet,label_image_with_crow
+19,Run Inference,Average interpreter invocation per loop,438364.0,Ethernet,label_image_with_crow
 19,Run Inference,Profiling,1.0,Ethernet,label_image_with_crow
 19,Run Inference,Rerieve results from output tensors,29.0,Ethernet,label_image_with_crow
-19,Run Inference,Read labels from file,1803.0,Ethernet,label_image_with_crow
-19,Run Inference,Print results,48.0,Ethernet,label_image_with_crow
+19,Run Inference,Process results,1803.0,Ethernet,label_image_with_crow
+19,Run Inference,Display results,48.0,Ethernet,label_image_with_crow
 19,Run Inference,Global time,517880.0,Ethernet,label_image_with_crow
 19,Crow Webserver,Run inference,518586.0,Ethernet,label_image_with_crow
-19,Real time,Global time,679000.0,Ethernet,label_image_with_crow
+19,Response Time,Global time,679000.0,Ethernet,label_image_with_crow
