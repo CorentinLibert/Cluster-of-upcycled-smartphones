@@ -79,7 +79,7 @@ namespace object_detection {
         // Ouput tensors
         const std::vector<int> outputs = interpreter->outputs();
         if (outputs.size() != 4) {
-            std::cerr << "ERROR: Detection model graph should have 4 outputs" << std::endl;
+            std::cerr << "ERROR: Detection model graph should have 4 outputs, got " << std::to_string(outputs.size()) << std::endl;
             exit(EXIT_FAILURE);
         }
 

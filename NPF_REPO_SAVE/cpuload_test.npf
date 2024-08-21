@@ -1,9 +1,0 @@
-%info
-CPU Load test script
-
-Test the CPULoad module.
-
-%config
-var_label_dir=vertical
-
-%import cpuload

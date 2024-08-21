@@ -1,0 +1,21 @@
+{
+    "input_file": "input_image.bmp",
+    "output_file": "output_image.bmp",
+    "bind_address": "0.0.0.0",
+    "port": 18080,
+    "threads": 4,
+    "execution_duration": true,
+    "tflite": {
+        "accelerated": false,
+        "allow_fp16": false,
+        "count": 1,
+        "verbose": false,
+        "image": "",
+        "labels": "./labels.txt",
+        "tflite_model": "./mobilenet_v1_1.0_224.tflite",
+        "threads": 1,
+        "warmup_runs": 0,
+        "gl_backend": false,
+        "execution_duration": true
+    }
+}

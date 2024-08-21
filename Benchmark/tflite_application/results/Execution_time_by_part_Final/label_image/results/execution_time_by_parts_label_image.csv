@@ -1,0 +1,301 @@
+Iteration,Part,Subpart,Execution Time (in us),Medium,Implementation
+0,Setup Interpreter,Load Model,852.0,na,label_image
+0,Setup Interpreter,Configure and build interpreter,9381.0,na,label_image
+0,Setup Interpreter,Build profiler and delegation,34.0,na,label_image
+0,Setup Interpreter,Global time,10561.0,na,label_image
+0,Run Inference,Read image from file,23588.0,na,label_image
+0,Run Inference,Resize and copy image to input tensor,81751.0,na,label_image
+0,Run Inference,Warm-up interpreter,2.0,na,label_image
+0,Run Inference,Interpreter invocation,771511.0,na,label_image
+0,Run Inference,Average interpreter invocation per loop,771511.0,na,label_image
+0,Run Inference,Profiling,0.0,na,label_image
+0,Run Inference,Rerieve results from output tensors,50.0,na,label_image
+0,Run Inference,Process results,3182.0,na,label_image
+0,Run Inference,Display results,6525.0,na,label_image
+0,Run Inference,Global time,887628.0,na,label_image
+0,Response Time,Global time,920000.0,na,label_image
+1,Setup Interpreter,Load Model,632.0,na,label_image
+1,Setup Interpreter,Configure and build interpreter,7424.0,na,label_image
+1,Setup Interpreter,Build profiler and delegation,38.0,na,label_image
+1,Setup Interpreter,Global time,8386.0,na,label_image
+1,Run Inference,Read image from file,21094.0,na,label_image
+1,Run Inference,Resize and copy image to input tensor,55248.0,na,label_image
+1,Run Inference,Warm-up interpreter,1.0,na,label_image
+1,Run Inference,Interpreter invocation,434567.0,na,label_image
+1,Run Inference,Average interpreter invocation per loop,434567.0,na,label_image
+1,Run Inference,Profiling,1.0,na,label_image
+1,Run Inference,Rerieve results from output tensors,26.0,na,label_image
+1,Run Inference,Process results,2072.0,na,label_image
+1,Run Inference,Display results,3730.0,na,label_image
+1,Run Inference,Global time,517434.0,na,label_image
+1,Response Time,Global time,540000.0,na,label_image
+2,Setup Interpreter,Load Model,627.0,na,label_image
+2,Setup Interpreter,Configure and build interpreter,7124.0,na,label_image
+2,Setup Interpreter,Build profiler and delegation,32.0,na,label_image
+2,Setup Interpreter,Global time,8079.0,na,label_image
+2,Run Inference,Read image from file,20566.0,na,label_image
+2,Run Inference,Resize and copy image to input tensor,55809.0,na,label_image
+2,Run Inference,Warm-up interpreter,1.0,na,label_image
+2,Run Inference,Interpreter invocation,435624.0,na,label_image
+2,Run Inference,Average interpreter invocation per loop,435624.0,na,label_image
+2,Run Inference,Profiling,0.0,na,label_image
+2,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+2,Run Inference,Process results,2036.0,na,label_image
+2,Run Inference,Display results,3776.0,na,label_image
+2,Run Inference,Global time,518558.0,na,label_image
+2,Response Time,Global time,540000.0,na,label_image
+3,Setup Interpreter,Load Model,1019.0,na,label_image
+3,Setup Interpreter,Configure and build interpreter,11672.0,na,label_image
+3,Setup Interpreter,Build profiler and delegation,59.0,na,label_image
+3,Setup Interpreter,Global time,13223.0,na,label_image
+3,Run Inference,Read image from file,34845.0,na,label_image
+3,Run Inference,Resize and copy image to input tensor,94396.0,na,label_image
+3,Run Inference,Warm-up interpreter,1.0,na,label_image
+3,Run Inference,Interpreter invocation,775899.0,na,label_image
+3,Run Inference,Average interpreter invocation per loop,775899.0,na,label_image
+3,Run Inference,Profiling,0.0,na,label_image
+3,Run Inference,Rerieve results from output tensors,50.0,na,label_image
+3,Run Inference,Process results,3118.0,na,label_image
+3,Run Inference,Display results,6477.0,na,label_image
+3,Run Inference,Global time,915868.0,na,label_image
+3,Response Time,Global time,960000.0,na,label_image
+4,Setup Interpreter,Load Model,979.0,na,label_image
+4,Setup Interpreter,Configure and build interpreter,11385.0,na,label_image
+4,Setup Interpreter,Build profiler and delegation,57.0,na,label_image
+4,Setup Interpreter,Global time,13014.0,na,label_image
+4,Run Inference,Read image from file,34574.0,na,label_image
+4,Run Inference,Resize and copy image to input tensor,99830.0,na,label_image
+4,Run Inference,Warm-up interpreter,1.0,na,label_image
+4,Run Inference,Interpreter invocation,772035.0,na,label_image
+4,Run Inference,Average interpreter invocation per loop,772035.0,na,label_image
+4,Run Inference,Profiling,0.0,na,label_image
+4,Run Inference,Rerieve results from output tensors,50.0,na,label_image
+4,Run Inference,Process results,3140.0,na,label_image
+4,Run Inference,Display results,6603.0,na,label_image
+4,Run Inference,Global time,917295.0,na,label_image
+4,Response Time,Global time,960000.0,na,label_image
+5,Setup Interpreter,Load Model,806.0,na,label_image
+5,Setup Interpreter,Configure and build interpreter,7391.0,na,label_image
+5,Setup Interpreter,Build profiler and delegation,34.0,na,label_image
+5,Setup Interpreter,Global time,8591.0,na,label_image
+5,Run Inference,Read image from file,20449.0,na,label_image
+5,Run Inference,Resize and copy image to input tensor,52418.0,na,label_image
+5,Run Inference,Warm-up interpreter,1.0,na,label_image
+5,Run Inference,Interpreter invocation,441477.0,na,label_image
+5,Run Inference,Average interpreter invocation per loop,441477.0,na,label_image
+5,Run Inference,Profiling,1.0,na,label_image
+5,Run Inference,Rerieve results from output tensors,26.0,na,label_image
+5,Run Inference,Process results,1978.0,na,label_image
+5,Run Inference,Display results,3733.0,na,label_image
+5,Run Inference,Global time,520788.0,na,label_image
+5,Response Time,Global time,550000.0,na,label_image
+6,Setup Interpreter,Load Model,678.0,na,label_image
+6,Setup Interpreter,Configure and build interpreter,7161.0,na,label_image
+6,Setup Interpreter,Build profiler and delegation,33.0,na,label_image
+6,Setup Interpreter,Global time,8161.0,na,label_image
+6,Run Inference,Read image from file,20331.0,na,label_image
+6,Run Inference,Resize and copy image to input tensor,52568.0,na,label_image
+6,Run Inference,Warm-up interpreter,1.0,na,label_image
+6,Run Inference,Interpreter invocation,437726.0,na,label_image
+6,Run Inference,Average interpreter invocation per loop,437726.0,na,label_image
+6,Run Inference,Profiling,0.0,na,label_image
+6,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+6,Run Inference,Process results,2001.0,na,label_image
+6,Run Inference,Display results,3777.0,na,label_image
+6,Run Inference,Global time,517128.0,na,label_image
+6,Response Time,Global time,540000.0,na,label_image
+7,Setup Interpreter,Load Model,1199.0,na,label_image
+7,Setup Interpreter,Configure and build interpreter,11717.0,na,label_image
+7,Setup Interpreter,Build profiler and delegation,54.0,na,label_image
+7,Setup Interpreter,Global time,13445.0,na,label_image
+7,Run Inference,Read image from file,34712.0,na,label_image
+7,Run Inference,Resize and copy image to input tensor,96396.0,na,label_image
+7,Run Inference,Warm-up interpreter,1.0,na,label_image
+7,Run Inference,Interpreter invocation,772357.0,na,label_image
+7,Run Inference,Average interpreter invocation per loop,772357.0,na,label_image
+7,Run Inference,Profiling,0.0,na,label_image
+7,Run Inference,Rerieve results from output tensors,49.0,na,label_image
+7,Run Inference,Process results,3155.0,na,label_image
+7,Run Inference,Display results,6625.0,na,label_image
+7,Run Inference,Global time,914448.0,na,label_image
+7,Response Time,Global time,960000.0,na,label_image
+8,Setup Interpreter,Load Model,1059.0,na,label_image
+8,Setup Interpreter,Configure and build interpreter,11494.0,na,label_image
+8,Setup Interpreter,Build profiler and delegation,55.0,na,label_image
+8,Setup Interpreter,Global time,13082.0,na,label_image
+8,Run Inference,Read image from file,34705.0,na,label_image
+8,Run Inference,Resize and copy image to input tensor,75930.0,na,label_image
+8,Run Inference,Warm-up interpreter,1.0,na,label_image
+8,Run Inference,Interpreter invocation,436709.0,na,label_image
+8,Run Inference,Average interpreter invocation per loop,436709.0,na,label_image
+8,Run Inference,Profiling,1.0,na,label_image
+8,Run Inference,Rerieve results from output tensors,26.0,na,label_image
+8,Run Inference,Process results,1952.0,na,label_image
+8,Run Inference,Display results,3793.0,na,label_image
+8,Run Inference,Global time,553875.0,na,label_image
+8,Response Time,Global time,590000.0,na,label_image
+9,Setup Interpreter,Load Model,672.0,na,label_image
+9,Setup Interpreter,Configure and build interpreter,7093.0,na,label_image
+9,Setup Interpreter,Build profiler and delegation,35.0,na,label_image
+9,Setup Interpreter,Global time,8090.0,na,label_image
+9,Run Inference,Read image from file,20551.0,na,label_image
+9,Run Inference,Resize and copy image to input tensor,53441.0,na,label_image
+9,Run Inference,Warm-up interpreter,1.0,na,label_image
+9,Run Inference,Interpreter invocation,435906.0,na,label_image
+9,Run Inference,Average interpreter invocation per loop,435906.0,na,label_image
+9,Run Inference,Profiling,0.0,na,label_image
+9,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+9,Run Inference,Process results,2096.0,na,label_image
+9,Run Inference,Display results,3755.0,na,label_image
+9,Run Inference,Global time,516573.0,na,label_image
+9,Response Time,Global time,540000.0,na,label_image
+10,Setup Interpreter,Load Model,713.0,na,label_image
+10,Setup Interpreter,Configure and build interpreter,7303.0,na,label_image
+10,Setup Interpreter,Build profiler and delegation,33.0,na,label_image
+10,Setup Interpreter,Global time,8342.0,na,label_image
+10,Run Inference,Read image from file,20440.0,na,label_image
+10,Run Inference,Resize and copy image to input tensor,52140.0,na,label_image
+10,Run Inference,Warm-up interpreter,1.0,na,label_image
+10,Run Inference,Interpreter invocation,435744.0,na,label_image
+10,Run Inference,Average interpreter invocation per loop,435744.0,na,label_image
+10,Run Inference,Profiling,0.0,na,label_image
+10,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+10,Run Inference,Process results,1971.0,na,label_image
+10,Run Inference,Display results,3743.0,na,label_image
+10,Run Inference,Global time,514767.0,na,label_image
+10,Response Time,Global time,540000.0,na,label_image
+11,Setup Interpreter,Load Model,721.0,na,label_image
+11,Setup Interpreter,Configure and build interpreter,7199.0,na,label_image
+11,Setup Interpreter,Build profiler and delegation,33.0,na,label_image
+11,Setup Interpreter,Global time,8260.0,na,label_image
+11,Run Inference,Read image from file,20518.0,na,label_image
+11,Run Inference,Resize and copy image to input tensor,56694.0,na,label_image
+11,Run Inference,Warm-up interpreter,1.0,na,label_image
+11,Run Inference,Interpreter invocation,435498.0,na,label_image
+11,Run Inference,Average interpreter invocation per loop,435498.0,na,label_image
+11,Run Inference,Profiling,1.0,na,label_image
+11,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+11,Run Inference,Process results,1960.0,na,label_image
+11,Run Inference,Display results,3879.0,na,label_image
+11,Run Inference,Global time,519265.0,na,label_image
+11,Response Time,Global time,540000.0,na,label_image
+12,Setup Interpreter,Load Model,649.0,na,label_image
+12,Setup Interpreter,Configure and build interpreter,7103.0,na,label_image
+12,Setup Interpreter,Build profiler and delegation,54.0,na,label_image
+12,Setup Interpreter,Global time,8095.0,na,label_image
+12,Run Inference,Read image from file,20610.0,na,label_image
+12,Run Inference,Resize and copy image to input tensor,56783.0,na,label_image
+12,Run Inference,Warm-up interpreter,0.0,na,label_image
+12,Run Inference,Interpreter invocation,435671.0,na,label_image
+12,Run Inference,Average interpreter invocation per loop,435671.0,na,label_image
+12,Run Inference,Profiling,0.0,na,label_image
+12,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+12,Run Inference,Process results,2005.0,na,label_image
+12,Run Inference,Display results,3762.0,na,label_image
+12,Run Inference,Global time,519563.0,na,label_image
+12,Response Time,Global time,540000.0,na,label_image
+13,Setup Interpreter,Load Model,1052.0,na,label_image
+13,Setup Interpreter,Configure and build interpreter,11545.0,na,label_image
+13,Setup Interpreter,Build profiler and delegation,55.0,na,label_image
+13,Setup Interpreter,Global time,13134.0,na,label_image
+13,Run Inference,Read image from file,34594.0,na,label_image
+13,Run Inference,Resize and copy image to input tensor,93626.0,na,label_image
+13,Run Inference,Warm-up interpreter,1.0,na,label_image
+13,Run Inference,Interpreter invocation,772854.0,na,label_image
+13,Run Inference,Average interpreter invocation per loop,772854.0,na,label_image
+13,Run Inference,Profiling,1.0,na,label_image
+13,Run Inference,Rerieve results from output tensors,51.0,na,label_image
+13,Run Inference,Process results,3126.0,na,label_image
+13,Run Inference,Display results,6500.0,na,label_image
+13,Run Inference,Global time,911835.0,na,label_image
+13,Response Time,Global time,950000.0,na,label_image
+14,Setup Interpreter,Load Model,705.0,na,label_image
+14,Setup Interpreter,Configure and build interpreter,7399.0,na,label_image
+14,Setup Interpreter,Build profiler and delegation,32.0,na,label_image
+14,Setup Interpreter,Global time,8426.0,na,label_image
+14,Run Inference,Read image from file,20391.0,na,label_image
+14,Run Inference,Resize and copy image to input tensor,51894.0,na,label_image
+14,Run Inference,Warm-up interpreter,0.0,na,label_image
+14,Run Inference,Interpreter invocation,437378.0,na,label_image
+14,Run Inference,Average interpreter invocation per loop,437378.0,na,label_image
+14,Run Inference,Profiling,0.0,na,label_image
+14,Run Inference,Rerieve results from output tensors,26.0,na,label_image
+14,Run Inference,Process results,1945.0,na,label_image
+14,Run Inference,Display results,3744.0,na,label_image
+14,Run Inference,Global time,516071.0,na,label_image
+14,Response Time,Global time,540000.0,na,label_image
+15,Setup Interpreter,Load Model,630.0,na,label_image
+15,Setup Interpreter,Configure and build interpreter,7032.0,na,label_image
+15,Setup Interpreter,Build profiler and delegation,35.0,na,label_image
+15,Setup Interpreter,Global time,7986.0,na,label_image
+15,Run Inference,Read image from file,20401.0,na,label_image
+15,Run Inference,Resize and copy image to input tensor,53301.0,na,label_image
+15,Run Inference,Warm-up interpreter,1.0,na,label_image
+15,Run Inference,Interpreter invocation,439357.0,na,label_image
+15,Run Inference,Average interpreter invocation per loop,439357.0,na,label_image
+15,Run Inference,Profiling,1.0,na,label_image
+15,Run Inference,Rerieve results from output tensors,27.0,na,label_image
+15,Run Inference,Process results,1972.0,na,label_image
+15,Run Inference,Display results,4320.0,na,label_image
+15,Run Inference,Global time,520076.0,na,label_image
+15,Response Time,Global time,540000.0,na,label_image
+16,Setup Interpreter,Load Model,623.0,na,label_image
+16,Setup Interpreter,Configure and build interpreter,6861.0,na,label_image
+16,Setup Interpreter,Build profiler and delegation,34.0,na,label_image
+16,Setup Interpreter,Global time,7806.0,na,label_image
+16,Run Inference,Read image from file,20530.0,na,label_image
+16,Run Inference,Resize and copy image to input tensor,91953.0,na,label_image
+16,Run Inference,Warm-up interpreter,1.0,na,label_image
+16,Run Inference,Interpreter invocation,774602.0,na,label_image
+16,Run Inference,Average interpreter invocation per loop,774602.0,na,label_image
+16,Run Inference,Profiling,1.0,na,label_image
+16,Run Inference,Rerieve results from output tensors,49.0,na,label_image
+16,Run Inference,Process results,3219.0,na,label_image
+16,Run Inference,Display results,6419.0,na,label_image
+16,Run Inference,Global time,898471.0,na,label_image
+16,Response Time,Global time,930000.0,na,label_image
+17,Setup Interpreter,Load Model,919.0,na,label_image
+17,Setup Interpreter,Configure and build interpreter,11443.0,na,label_image
+17,Setup Interpreter,Build profiler and delegation,56.0,na,label_image
+17,Setup Interpreter,Global time,12891.0,na,label_image
+17,Run Inference,Read image from file,35153.0,na,label_image
+17,Run Inference,Resize and copy image to input tensor,96321.0,na,label_image
+17,Run Inference,Warm-up interpreter,1.0,na,label_image
+17,Run Inference,Interpreter invocation,773071.0,na,label_image
+17,Run Inference,Average interpreter invocation per loop,773071.0,na,label_image
+17,Run Inference,Profiling,1.0,na,label_image
+17,Run Inference,Rerieve results from output tensors,50.0,na,label_image
+17,Run Inference,Process results,3153.0,na,label_image
+17,Run Inference,Display results,6651.0,na,label_image
+17,Run Inference,Global time,915459.0,na,label_image
+17,Response Time,Global time,960000.0,na,label_image
+18,Setup Interpreter,Load Model,1011.0,na,label_image
+18,Setup Interpreter,Configure and build interpreter,11323.0,na,label_image
+18,Setup Interpreter,Build profiler and delegation,57.0,na,label_image
+18,Setup Interpreter,Global time,12858.0,na,label_image
+18,Run Inference,Read image from file,34819.0,na,label_image
+18,Run Inference,Resize and copy image to input tensor,102722.0,na,label_image
+18,Run Inference,Warm-up interpreter,1.0,na,label_image
+18,Run Inference,Interpreter invocation,772077.0,na,label_image
+18,Run Inference,Average interpreter invocation per loop,772077.0,na,label_image
+18,Run Inference,Profiling,1.0,na,label_image
+18,Run Inference,Rerieve results from output tensors,63.0,na,label_image
+18,Run Inference,Process results,3134.0,na,label_image
+18,Run Inference,Display results,8278.0,na,label_image
+18,Run Inference,Global time,926919.0,na,label_image
+18,Response Time,Global time,970000.0,na,label_image
+19,Setup Interpreter,Load Model,1094.0,na,label_image
+19,Setup Interpreter,Configure and build interpreter,11724.0,na,label_image
+19,Setup Interpreter,Build profiler and delegation,56.0,na,label_image
+19,Setup Interpreter,Global time,13341.0,na,label_image
+19,Run Inference,Read image from file,34982.0,na,label_image
+19,Run Inference,Resize and copy image to input tensor,95798.0,na,label_image
+19,Run Inference,Warm-up interpreter,1.0,na,label_image
+19,Run Inference,Interpreter invocation,775794.0,na,label_image
+19,Run Inference,Average interpreter invocation per loop,775794.0,na,label_image
+19,Run Inference,Profiling,0.0,na,label_image
+19,Run Inference,Rerieve results from output tensors,50.0,na,label_image
+19,Run Inference,Process results,3263.0,na,label_image
+19,Run Inference,Display results,6562.0,na,label_image
+19,Run Inference,Global time,917507.0,na,label_image
+19,Response Time,Global time,960000.0,na,label_image

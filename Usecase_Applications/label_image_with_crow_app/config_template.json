@@ -1,0 +1,26 @@
+{
+    "input_file": "input_image.bmp",
+    "output_file": "output_image.bmp",
+    "bind_address": "0.0.0.0",
+    "port": 18080,
+    "threads": 4,
+    "execution_duration": true,
+    "tflite": {
+        "accelerated": false,
+        "allow_fp16": false,
+        "count": 1,
+        "verbose": false,
+        "image": "",
+        "labels": "./labels.txt",
+        "tflite_model": "./mobilenet_v1_1.0_224_quant.tflite",
+        "threads": 1,
+        "input_mean": 127.5,
+        "input_std": 127.5,
+        "max_profiling_buffer_entries": 1024,
+        "warmup_runs": 2,
+        "gl_backend": false,
+        "hexagon_delegate": false,
+        "xnnpack_delegate": false,
+        "execution_duration": false
+    }
+}

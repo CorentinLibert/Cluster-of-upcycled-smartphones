@@ -1,0 +1,118 @@
+# SSH_INFO=['pi@192.168.88.101']
+# ITERATIONS=10
+# NUMBER_NODES=2
+# NODE_TYPE=['Server', 'Agent']
+# MEDIUM=WiFi 2.4GHz 20-40MHz
+# WRK_THREADS=8
+# WRK_CONNECTION=10
+# WRK_DURATION=20s
+
+# ITERATION 0
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  22 requests in 20.03s, 25.41KB read
+  Socket errors: connect 0, read 0, write 0, timeout 22
+Requests/sec:      1.10
+Transfer/sec:      1.27KB
+
+# ITERATION 1
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  25 requests in 20.03s, 28.78KB read
+  Socket errors: connect 0, read 0, write 0, timeout 25
+Requests/sec:      1.25
+Transfer/sec:      1.44KB
+
+# ITERATION 2
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  37 requests in 20.03s, 42.56KB read
+  Socket errors: connect 0, read 0, write 0, timeout 37
+Requests/sec:      1.85
+Transfer/sec:      2.13KB
+
+# ITERATION 3
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  25 requests in 20.10s, 28.97KB read
+  Socket errors: connect 0, read 0, write 0, timeout 25
+Requests/sec:      1.24
+Transfer/sec:      1.44KB
+
+# ITERATION 4
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 20.03s, 37.01KB read
+  Socket errors: connect 0, read 0, write 0, timeout 32
+Requests/sec:      1.60
+Transfer/sec:      1.85KB
+
+# ITERATION 5
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  32 requests in 20.03s, 36.56KB read
+  Socket errors: connect 0, read 0, write 0, timeout 32
+Requests/sec:      1.60
+Transfer/sec:      1.83KB
+
+# ITERATION 6
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  25 requests in 20.10s, 28.78KB read
+  Socket errors: connect 0, read 0, write 0, timeout 25
+Requests/sec:      1.24
+Transfer/sec:      1.43KB
+
+# ITERATION 7
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  28 requests in 20.03s, 32.12KB read
+  Socket errors: connect 0, read 0, write 0, timeout 28
+Requests/sec:      1.40
+Transfer/sec:      1.60KB
+
+# ITERATION 8
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  33 requests in 20.03s, 38.02KB read
+  Socket errors: connect 0, read 0, write 0, timeout 33
+Requests/sec:      1.65
+Transfer/sec:      1.90KB
+
+# ITERATION 9
+Running 20s test @ http://192.168.88.101:31000/label_image
+  8 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.74s     0.00us   1.74s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  33 requests in 20.03s, 37.93KB read
+  Socket errors: connect 0, read 0, write 0, timeout 32
+Requests/sec:      1.65
+Transfer/sec:      1.89KB
